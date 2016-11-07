@@ -1,0 +1,46 @@
+﻿# Remove-BrokerUser
+
+   Remove broker user objects from another broker object
+
+## Syntax
+```
+Remove-BrokerUser [-InputObject] <User[]> [-ApplicationGroup <ApplicationGroup>] [-Application <Application>] [-SessionLinger <SessionLinger>] [-SessionPreLaunch <SessionPreLaunch>] [-Machine <Machine>] [-PrivateDesktop <PrivateDesktop>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+
+Remove-BrokerUser [-Name] <String> [-ApplicationGroup <ApplicationGroup>] [-Application <Application>] [-SessionLinger <SessionLinger>] [-SessionPreLaunch <SessionPreLaunch>] [-Machine <Machine>] [-PrivateDesktop <PrivateDesktop>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+```
+
+## Detailed Description
+   The Remove-BrokerUser cmdlet removes broker user objects from another specified object, such as a broker private desktop, to which the user had previously been added.
+
+## Related Commands
+  * [Add-BrokerUser](Add-BrokerUser.html)
+  * [Get-BrokerUser](Get-BrokerUser.html)
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+| InputObject | Specifies the user objects to remove. | true | true (ByValue) |  |
+| Name | Specifies the user objects to remove, based on their Name property. | true | true (ByPropertyName) | null |
+| ApplicationGroup | The application group from which to remove the user | false | true (ByValue) |  |
+| Application | The application from which to remove the user | false | true (ByValue) |  |
+| SessionLinger | The desktop group session linger setting from which to remove the user. | false | true (ByValue) | null |
+| SessionPreLaunch | The desktop group session pre-launch setting from which to remove the user. | false | true (ByValue) | null |
+| Machine | The machine from which to remove the user | false | true (ByValue) | null |
+| PrivateDesktop | The desktop from which to remove the user | false | true (ByValue) | null |
+| LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+
+## Input Type
+### Citrix.Broker.Admin.SDK.USer
+   You can pipe the users to be removed to Remove-BrokerUser.
+## Return Values
+### None
+   ## Notes
+   Specify one of the -Machine or -PrivateDesktop parameters only.
+## Examples
+
+### EXAMPLE 1
+```
+Remove-BrokerUser "DOMAIN\UserName" -PrivateDesktop "DOMAIN\MachineName"
+```
+   Description<br>-----------<br>Remove the assignment of the specified private desktop to the specified user.

@@ -1,0 +1,32 @@
+﻿# Get-SfIsStorefrontInstalled
+
+   Tells whether StoreFront Services and Privileged Service are installed.
+
+## Syntax
+```
+Get-SfIsStorefrontInstalled [-AdminAddress <String>] [<CommonParameters>]
+```
+
+## Detailed Description
+   
+
+## Related Commands
+## Parameters
+
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+| AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
+
+## Input Type
+### 
+   
+## Return Values
+### bool
+   True if both StoreFront Services and Privileged Service are installed, false otherwise.
+## Examples
+
+### EXAMPLE 1
+```
+
+```
+   Description<br>-----------
