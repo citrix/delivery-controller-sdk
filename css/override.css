@@ -34,7 +34,13 @@ h1, h2, h3, h4, h5, h6{
      	font-family: 'citrixsans-bold', sans-serif;
 		font-weight:600;
 }
-
+h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before, h6[id]:before {
+    content: "";
+    display: block;
+    margin-top: -75px;
+    height: 75px;
+    pointer-events: none;
+}
 pre {
     display: block;
     padding: 9.5px;

@@ -19,11 +19,10 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">{% endif %}
 
   <link rel="stylesheet" href="{{ base_url }}/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="{{ base_url }}/css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="{{ base_url }}/css/base.css">
   <link rel="stylesheet" href="{{ base_url }}/css/highlight.css">
   <link rel="stylesheet" href="{{ base_url }}/css/override.css" type="text/css" />
   <link rel="stylesheet" href="{{ base_url }}/css/font-awesome.css" type="text/css" />
-
+  
   {%- for path in extra_css %}
   <link href="{{ path }}" rel="stylesheet">
   {%- endfor %}
@@ -36,14 +35,11 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">{% endif %}
     var mkdocs_page_url = "{{ current_page.abs_url }}";
   </script>
   {% endif %}
-  <script src="{{ base_url }}/js/jquery-1.10.2.min.js"></script>
-  <script src="{{ base_url }}/js/bootstrap-3.0.3.min.js"></script>
+  <script src="{{ base_url }}/js/jquery-2.1.1.min.js"></script>
   <script src="{{ base_url }}/js/modernizr-2.8.3.min.js"></script>
   <script type="text/javascript" src="{{ base_url }}/js/highlight.pack.js"></script>
   <script src="{{ base_url }}/js/theme.js"></script>
-  <script src="{{ base_url }}/js/base.js"></script>
   <script src="{{ base_url }}/js/custom.js"></script>
-  <script src="{{ base_url }}/js/nav.js"></script>
 
   {%- block extrahead %} {% endblock %}
 
@@ -64,7 +60,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">{% endif %}
   {% endif %}
 </head>
 
-<body class="wy-body-for-nav" role="document" data-spy="scroll" data-target=".bs-sidebar">
+<body class="wy-body-for-nav" role="document">
 
 	<div class="header-top">
 		<div class="header-top-left">
@@ -75,7 +71,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">{% endif %}
 			<!--	<li class="list-inline home"><a href="{{ homepage_url }}">HOME</a></li>
 				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
 				<form id ="rtd-search-form" class="wy-form" action="{{ base_url }}/search.html" method="get">
-            <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs"
+            <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
             class="searchdocs">
 <a class="fa fa-search errspan"></a></li>
 </form>
@@ -92,8 +88,12 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">{% endif %}
         {% include "searchbox.html" %}
       </div>
 
-      <div class="wy-menu wy-menu-vertical" role="navigation" aria-label="main navigation">
-			{% include "toc.html" %}
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          {% for nav_item in nav %}
+            <li>{% include "toc.html" %}<li>
+          {% endfor %}
+        </ul>
       </div>
       &nbsp;
     </nav>
@@ -112,7 +112,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">{% endif %}
              {% block content %}
                 {{ content }}
               {% endblock %}
-
+               
             </div>
           </div>
 

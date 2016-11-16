@@ -203,7 +203,7 @@ nav.stickynav {background-image: url('../img/grey_calm.png');background-repeat:n
 	transform: scale3d(1, 1, 1);
 	color: #37474f
 }
-
+.rst-content .section h1, .rst-content .section h2 {padding-top: none}
 img {padding: 20px 0}
 @media screen and (max-width:768px){
 .header-top-left {width: auto}
