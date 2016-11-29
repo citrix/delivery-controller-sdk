@@ -1,0 +1,6159 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Understanding the XenDesktop Administration Model - Citrix PowerShell SDK Documentation</title>
+  
+
+  <link rel="shortcut icon" href="
+https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="../css/override.css" type="text/css" />
+  <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Understanding the XenDesktop Administration Model";
+    var mkdocs_page_input_path = "understanding-xendesktop-administration-model.md";
+    var mkdocs_page_url = "/understanding-xendesktop-administration-model/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../js/custom.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+	<div class="header-top">
+		<div class="header-top-left">
+			<a href="http://citrix.github.io" class="logo-position"><img height="60" src="https://thumbnail-ec2.sharefile.com/thumbnail.aspx?encparams=ypL2J0l-In6gqXJ7yeyKP8A1rqwKMH-C8-nfkJcHJNIN7Y0yZiJsYOcUe-uc0YeZzWLQSFSd1FnuMHPa30XSSINHuGOA8nvvnBT5WmjGlKvd5mxJ4IfT7iTVyHELwhWQiNCznPCiIFyhkA78uKX77PlU2iyhM4YdRM1NKabBe-4wXuiFJsbtAxyJ2UukO_E2ZSf1W3l75Dw8G0zflVkT-EFqyx1zSGId0qzLjm6nzJ8dA9zo-1AJzUisdzmGMzHOq_LMsOWyaalvmcWvCkl-q10GBSbfekfTIFW9LpZNYjkLNSnK8rcwNjWVr_jYayrGjIj2e5dDIMiDj3NRvW51AvHRjxYH9xRRRtY$" target="_blank" class="logo-citrix"><span style="color:#fff;font-size: 20px;position: relative;top:4px;left: 5px">SDK Reference</span></a>
+		</div>
+		<div class="header-top-right">
+			<ul>
+			<!--	<li class="list-inline home"><a href="..">HOME</a></li>
+				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
+				<form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+            <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
+            class="searchdocs">
+<a class="fa fa-search errspan"></a></li>
+</form>
+				<!--<li class="list-inline"><a href="http://citrix.com/download">DOWNLOADS</a></li>-->
+			</ul>
+
+		</div>
+	</div>
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+	<i class="fa fa-search"></i>
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="..">Overview</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <span class="expli"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a class="current" style="width:250px;" href="./">Understanding the XenDesktop Administration Model</a>
+        
+            <ul style="display:none">
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../getting-started/">Getting Started Guide</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Examples</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../creating-a-catalog/">Creating a catalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../creating-and-configuring-a-host/">Creating and configuring a host</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../creating-a-pvd-desktop/">Creating a PvD Desktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../getting-load-balancing-information/">Getting load balancing information</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>ADIdentity</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/about_Acct_Filtering/">about_Acct_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/about_AcctADIdentitySnapIn/">about_AcctADIdentitySnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Add-AcctADAccount/">Add-AcctADAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Add-AcctIdentityPoolScope/">Add-AcctIdentityPoolScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Copy-AcctIdentityPool/">Copy-AcctIdentityPool</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctADAccount/">Get-AcctADAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctDBConnection/">Get-AcctDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctDBSchema/">Get-AcctDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctDBVersionChangeScript/">Get-AcctDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctIdentityPool/">Get-AcctIdentityPool</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctInstalledDBVersion/">Get-AcctInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctScopedObject/">Get-AcctScopedObject</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctService/">Get-AcctService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctServiceAddedCapability/">Get-AcctServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctServiceInstance/">Get-AcctServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Get-AcctServiceStatus/">Get-AcctServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/New-AcctADAccount/">New-AcctADAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/New-AcctIdentityPool/">New-AcctIdentityPool</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Remove-AcctADAccount/">Remove-AcctADAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Remove-AcctIdentityPool/">Remove-AcctIdentityPool</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Remove-AcctIdentityPoolMetadata/">Remove-AcctIdentityPoolMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Remove-AcctIdentityPoolScope/">Remove-AcctIdentityPoolScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Remove-AcctServiceMetadata/">Remove-AcctServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Rename-AcctIdentityPool/">Rename-AcctIdentityPool</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Repair-AcctADAccount/">Repair-AcctADAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Reset-AcctEnabledFeatureList/">Reset-AcctEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Reset-AcctServiceGroupMembership/">Reset-AcctServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Set-AcctDBConnection/">Set-AcctDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Set-AcctIdentityPool/">Set-AcctIdentityPool</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Set-AcctIdentityPoolMetadata/">Set-AcctIdentityPoolMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Set-AcctServiceMetadata/">Set-AcctServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Test-AcctDBConnection/">Test-AcctDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Test-AcctIdentityPoolNameAvailable/">Test-AcctIdentityPoolNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Unlock-AcctADAccount/">Unlock-AcctADAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Unlock-AcctIdentityPool/">Unlock-AcctIdentityPool</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ADIdentity/Update-AcctADAccount/">Update-AcctADAccount</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Analytics</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/about_Analytics_Filtering/">about_Analytics_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/about_AnalyticsAnalyticsSnapIn/">about_AnalyticsAnalyticsSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsDBConnection/">Get-AnalyticsDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsDBSchema/">Get-AnalyticsDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsDBVersionChangeScript/">Get-AnalyticsDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsInstalledDBVersion/">Get-AnalyticsInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsService/">Get-AnalyticsService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsServiceAddedCapability/">Get-AnalyticsServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsServiceInstance/">Get-AnalyticsServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsServiceStatus/">Get-AnalyticsServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Get-AnalyticsSite/">Get-AnalyticsSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Import-AnalyticsDataDefinition/">Import-AnalyticsDataDefinition</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Remove-AnalyticsServiceMetadata/">Remove-AnalyticsServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Reset-AnalyticsEnabledFeatureList/">Reset-AnalyticsEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Reset-AnalyticsServiceGroupMembership/">Reset-AnalyticsServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Set-AnalyticsDBConnection/">Set-AnalyticsDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Set-AnalyticsServiceMetadata/">Set-AnalyticsServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Set-AnalyticsSite/">Set-AnalyticsSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Analytics/Test-AnalyticsDBConnection/">Test-AnalyticsDBConnection</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>AppLibrary</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/about_AppLib_Filtering/">about_AppLib_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/about_AppLibAppLibrarySnapin/">about_AppLibAppLibrarySnapin</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Add-AppLibAppDiskScope/">Add-AppLibAppDiskScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Add-AppLibIsolationGroupPackage/">Add-AppLibIsolationGroupPackage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Add-AppLibTaskMetadata/">Add-AppLibTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Disable-AppLibAppDNAConnection/">Disable-AppLibAppDNAConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Enable-AppLibAppDNAConnection/">Enable-AppLibAppDNAConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDisk/">Get-AppLibAppDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDiskAppDNARecommendedOrder/">Get-AppLibAppDiskAppDNARecommendedOrder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDiskAppDNAReport/">Get-AppLibAppDiskAppDNAReport</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDiskAppDNAReportUrl/">Get-AppLibAppDiskAppDNAReportUrl</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDiskObjectReference/">Get-AppLibAppDiskObjectReference</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDiskPreparationMachineStatus/">Get-AppLibAppDiskPreparationMachineStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDiskStartMenuIcon/">Get-AppLibAppDiskStartMenuIcon</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDiskStartMenuShortcut/">Get-AppLibAppDiskStartMenuShortcut</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppDNAConnection/">Get-AppLibAppDNAConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppVApplication/">Get-AppLibAppVApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppVApplicationInfo/">Get-AppLibAppVApplicationInfo</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibAppVPackage/">Get-AppLibAppVPackage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibDBConnection/">Get-AppLibDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibDBSchema/">Get-AppLibDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibDBVersionChangeScript/">Get-AppLibDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibInstalledDBVersion/">Get-AppLibInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibIsolationGroup/">Get-AppLibIsolationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibIsolationGroupPackage/">Get-AppLibIsolationGroupPackage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibLibrary/">Get-AppLibLibrary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibObjectReference/">Get-AppLibObjectReference</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibScopedObject/">Get-AppLibScopedObject</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibService/">Get-AppLibService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibServiceAddedCapability/">Get-AppLibServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibServiceConfigurationData/">Get-AppLibServiceConfigurationData</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibServiceInstance/">Get-AppLibServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibServiceStatus/">Get-AppLibServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Get-AppLibTask/">Get-AppLibTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Import-AppLibAppDisk/">Import-AppLibAppDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Invoke-AppLibAppDiskDnaImport/">Invoke-AppLibAppDiskDnaImport</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/New-AppLibAppDisk/">New-AppLibAppDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/New-AppLibAppVAppPublishedEvent/">New-AppLibAppVAppPublishedEvent</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/New-AppLibAppVPackage/">New-AppLibAppVPackage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/New-AppLibAppVPackageRepositoryEvent/">New-AppLibAppVPackageRepositoryEvent</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/New-AppLibIsolationGroup/">New-AppLibIsolationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibAppDisk/">Remove-AppLibAppDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibAppDiskMetadata/">Remove-AppLibAppDiskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibAppDiskScope/">Remove-AppLibAppDiskScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibAppDNAConnection/">Remove-AppLibAppDNAConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibAppVApplicationMetadata/">Remove-AppLibAppVApplicationMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibAppVPackage/">Remove-AppLibAppVPackage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibAppVPackageMetadata/">Remove-AppLibAppVPackageMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibIsolationGroup/">Remove-AppLibIsolationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibIsolationGroupMetadata/">Remove-AppLibIsolationGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibIsolationGroupPackage/">Remove-AppLibIsolationGroupPackage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibLibraryMetadata/">Remove-AppLibLibraryMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibServiceConfigurationData/">Remove-AppLibServiceConfigurationData</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibServiceMetadata/">Remove-AppLibServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibTask/">Remove-AppLibTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Remove-AppLibTaskMetadata/">Remove-AppLibTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Rename-AppLibAppDisk/">Rename-AppLibAppDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Reset-AppLibEnabledFeatureList/">Reset-AppLibEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Reset-AppLibServiceGroupMembership/">Reset-AppLibServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibAppDisk/">Set-AppLibAppDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibAppDiskMetadata/">Set-AppLibAppDiskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibAppDNAConnection/">Set-AppLibAppDNAConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibAppVApplicationMetadata/">Set-AppLibAppVApplicationMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibAppVPackageMetadata/">Set-AppLibAppVPackageMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibDBConnection/">Set-AppLibDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibIsolationGroup/">Set-AppLibIsolationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibIsolationGroupMetadata/">Set-AppLibIsolationGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibIsolationGroupPackage/">Set-AppLibIsolationGroupPackage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibLibraryMetadata/">Set-AppLibLibraryMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibServiceConfigurationData/">Set-AppLibServiceConfigurationData</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibServiceMetadata/">Set-AppLibServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Set-AppLibTaskMetadata/">Set-AppLibTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Start-AppLibAppDiskAnalysis/">Start-AppLibAppDiskAnalysis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Start-AppLibAppDiskSeal/">Start-AppLibAppDiskSeal</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Stop-AppLibTask/">Stop-AppLibTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Test-AppLibAppDiskNameAvailable/">Test-AppLibAppDiskNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Test-AppLibAppDNAConnection/">Test-AppLibAppDNAConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Test-AppLibAppDNAExistingConnection/">Test-AppLibAppDNAExistingConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Test-AppLibDBConnection/">Test-AppLibDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../AppLibrary/Unlock-AppLibAppDisk/">Unlock-AppLibAppDisk</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Broker</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_AccessPolicy/">about_Broker_AccessPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_Applications/">about_Broker_Applications</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_AssignmentPolicy/">about_Broker_AssignmentPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_Concepts/">about_Broker_Concepts</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_ConfigurationSlots/">about_Broker_ConfigurationSlots</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_ControllerDiscovery/">about_Broker_ControllerDiscovery</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_Desktops/">about_Broker_Desktops</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_EntitlementPolicy/">about_Broker_EntitlementPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_ErrorHandling/">about_Broker_ErrorHandling</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_broker_Filtering/">about_broker_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_Licensing/">about_Broker_Licensing</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_Machines/">about_Broker_Machines</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_Policies/">about_Broker_Policies</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_PostInstallPreConfiguration/">about_Broker_PostInstallPreConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_PowerManagement/">about_Broker_PowerManagement</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/about_Broker_RemotePC/">about_Broker_RemotePC</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerApplication/">Add-BrokerApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerApplicationGroup/">Add-BrokerApplicationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerDesktopGroup/">Add-BrokerDesktopGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerMachine/">Add-BrokerMachine</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerMachineConfiguration/">Add-BrokerMachineConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerMachinesToDesktopGroup/">Add-BrokerMachinesToDesktopGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerScope/">Add-BrokerScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerTag/">Add-BrokerTag</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Add-BrokerUser/">Add-BrokerUser</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Disconnect-BrokerSession/">Disconnect-BrokerSession</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Export-BrokerConfiguration/">Export-BrokerConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Export-BrokerDesktopPolicy/">Export-BrokerDesktopPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerAccessPolicyRule/">Get-BrokerAccessPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerAdminFolder/">Get-BrokerAdminFolder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerAppAssignmentPolicyRule/">Get-BrokerAppAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerAppEntitlementPolicyRule/">Get-BrokerAppEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerApplication/">Get-BrokerApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerApplicationGroup/">Get-BrokerApplicationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerApplicationInstance/">Get-BrokerApplicationInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerAssignmentPolicyRule/">Get-BrokerAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerCatalog/">Get-BrokerCatalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerConfigurationSlot/">Get-BrokerConfigurationSlot</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerConfiguredFTA/">Get-BrokerConfiguredFTA</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerConnectionLog/">Get-BrokerConnectionLog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerController/">Get-BrokerController</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDBConnection/">Get-BrokerDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDBSchema/">Get-BrokerDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDBVersionChangeScript/">Get-BrokerDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDelayedHostingPowerAction/">Get-BrokerDelayedHostingPowerAction</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDesktop/">Get-BrokerDesktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDesktopGroup/">Get-BrokerDesktopGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDesktopGroupAnalysisReport/">Get-BrokerDesktopGroupAnalysisReport</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDesktopGroupAppDisk/">Get-BrokerDesktopGroupAppDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerDesktopGroupAppDisk/">Get-BrokerDesktopUsage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerEntitlementPolicyRule/">Get-BrokerEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerHostingPowerAction/">Get-BrokerHostingPowerAction</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerHypervisorAlert/">Get-BrokerHypervisorAlert</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerHypervisorConnection/">Get-BrokerHypervisorConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerIcon/">Get-BrokerIcon</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerImportedFTA/">Get-BrokerImportedFTA</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerInstalledDbVersion/">Get-BrokerInstalledDbVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerLease/">Get-BrokerLease</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerMachine/">Get-BrokerMachine</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerMachineCommand/">Get-BrokerMachineCommand</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerMachineConfiguration/">Get-BrokerMachineConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerMachineStartMenuShortcutIcon/">Get-BrokerMachineStartMenuShortcutIcon</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerMachineStartMenuShortcutIcon/">Get-BrokerMachineStartMenuShortcuts</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerPowerTimeScheme/">Get-BrokerPowerTimeScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerPrivateDesktop/">Get-BrokerPrivateDesktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerPrivateDesktop/">Get-BrokerRebootCycle</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerRebootSchedule/">Get-BrokerRebootSchedule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerRebootScheduleV2/">Get-BrokerRebootScheduleV2</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerRemotePCAccount/">Get-BrokerRemotePCAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerRemotePCAccount/">Get-BrokerResource</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerScopedObject/">Get-BrokerScopedObject</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerServiceAddedCapability/">Get-BrokerServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerServiceInstance/">Get-BrokerServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerServiceStatus/">Get-BrokerServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerServiceStatus/">Get-BrokerSession</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerSessionLinger/">Get-BrokerSessionLinger</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerSessionPreLaunch/">Get-BrokerSessionPreLaunch</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerSharedDesktop/">Get-BrokerSharedDesktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerSite/">Get-BrokerSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerTag/">Get-BrokerTag</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerTagUsage/">Get-BrokerTagUsage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerUnconfiguredMachine/">Get-BrokerUnconfiguredMachine</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerUser/">Get-BrokerUser</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Get-BrokerUserZonePreference/">Get-BrokerUserZonePreference</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Group-BrokerDesktop/">Group-BrokerDesktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Group-BrokerDesktop/">Group-BrokerMachine</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Group-BrokerSession/">Group-BrokerSession</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Import-BrokerDesktopPolicy/">Import-BrokerDesktopPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Move-BrokerAdminFolder/">Move-BrokerAdminFolder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Move-BrokerAdminFolder/">Move-BrokerApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerAccessPolicyRule/">New-BrokerAccessPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerAdminFolder/">New-BrokerAdminFolder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerAppAssignmentPolicyRule/">New-BrokerAppAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerAppEntitlementPolicyRule/">New-BrokerAppEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerApplication/">New-BrokerApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerApplicationGroup/">New-BrokerApplicationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerAssignmentPolicyRule/">New-BrokerAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerCatalog/">New-BrokerCatalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerConfigurationSlot/">New-BrokerConfigurationSlot</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerConfiguredFTA/">New-BrokerConfiguredFTA</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerDelayedHostingPowerAction/">New-BrokerDelayedHostingPowerAction</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerDesktopGroup/">New-BrokerDesktopGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerEntitlementPolicyRule/">New-BrokerEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerHostingPowerAction/">New-BrokerHostingPowerAction</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerHypervisorConnection/">New-BrokerHypervisorConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerIcon/">New-BrokerIcon</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerImportDb/">New-BrokerImportDb</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerLocalDb/">New-BrokerLocalDb</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerMachine/">New-BrokerMachine</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerMachineCommand/">New-BrokerMachineCommand</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerMachineConfiguration/">New-BrokerMachineConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerPowerTimeScheme/">New-BrokerPowerTimeScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerPowerTimeScheme/">New-BrokerRebootSchedule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerPowerTimeScheme/">New-BrokerRebootScheduleV2</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerRemotePCAccount/">New-BrokerRemotePCAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerSessionLinger/">New-BrokerSessionLinger</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerSessionPreLaunch/">New-BrokerSessionPreLaunch</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerTag/">New-BrokerTag</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerUser/">New-BrokerUser</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/New-BrokerUserZonePreference/">New-BrokerUserZonePreference</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAccessPolicyRule/">Remove-BrokerAccessPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAccessPolicyRuleMetadata/">Remove-BrokerAccessPolicyRuleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAdminFolder/">Remove-BrokerAdminFolder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAdminFolderMetadata/">Remove-BrokerAdminFolderMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAppAssignmentPolicyRule/">Remove-BrokerAppAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAppEntitlementPolicyRule/">Remove-BrokerAppEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerApplication/">Remove-BrokerApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerApplicationGroup/">Remove-BrokerApplicationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerApplicationGroupMetadata/">Remove-BrokerApplicationGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerApplicationInstanceMetadata/">Remove-BrokerApplicationInstanceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerApplicationMetadata/">Remove-BrokerApplicationMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAssignmentPolicyRule/">Remove-BrokerAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerAssignmentPolicyRule/">Remove-BrokerAssignmentPolicyRuleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerCatalog/">Remove-BrokerCatalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerCatalogMetadata/">Remove-BrokerCatalogMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerConfigurationSlot/">Remove-BrokerConfigurationSlot</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerConfigurationSlotMetadata/">Remove-BrokerConfigurationSlotMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerConfiguredFTA/">Remove-BrokerConfiguredFTA</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerControllerMetadata/">Remove-BrokerControllerMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerDelayedHostingPowerAction/">Remove-BrokerDelayedHostingPowerAction</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerDesktopGroup/">Remove-BrokerDesktopGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerDesktopGroupMetadata/">Remove-BrokerDesktopGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerEntitlementPolicyRule/">Remove-BrokerEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerEntitlementPolicyRuleMetadata/">Remove-BrokerEntitlementPolicyRuleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerHostingPowerAction/">Remove-BrokerHostingPowerAction</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerHostingPowerActionMetadata/">Remove-BrokerHostingPowerActionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerHypervisorAlertMetadata/">Remove-BrokerHypervisorAlertMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerHypervisorConnection/">Remove-BrokerHypervisorConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerHypervisorConnectionMetadata/">Remove-BrokerHypervisorConnectionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerIcon/">Remove-BrokerIcon</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerIconMetadata/">Remove-BrokerIconMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerImportDb/">Remove-BrokerImportDb</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerImportedFTA/">Remove-BrokerImportedFTA</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerLease/">Remove-BrokerLease</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerLeaseMetadata/">Remove-BrokerLeaseMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerLocalDb/">Remove-BrokerLocalDb</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerMachine/">Remove-BrokerMachine</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerMachineCommand/">Remove-BrokerMachineCommand</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerMachineCommandMetadata/">Remove-BrokerMachineCommandMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerMachineConfiguration/">Remove-BrokerMachineConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerMachineConfigurationMetadata/">Remove-BrokerMachineConfigurationMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerMachineMetadata/">Remove-BrokerMachineMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerPowerTimeScheme/">Remove-BrokerPowerTimeScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerPowerTimeSchemeMetadata/">Remove-BrokerPowerTimeSchemeMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerRebootCycleMetadata/">Remove-BrokerRebootCycleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerRebootSchedule/">Remove-BrokerRebootSchedule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerRebootScheduleV2/">Remove-BrokerRebootScheduleV2</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerRebootScheduleV2Metadata/">Remove-BrokerRebootScheduleV2Metadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerRemotePCAccount/">Remove-BrokerRemotePCAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerScope/">Remove-BrokerScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerSessionLinger/">Remove-BrokerSessionLinger</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerSessionMetadata/">Remove-BrokerSessionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerSessionPreLaunch/">Remove-BrokerSessionPreLaunch</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerSiteMetadata/">Remove-BrokerSiteMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerTag/">Remove-BrokerTag</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerTagMetadata/">Remove-BrokerTagMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerUser/">Remove-BrokerUser</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Remove-BrokerUser/">Remove-BrokerUserZonePreference</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerAccessPolicyRule/">Rename-BrokerAccessPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerAdminFolder/">Rename-BrokerAdminFolder</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerAppAssignmentPolicyRule/">Rename-BrokerAppAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerAppEntitlementPolicyRule/">Rename-BrokerAppEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerApplication/">Rename-BrokerApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerApplicationGroup/">Rename-BrokerApplicationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerAssignmentPolicyRule/">Rename-BrokerAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerCatalog/">Rename-BrokerCatalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerDesktopGroup/">Rename-BrokerDesktopGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerEntitlementPolicyRule/">Rename-BrokerEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerImportDb/">Rename-BrokerImportDb</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerMachineConfiguration/">Rename-BrokerMachineConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerPowerTimeScheme/">Rename-BrokerPowerTimeScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerRebootScheduleV2/">Rename-BrokerRebootScheduleV2</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Rename-BrokerTag/">Rename-BrokerTag</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Reset-BrokerEnabledFeatureList/">Reset-BrokerEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Reset-BrokerLicensingConnection/">Reset-BrokerLicensingConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Reset-BrokerServiceGroupMembership/">Reset-BrokerServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Send-BrokerSessionMessage/">Send-BrokerSessionMessage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerAccessPolicyRule/">Set-BrokerAccessPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerAccessPolicyRuleMetadata/">Set-BrokerAccessPolicyRuleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerAdminFolderMetadata/">Set-BrokerAdminFolderMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerAppAssignmentPolicyRule/">Set-BrokerAppAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerAppEntitlementPolicyRule/">Set-BrokerAppEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerApplication/">Set-BrokerApplication</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerApplicationGroup/">Set-BrokerApplicationGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerApplicationGroupMetadata/">Set-BrokerApplicationGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerApplicationInstanceMetadata/">Set-BrokerApplicationInstanceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerApplicationMetadata/">Set-BrokerApplicationMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerAssignmentPolicyRule/">Set-BrokerAssignmentPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerAssignmentPolicyRuleMetadata/">Set-BrokerAssignmentPolicyRuleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerCatalog/">Set-BrokerCatalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerCatalogMetadata/">Set-BrokerCatalogMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerConfiguration/">Set-BrokerConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerConfiguration/">Set-BrokerConfigurationSlotMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerControllerMetadata/">Set-BrokerControllerMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerDBConnection/">Set-BrokerDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerDesktopGroup/">Set-BrokerDesktopGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerDesktopGroupMetadata/">Set-BrokerDesktopGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerEntitlementPolicyRule/">Set-BrokerEntitlementPolicyRule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerEntitlementPolicyRuleMetadata/">Set-BrokerEntitlementPolicyRuleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerHostingPowerAction/">Set-BrokerHostingPowerAction</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerHostingPowerActionMetadata/">Set-BrokerHostingPowerActionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerHypervisorAlertMetadata/">Set-BrokerHypervisorAlertMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerHypervisorConnection/">Set-BrokerHypervisorConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerHypervisorConnectionMetadata/">Set-BrokerHypervisorConnectionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerIconMetadata/">Set-BrokerIconMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerLeaseMetadata/">Set-BrokerLeaseMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerMachine/">Set-BrokerMachine</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerMachineCatalog/">Set-BrokerMachineCatalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerMachineCommandMetadata/">Set-BrokerMachineCommandMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerMachineConfiguration/">Set-BrokerMachineConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerMachineConfigurationMetadata/">Set-BrokerMachineConfigurationMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerMachineMaintenanceMode/">Set-BrokerMachineMaintenanceMode</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerMachineMetadata/">Set-BrokerMachineMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerPowerTimeScheme/">Set-BrokerPowerTimeScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerPowerTimeSchemeMetadata/">Set-BrokerPowerTimeSchemeMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerPrivateDesktop/">Set-BrokerPrivateDesktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerRebootCycleMetadata/">Set-BrokerRebootCycleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerRebootSchedule/">Set-BrokerRebootSchedule</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerRebootScheduleV2/">Set-BrokerRebootScheduleV2</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerRebootScheduleV2Metadata/">Set-BrokerRebootScheduleV2Metadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerRemotePCAccount/">Set-BrokerRemotePCAccount</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerSession/">Set-BrokerSession</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerSessionLinger/">Set-BrokerSessionLinger</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerSessionLinger/">Set-BrokerSessionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerSessionPreLaunch/">Set-BrokerSessionPreLaunch</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerSharedDesktop/">Set-BrokerSharedDesktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerSite/">Set-BrokerSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerSite/">Set-BrokerSiteMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerTag/">Set-BrokerTag</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerTagMetadata/">Set-BrokerTagMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Set-BrokerUserZonePreference/">Set-BrokerUserZonePreference</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Start-BrokerCatalogAnalysis/">Start-BrokerCatalogAnalysis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Start-BrokerCatalogPvdImagePrepare/">Start-BrokerCatalogPvdImagePrepare</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Start-BrokerDesktopGroupRebootCycle/">Start-BrokerDesktopGroupRebootCycle</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Start-BrokerMachinePvdImagePrepare/">Start-BrokerMachinePvdImagePrepare</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Start-BrokerNaturalDesktopGroupRebootCycle/">Start-BrokerNaturalDesktopGroupRebootCycle</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Start-BrokerNaturalRebootCycle/">Start-BrokerNaturalRebootCycle</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Start-BrokerNaturalRebootCycle/">Start-BrokerRebootCycle</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Stop-BrokerRebootCycle/">Stop-BrokerRebootCycle</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Stop-BrokerSession/">Stop-BrokerSession</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerAccessPolicyRuleNameAvailable/">Test-BrokerAccessPolicyRuleNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerAppAssignmentPolicyRuleNameAvailable/">Test-BrokerAppAssignmentPolicyRuleNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerAppEntitlementPolicyRuleNameAvailable/">Test-BrokerAppEntitlementPolicyRuleNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerApplicationGroupNameAvailable/">Test-BrokerApplicationGroupNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerApplicationNameAvailable/">Test-BrokerApplicationNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerApplicationNameAvailable/">Test-BrokerAssignmentPolicyRuleNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerCatalogNameAvailable/">Test-BrokerCatalogNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerDBConnection/">Test-BrokerDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerDesktopGroupNameAvailable/">Test-BrokerDesktopGroupNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerEntitlementPolicyRuleNameAvailable/">Test-BrokerEntitlementPolicyRuleNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerLicenseServer/">Test-BrokerLicenseServer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerMachineNameAvailable/">Test-BrokerMachineNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerPowerTimeSchemeNameAvailable/">Test-BrokerPowerTimeSchemeNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Test-BrokerPowerTimeSchemeNameAvailable/">Test-BrokerRemotePCAccountNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Update-BrokerImportedFTA/">Update-BrokerImportedFTA</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Update-BrokerLocalLeaseCache/">Update-BrokerLocalLeaseCache</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Broker/Update-BrokerNameCache/">Update-BrokerNameCache</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>CentralConfig</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/about_Config_Filtering/">about_Config_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/about_ConfigConfigurationSnapIn/">about_ConfigConfigurationSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Add-ConfigRegisteredServiceInstanceMetadata/">Add-ConfigRegisteredServiceInstanceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Add-ConfigServiceGroupMetadata/">Add-ConfigServiceGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Export-ConfigConfiguration/">Export-ConfigConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Export-ConfigFeatureTable/">Export-ConfigFeatureTable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Export-ConfigFeatureTable/">Get-ConfigDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigDBSchema/">Get-ConfigDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigDBVersionChangeScript/">Get-ConfigDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigEdgeServer/">Get-ConfigEdgeServer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigEnabledFeature/">Get-ConfigEnabledFeature</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigInstalledDBVersion/">Get-ConfigInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigLicensingModel/">Get-ConfigLicensingModel</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigLocalData/">Get-ConfigLocalData</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigProduct/">Get-ConfigProduct</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigProductEdition/">Get-ConfigProductEdition</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigProductFeature/">Get-ConfigProductFeature</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigProductVersion/">Get-ConfigProductVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigRegisteredServiceInstance/">Get-ConfigRegisteredServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigService/">Get-ConfigService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigServiceAddedCapability/">Get-ConfigServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigServiceGroup/">Get-ConfigServiceGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigServiceInstance/">Get-ConfigServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigServiceStatus/">Get-ConfigServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigSite/">Get-ConfigSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Get-ConfigZone/">Get-ConfigZone</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Import-ConfigFeatureTable/">Import-ConfigFeatureTable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/New-ConfigEdgeServer/">New-ConfigEdgeServer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/New-ConfigZone/">New-ConfigZone</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Register-ConfigServiceInstance/">Register-ConfigServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigEdgeServer/">Remove-ConfigEdgeServer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigEdgeServerMetadata/">Remove-ConfigEdgeServerMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigRegisteredServiceInstanceMetadata/">Remove-ConfigRegisteredServiceInstanceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigServiceGroup/">Remove-ConfigServiceGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigServiceGroupMetadata/">Remove-ConfigServiceGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigServiceMetadata/">Remove-ConfigServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigSiteMetadata/">Remove-ConfigSiteMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigSiteMetadata/">Remove-ConfigZone</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Remove-ConfigZoneMetadata/">Remove-ConfigZoneMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Rename-ConfigEdgeServer/">Rename-ConfigEdgeServer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Rename-ConfigZone/">Rename-ConfigZone</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Reset-ConfigEdgeServerList/">Reset-ConfigEdgeServerList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Reset-ConfigEnabledFeatureList/">Reset-ConfigEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Reset-ConfigServiceGroupMembership/">Reset-ConfigServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigDBConnection/">Set-ConfigDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigEdgeServer/">Set-ConfigEdgeServer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigEdgeServerMetadata/">Set-ConfigEdgeServerMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigRegisteredServiceInstance/">Set-ConfigRegisteredServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigRegisteredServiceInstanceMetadata/">Set-ConfigRegisteredServiceInstanceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigService/">Set-ConfigService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigServiceGroupMetadata/">Set-ConfigServiceGroupMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigServiceMetadata/">Set-ConfigServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigSite/">Set-ConfigSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigSiteMetadata/">Set-ConfigSiteMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigZone/">Set-ConfigZone</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Set-ConfigZoneMetadata/">Set-ConfigZoneMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Test-ConfigDBConnection/">Test-ConfigDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Test-ConfigServiceInstanceAvailability/">Test-ConfigServiceInstanceAvailability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../CentralConfig/Unregister-ConfigRegisteredServiceInstance/">Unregister-ConfigRegisteredServiceInstance</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>ConfigLogging</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/about_Log_Filtering/">about_Log_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/about_LogConfigurationLoggingSnapIn/">about_LogConfigurationLoggingSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Export-LogReportCsv/">Export-LogReportCsv</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Export-LogReportHtml/">Export-LogReportHtml</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogDataStore/">Get-LogDataStore</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogDBConnection/">Get-LogDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogDBSchema/">Get-LogDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogDBVersionChangeScript/">Get-LogDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogHighLevelOperation/">Get-LogHighLevelOperation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogInstalledDBVersion/">Get-LogInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogLowLevelOperation/">Get-LogLowLevelOperation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogService/">Get-LogService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogServiceAddedCapability/">Get-LogServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogServiceInstance/">Get-LogServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogServiceStatus/">Get-LogServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogSite/">Get-LogSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Get-LogSummary/">Get-LogSummary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Remove-LogOperation/">Remove-LogOperation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Remove-LogServiceMetadata/">Remove-LogServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Remove-LogSiteMetadata/">Remove-LogSiteMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Reset-LogDataStore/">Reset-LogDataStore</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Reset-LogEnabledFeatureList/">Reset-LogEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Reset-LogServiceGroupMembership/">Reset-LogServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Set-LogDBConnection/">Set-LogDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Set-LogServiceMetadata/">Set-LogServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Set-LogSite/">Set-LogSite</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Set-LogSiteMetadata/">Set-LogSiteMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Start-LogHighLevelOperation/">Start-LogHighLevelOperation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Stop-LogHighLevelOperation/">Stop-LogHighLevelOperation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../ConfigLogging/Test-LogDBConnection/">Test-LogDBConnection</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>DelegatedAdmin</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/about_Admin_Filtering/">about_Admin_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/about_AdminDelegatedAdminSnapIn/">about_AdminDelegatedAdminSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Add-AdminPermission/">Add-AdminPermission</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Add-AdminRight/">Add-AdminRight</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminAdministrator/">Get-AdminAdministrator</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminDBConnection/">Get-AdminDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminDBSchema/">Get-AdminDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminDBVersionChangeScript/">Get-AdminDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminEffectiveAdministrator/">Get-AdminEffectiveAdministrator</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminEffectiveRight/">Get-AdminEffectiveRight</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminInstalledDBVersion/">Get-AdminInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminPermission/">Get-AdminPermission</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminPermissionGroup/">Get-AdminPermissionGroup</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminRevision/">Get-AdminRevision</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminRole/">Get-AdminRole</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminRoleConfiguration/">Get-AdminRoleConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminScope/">Get-AdminScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminService/">Get-AdminService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminServiceAddedCapability/">Get-AdminServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminServiceInstance/">Get-AdminServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Get-AdminServiceStatus/">Get-AdminServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Import-AdminRoleConfiguration/">Import-AdminRoleConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/New-AdminAdministrator/">New-AdminAdministrator</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/New-AdminRole/">New-AdminRole</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/New-AdminScope/">New-AdminScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminAdministrator/">Remove-AdminAdministrator</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminAdministratorMetadata/">Remove-AdminAdministratorMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminPermission/">Remove-AdminPermission</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminRight/">Remove-AdminRight</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminRole/">Remove-AdminRole</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminRoleMetadata/">Remove-AdminRoleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminScope/">Remove-AdminScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminScopeMetadata/">Remove-AdminScopeMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Remove-AdminServiceMetadata/">Remove-AdminServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Rename-AdminRole/">Rename-AdminRole</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Rename-AdminScope/">Rename-AdminScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Reset-AdminEnabledFeatureList/">Reset-AdminEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Reset-AdminServiceGroupMembership/">Reset-AdminServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminAdministrator/">Set-AdminAdministrator</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminAdministratorMetadata/">Set-AdminAdministratorMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminDBConnection/">Set-AdminDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminRole/">Set-AdminRole</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminRoleMetadata/">Set-AdminRoleMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminScope/">Set-AdminScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminScopeMetadata/">Set-AdminScopeMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Set-AdminServiceMetadata/">Set-AdminServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Test-AdminAccess/">Test-AdminAccess</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../DelegatedAdmin/Test-AdminDBConnection/">Test-AdminDBConnection</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>EnvTest</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/about_EnvTest_Filtering/">about_EnvTest_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/about_EnvTestEnvTestSnapIn/">about_EnvTestEnvTestSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestConfiguration/">Get-EnvTestConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestDBConnection/">Get-EnvTestDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestDBSchema/">Get-EnvTestDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestDBVersionChangeScript/">Get-EnvTestDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestDefinition/">Get-EnvTestDefinition</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestInstalledDBVersion/">Get-EnvTestInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestService/">Get-EnvTestService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestServiceAddedCapability/">Get-EnvTestServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestServiceInstance/">Get-EnvTestServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestServiceStatus/">Get-EnvTestServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestSuiteDefinition/">Get-EnvTestSuiteDefinition</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Get-EnvTestTask/">Get-EnvTestTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/New-EnvTestDiscoveryTargetDefinition/">New-EnvTestDiscoveryTargetDefinition</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Remove-EnvTestServiceMetadata/">Remove-EnvTestServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Remove-EnvTestTask/">Remove-EnvTestTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Remove-EnvTestTaskMetadata/">Remove-EnvTestTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Reset-EnvTestEnabledFeatureList/">Reset-EnvTestEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Reset-EnvTestServiceGroupMembership/">Reset-EnvTestServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Set-EnvTestConfiguration/">Set-EnvTestConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Set-EnvTestDBConnection/">Set-EnvTestDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Set-EnvTestServiceMetadata/">Set-EnvTestServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Set-EnvTestTaskMetadata/">Set-EnvTestTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Start-EnvTestTask/">Start-EnvTestTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Stop-EnvTestTask/">Stop-EnvTestTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Switch-EnvTestTask/">Switch-EnvTestTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../EnvTest/Test-EnvTestDBConnection/">Test-EnvTestDBConnection</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>HostService</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/about_Hyp_Filtering/">about_Hyp_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/about_HypHostSnapIn/">about_HypHostSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/about_HypStorage/">about_HypStorage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Add-HypHostingUnitMetadata/">Add-HypHostingUnitMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Add-HypHostingUnitNetwork/">Add-HypHostingUnitNetwork</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Add-HypHostingUnitStorage/">Add-HypHostingUnitStorage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Add-HypHypervisorConnectionAddress/">Add-HypHypervisorConnectionAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Add-HypHypervisorConnectionMetadata/">Add-HypHypervisorConnectionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Add-HypHypervisorConnectionScope/">Add-HypHypervisorConnectionScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Add-HypMetadata/">Add-HypMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypConfigurationDataForItem/">Get-HypConfigurationDataForItem</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypConfigurationObjectForItem/">Get-HypConfigurationObjectForItem</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypConnectionRegion/">Get-HypConnectionRegion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypDBConnection/">Get-HypDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypDBSchema/">Get-HypDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypDBVersionChangeScript/">Get-HypDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypHypervisorPlugin/">Get-HypHypervisorPlugin</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypInstalledDBVersion/">Get-HypInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypLocalizedString/">Get-HypLocalizedString</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypScopedObject/">Get-HypScopedObject</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypService/">Get-HypService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypServiceAddedCapability/">Get-HypServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypServiceInstance/">Get-HypServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypServiceStatus/">Get-HypServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypVMMacAddress/">Get-HypVMMacAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypVolumeServiceConfiguration/">Get-HypVolumeServiceConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Get-HypXenServerAddress/">Get-HypXenServerAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Grant-HypSecurityGroupEgress/">Grant-HypSecurityGroupEgress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Grant-HypSecurityGroupIngress/">Grant-HypSecurityGroupIngress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/New-HypStorage/">New-HypStorage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/New-HypVMSnapshot/">New-HypVMSnapshot</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypHostingUnitMetadata/">Remove-HypHostingUnitMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypHostingUnitNetwork/">Remove-HypHostingUnitNetwork</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypHostingUnitStorage/">Remove-HypHostingUnitStorage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypHypervisorConnectionAddress/">Remove-HypHypervisorConnectionAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypHypervisorConnectionMetadata/">Remove-HypHypervisorConnectionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypHypervisorConnectionScope/">Remove-HypHypervisorConnectionScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypMetadata/">Remove-HypMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Remove-HypServiceMetadata/">Remove-HypServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Reset-HypEnabledFeatureList/">Reset-HypEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Reset-HypServiceGroupMembership/">Reset-HypServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Revoke-HypSecurityGroupEgress/">Revoke-HypSecurityGroupEgress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Revoke-HypSecurityGroupIngress/">Revoke-HypSecurityGroupIngress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Set-HypAdminConnection/">Set-HypAdminConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Set-HypDBConnection/">Set-HypDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Set-HypHostingUnitMetadata/">Set-HypHostingUnitMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Set-HypHostingUnitStorage/">Set-HypHostingUnitStorage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Set-HypHypervisorConnectionMetadata/">Set-HypHypervisorConnectionMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Set-HypServiceMetadata/">Set-HypServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Set-HypVolumeServiceConfiguration/">Set-HypVolumeServiceConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Start-HypVM/">Start-HypVM</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Stop-HypVM/">Stop-HypVM</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Test-HypDBConnection/">Test-HypDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Test-HypHostingUnitNameAvailable/">Test-HypHostingUnitNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Test-HypHypervisorConnectionNameAvailable/">Test-HypHypervisorConnectionNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../HostService/Update-HypHypervisorConnection/">Update-HypHypervisorConnection</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>MachineCreation</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/about_Prov_Filtering/">about_Prov_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/about_ProvMachineCreationSnapIn/">about_ProvMachineCreationSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Add-ProvSchemeControllerAddress/">Add-ProvSchemeControllerAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Add-ProvSchemeMetadata/">Add-ProvSchemeMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Add-ProvSchemeScope/">Add-ProvSchemeScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Add-ProvTaskMetadata/">Add-ProvTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvDBConnection/">Get-ProvDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvDBSchema/">Get-ProvDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvDBVersionChangeScript/">Get-ProvDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvInstalledDBVersion/">Get-ProvInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvObjectReference/">Get-ProvObjectReference</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvScheme/">Get-ProvScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvSchemeMasterVMImageHistory/">Get-ProvSchemeMasterVMImageHistory</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvScopedObject/">Get-ProvScopedObject</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvService/">Get-ProvService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvServiceAddedCapability/">Get-ProvServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvServiceConfigurationData/">Get-ProvServiceConfigurationData</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvServiceInstance/">Get-ProvServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvServiceStatus/">Get-ProvServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvTask/">Get-ProvTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvVirtualDisk/">Get-ProvVirtualDisk</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvVirtualDiskPendingOperation/">Get-ProvVirtualDiskPendingOperation</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Get-ProvVM/">Get-ProvVM</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Lock-ProvVM/">Lock-ProvVM</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/New-ProvScheme/">New-ProvScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/New-ProvVM/">New-ProvVM</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Publish-ProvMasterVMImage/">Publish-ProvMasterVMImage</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvScheme/">Remove-ProvScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvSchemeControllerAddress/">Remove-ProvSchemeControllerAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvSchemeMasterVMImageHistory/">Remove-ProvSchemeMasterVMImageHistory</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvSchemeMetadata/">Remove-ProvSchemeMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvSchemeScope/">Remove-ProvSchemeScope</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvServiceConfigurationData/">Remove-ProvServiceConfigurationData</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvServiceMetadata/">Remove-ProvServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvTask/">Remove-ProvTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvTaskMetadata/">Remove-ProvTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Remove-ProvVM/">Remove-ProvVM</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Rename-ProvScheme/">Rename-ProvScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Reset-ProvEnabledFeatureList/">Reset-ProvEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Reset-ProvServiceGroupMembership/">Reset-ProvServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Set-ProvDBConnection/">Set-ProvDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Set-ProvScheme/">Set-ProvScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Set-ProvSchemeMetadata/">Set-ProvSchemeMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Set-ProvSchemeMetadata/">Set-ProvServiceConfigurationData</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Set-ProvServiceMetadata/">Set-ProvServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Set-ProvTaskMetadata/">Set-ProvTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Stop-ProvTask/">Stop-ProvTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Switch-ProvTask/">Switch-ProvTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Test-ProvDBConnection/">Test-ProvDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Test-ProvSchemeNameAvailable/">Test-ProvSchemeNameAvailable</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Unlock-ProvScheme/">Unlock-ProvScheme</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../MachineCreation/Unlock-ProvVM/">Unlock-ProvVM</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Monitor</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/about_Monitor_Filtering/">about_Monitor_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/about_MonitorMonitorSnapIn/">about_MonitorMonitorSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Add-MonitorNotificationPolicyCondition/">Add-MonitorNotificationPolicyCondition</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Add-MonitorNotificationPolicyEmailAddresses/">Add-MonitorNotificationPolicyEmailAddresses</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Add-MonitorNotificationPolicyTargets/">Add-MonitorNotificationPolicyTargets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorConfiguration/">Get-MonitorConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorDataStore/">Get-MonitorDataStore</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorDBConnection/">Get-MonitorDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorDBSchema/">Get-MonitorDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorDBVersionChangeScript/">Get-MonitorDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorInstalledDBVersion/">Get-MonitorInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorNotificationEmailServerConfiguration/">Get-MonitorNotificationEmailServerConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorNotificationPolicy/">Get-MonitorNotificationPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorNotificationSnmpServerConfiguration/">Get-MonitorNotificationSnmpServerConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorService/">Get-MonitorService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorServiceAddedCapability/">Get-MonitorServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorServiceInstance/">Get-MonitorServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Get-MonitorServiceStatus/">Get-MonitorServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/New-MonitorNotificationPolicy/">New-MonitorNotificationPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Remove-MonitorNotificationPolicy/">Remove-MonitorNotificationPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Remove-MonitorNotificationPolicyConditions/">Remove-MonitorNotificationPolicyConditions</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Remove-MonitorNotificationPolicyEmailAddresses/">Remove-MonitorNotificationPolicyEmailAddresses</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Remove-MonitorNotificationPolicyTargets/">Remove-MonitorNotificationPolicyTargets</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Remove-MonitorServiceMetadata/">Remove-MonitorServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Reset-MonitorDataStore/">Reset-MonitorDataStore</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Reset-MonitorEnabledFeatureList/">Reset-MonitorEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Reset-MonitorServiceGroupMembership/">Reset-MonitorServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Set-MonitorConfiguration/">Set-MonitorConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Set-MonitorDBConnection/">Set-MonitorDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Set-MonitorNotificationEmailServerConfiguration/">Set-MonitorNotificationEmailServerConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Set-MonitorNotificationPolicy/">Set-MonitorNotificationPolicy</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Set-MonitorNotificationSnmpServerConfiguration/">Set-MonitorNotificationSnmpServerConfiguration</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Set-MonitorServiceMetadata/">Set-MonitorServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Test-MonitorDBConnection/">Test-MonitorDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Monitor/Test-MonitorNotificationEmailServerConfiguration/">Test-MonitorNotificationEmailServerConfiguration</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Orchestration</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/about_Orch_Filtering/">about_Orch_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/about_OrchOrchestrationSnapIn/">about_OrchOrchestrationSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchDBConnection/">Get-OrchDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchDBSchema/">Get-OrchDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchDBVersionChangeScript/">Get-OrchDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchInstalledDBVersion/">Get-OrchInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchService/">Get-OrchService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchServiceAddedCapability/">Get-OrchServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchServiceInstance/">Get-OrchServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Get-OrchServiceStatus/">Get-OrchServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Remove-OrchServiceMetadata/">Remove-OrchServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Reset-OrchEnabledFeatureList/">Reset-OrchEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Reset-OrchServiceGroupMembership/">Reset-OrchServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Set-OrchDBConnection/">Set-OrchDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Set-OrchServiceMetadata/">Set-OrchServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Start-OrchRestApi/">Start-OrchRestApi</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Stop-OrchRestApi/">Stop-OrchRestApi</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../Orchestration/Test-OrchDBConnection/">Test-OrchDBConnection</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>StorefrontService</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/about_Sf_Filtering/">about_Sf_Filtering</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/about_SfStorefrontSnapIn/">about_SfStorefrontSnapIn</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Add-SfServerToCluster/">Add-SfServerToCluster</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Add-SfStorefrontAddress/">Add-SfStorefrontAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfCluster/">Get-SfCluster</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfDBConnection/">Get-SfDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfDBSchema/">Get-SfDBSchema</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfDBVersionChangeScript/">Get-SfDBVersionChangeScript</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfInstalledDBVersion/">Get-SfInstalledDBVersion</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfIsStorefrontInstalled/">Get-SfIsStorefrontInstalled</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfOptimalGateway/">Get-SfOptimalGateway</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfService/">Get-SfService</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfServiceAddedCapability/">Get-SfServiceAddedCapability</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfServiceInstance/">Get-SfServiceInstance</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfServiceStatus/">Get-SfServiceStatus</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfStorefrontAddress/">Get-SfStorefrontAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Get-SfTask/">Get-SfTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/New-SfCluster/">New-SfCluster</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/New-SfStorefrontAddress/">New-SfStorefrontAddress</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Remove-SfOptimalGateway/">Remove-SfOptimalGateway</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Remove-SfServerFromCluster/">Remove-SfServerFromCluster</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Remove-SfServiceMetadata/">Remove-SfServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Remove-SfTask/">Remove-SfTask</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Remove-SfTaskMetadata/">Remove-SfTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Reset-SfEnabledFeatureList/">Reset-SfEnabledFeatureList</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Reset-SfServiceGroupMembership/">Reset-SfServiceGroupMembership</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Set-SfCluster/">Set-SfCluster</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Set-SfDBConnection/">Set-SfDBConnection</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Set-SfOptimalGateway/">Set-SfOptimalGateway</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Set-SfServiceMetadata/">Set-SfServiceMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Set-SfTaskMetadata/">Set-SfTaskMetadata</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../StorefrontService/Test-SfDBConnection/">Test-SfDBConnection</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+         <!-- <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Understanding the XenDesktop Administration Model</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div> -->
+          <div role="main">
+            <div class="section">
+             
+                <p>XenDesktop 7 has an administration model that is defined by a set of objects and their interconnections, as shown in the following illustration.</p>
+<p><img alt="Flow" src="../flow.png" /></p>
+<p>The following sections describe each object, its responsibilities, characteristics and basic
+properties.</p>
+<p><strong>Connection</strong></p>
+<p>A Connection entity provides the details required to establish a connection to the administration point for a virtualization platform. These details are used to provide any power management and provisioning functions that are required. The Connection defines:</p>
+<ul>
+<li>
+<p>The identity of the connection, which includes a name and an internal ID value (a GUID).</p>
+</li>
+<li>
+<p>Type—XenServer, SCVMM or vCenter.</p>
+</li>
+<li>
+<p>Username—the account name to use for connections to the hypervisor.</p>
+</li>
+<li>
+<p>Password—the password to use for connections to the hypervisor.</p>
+</li>
+<li>
+<p>The state of the connection and whether the hypervisor can be
+    communicated with or not.</p>
+</li>
+<li>
+<p>Any current alerts raised by the hypervisor.</p>
+</li>
+</ul>
+<p>The password cannot be read back once set and is stored in the database in an encrypted form.</p>
+<p>There is one of these entities in the model for each platform definition; however, there will
+be many connections established to the virtualization platform at run time to service the requirements of the XenDesktop deployment. These connections can be shared by many Resources entities (see below for further details).</p>
+<div class="admonition tip">
+<p class="admonition-title">Note</p>
+<p>When setting up a Connection with XenServer, you specify a host or XenServer pool; when setting up a Connection with Microsoft Hyper-V or VMware, you provide details to the management servers (SCVMM or vCenter). Also, when configuring a Connection, you must specify the user name in the correct format, depending on the virtualization solution you're using. If you're setting up a Connection with XenServer, specify a plain user name; for example "username"; for a Connection with VMware or Hyper-V, specify a domain user name; for example "domain\username".</p>
+</div>
+<p><strong>Resources</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Note</p>
+<p>This applies only to the creation of new machines when using Machine Creation Services (MCS) or Provisioning Services (PVS).</p>
+</div>
+<p>This setting defines a set of resources within the virtualization platform that are available for the product to consume. This allows the administrator to constrain deployment to a subset of the resources that the platform provides, and enables differing sets of resources to be defined for different purposes. This can control the storage and networking usage of machines provisioned within the site. The Resources entity defines:</p>
+<ul>
+<li>
+<p>Networks—the networks which are able to be used when provisioning new machines into the virtualization plaform (for PVS, this is the streaming network; only one can be chosen or the first one is used).</p>
+</li>
+<li>
+<p>Storage—the storage to use when provisioning new machines into the virtualization platform.</p>
+</li>
+</ul>
+<p>At least one Resources setting must be defined for each Connection object if a provisioning
+mechanism is to be used. Many Resources settings can be linked to a single Connection.</p>
+<p>The connection details are provided by the Connection entity.</p>
+<div class="admonition tip">
+<p class="admonition-title">Note</p>
+<p>When specifying Resources on a Connection to either SCVMM or vCenter, you select the host or cluster as well as the storage and networking.</p>
+</div>
+<p><strong>Administrator</strong></p>
+<p>This defines the person who can administer the product. There can be various administrators of
+the product, each with a different set of capabilities within the product. The Administrator defines:</p>
+<ul>
+<li>
+<p>The AD account the administrator is defined by, defined as their name and SID value.
+    This can be an individual user or a security group.</p>
+</li>
+<li>
+<p>The rights the administrator has (i.e. what roles are available over which scopes).</p>
+</li>
+</ul>
+<p><strong>Machine</strong></p>
+<p>A machine is a representation of a virtual or physical computer that can be used within
+a site to provide sessions to users. The machine defines:</p>
+<ul>
+<li>
+<p>Identity of the machine, such as SAM name, DNS name, host (hypervisor) name, IP address, SID, License ID etc.</p>
+</li>
+<li>
+<p>Status of the machine, including power state, registration state, Personal vDisk state, load index etc. A summary state value aggregates many of these into a single state value.</p>
+</li>
+<li>
+<p>Information about the environment and configuration of the machine, such as version numbers of installed operating systems and Citrix components, including the 'functional level' of the machine.</p>
+</li>
+<li>
+<p>Data relating to the most recent activity of the machines, such as the last reason for de-registering, the last power action performed on the machine, the last connection failure etc.</p>
+</li>
+<li>
+<p>Maintenance mode and 'WindowsConnectionSetting' states for controlling the enable/disable/drain behavior of the machine.</p>
+</li>
+<li>
+<p>Visible user-resource settings for the machine for the assigned desktop case, such as icon, published name etc.</p>
+</li>
+<li>
+<p>For multi-session machines (Server OS Machines), aggregate information about the sessions running, such as the number of sessions active, pending etc.</p>
+</li>
+<li>
+<p>'Tag' values associated with an assigned machine.</p>
+</li>
+<li>
+<p>Provisioning image information, such as the path to the master image, the provisioning scheme used to create the machine, and whether or not the machine has an updated image pending on its next reboot.</p>
+</li>
+</ul>
+<p>Most of the machine values are exposed by the Broker Service SDK, but items are also exposed
+by other services, such as the Machine Creation Service (MCS). Other values shown on a per-machine basis are inherited from the Catalog or Delivery Group (if any) that the machine is associated with, or from the provisioning scheme used to create it. For example, the machine type
+which is defined at the Catalog level by a combination of factors such Physical or Virtual, static or random, how user changes are persisted and others. For single-session machines (Desktop OS Machines), information about the session (if any) that is running on the machine is also associated with the machine. This includes connected user identity, session state, protocol in-use and so on. Machines can exist only in the model if they are defined as part of a Catalog; they cannot exist
+outside of this concept.</p>
+<p><strong>Catalog</strong></p>
+<p>A Catalog defines a set of machines that are usually, but not always, expected to be equivalent.
+Multiple Catalogs can exist within a single deployment, enabling different sets of machines to be built and stored for different purposes. The Catalog defines:</p>
+<ul>
+<li>
+<p>Catalog type, defined by the values of the following properties:</p>
+<ol>
+<li>
+<p>The provisioning method for the machines (MCS, PVS or manual)</p>
+</li>
+<li>
+<p>How machines in the Catalog are allocated to users: statically with permanent assignment to users or randomly each time a user requests a resource</p>
+</li>
+<li>
+<p>Whether the machines are single-session (Desktop OS Machines) or multi-session (Server OS Machines)</p>
+</li>
+<li>
+<p>Whether the machines are physical or virtual</p>
+</li>
+<li>
+<p>How user changes to machines are handled, whether they are discarded after the user logs off or preserved locally on the machine or using Personal vDisk</p>
+</li>
+</ol>
+</li>
+<li>
+<p>If the Catalog is to be used for Remote PC users and, if so, which Active Directory (AD) OUs are to be associated with the Catalog, and which Delivery Groups are associated with the Catalog.</p>
+</li>
+<li>
+<p>MCS provisioning-associated details (if MCS provisioning is to be used):</p>
+<ol>
+<li>
+<p>Master image for the machines</p>
+</li>
+<li>
+<p>Memory size and number of CPUs</p>
+</li>
+<li>
+<p>Personal vDisk disk size, drive letter, and allocation percentages</p>
+</li>
+<li>
+<p>AD account naming scheme and OU where the machines are created, and a list of already created accounts</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Details of any PVS server associated with the Catalog.</p>
+</li>
+<li>
+<p>The functional level expected for machines; machines of lower functional level are not allowed to register with the site.</p>
+</li>
+</ul>
+<p>Also exposed at the Catalog level are some usage values for machines consumed or available
+in the Catalog.</p>
+<p><strong>Delivery Group</strong></p>
+<p>The Delivery Group provides details about a collection of machines used to provide desktops
+and/or applications to an end-user. Many Delivery Groups can be linked to the same Catalog, enabling machines in a Catalog to be distributed in various ways depending on the requirements of different user sets. The Delivery Group defines:</p>
+<ul>
+<li>
+<p>The allocation type of the machines in the group, indicating whether machines are shared between users (random) or assigned persistently to one or more users (static), and whether the machines are single-session (Desktop OS) or multi-session (Server OS) machines.</p>
+</li>
+<li>
+<p>The delivery type of the group, indicating whether the group serves applications only, desktops only, or a mixture of applications and desktops to users.</p>
+</li>
+<li>
+<p>Settings controlling the power management of machines in the group, including:</p>
+<ol>
+<li>
+<p>Which hours of the day, on different days of the week, are considered 'peak' time</p>
+</li>
+<li>
+<p>How many machines to keep running at different hours of the day on different days of the week for random/unassigned machines, including buffer sizes</p>
+</li>
+<li>
+<p>The timezone to use for evaluating the hours of the day for the above settings</p>
+</li>
+<li>
+<p>Whether and how assigned machines are power managed</p>
+</li>
+<li>
+<p>Whether and how to shut down or suspend machines after trigger events, such as user disconnect or logoff</p>
+</li>
+<li>
+<p>Whether or not the machines are considered corrupted by any sessions run on them and forced to restart to return them back to a clean, known state after each use</p>
+</li>
+</ol>
+</li>
+<li>
+<p>How desktop resources from the group appear to an end-user, including icon used, color depth and name. Also defined is the security level required on the ICA connections for machines in the group. For desktop resources, the number of desktops each user is allowed simultaneously from the group.</p>
+</li>
+<li>
+<p>Rules used to establish the availability of these machines to the end users. Rules can factor in, not just the user's identity, but also where the user is connecting from and how, what the state of the client device is, and which remoting protocols are supported.</p>
+</li>
+<li>
+<p>Whether the group is enabled or disabled, including setting of maintenance mode.</p>
+</li>
+<li>
+<p>Whether the end-user is allowed to reset the machine themselves (for example, using StoreFront).</p>
+</li>
+<li>
+<p>'Tag' values associated with a random/shared group.</p>
+</li>
+<li>
+<p>The functional level expected for machines in the group; machines of lower functional level are not allowed to register with the site.</p>
+</li>
+<li>
+<p>Whether the group is to be used for Remote PC users, and which Remote PC catalogs are associated with the group.</p>
+</li>
+<li>
+<p>A schedule for regularly rebooting multi-session (Server OS) machines at a particular time and day, and settings to control how that reboot is done.</p>
+</li>
+</ul>
+<p>Also associated with Delivery Groups are settings for features such as Profile management and Storefront URL settings, which are separately defined as 'Machine Configuration' objects and associated with one or more Delivery Groups.</p>
+<p><strong>Application</strong></p>
+<p>This provides details of a seamless (i.e. floating window, separate from a desktop) application that is to be made available to end-users.Typically, each application is associated with a single delivery group, but application definitions can be shared across multiple groups, if required.</p>
+<p>Applications can be run either on a remote machine and displayed on the local client desktop, or installed and run on the local client machine with windows overlaid onto a remote desktop. The application defines:</p>
+<ul>
+<li>
+<p>The type of the application, whether 'HostedOnDesktop' or 'InstalledOnClient'.</p>
+</li>
+<li>
+<p>For HostedOnDesktop applications:</p>
+<ol>
+<li>
+<p>The path to the application initial executable to be run on the VDA machine and the command line parameters, if any, to be supplied when the application is started</p>
+</li>
+<li>
+<p>Optionally, a specific set of users who have access to the application as a subset of users who have access to the Delivery Group(s)</p>
+</li>
+<li>
+<p>Any application-specific settings to be applied to the application process, including a CPU priority level, whether the application should wait for proxy printers to be created or
+not, etc.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>For InstalledOnClient applications:</p>
+<ol>
+<li>
+<p>A flag to indicate that the icon for the application is to be fetched from the client device</p>
+</li>
+<li>
+<p>A flag to specify that extra security measures are to be taken with the arguments supplied to the application</p>
+</li>
+</ol>
+</li>
+<li>
+<p>How the application resource appears to an end-user, including icon used, folder location on the client device, name and whether the shortcut appears in the start menu, desktop or both.</p>
+</li>
+<li>
+<p>Any file-type associations for the application, associating file extensions with the application.</p>
+</li>
+<li>
+<p>Which Delivery Group(s) it is associated with, along with an optional priority value for choosing between multiple groups.</p>
+</li>
+<li>
+<p>Whether the application is enabled and, separately, whether it is visible to end users or not.</p>
+</li>
+</ul>
+<p><strong>Desktop</strong></p>
+<p>In XenDesktop 7, the Desktop object (which describes both the machine and the session on the machine) is replaced by the Session object and the Machine object, both of which have been expanded to do the work of the Desktop object.</p>
+<p><strong>Session</strong></p>
+<p>This provides details of a Windows session running on a machine controlled by the site. The session may be one initiated by XenDesktop or XenApp, or one that was created by other means, such as a user logging directly onto the machine through the console or over RDP.</p>
+<p>The session defines:</p>
+<ul>
+<li>
+<p>The identity of the machine where the session is running, including machine DNS name, IP address, NetBios name, SID etc.</p>
+</li>
+<li>
+<p>The identity of the user who is running the session, including SAM name, UPN, SID, etc.</p>
+</li>
+<li>
+<p>The identity of the user who brokered the connection to the session, including SAM name, SID, etc.</p>
+</li>
+<li>
+<p>The identity of the endpoint client machine being used to connect to the session, including the device name, IP address, ID.</p>
+</li>
+<li>
+<p>The identity of the machine used to request the launch, i.e. the web server from which the launch was made. This includes name and IP address.</p>
+</li>
+<li>
+<p>The identity of the machine used to act as a gateway for the session connection, including machine DNS name, IP address.</p>
+</li>
+<li>
+<p>Details of significant events in the session, including start time, the time when the session was most recently connected to, brokered to etc.</p>
+</li>
+<li>
+<p>The durations of aspects of the most recent session creation or connection, including the time taken to broker the session, time taken to create the session etc.</p>
+</li>
+<li>
+<p>The current status of the session, including an overall session state, whether the ICA connection is secured, what protocol is being used.</p>
+</li>
+<li>
+<p>The current state of the machine running the session, incuding an overall summary state, power state, etc.</p>
+</li>
+<li>
+<p>Details about how the session connection was made, such as whether the session was brokered or connected to autonomously, the session context 'Smart Access' tags in force.</p>
+</li>
+<li>
+<p>Whether the session is 'hidden' or not. Sessions can become hidden if certain types of problems are encountered when a user launches an application or desktop.</p>
+</li>
+<li>
+<p>The list of brokered applications executing in the session.</p>
+</li>
+</ul>
+<p>The session SDK objec also provides information from the related machine, Delivery Group an Catalog SDK objects. This information includes identity information, basic configuration and status information.</p>
+<p><strong>Controller</strong></p>
+<p>This provides details of the individual Delivery Controller machines in the site. Most of the
+data is dynamic state data from the running site, rather than configuration settings. The controller shows:</p>
+<ul>
+<li>
+<p>Which 'site services' are active on each controller.</p>
+</li>
+<li>
+<p>The version of the controller components.</p>
+</li>
+<li>
+<p>The identity of the controller machine, as fully qualified DNS name, SAM name, SID etc.</p>
+</li>
+<li>
+<p>The type and version of the OS of the controller machine.</p>
+</li>
+<li>
+<p>Current controller and service status, and most recent activity times.</p>
+</li>
+<li>
+<p>Counts of machines registered with the controller.</p>
+</li>
+<li>
+<p>Which hypervisor connections are associated with the controller for site service location purposes.</p>
+</li>
+</ul>
+<p>Most of the controller values are exposed from the Broker Service SDK, but other items are exposed from other services, such as the Machine Creation Service.</p>
+<p><strong>Site</strong></p>
+<p>The Site is a top-level, logical representation of the XenDesktop site, from the
+perspective of the configuration services running within it. The site contains licensing information, site metadata and the site name, among others.</p>
+<p>A XenDesktop installation has only a single configuration site instance. The Site
+object has the following properties:</p>
+<ul>
+<li>
+<p>Name</p>
+</li>
+<li>
+<p>Controllers—list of controllers in the site</p>
+</li>
+<li>
+<p>Databases—list of databases used by the site</p>
+</li>
+<li>
+<p>DefaultIconUid</p>
+</li>
+<li>
+<p>LicenseInformation</p>
+</li>
+<li>
+<p>Metadata</p>
+</li>
+</ul>
+<p><strong>Log</strong></p>
+<p>This provides details of the collected configuration logs, which describe the administrator
+activity on the site since logging was enabled. Administrator read actions are not logged, but any administrator action that changes the configuration or state of the site is included in the log. You can view the log at one of three levels: high-level logs, low-level logs and
+operation details. Each low-level log is a part of a larger high-level operation which is logged, while operation details describe elements within a single low-level operation. Log items show:</p>
+<ul>
+<li>
+<p>The identity of the administrator who performed the operation, including the IP address of the machine from which it was performed.</p>
+</li>
+<li>
+<p>When the operation took place, both start and end times.</p>
+</li>
+<li>
+<p>Whether the operation succeeded or failed for any reason.</p>
+</li>
+<li>
+<p>A description of the operation, as a text string and also characterized by operation type, source type, target type etc.</p>
+</li>
+<li>
+<p>Details of parameters supplied to the operation.</p>
+</li>
+<li>
+<p>Any parent/child relationship in the log hierarchy.</p>
+</li>
+<li>
+<p>For changes in configuration, a before and after value for the items changed.</p>
+</li>
+</ul>
+<p>For more information about what is logged, see the <a href="http://docs.citrix.com/en-us/xenapp-and-xendesktop/7-6/xad-monitor-article/xad-config-logging-about.html">Configuration Logging</a> documentation.</p>
+<p><strong>Right</strong></p>
+<p>This defines a combination of role and the scope over which role permissions are
+allowed. Permissions defined in the role can be executed by the specified administrator, but only on objects that are directly or indirectly associated with the specified scope. The Right defines:</p>
+<ul>
+<li>
+<p>The role whose permissions are to be allowed.</p>
+</li>
+<li>
+<p>The scope over which the role permissions are to be allowed.</p>
+</li>
+</ul>
+<p>Rights are not SDK objects that can be manipulated separately; they are always associated
+with a particular Administrator object. A single administrator can have many rights, with the total capability of the administrator being the sum of all their individual rights.</p>
+<p><strong>Scope</strong></p>
+<p>This defines a named grouping for objects, where objects in the grouping have administrator rights over objects controlled on a role-by-role basis. SDK objects of
+various types can have scopes directly associated with them, such as Catalogs, Delivery Groups, Connections, Resources etc. These SDK objects have properties that list the scopes that the object has been associated with. Other SDK objects have administrator rights granted by a secondary association with other objects which are directly scoped. For example, Machine objects inherit their scope associations from the Catalogs and Delivery Groups they are members of; Session objects inherit their scope associations from the machines on which the session is running. Some scopes are pre-defined (in practice only the 'All' scope is currently built-in) but you can create other scopes to specify suitable grouping definitions for your particular deployment.</p>
+<p>The Scope defines:</p>
+<ul>
+<li>
+<p>The identity of the scope, which includes a name and an internal ID value (a GUID).</p>
+</li>
+<li>
+<p>Whether the scope is built-in or not.</p>
+</li>
+</ul>
+<p><strong>Role</strong></p>
+<p>Defines a set of permissions that an administrator can perform. Roles are always granted
+to administrators with an associated scope; they do not provide rights on their own, although some roles may have general permissions that apply to objects which do not have any scopes associated with them ('unscoped objects'). Some roles are pre-defined, but you can create other custom roles to specify suitable sets of permissions for your
+particular deployment. A Role defines:</p>
+<ul>
+<li>
+<p>The identity of the role, which includes a name and an internal ID value (a GUID)</p>
+</li>
+<li>
+<p>Whether the role is built-in or not</p>
+</li>
+<li>
+<p>The set of permissions that make up the role</p>
+</li>
+</ul>
+<p>The built-in roles are:</p>
+<ul>
+<li>
+<p>Full Administrator—can perform all tasks and operations.</p>
+</li>
+<li>
+<p>Read Only Administrator—can see all objects in specified scopes, as well as global information, but cannot change anything.</p>
+</li>
+<li>
+<p>Machine Catalog Administrator—can create and manage Machine Catalogs and provision machines.</p>
+</li>
+<li>
+<p>Delivery Group Administrator—can deliver applications, desktops, and machines; can also manage the associated sessions. Allows creation and managing of Delivery Groups and applications.</p>
+</li>
+<li>
+<p>Help Desk Administrator—can view Delivery Groups, and manage the sessions and machines associated with those groups. Allows viewing of end-user resources and limited state change actions for troubleshooting end-user problems, but does not allow most configuration changes.</p>
+</li>
+<li>
+<p>Host Administrator—can manage host connections and their associated resource settings.</p>
+</li>
+</ul>
+<p><strong>Permission</strong></p>
+<p>Defines a single console-level task or operation that is allowed when the permission is
+included in a role. Each permission can allow several low-level SDK operations (cmdlets), and a particular low-level SDK operation can be granted by any number of related permissions. A Permission defines:</p>
+<ul>
+<li>
+<p>The identity of the permision, which includes a name and an internal ID value (a GUID).</p>
+</li>
+<li>
+<p>The permission group membersip of the permission. Permission groups collect together permissions relating to a particular functional area.</p>
+</li>
+<li>
+<p>The set of low-level SDK operations covered by the permission.</p>
+</li>
+</ul>
+              
+               
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<!--<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span class="prev"><a href=".."><i class="fa fa-angle-left"></i> Previous</a></span>
+      
+      
+        <span class="next"><a href="../getting-started/">Next <i class="fa fa-angle-right"></i></a></span>
+      
+    </span>
+	<div class="footer-right">
+		<ul class="social-links">
+			<li class="list-inline"><a href="https://twitter.com/citrix"><i class="fa fa-twitter"></i>@citrix</a></li>
+			<li class="list-inline"><a href="mailto:support@citrix.com"><i class="fa fa-envelope-o"></i>support@citrix.com</a></li>
+		</ul>
+		<ul class="inner-pages">
+			<li class="list-inline"><a href="http://citrix.com/about/legal">Privacy and Terms</li>
+		</ul>
+	</div>
+</div>-->
+
+</body>
+</html>

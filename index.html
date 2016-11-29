@@ -77,16 +77,74 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
           
             <li>
     <li class="toctree-l1 current">
-        <span class="expli"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a class="current" style="width:250px;" href=".">Home</a>
+        <span class="expli"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a class="current" style="width:250px;" href=".">Overview</a>
         
             <ul style="display:none">
             
-                <li class="toctree-l3"><a href="#powershell-sdk-reference">PowerShell SDK Reference</a></li>
+                <li class="toctree-l3"><a href="#xenapp-and-xendesktop-sdk">XenApp and XenDesktop SDK</a></li>
+                
+                    <li><a class="toctree-l4" href="#key-differences-between-the-xendesktop-5-and-xendesktop-7-sdk">Key differences between the XenDesktop 5 and XenDesktop 7 SDK</a></li>
+                
+                    <li><a class="toctree-l4" href="#differences-in-policy-rules">Differences in policy rules</a></li>
+                
+                    <li><a class="toctree-l4" href="#use-the-sdk">Use the SDK</a></li>
+                
+                    <li><a class="toctree-l4" href="#group-policy-sdk-usage">Group Policy SDK usage</a></li>
                 
             
             </ul>
         
     </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="understanding-xendesktop-administration-model/">Understanding the XenDesktop Administration Model</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="getting-started/">Getting Started Guide</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Examples</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="creating-a-catalog/">Creating a catalog</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="creating-and-configuring-a-host/">Creating and configuring a host</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="creating-a-pvd-desktop/">Creating a PvD Desktop</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="getting-load-balancing-information/">Getting load balancing information</a>
+        
+    </li>
+
+        
+    </ul>
 <li>
           
             <li>
@@ -5602,7 +5660,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
     
       
     
-    <li>Home</li>
+    <li>Overview</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -5612,7 +5670,170 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
           <div role="main">
             <div class="section">
              
-                <h1 id="powershell-sdk-reference"><a class="toclink" href="#powershell-sdk-reference">PowerShell SDK Reference</a></h1>
+                <h2 id="xenapp-and-xendesktop-sdk"><a class="toclink" href="#xenapp-and-xendesktop-sdk">XenApp and XenDesktop SDK</a></h2>
+<p><span id="par_richtext" class="anchor"></span></p>
+<p>XenApp and XenDesktop provide an SDK based on a number of Microsoft
+Windows PowerShell version 3.0 snap-ins that allows you to perform the
+same tasks as you would with the Citrix Studio console, together with
+tasks you cannot do with Studio alone.</p>
+<p>As from version 7.5,XenApp and XenDesktop share a unified architecture and management: the
+FlexCast Management Architecture. This means that XenApp provides many
+features previously only available in XenDesktop; elements of the SDK
+that relate to common features therefore apply equally to both XenApp
+and XenDesktop, even though the commands themselves refer only to
+XenDesktop.</p>
+<h3 id="key-differences-between-the-xendesktop-5-and-xendesktop-7-sdk"><a class="toclink" href="#key-differences-between-the-xendesktop-5-and-xendesktop-7-sdk">Key differences between the XenDesktop 5 and XenDesktop 7 SDK</a></h3>
+<ul>
+<li>
+<p><strong>New high-level SDK</strong> — XenDesktop 7 provides a new high-level SDK
+    that enables you to script and automate site creation and
+    maintenance quickly and easily. The high-level SDK insulates you
+    from much of the complexity of the low-level SDKs, such that you can
+    create a new site simply by running two cmdlets.</p>
+</li>
+<li>
+<p><strong>New low-level SDKs </strong>— Individual low-level SDKs are provided for
+    the new XenDesktop 7 services, including a dedicated and enhanced
+    SDK for the Delegated Administration Service (DAS), which was
+    previously part of the Broker SDK in XenDesktop 5. There are also
+    SDKs for new features including the Monitor Service, Environment
+    Test, and Configuration Logging.</p>
+</li>
+<li>
+<p><strong>Windows Server OS Machine catalogs and delivery groups</strong> — You can
+    use the XenDesktop 7 SDK to deliver cost-effective applications and
+    desktops hosted on server operating systems.</p>
+</li>
+<li>
+<p><strong>Desktop OS Machine applications</strong> — Desktop OS Machine
+    applications have changed significantly at the SDK level. If you
+    have existing scripts for running applications on Desktop OSs, you
+    will have to update these scripts for XenDesktop 7 as there is
+    little backwards compatibility.</p>
+</li>
+<li>
+<p><strong>Apply settings to machines in Delivery Groups</strong> — In XenDesktop 7,
+    using configuration slots, you can apply settings to machines in a
+    specific delivery group, rather than to all machines in a site. This
+    enables you to configure, for a given delivery group, which settings
+    apply to that group. A number of pre-defined configuration slots are
+    provided that contain different types of settings, such as settings
+    for StoreFront addresses for use with Receiver or App-V publishing
+    server locations. You can use one collection of settings from a slot
+    to affect only a particular delivery group, and a different
+    collection of settings from the same slot to affect another
+    delivery group. You can use names appropriate to your particular
+    deployment; for example, "Sales Department policy."</p>
+</li>
+<li>
+<p><strong>Catalog types replaced</strong> — In XenDesktop 7, catalog types have
+    been replaced by catalogs with individual properties. However, for
+    backwards compatibility, you can still use existing scripts that
+    employ catalog types, such as single image (pooled) and thin
+    clone (dedicated) etc., but internally these are converted into sets
+    of properties.</p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Caution</p>
+<p>Backwards compatibility with XenDesktop 5 catalog types has been maintained where possible and practicable. However, when writing new scripts, do not use catalog types; instead, specify catalogs with individual properties.</p>
+</div>
+<ul>
+<li><strong>Desktop object replaced</strong> — In XenDesktop 5, the Desktop object is
+    one of the main types of SDK object used in Broker SDK scripts. The
+    Desktop object describes both the machine and the session on
+    the machine. In XenDesktop 7, this object is replaced by the Session
+    object and the Machine object, both of which have been expanded to
+    do the work of the Desktop object. However, for backwards
+    compatibility, you can still use existing scripts that employ the
+    Desktop object.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Caution</p>
+<p>Backwards compatibility with XenDesktop 5 has been maintained where possible and practicable. However, when writing new scripts, do not use the Desktop object; instead, specify Session and Machine objects.</p>
+</div>
+<h3 id="differences-in-policy-rules"><a class="toclink" href="#differences-in-policy-rules">Differences in policy rules</a></h3>
+<p>There are differences between the SDK and the Studio console in terms of
+policy rules. Entitlement and assignment policy rules are independent
+entities in the SDK; in the console, these entities are not visible as
+they are seamlessly merged with the Delivery Group. Also, access policy
+rules are less restrictive in the SDK.</p>
+<h3 id="use-the-sdk"><a class="toclink" href="#use-the-sdk">Use the SDK</a></h3>
+<p>The SDK comprises of a number of PowerShell snap-ins installed
+automatically by the installation wizard when you install the Controller
+or Studio components.</p>
+<p>To access and run the cmdlets:</p>
+<p>1.Start a shell in PowerShell 3.0.</p>
+<blockquote>
+<p>To start a shell from the console, click <strong>Studio</strong>, select the
+PowerShell tab, and click on <strong>Launch PowerShell</strong>.</p>
+<p>You must run the shell or script using an identity that has Citrix
+administration rights. Although members of the local administrators
+group on the Controller automatically have full administrative
+privileges to allow XenDesktop to be installed, Citrix recommends that
+for normal operation, you create Citrix administrators with the
+appropriate rights, rather than use the local administrators account.
+If you are running Windows Server 2008, you must run the shell or
+script as a Citrix administrator, and not as a member of the local
+administrators group.</p>
+</blockquote>
+<p>2.To use SDK cmdlets within scripts, set the execution policy in PowerShell.</p>
+<blockquote>
+<p>For more information about PowerShell execution policy, see your
+Microsoft documentation.</p>
+</blockquote>
+<p>3.Add the snap-ins you require into the PowerShell environment using
+    the <strong>Add -PSSnapin</strong> command in the Windows PowerShell console. V1
+    and V2 denote the version of the snap-in (XenDesktop 5 snap-ins are
+    version 1; XenDesktop 7 snap-ins are version 2.). For example, type:</p>
+<blockquote>
+<p>Add-PSSnapin Citrix.ADIdentity.Admin.V2</p>
+<p>To import all the cmdlets, type:</p>
+<p>Add-PSSnapin Citrix.*.Admin.V*</p>
+<p>After importing, you have access to the cmdlets and their associated
+help.</p>
+</blockquote>
+<p>For an example of a typical use case, see <a href="getting-started/">Get started with the
+SDK</a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Note</p>
+<p>For a complete listing of all help text for the cmdlets, see <a href="http://docs.citrix.com/en-us/xenapp-and-xendesktop/7-6/cds-sdk-wrapper-rho/xad-commands.html">PowerShell cmdlet help</a>.</p>
+</div>
+<h3 id="group-policy-sdk-usage"><a class="toclink" href="#group-policy-sdk-usage">Group Policy SDK usage</a></h3>
+<p>The Citrix Group Policy SDK allows you to display and configure Group
+Policy settings and filters. It uses a PowerShell provider to create a
+virtual drive that corresponds to the machine and user settings and
+filters. The provider appears as an extension to New-PSDrive. To use the
+Group Policy SDK, either Studio or the XenApp and XenDesktop SDK must be
+installed.</p>
+<p><strong>Adding the Group Policy SDK</strong></p>
+<p>1.To add the Group Policy SDK, type:</p>
+<div class="codehilite"><pre><span></span>Add-PSSnapin citrix.common.grouppolicy
+</pre></div>
+
+
+<p><br>        <br />
+2.To access help, type:</p>
+<div class="codehilite"><pre><span></span>help New-PSDrive -path localgpo:/
+</pre></div>
+
+
+<p><strong>Using the Group Policy SDK</strong></p>
+<p>1.To create a virtual drive and load it with settings, type:</p>
+<div class="codehilite"><pre><span></span>New-PSDrive &amp;lt;Standard Parameters&amp;gt; \[-PSProvider\]
+CitrixGroupPolicy *-Controller* &amp;lt;string&amp;gt;
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span>**New-PSDrive &amp;lt;Standard Parameters&amp;gt; \[-PSProvider\]
+CitrixGroupPolicy ***-Controller*** &amp;lt;string&amp;gt;**
+</pre></div>
+
+
+<blockquote>
+<p>where <em>-Controller</em> is the fully qualified domain name of a controller
+in the site you want to connect to and load settings from.</p>
+</blockquote>
               
                
             </div>
@@ -5630,7 +5851,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
       
       
       
-        <span class="next"><a href="ADIdentity/about_Acct_Filtering/">Next <i class="fa fa-angle-right"></i></a></span>
+        <span class="next"><a href="understanding-xendesktop-administration-model/">Next <i class="fa fa-angle-right"></i></a></span>
       
     </span>
 	<div class="footer-right">
@@ -5649,5 +5870,5 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-11-16 07:24:32.012621
+Build Date UTC : 2016-11-29 11:54:10.698826
 -->
