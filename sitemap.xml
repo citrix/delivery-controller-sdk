@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>None/understanding-xendesktop-administration-model/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
      <loc>None/getting-started/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -29,25 +29,25 @@
         
     <url>
      <loc>None/creating-a-catalog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/creating-and-configuring-a-host/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/creating-a-pvd-desktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/getting-load-balancing-information/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -57,217 +57,217 @@
         
     <url>
      <loc>None/ADIdentity/about_Acct_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/about_AcctADIdentitySnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Add-AcctADAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Add-AcctIdentityPoolScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Copy-AcctIdentityPool/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctADAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctIdentityPool/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctScopedObject/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Get-AcctServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/New-AcctADAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/New-AcctIdentityPool/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Remove-AcctADAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Remove-AcctIdentityPool/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Remove-AcctIdentityPoolMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Remove-AcctIdentityPoolScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Remove-AcctServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Rename-AcctIdentityPool/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Repair-AcctADAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Reset-AcctEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Reset-AcctServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Set-AcctDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Set-AcctIdentityPool/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Set-AcctIdentityPoolMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Set-AcctServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Test-AcctDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Test-AcctIdentityPoolNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Unlock-AcctADAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Unlock-AcctIdentityPool/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ADIdentity/Update-AcctADAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -277,115 +277,115 @@
         
     <url>
      <loc>None/Analytics/about_Analytics_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/about_AnalyticsAnalyticsSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Get-AnalyticsSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Import-AnalyticsDataDefinition/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Remove-AnalyticsServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Reset-AnalyticsEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Reset-AnalyticsServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Set-AnalyticsDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Set-AnalyticsServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Set-AnalyticsSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Analytics/Test-AnalyticsDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -395,481 +395,481 @@
         
     <url>
      <loc>None/AppLibrary/about_AppLib_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/about_AppLibAppLibrarySnapin/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Add-AppLibAppDiskScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Add-AppLibIsolationGroupPackage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Add-AppLibTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Disable-AppLibAppDNAConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Enable-AppLibAppDNAConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDiskAppDNARecommendedOrder/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDiskAppDNAReport/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDiskAppDNAReportUrl/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDiskObjectReference/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDiskPreparationMachineStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDiskStartMenuIcon/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDiskStartMenuShortcut/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppDNAConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppVApplication/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppVApplicationInfo/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibAppVPackage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibIsolationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibIsolationGroupPackage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibLibrary/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibObjectReference/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibScopedObject/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibServiceConfigurationData/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Get-AppLibTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Import-AppLibAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Invoke-AppLibAppDiskDnaImport/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/New-AppLibAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/New-AppLibAppVAppPublishedEvent/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/New-AppLibAppVPackage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/New-AppLibAppVPackageRepositoryEvent/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/New-AppLibIsolationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibAppDiskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibAppDiskScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibAppDNAConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibAppVApplicationMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibAppVPackage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibAppVPackageMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibIsolationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibIsolationGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibIsolationGroupPackage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibLibraryMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibServiceConfigurationData/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Remove-AppLibTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Rename-AppLibAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Reset-AppLibEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Reset-AppLibServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibAppDiskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibAppDNAConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibAppVApplicationMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibAppVPackageMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibIsolationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibIsolationGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibIsolationGroupPackage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibLibraryMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibServiceConfigurationData/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Set-AppLibTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Start-AppLibAppDiskAnalysis/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Start-AppLibAppDiskSeal/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Stop-AppLibTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Test-AppLibAppDiskNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Test-AppLibAppDNAConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Test-AppLibAppDNAExistingConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Test-AppLibDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/AppLibrary/Unlock-AppLibAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -879,1663 +879,1663 @@
         
     <url>
      <loc>None/Broker/about_Broker_AccessPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_Applications/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_AssignmentPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_Concepts/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_ConfigurationSlots/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_ControllerDiscovery/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_Desktops/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_EntitlementPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_ErrorHandling/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_broker_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_Licensing/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_Machines/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_Policies/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_PostInstallPreConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_PowerManagement/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/about_Broker_RemotePC/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerApplication/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerApplicationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerDesktopGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerMachine/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerMachineConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerMachinesToDesktopGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerTag/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Add-BrokerUser/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Disconnect-BrokerSession/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Export-BrokerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Export-BrokerDesktopPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerAccessPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerAdminFolder/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerAppAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerAppEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerApplication/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerApplicationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerApplicationInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerCatalog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerConfigurationSlot/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerConfiguredFTA/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerConnectionLog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerController/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDelayedHostingPowerAction/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDesktopGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDesktopGroupAnalysisReport/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDesktopGroupAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerDesktopGroupAppDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerHostingPowerAction/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerHypervisorAlert/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerHypervisorConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerIcon/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerImportedFTA/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerInstalledDbVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerLease/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerMachine/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerMachineCommand/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerMachineConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerMachineStartMenuShortcutIcon/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerMachineStartMenuShortcutIcon/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerPowerTimeScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerPrivateDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerPrivateDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerRebootSchedule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerRebootScheduleV2/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerRemotePCAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerRemotePCAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerScopedObject/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerSessionLinger/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerSessionPreLaunch/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerSharedDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerTag/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerTagUsage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerUnconfiguredMachine/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerUser/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Get-BrokerUserZonePreference/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Group-BrokerDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Group-BrokerDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Group-BrokerSession/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Import-BrokerDesktopPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Move-BrokerAdminFolder/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Move-BrokerAdminFolder/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerAccessPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerAdminFolder/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerAppAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerAppEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerApplication/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerApplicationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerCatalog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerConfigurationSlot/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerConfiguredFTA/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerDelayedHostingPowerAction/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerDesktopGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerHostingPowerAction/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerHypervisorConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerIcon/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerImportDb/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerLocalDb/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerMachine/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerMachineCommand/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerMachineConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerPowerTimeScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerPowerTimeScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerPowerTimeScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerRemotePCAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerSessionLinger/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerSessionPreLaunch/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerTag/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerUser/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/New-BrokerUserZonePreference/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAccessPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAccessPolicyRuleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAdminFolder/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAdminFolderMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAppAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAppEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerApplication/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerApplicationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerApplicationGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerApplicationInstanceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerApplicationMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerCatalog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerCatalogMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerConfigurationSlot/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerConfigurationSlotMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerConfiguredFTA/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerControllerMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerDelayedHostingPowerAction/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerDesktopGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerDesktopGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerEntitlementPolicyRuleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerHostingPowerAction/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerHostingPowerActionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerHypervisorAlertMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerHypervisorConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerHypervisorConnectionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerIcon/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerIconMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerImportDb/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerImportedFTA/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerLease/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerLeaseMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerLocalDb/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerMachine/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerMachineCommand/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerMachineCommandMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerMachineConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerMachineConfigurationMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerMachineMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerPowerTimeScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerPowerTimeSchemeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerRebootCycleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerRebootSchedule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerRebootScheduleV2/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerRebootScheduleV2Metadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerRemotePCAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerSessionLinger/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerSessionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerSessionPreLaunch/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerSiteMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerTag/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerTagMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerUser/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Remove-BrokerUser/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerAccessPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerAdminFolder/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerAppAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerAppEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerApplication/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerApplicationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerCatalog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerDesktopGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerImportDb/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerMachineConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerPowerTimeScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerRebootScheduleV2/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Rename-BrokerTag/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Reset-BrokerEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Reset-BrokerLicensingConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Reset-BrokerServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Send-BrokerSessionMessage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerAccessPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerAccessPolicyRuleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerAdminFolderMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerAppAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerAppEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerApplication/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerApplicationGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerApplicationGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerApplicationInstanceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerApplicationMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerAssignmentPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerAssignmentPolicyRuleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerCatalog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerCatalogMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerControllerMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerDesktopGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerDesktopGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerEntitlementPolicyRule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerEntitlementPolicyRuleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerHostingPowerAction/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerHostingPowerActionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerHypervisorAlertMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerHypervisorConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerHypervisorConnectionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerIconMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerLeaseMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerMachine/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerMachineCatalog/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerMachineCommandMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerMachineConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerMachineConfigurationMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerMachineMaintenanceMode/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerMachineMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerPowerTimeScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerPowerTimeSchemeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerPrivateDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerRebootCycleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerRebootSchedule/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerRebootScheduleV2/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerRebootScheduleV2Metadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerRemotePCAccount/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerSession/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerSessionLinger/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerSessionLinger/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerSessionPreLaunch/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerSharedDesktop/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerTag/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerTagMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Set-BrokerUserZonePreference/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Start-BrokerCatalogAnalysis/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Start-BrokerCatalogPvdImagePrepare/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Start-BrokerDesktopGroupRebootCycle/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Start-BrokerMachinePvdImagePrepare/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Start-BrokerNaturalDesktopGroupRebootCycle/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Start-BrokerNaturalRebootCycle/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Start-BrokerNaturalRebootCycle/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Stop-BrokerRebootCycle/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Stop-BrokerSession/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerAccessPolicyRuleNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerAppAssignmentPolicyRuleNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerAppEntitlementPolicyRuleNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerApplicationGroupNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerApplicationNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerApplicationNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerCatalogNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerDesktopGroupNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerEntitlementPolicyRuleNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerLicenseServer/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerMachineNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerPowerTimeSchemeNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Test-BrokerPowerTimeSchemeNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Update-BrokerImportedFTA/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Update-BrokerLocalLeaseCache/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Broker/Update-BrokerNameCache/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -2545,355 +2545,355 @@
         
     <url>
      <loc>None/CentralConfig/about_Config_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/about_ConfigConfigurationSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Add-ConfigRegisteredServiceInstanceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Add-ConfigServiceGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Export-ConfigConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Export-ConfigFeatureTable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Export-ConfigFeatureTable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigEdgeServer/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigEnabledFeature/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigLicensingModel/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigLocalData/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigProduct/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigProductEdition/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigProductFeature/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigProductVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigRegisteredServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigServiceGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Get-ConfigZone/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Import-ConfigFeatureTable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/New-ConfigEdgeServer/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/New-ConfigZone/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Register-ConfigServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigEdgeServer/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigEdgeServerMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigRegisteredServiceInstanceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigServiceGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigServiceGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigSiteMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigSiteMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Remove-ConfigZoneMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Rename-ConfigEdgeServer/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Rename-ConfigZone/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Reset-ConfigEdgeServerList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Reset-ConfigEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Reset-ConfigServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigEdgeServer/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigEdgeServerMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigRegisteredServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigRegisteredServiceInstanceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigServiceGroupMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigSiteMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigZone/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Set-ConfigZoneMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Test-ConfigDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Test-ConfigServiceInstanceAvailability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/CentralConfig/Unregister-ConfigRegisteredServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -2903,181 +2903,181 @@
         
     <url>
      <loc>None/ConfigLogging/about_Log_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/about_LogConfigurationLoggingSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Export-LogReportCsv/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Export-LogReportHtml/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogDataStore/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogHighLevelOperation/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogLowLevelOperation/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Get-LogSummary/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Remove-LogOperation/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Remove-LogServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Remove-LogSiteMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Reset-LogDataStore/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Reset-LogEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Reset-LogServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Set-LogDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Set-LogServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Set-LogSite/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Set-LogSiteMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Start-LogHighLevelOperation/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Stop-LogHighLevelOperation/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/ConfigLogging/Test-LogDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -3087,289 +3087,289 @@
         
     <url>
      <loc>None/DelegatedAdmin/about_Admin_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/about_AdminDelegatedAdminSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Add-AdminPermission/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Add-AdminRight/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminAdministrator/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminEffectiveAdministrator/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminEffectiveRight/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminPermission/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminPermissionGroup/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminRevision/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminRole/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminRoleConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Get-AdminServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Import-AdminRoleConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/New-AdminAdministrator/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/New-AdminRole/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/New-AdminScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminAdministrator/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminAdministratorMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminPermission/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminRight/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminRole/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminRoleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminScopeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Remove-AdminServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Rename-AdminRole/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Rename-AdminScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Reset-AdminEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Reset-AdminServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminAdministrator/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminAdministratorMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminRole/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminRoleMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminScopeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Set-AdminServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Test-AdminAccess/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/DelegatedAdmin/Test-AdminDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -3379,169 +3379,169 @@
         
     <url>
      <loc>None/EnvTest/about_EnvTest_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/about_EnvTestEnvTestSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestDefinition/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestSuiteDefinition/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Get-EnvTestTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/New-EnvTestDiscoveryTargetDefinition/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Remove-EnvTestServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Remove-EnvTestTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Remove-EnvTestTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Reset-EnvTestEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Reset-EnvTestServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Set-EnvTestConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Set-EnvTestDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Set-EnvTestServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Set-EnvTestTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Start-EnvTestTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Stop-EnvTestTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Switch-EnvTestTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/EnvTest/Test-EnvTestDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -3551,337 +3551,337 @@
         
     <url>
      <loc>None/HostService/about_Hyp_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/about_HypHostSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/about_HypStorage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Add-HypHostingUnitMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Add-HypHostingUnitNetwork/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Add-HypHostingUnitStorage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Add-HypHypervisorConnectionAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Add-HypHypervisorConnectionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Add-HypHypervisorConnectionScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Add-HypMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypConfigurationDataForItem/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypConfigurationObjectForItem/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypConnectionRegion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypHypervisorPlugin/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypLocalizedString/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypScopedObject/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypVMMacAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypVolumeServiceConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Get-HypXenServerAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Grant-HypSecurityGroupEgress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Grant-HypSecurityGroupIngress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/New-HypStorage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/New-HypVMSnapshot/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypHostingUnitMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypHostingUnitNetwork/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypHostingUnitStorage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypHypervisorConnectionAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypHypervisorConnectionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypHypervisorConnectionScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Remove-HypServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Reset-HypEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Reset-HypServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Revoke-HypSecurityGroupEgress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Revoke-HypSecurityGroupIngress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Set-HypAdminConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Set-HypDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Set-HypHostingUnitMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Set-HypHostingUnitStorage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Set-HypHypervisorConnectionMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Set-HypServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Set-HypVolumeServiceConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Start-HypVM/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Stop-HypVM/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Test-HypDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Test-HypHostingUnitNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Test-HypHypervisorConnectionNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/HostService/Update-HypHypervisorConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -3891,313 +3891,313 @@
         
     <url>
      <loc>None/MachineCreation/about_Prov_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/about_ProvMachineCreationSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Add-ProvSchemeControllerAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Add-ProvSchemeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Add-ProvSchemeScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Add-ProvTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvObjectReference/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvSchemeMasterVMImageHistory/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvScopedObject/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvServiceConfigurationData/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvVirtualDisk/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvVirtualDiskPendingOperation/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Get-ProvVM/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Lock-ProvVM/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/New-ProvScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/New-ProvVM/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Publish-ProvMasterVMImage/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvSchemeControllerAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvSchemeMasterVMImageHistory/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvSchemeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvSchemeScope/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvServiceConfigurationData/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Remove-ProvVM/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Rename-ProvScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Reset-ProvEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Reset-ProvServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Set-ProvDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Set-ProvScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Set-ProvSchemeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Set-ProvSchemeMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Set-ProvServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Set-ProvTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Stop-ProvTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Switch-ProvTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Test-ProvDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Test-ProvSchemeNameAvailable/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Unlock-ProvScheme/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/MachineCreation/Unlock-ProvVM/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -4207,211 +4207,211 @@
         
     <url>
      <loc>None/Monitor/about_Monitor_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/about_MonitorMonitorSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Add-MonitorNotificationPolicyCondition/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Add-MonitorNotificationPolicyEmailAddresses/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Add-MonitorNotificationPolicyTargets/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorDataStore/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorNotificationEmailServerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorNotificationPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorNotificationSnmpServerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Get-MonitorServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/New-MonitorNotificationPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Remove-MonitorNotificationPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Remove-MonitorNotificationPolicyConditions/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Remove-MonitorNotificationPolicyEmailAddresses/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Remove-MonitorNotificationPolicyTargets/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Remove-MonitorServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Reset-MonitorDataStore/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Reset-MonitorEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Reset-MonitorServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Set-MonitorConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Set-MonitorDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Set-MonitorNotificationEmailServerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Set-MonitorNotificationPolicy/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Set-MonitorNotificationSnmpServerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Set-MonitorServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Test-MonitorDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Monitor/Test-MonitorNotificationEmailServerConfiguration/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -4421,109 +4421,109 @@
         
     <url>
      <loc>None/Orchestration/about_Orch_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/about_OrchOrchestrationSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Get-OrchServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Remove-OrchServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Reset-OrchEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Reset-OrchServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Set-OrchDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Set-OrchServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Start-OrchRestApi/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Stop-OrchRestApi/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/Orchestration/Test-OrchDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -4533,193 +4533,193 @@
         
     <url>
      <loc>None/StorefrontService/about_Sf_Filtering/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/about_SfStorefrontSnapIn/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Add-SfServerToCluster/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Add-SfStorefrontAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfCluster/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfDBSchema/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfDBVersionChangeScript/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfInstalledDBVersion/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfIsStorefrontInstalled/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfOptimalGateway/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfService/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfServiceAddedCapability/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfServiceInstance/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfServiceStatus/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfStorefrontAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Get-SfTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/New-SfCluster/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/New-SfStorefrontAddress/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Remove-SfOptimalGateway/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Remove-SfServerFromCluster/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Remove-SfServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Remove-SfTask/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Remove-SfTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Reset-SfEnabledFeatureList/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Reset-SfServiceGroupMembership/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Set-SfCluster/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Set-SfDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Set-SfOptimalGateway/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Set-SfServiceMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Set-SfTaskMetadata/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/StorefrontService/Test-SfDBConnection/</loc>
-     <lastmod>2016-11-29</lastmod>
+     <lastmod>2016-12-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
