@@ -17,17 +17,21 @@ h3, h4, h5, h6 {
  * https://github.com/mkdocs/mkdocs/issues/175
  */
 
-.expli{
+.expli , .expul{
     display: inline-table !important;
     padding-left: 5px !important;
     padding-right: 0px !important;
     padding-bottom: 0px !important;
 }
 .current{
-	display: inline-table !important;
 	padding-left:5px !important;
 }
-
+.expul i.fa{
+	padding-right:5px !important;
+}
+.subnav li.toctree-l1 {
+	display:none;
+}
 .wy-menu-vertical span {
     line-height: 18px;
     padding: 0.4045em 1.618em;
