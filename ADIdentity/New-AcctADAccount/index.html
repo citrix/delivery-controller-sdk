@@ -49,10 +49,11 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
 			<ul>
 			<!--	<li class="list-inline home"><a href="../..">HOME</a></li>
 				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
-			<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+				<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
             <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
-            class="searchdocs"><a class="fa fa-search errspan" onclick="getElementById('rtd-search-form').submit()"></a></li>
-			</form>
+            class="searchdocs">
+<a class="fa fa-search errspan"></a></li>
+</form>
 				<!--<li class="list-inline"><a href="http://citrix.com/download">DOWNLOADS</a></li>-->
 			</ul>
 
@@ -65,7 +66,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
       <div class="wy-side-nav-search">
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-	<a class="fa fa-search" onclick="getElementById('rtd-search-form').submit()"></a>
+	<i class="fa fa-search"></i>
     <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
@@ -98,6 +99,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Examples</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -133,6 +135,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ADIdentity</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -252,35 +255,32 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
         
             <ul style="display:none">
             
-				
+                <li class="toctree-l3"><a href="#syntax">Syntax</a></li>
+                
             
-				
+                <li class="toctree-l3"><a href="#detailed-description">Detailed Description</a></li>
+                
             
-				
+                <li class="toctree-l3"><a href="#related-commands">Related Commands</a></li>
+                
             
-				
+                <li class="toctree-l3"><a href="#parameters">Parameters</a></li>
+                
             
-				
+                <li class="toctree-l3"><a href="#input-type">Input Type</a></li>
+                
             
-				
-                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#return-values" style="display: inline-table;padding-left: 3px;width:240px;">Return Values</a></li>
-				<ul style="display:none">
+                <li class="toctree-l3"><a href="#return-values">Return Values</a></li>
                 
                     <li><a class="toctree-l4" href="#citrixadidentitysdkaccountoperationdetailedsummary-the-add-acctadaccount-returns-an-object-that-contains-the-following-parameters-successfulaccountscount-the-number-of-accounts-that-were-added-successfully-failedaccountscount-the-number-of-accounts-that-were-not-added-failedaccounts-the-list-of-accounts-that-failed-to-be-added-each-one-has-the-following-parameters-adaccountname-adaccountsid-errorreason-this-can-be-one-of-the-following-identityduplicateobjectexists-an-identity-with-the-same-sid-already-exists-adservicedatabaseerror-an-error-occurred-in-the-service-while-attempting-a-database-operation-adservicedatabasenotconfigured-the-operation-could-not-be-completed-because-the-database-for-the-service-is-not-configured-adservicestatusinvaliddb-an-error-occurred-in-the-service-while-attempting-a-database-operation-communication-with-the-database-failed-for-for-various-reasons-failedtoconnecttodomaincontroller-contacting-active-directory-failed-failedtogetorganizationunitinad-failed-to-access-the-ou-in-active-directory-failedtogetdefaultcomputercontainerinad-failed-to-access-the-default-computers-container-in-active-directory-failedtocreatecomputeraccountinad-failed-to-create-the-computer-account-in-active-directory-failedtoaccesscomputeraccountinad-failed-to-read-the-newly-created-computer-account-in-active-directory-failedtogetsidfromad-failed-to-get-the-sid-for-the-created-account-from-active-directory-failedtosetsamaccountnameinad-failed-to-set-the-sam-account-name-in-active-directory-for-the-account-created-failedtosetuseraccountcontrolinad-failed-to-set-the-user-account-controller-properties-for-the-account-created-in-active-directory-failedtosavechangeinad-failed-to-save-the-changes-made-to-the-created-computer-account-in-active-directory-failedtosetpasswordinad-failed-to-set-the-password-for-the-created-computer-account-in-active-directory-failedtoenableaccountinad-failed-to-enable-the-newly-created-computer-account-in-active-directory-computernamealreadyinuseinad-the-computer-name-for-the-computer-to-create-is-in-use-in-active-directory-failedtogetdistinguishednameinad-failed-to-get-the-distinguished-name-for-the-created-computer-account-in-activedirectory-failedtosetdnshostnameinad-failed-to-set-the-dns-host-name-property-for-the-created-computer-account-in-activedirectory-failedtosetdisplaynameinad-failed-to-set-the-displayname-property-for-the-created-computer-account-in-activedirectory-failedtowriteserviceprincipalnameinad-failed-to-set-the-serviceprincipalname-property-for-the-created-computer-account-in-activedirectory-diagnosticinformtion-any-other-error-information-successfulaccounts-the-list-of-accounts-that-were-successfully-added-each-object-provides-details-of-the-identity-and-contains-the-following-information-adaccountsid-the-sid-of-the-identity-adaccountname-the-account-name-for-the-identity-domain-the-domain-name-that-the-account-was-created-in-state-the-current-state-of-the-ad-account-this-can-be-one-of-the-following-error-the-account-is-locked-or-disabled-in-ad-available-the-account-is-in-ad-and-available-to-be-consumed-by-the-other-machine-creation-services-inuse-the-account-is-in-ad-and-is-being-consumed-by-the-other-machine-creation-services-tainted-the-account-is-in-ad-and-no-longer-consumed-by-other-machine-creation-services-however-the-password-is-no-longer-known-so-cannot-be-reused-without-repairing-the-account-see-repair-acctadaccount-for-details-lock-indicates-if-the-identity-pool-is-locked">Citrix.ADIdentity.Sdk.AccountOperationDetailedSummary          The Add-AcctADAccount returns an object that contains the following parameters;          SuccessfulAccountsCount             The number of accounts that were added successfully          FailedAccountsCount             The number of accounts that were not added.          FailedAccounts             The list of accounts that failed to be added.  Each one has the following parameters;            ADAccountName             ADAccountSid             ErrorReason             This can be one of the following              IdentityDuplicateObjectExists                An identity with the same SID already exists.              ADServiceDatabaseError                  An error occurred in the service while attempting a database operation.              ADServiceDatabaseNotConfigured                  The operation could not be completed because the database for the service is not configured.              ADServiceStatusInvalidDb                  An error occurred in the service while attempting a database operation - communication with the database failed for                  for various reasons.              FailedToConnectToDomainController                Contacting Active Directory failed.              FailedToGetOrganizationUnitInAD                Failed to access the OU in Active Directory.              FailedToGetDefaultComputerContainerInAD                Failed to access the default computers container in Active Directory.              FailedToCreateComputerAccountInAD                Failed to create the computer account in Active Directory.              FailedToAccessComputerAccountInAD                Failed to read the newly created computer account in Active Directory.              FailedToGetSidFromAD                Failed to get the SID for the created account from Active Directory.              FailedToSetSamAccountNameInAD                Failed to set the SAM account name in Active Directory for the account created.              FailedToSetUserAccountControlInAD                Failed to set the user account controller properties for the account created in Active Directory.              FailedToSaveChangeInAD                Failed to save the changes made to the created computer account in Active Directory.              FailedToSetPasswordInAD                Failed to set the password for the created computer account in Active Directory.              FailedToEnableAccountInAD                Failed to enable the newly created computer account in Active Directory.              ComputerNameAlreadyInUseInAD                The computer name for the computer to create is in use in Active Directory.              FailedToGetDistinguishedNameInAD                Failed to get the distinguished name for the created computer account in ActiveDirectory.              FailedToSetDnsHostNameInAD                Failed to set the Dns Host Name property for the created computer account in ActiveDirectory.              FailedToSetDisplayNameInAD                Failed to set the DisplayName property for the created computer account in ActiveDirectory.              FailedToWriteServicePrincipalNameInAD                Failed to set the ServicePrincipalName property for the created computer account in ActiveDirectory.            DiagnosticInformtion               Any other error information          SuccessfulAccounts             The list of accounts that were successfully added.  Each object            provides details of the identity and contains the following information:            ADAccountSID                 The Sid of the identity.            ADAccountName                       The account name for the identity.                      Domain                 The domain name that the account was created in.            State                 The current state of the AD account. This can be one of the following:                Error                   The account is locked or disabled in AD.                Available                   The account is in AD and available to be consumed by the other Machine Creation Services.                InUse                   The account is in AD and is being consumed by the other Machine Creation Services.                Tainted                   The account is in AD and no longer consumed by other Machine Creation Services. However, the password is no longer known so cannot be reused without 'Repairing' the account.  See repair-AcctADAccount for details.            Lock                 Indicates if the identity pool is locked.</a></li>
                 
-				</ul>
-				
             
-				
-                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#examples" style="display: inline-table;padding-left: 3px;width:240px;">Examples</a></li>
-				<ul style="display:none">
+                <li class="toctree-l3"><a href="#examples">Examples</a></li>
                 
                     <li><a class="toctree-l4" href="#example-1">EXAMPLE 1</a></li>
                 
                     <li><a class="toctree-l4" href="#example-2">EXAMPLE 2</a></li>
                 
-				</ul>
-				
             
             </ul>
         
@@ -426,6 +426,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Analytics</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -566,6 +567,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>AppLibrary</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -1133,6 +1135,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Broker</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -3079,6 +3082,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>CentralConfig</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -3499,6 +3503,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ConfigLogging</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -3716,6 +3721,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>DelegatedAdmin</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -4059,6 +4065,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>EnvTest</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -4262,6 +4269,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>HostService</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -4661,6 +4669,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>MachineCreation</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -5032,6 +5041,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Monitor</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -5284,6 +5294,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Orchestration</span></li>
+
         
             
     <li class="toctree-l1 ">
@@ -5417,6 +5428,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>StorefrontService</span></li>
+
         
             
     <li class="toctree-l1 ">
