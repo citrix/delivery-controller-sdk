@@ -49,11 +49,10 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
 			<ul>
 			<!--	<li class="list-inline home"><a href="../..">HOME</a></li>
 				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
-				<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+			<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
             <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
-            class="searchdocs">
-<a class="fa fa-search errspan"></a></li>
-</form>
+            class="searchdocs"><a class="fa fa-search errspan" onclick="getElementById('rtd-search-form').submit()"></a></li>
+			</form>
 				<!--<li class="list-inline"><a href="http://citrix.com/download">DOWNLOADS</a></li>-->
 			</ul>
 
@@ -66,7 +65,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
       <div class="wy-side-nav-search">
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-	<i class="fa fa-search"></i>
+	<a class="fa fa-search" onclick="getElementById('rtd-search-form').submit()"></a>
     <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
@@ -99,7 +98,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Examples</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -135,7 +133,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ADIdentity</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -395,7 +392,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Analytics</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -536,7 +532,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>AppLibrary</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -1104,7 +1099,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Broker</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3051,7 +3045,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>CentralConfig</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3472,7 +3465,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ConfigLogging</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3690,7 +3682,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>DelegatedAdmin</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4034,7 +4025,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>EnvTest</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4238,7 +4228,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>HostService</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4638,7 +4627,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>MachineCreation</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4821,27 +4809,28 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
         
             <ul style="display:none">
             
-                <li class="toctree-l3"><a href="#syntax">Syntax</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#detailed-description">Detailed Description</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#related-commands">Related Commands</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#parameters">Parameters</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#input-type">Input Type</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#return-values">Return Values</a></li>
+				
+                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#return-values" style="display: inline-table;padding-left: 3px;width:240px;">Return Values</a></li>
+				<ul style="display:none">
                 
                     <li><a class="toctree-l4" href="#systemguid-when-the-runasynchronously-identifier-is-specified-this-guid-is-returned-and-provides-the-task-identifiersystemmanagementautomationpscustomobject-this-object-provides-details-of-the-task-that-was-run-and-contains-the-following-information-taskid-the-identifier-for-the-task-that-was-performed-active-indicates-whether-the-task-is-still-processing-or-is-complete-host-the-name-of-the-host-on-which-the-task-is-running-or-was-run-datestarted-the-date-and-time-that-the-task-was-initiated-type-the-type-of-task-for-newly-provisioned-vm-tasks-this-is-always-newvirtualmachine-metadata-the-list-of-metadata-stored-against-the-task-for-new-tasks-this-is-empty-until-metadata-is-added-workflowstatus-indicates-the-status-of-the-workflow-that-is-used-to-process-the-task-provisioningschemename-the-name-of-the-provisioning-scheme-that-the-task-was-for-provisioningschemeuid-the-unique-identifier-of-the-provisioning-scheme-that-the-task-was-for-masterimage-the-path-in-the-hosting-unit-provider-of-the-virtual-machine-snapshot-that-was-used-as-the-master-image-for-the-task-identitypoolname-the-name-of-the-identity-pool-from-the-adidentity-powershell-snap-in-that-the-new-provisioning-scheme-uses-identitypooluid-the-unique-identifier-name-of-the-identity-pool-from-the-adidentity-powershell-snap-in-that-the-new-provisioning-scheme-uses-hostingunitname-the-name-of-the-hosting-unit-from-the-hosting-unit-powershell-snap-in-that-the-new-provisioning-scheme-uses-hostingunituid-the-unique-identifier-of-the-hosting-unit-from-the-hosting-unit-powershell-snap-in-that-the-new-provisioning-scheme-uses-taskstate-the-state-of-the-task-this-can-be-any-of-the-following-processing-indicates-that-the-task-is-in-its-initial-state-locatingresources-indicates-that-the-task-is-locating-information-from-other-services-hostingunitnotfound-indicates-that-the-required-hosting-unit-could-not-be-located-provisioningschemenotfound-indicates-that-the-required-provisioning-scheme-could-not-be-located-provisioning-indicates-that-the-task-is-at-the-provisioning-stage-identitypoolnotfound-indicates-that-the-required-identity-pool-could-not-be-located-taskalreadyrunningforprovisioningscheme-indicates-that-the-provisioning-scheme-already-has-another-task-running-hypervisorinmaintenancemode-indicates-that-the-hypervisor-is-not-available-for-normal-use-noavailablestorage-indicates-that-no-storage-is-available-for-the-hypervisor-noavailablenetwork-indicates-that-no-network-is-available-for-the-hypervisor-finalizing-indicates-that-the-task-is-finalizing-finished-indicates-that-the-task-is-complete-finishedwitherrors-indicates-that-the-task-is-complete-but-there-were-errors-specific-details-of-errors-are-included-with-each-failed-virtual-machine-removing-indicates-that-the-task-is-removing-virtual-machines-from-the-hypervisor-failed-the-job-failed-for-reasons-specified-in-taskstateinformation-canceled-indicates-that-the-task-was-stopped-by-user-intervention-using-stop-provtask-taskstateinformation-provides-more-detailed-information-about-the-current-task-state-virtualmachinestocreatecount-the-total-number-of-virtual-machines-that-the-task-is-trying-to-create-virtualmachinescreatedcount-the-number-of-virtual-machines-that-the-task-has-created-so-far-details-of-the-machines-that-were-created-are-in-the-createdvirtualmachines-parameter-virtualmachinescreationfailedcount-the-number-of-virtual-machines-that-the-task-has-failed-to-create-details-of-the-machines-that-were-not-created-are-in-the-failedvirtualmachines-parameter-failedvirtualmachines-adaccountname-the-domain-qualified-ad-account-name-of-the-machine-adaccountsid-the-ad-account-sid-of-the-machine-account-diagnosticinformation-a-collection-of-handled-error-states-which-caused-the-provisioning-to-fail-exceptiontype-the-type-of-exception-this-object-represents-message-the-exception-message-details-the-full-exception-content-including-stack-trace-innerexception-information-relating-to-any-contributing-error-state-status-statusadditionalinformation-vmid-the-virtual-machine-identifier-within-the-hypervisor-in-which-the-vm-resides-vmname-the-display-name-of-the-virtual-machine-within-the-hypervisor-in-which-the-vm-resides-createdvirtualmachines-see-failedvirtualmachines-for-details-of-the-object-parameters">System.Guid    When the RunAsynchronously identifier is specified, this GUID is returned and provides the task identifier.System.Management.Automation.PSCustomObject    This object provides details of the task that was run and contains the following information:        TaskId             The identifier for the task that was performed.        Active             Indicates whether the task is still processing or is complete.        Host             The name of the host on which the task is running or was run.        DateStarted             The date and time that the task was initiated.        Type             The type of task. For newly provisioned VM tasks, this is always "NewVirtualMachine".        Metadata             The list of metadata stored against the task. For new tasks this is empty until metadata is added.        WorkflowStatus             Indicates the status of the workflow that is used to process the task.        ProvisioningSchemeName             The name of the provisioning scheme that the task was for.        ProvisioningSchemeUid             The unique identifier of the provisioning scheme that the task was for.        MasterImage             The path (in the hosting unit provider) of the virtual machine snapshot that was used as the master image for the task.        IdentityPoolName             The name of the identity pool (from the ADIdentity PowerShell snap-in) that the new provisioning scheme uses.        IdentityPoolUid             The unique identifier name of the identity pool (from the ADIdentity PowerShell snap-in) that the new provisioning scheme uses.        HostingUnitName             The name of the hosting unit (from the Hosting Unit PowerShell snap-in) that the new provisioning scheme uses.        HostingUnitUid            The unique identifier of the hosting unit (from the Hosting Unit PowerShell snap-in) that the new provisioning scheme uses.        TaskState             The state of the task.  This can be any of the following:            Processing                Indicates that the task is in its initial state.            LocatingResources,                Indicates that the task is locating information from other services.            HostingUnitNotFound                Indicates that the required hosting unit could not be located.            ProvisioningSchemeNotFound                Indicates that the required provisioning scheme could not be located.            Provisioning                Indicates that the task is at the provisioning stage.            IdentityPoolNotFound                Indicates that the required identity pool could not be located.            TaskAlreadyRunningForProvisioningScheme                Indicates that the provisioning scheme already has another task running.            HypervisorInMaintenanceMode                Indicates that the hypervisor is not available for normal use.            NoAvailableStorage                Indicates that no storage is available for the hypervisor.            NoAvailableNetwork                Indicates that no network is available for the hypervisor.            Finalizing                Indicates that the task is finalizing.            Finished                Indicates that the task is complete.            FinishedWithErrors                Indicates that the task is complete but there were errors. Specific details of errors are included with each failed virtual machine.            Removing                Indicates that the task is removing virtual machines from the hypervisor.            Failed                The job failed for reasons specified in TaskStateInformation.            Canceled                Indicates that the task was stopped by user intervention (using Stop-ProvTask).        TaskStateInformation            Provides more detailed information about the current task state.        VirtualMachinesToCreateCount             The total number of virtual machines that the task is trying to create.        VirtualMachinesCreatedCount             The number of virtual machines that the task has created so far. Details of the machines that were created are in the CreatedVirtualMachines parameter.        VirtualMachinesCreationFailedCount             The number of virtual machines that the task has failed to create. Details of the machines that were not created are in the FailedVirtualMachines parameter.        FailedVirtualMachines             ADAccountName                 The domain qualified AD Account name of the machine.            ADAccountSid                 The AD account SID of the machine account.            DiagnosticInformation                 A collection of handled error states which caused the provisioning to fail.                    ExceptionType                       The type of exception this object represents                    Message                        The exception message                    Details                        The full exception content including stack trace                    InnerException                       Information relating to any contributing error state            Status             StatusAdditionalInformation             VMId                 The virtual machine identifier within the hypervisor in which the VM resides.            VMName                 The display name of the virtual machine within the hypervisor in which the VM resides.        CreatedVirtualMachines             See FailedVirtualMachines for details of the object parameters.</a></li>
                 
+				</ul>
+				
             
-                <li class="toctree-l3"><a href="#examples">Examples</a></li>
+				
+                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#examples" style="display: inline-table;padding-left: 3px;width:240px;">Examples</a></li>
+				<ul style="display:none">
                 
                     <li><a class="toctree-l4" href="#example-1">EXAMPLE 1</a></li>
                 
@@ -4849,6 +4838,8 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
                 
                     <li><a class="toctree-l4" href="#example-3">EXAMPLE 3</a></li>
                 
+				</ul>
+				
             
             </ul>
         
@@ -5043,7 +5034,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Monitor</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5296,7 +5286,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Orchestration</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5430,7 +5419,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>StorefrontService</span></li>
-
         
             
     <li class="toctree-l1 ">

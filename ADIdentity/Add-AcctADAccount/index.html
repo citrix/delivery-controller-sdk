@@ -49,11 +49,10 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
 			<ul>
 			<!--	<li class="list-inline home"><a href="../..">HOME</a></li>
 				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
-				<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+			<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
             <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
-            class="searchdocs">
-<a class="fa fa-search errspan"></a></li>
-</form>
+            class="searchdocs"><a class="fa fa-search errspan" onclick="getElementById('rtd-search-form').submit()"></a></li>
+			</form>
 				<!--<li class="list-inline"><a href="http://citrix.com/download">DOWNLOADS</a></li>-->
 			</ul>
 
@@ -66,7 +65,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
       <div class="wy-side-nav-search">
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-	<i class="fa fa-search"></i>
+	<a class="fa fa-search" onclick="getElementById('rtd-search-form').submit()"></a>
     <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
@@ -99,7 +98,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Examples</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -135,7 +133,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ADIdentity</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -157,30 +154,33 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
         
             <ul style="display:none">
             
-                <li class="toctree-l3"><a href="#syntax">Syntax</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#detailed-description">Detailed Description</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#related-commands">Related Commands</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#parameters">Parameters</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#input-type">Input Type</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#return-values">Return Values</a></li>
+				
+                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#return-values" style="display: inline-table;padding-left: 3px;width:240px;">Return Values</a></li>
+				<ul style="display:none">
                 
                     <li><a class="toctree-l4" href="#citrixadidentitysdkaccountoperationdetailedsummary-the-add-acctadaccount-returns-an-object-that-contains-the-following-parameters-successfulaccountscount-the-number-of-accounts-that-were-added-successfully-failedaccountscount-the-number-of-accounts-that-were-not-added-failedaccounts-the-list-of-accounts-that-failed-to-be-added-each-one-has-the-following-properties-adaccountname-adaccountsid-errorreason-this-can-be-one-of-the-following-unabletoconvertdomain-unabletoaccessaccountproperties-identitynotlocatedindomain-unabletoaccessaccountproperties-identityduplicateobjectexists-identityobjectlocked-identityobjectinuse-failedtoconnecttodomaincontroller-failedtoexecutesearchinad-failedtoaccesscomputeraccountinad-failedtosetpasswordinad-failedtochangepasswordinad-adservicedatabaseerror-adservicedatabasenotconfigured-adservicestatusinvaliddb-diagnosticinformtion-any-other-error-information-successfulaccounts-the-list-of-accounts-that-were-successfully-added-each-one-has-the-following-properties-adaccountsid-the-ad-account-sid-for-the-imported-account-adaccountname-the-ad-account-name-for-the-imported-account-domain-the-domain-for-the-imported-account-state-the-state-for-the-account-this-can-be-available-the-account-is-not-used-inuse-the-account-is-in-use-error-the-account-is-in-error-ie-the-account-is-locked-or-disabled-in-ad-tainted-the-account-is-no-longer-used-but-the-password-is-no-longer-known-lock-the-account-is-locked-in-the-database-not-in-ad">Citrix.ADIdentity.Sdk.AccountOperationDetailedSummary            The Add-AcctADAccount returns an object that contains the following parameters;          SuccessfulAccountsCount             The number of accounts that were added successfully          FailedAccountsCount             The number of accounts that were not added.          FailedAccounts             The list of accounts that failed to be added.  Each one has the following properties;              ADAccountName               ADAccountSid             ErrorReason               This can be one of the following                  UnableToConvertDomain                  UnableToAccessAccountProperties                  IdentityNotLocatedInDomain                  UnableToAccessAccountProperties                  IdentityDuplicateObjectExists                  IdentityObjectLocked                  IdentityObjectInUse                  FailedToConnectToDomainController                  FailedToExecuteSearchInAD                  FailedToAccessComputerAccountInAD                  FailedToSetPasswordInAD                  FailedToChangePasswordInAD                  ADServiceDatabaseError                  ADServiceDatabaseNotConfigured                  ADServiceStatusInvalidDb            DiagnosticInformtion                 Any other error information          SuccessfulAccounts             The list of accounts that were successfully added.  Each one has the following properties;            ADAccountSid               The AD account SID for the imported account.            ADAccountName               The AD account name for the imported account.            Domain               The domain for the imported account.            State               The state for the account. This can be;                Available                    The account is not used.                InUse                    The account is in use.                Error                    The account is in error (i.e. the account is locked or disabled in AD).                Tainted                     The account is no longer used, but the password is no longer known.            Lock               The account is locked (in the database not in AD).</a></li>
                 
+				</ul>
+				
             
-                <li class="toctree-l3"><a href="#examples">Examples</a></li>
+				
+                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#examples" style="display: inline-table;padding-left: 3px;width:240px;">Examples</a></li>
+				<ul style="display:none">
                 
                     <li><a class="toctree-l4" href="#example-1">EXAMPLE 1</a></li>
                 
+				</ul>
+				
             
             </ul>
         
@@ -424,7 +424,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Analytics</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -565,7 +564,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>AppLibrary</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -1133,7 +1131,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Broker</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3080,7 +3077,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>CentralConfig</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3501,7 +3497,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ConfigLogging</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3719,7 +3714,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>DelegatedAdmin</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4063,7 +4057,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>EnvTest</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4267,7 +4260,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>HostService</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4667,7 +4659,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>MachineCreation</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5039,7 +5030,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Monitor</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5292,7 +5282,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Orchestration</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5426,7 +5415,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>StorefrontService</span></li>
-
         
             
     <li class="toctree-l1 ">

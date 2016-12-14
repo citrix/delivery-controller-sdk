@@ -49,11 +49,10 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
 			<ul>
 			<!--	<li class="list-inline home"><a href="../..">HOME</a></li>
 				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
-				<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+			<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
             <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
-            class="searchdocs">
-<a class="fa fa-search errspan"></a></li>
-</form>
+            class="searchdocs"><a class="fa fa-search errspan" onclick="getElementById('rtd-search-form').submit()"></a></li>
+			</form>
 				<!--<li class="list-inline"><a href="http://citrix.com/download">DOWNLOADS</a></li>-->
 			</ul>
 
@@ -66,7 +65,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
       <div class="wy-side-nav-search">
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-	<i class="fa fa-search"></i>
+	<a class="fa fa-search" onclick="getElementById('rtd-search-form').submit()"></a>
     <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
@@ -99,7 +98,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Examples</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -135,7 +133,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ADIdentity</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -395,7 +392,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Analytics</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -536,7 +532,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>AppLibrary</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -1104,7 +1099,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Broker</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3051,7 +3045,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>CentralConfig</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3472,7 +3465,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ConfigLogging</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3690,7 +3682,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>DelegatedAdmin</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4034,7 +4025,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>EnvTest</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4238,7 +4228,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>HostService</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4638,7 +4627,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>MachineCreation</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4800,32 +4788,35 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
         
             <ul style="display:none">
             
-                <li class="toctree-l3"><a href="#syntax">Syntax</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#detailed-description">Detailed Description</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#related-commands">Related Commands</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#parameters">Parameters</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#input-type">Input Type</a></li>
-                
+				
             
-                <li class="toctree-l3"><a href="#return-values">Return Values</a></li>
+				
+                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#return-values" style="display: inline-table;padding-left: 3px;width:240px;">Return Values</a></li>
+				<ul style="display:none">
                 
                     <li><a class="toctree-l4" href="#citrixmachinecreationsdkprovisionedvirtualmachine-the-object-has-the-following-properties-adaccountsid-the-sid-of-the-ad-computer-account-that-the-vm-is-using-adaccountname-the-name-of-the-ad-computer-account-that-the-vm-is-using-cpucount-the-number-of-processors-that-the-vm-has-been-allocated-creationdate-the-date-and-time-that-the-vm-was-created-domain-the-domain-of-the-ad-computer-account-that-the-vm-is-using-imageoutofdate-indicates-if-the-image-will-be-updated-next-time-the-vm-is-started-lock-indicates-whether-the-vm-is-locked-or-not-memorymb-the-maximum-amount-of-memory-that-vms-will-be-created-with-when-using-this-scheme-provisioningschemename-the-name-of-the-provisioning-scheme-that-the-vm-is-part-of-provisioningschemeuid-the-unique-identifier-for-the-provisioning-scheme-that-the-vm-is-part-of-tag-provides-the-string-associated-with-a-locked-vm-vmid-the-identifier-for-the-vm-hypervisor-context-vmname-the-name-of-the-vm-hypervisor-context-assignedimage-the-identifier-in-the-hypervisor-for-the-hard-disk-image-that-the-vm-is-currently-assigned-bootedimage-the-identifier-in-the-hypervisor-for-the-hard-disk-image-with-which-the-vm-is-currently-started-hostingunituid-the-unique-identifier-for-the-hosting-unit-that-was-used-to-create-the-vm-hypervisorconnectionuid-the-unique-identifier-of-the-hypervisor-connection-that-was-used-to-create-the-vm-lastboottime-the-date-and-time-of-the-last-start-of-the-vm-osdiskindex-the-disk-index-at-which-the-hard-disk-image-from-which-the-vm-is-currently-started-is-attached-or-intminvalue-for-vms-inherited-from-versions-of-xendesktop-before-56-personalvdiskindex-the-disk-index-at-which-the-personal-vdisk-is-attached-defaults-to-intminvalue-for-vms-without-a-personal-vdisk-personalvdiskstorage-the-identifier-in-the-hypervisor-for-the-storage-on-which-the-personal-virtual-disk-image-from-which-the-vm-is-currently-started-is-located-this-is-set-only-if-the-vm-has-a-personal-vdisk-attached-storageid-the-identifier-in-the-hypervisor-for-the-storage-on-which-the-hard-disk-image-from-which-the-vm-is-currently-started-is-located">Citrix.MachineCreation.Sdk.ProvisionedVirtualMachine   The object has the following properties:   ADAccountSid        The SID of the AD computer account that the VM is using.   ADAccountName        The name of the AD computer account that the VM is using.   CpuCount        The number of processors that the VM has been allocated.   CreationDate        The date and time that the VM was created.   Domain        The Domain of the AD computer account that the VM is using.   ImageOutOfDate        Indicates if the image will be updated next time the VM is started.   Lock        Indicates whether the VM is locked or not.   MemoryMB        The maximum amount of memory that VMs will be created with when using this scheme.   ProvisioningSchemeName        The name of the provisioning scheme that the VM is part of.   ProvisioningSchemeUid        The unique identifier for the provisioning scheme that the VM is part of.   Tag        Provides the string associated with a locked VM.   VMId        The identifier for the VM (hypervisor context).   VMName        The name of the VM (hypervisor context).   AssignedImage        The identifier (in the hypervisor) for the hard disk image that the VM is currently assigned.   BootedImage        The identifier (in the hypervisor) for the hard disk image with which the VM is currently started.   HostingUnitUid        The unique identifier for the hosting unit that was used to create the VM.   HypervisorConnectionUid        The unique identifier of the hypervisor connection that was used to create the VM.   LastBootTime        The date and time of the last start of the VM.   OSDiskIndex        The disk index at which the hard disk image, from which the VM is currently started, is attached (or [int]::MinValue for VMs inherited from versions of XenDesktop before 5.6)   PersonalVDiskIndex        The disk index at which the personal vdisk is attached (defaults to [int]::MinValue for VMs without a personal vdisk)   PersonalVDiskStorage        The identifier (in the hypervisor) for the storage on which the personal virtual disk image from which the VM is currently started is located.  This is set only if the VM has a personal vDisk attached   StorageId        The identifier (in the hypervisor) for the storage on which the hard disk image, from which the VM is currently started, is located.</a></li>
                 
+				</ul>
+				
             
-                <li class="toctree-l3"><a href="#examples">Examples</a></li>
+				
+                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#examples" style="display: inline-table;padding-left: 3px;width:240px;">Examples</a></li>
+				<ul style="display:none">
                 
                     <li><a class="toctree-l4" href="#example-1">EXAMPLE 1</a></li>
                 
                     <li><a class="toctree-l4" href="#example-2">EXAMPLE 2</a></li>
                 
+				</ul>
+				
             
             </ul>
         
@@ -5041,7 +5032,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Monitor</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5294,7 +5284,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Orchestration</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5428,7 +5417,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>StorefrontService</span></li>
-
         
             
     <li class="toctree-l1 ">

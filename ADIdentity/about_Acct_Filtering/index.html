@@ -49,11 +49,10 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
 			<ul>
 			<!--	<li class="list-inline home"><a href="../..">HOME</a></li>
 				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
-				<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+			<form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
             <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
-            class="searchdocs">
-<a class="fa fa-search errspan"></a></li>
-</form>
+            class="searchdocs"><a class="fa fa-search errspan" onclick="getElementById('rtd-search-form').submit()"></a></li>
+			</form>
 				<!--<li class="list-inline"><a href="http://citrix.com/download">DOWNLOADS</a></li>-->
 			</ul>
 
@@ -66,7 +65,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
       <div class="wy-side-nav-search">
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-	<i class="fa fa-search"></i>
+	<a class="fa fa-search" onclick="getElementById('rtd-search-form').submit()"></a>
     <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
@@ -99,7 +98,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Examples</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -135,7 +133,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ADIdentity</span></li>
-
         
             
     <li class="toctree-l1 current">
@@ -143,7 +140,9 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
         
             <ul style="display:none">
             
-                <li class="toctree-l3"><a href="#about_acct_filtering">about_Acct_Filtering</a></li>
+				
+                <li class="toctree-l3"><span class="expcli" style="margin-left: 10px;"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a href="#about_acct_filtering" style="display: inline-table;padding-left: 3px;width:240px;">about_Acct_Filtering</a></li>
+				<ul style="display:none">
                 
                     <li><a class="toctree-l4" href="#topic">TOPIC</a></li>
                 
@@ -155,6 +154,8 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
                 
                     <li><a class="toctree-l4" href="#filter-syntax-definition">FILTER SYNTAX DEFINITION</a></li>
                 
+				</ul>
+				
             
             </ul>
         
@@ -412,7 +413,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Analytics</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -553,7 +553,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>AppLibrary</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -1121,7 +1120,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Broker</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3068,7 +3066,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>CentralConfig</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3489,7 +3486,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>ConfigLogging</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -3707,7 +3703,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>DelegatedAdmin</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4051,7 +4046,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>EnvTest</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4255,7 +4249,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>HostService</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -4655,7 +4648,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>MachineCreation</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5027,7 +5019,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Monitor</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5280,7 +5271,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Orchestration</span></li>
-
         
             
     <li class="toctree-l1 ">
@@ -5414,7 +5404,6 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
             <li>
     <ul class="subnav">
     <li><span class="expul"><i class="fa fa-plus-square-o" aria-hidden="true"></i>StorefrontService</span></li>
-
         
             
     <li class="toctree-l1 ">
