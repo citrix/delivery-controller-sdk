@@ -231,7 +231,7 @@ The session defines:
 
 -   The list of brokered applications executing in the session.
 
-The session SDK objec also provides information from the related machine, Delivery Group an Catalog SDK objects. This information includes identity information, basic configuration and status information.
+The session SDK object also provides information from the related machine, Delivery Group and Catalog SDK objects. This information includes identity information, basic configuration and status information.
 
  **Controller**
 
