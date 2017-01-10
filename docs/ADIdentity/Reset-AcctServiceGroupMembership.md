@@ -1,4 +1,4 @@
-﻿# Reset-AcctServiceGroupMembership
+# Reset-AcctServiceGroupMembership
 
    Reloads the access permissions and configuration service locations for the ADIdentity Service.
 
@@ -37,4 +37,4 @@ c:\PS>Get-ConfigRegisteredServiceInstance -ServiceType Config | Reset-AcctServic
 ```
 c:\PS>Get-ConfigRegisterdServiceInstance -ServiceType Config -AdminAddress OtherServer.example.com | Reset-AcctServiceGroupmembership
 ```
-   Description<br>-----------<br>Reset the service group membership for a service in a deployment where the configuration service that is configured and running on a machine named 'OtherServer.example.com'.
+   Description<br>-----------<br>Reset the service group membership for a service in a deployment where the configuration service is configured and running on a machine named 'OtherServer.example.com'.
