@@ -1,4 +1,4 @@
-﻿# about_AnalyticsAnalyticsSnapIn
+# about_AnalyticsAnalyticsSnapIn
 ## TOPIC
     about_AnalyticsAnalyticsSnapin 
 
@@ -19,7 +19,7 @@
     the collection data points file, and query the current status of the Analytics database 
     configuration and service. 
 
-    For more information on the Analytics Service, see the help top about Analytics Service. 
+    For more information on the Analytics Service, see the help topic about Analytics Service. 
 
     Use the command 'Get-Command -Module Citrix.Analytics.Admin.V1' to see a complete list of 
     commands supported by this snap-in. 
