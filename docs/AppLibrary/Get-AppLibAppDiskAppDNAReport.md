@@ -1,6 +1,6 @@
 ﻿# Get-AppLibAppDiskAppDNAReport
 
-   Gets the AppDNA compatibility report an AppDisk.
+   Gets the AppDNA compatibility report for an AppDisk.
 
 ## Syntax
 ```
