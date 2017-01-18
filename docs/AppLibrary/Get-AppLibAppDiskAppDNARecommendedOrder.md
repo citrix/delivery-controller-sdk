@@ -46,4 +46,4 @@ $DesktopGroup = Get-BrokerDesktopGroup -Name "My Group"
             E7CA2FA1-0DD3-417E-99E7-2BC312E8E359
             FDA1DCF4-8538-4455-9B91-D45E5C668F17
 ```
-   Description<br>-----------<br>Finds the disks belonging to the desktop group named "My group" and finds the best order in which to reaply these to minimise layering conflics.
+   Description<br>-----------<br>Finds the disks belonging to the desktop group named "My group" and finds the best order in which to reapply these to minimize layering conflicts.
