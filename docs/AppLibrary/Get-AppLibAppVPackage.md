@@ -34,7 +34,7 @@ Get-AppLibAppVPackage [[-Uid] <Int32>] [-Name <String>] [-LibraryUid <Int32>] [-
 ## Return Values
 ### Citrix.AppLibrary.Sdk.AppVPackage
    An object representing the details needed to identify an App-V package.## Notes
-   Pass in the App-V package's UID to retrieve a single App-V package.<br>    Pass in a library UID to retrieve all af the packages in that library.<br>    Call the cmdlet without any parameters to retrieve all of the packages in the AppLibrary.
+   Pass in the App-V package's UID to retrieve a single App-V package.<br>    Pass in a library UID to retrieve all of the packages in that library.<br>    Call the cmdlet without any parameters to retrieve all of the packages in the AppLibrary.
 ## Examples
 
 ### EXAMPLE 1
