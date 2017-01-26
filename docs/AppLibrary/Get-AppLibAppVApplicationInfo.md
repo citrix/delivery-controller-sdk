@@ -25,7 +25,7 @@ Get-AppLibAppVApplicationInfo -PackageId <String> -ApplicationId <String> -Prope
 ### 
    
 ## Return Values
-### Object with required information wihtin object as properties
+### Object with required information within object as properties
    ## Notes
    Currently only fetching file type associations are supported.
 ## Examples
