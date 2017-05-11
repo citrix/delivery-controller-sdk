@@ -1,6 +1,6 @@
 site_name: Citrix PowerShell SDK Documentation
 site_description: Documentation and Reference Guide for the Citrix PowerShell SDK
-theme_dir: theme_multi
+theme_dir: citrix-sdk
 use_directory_urls: True
 markdown_extensions:
   - admonition
