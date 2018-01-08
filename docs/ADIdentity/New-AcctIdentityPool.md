@@ -34,6 +34,7 @@ Each identity pool is tied to a single domain. All the identities in an identity
 | Scope | The administration scopes to be applied to the new identity pool. | false | false |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
+| ZoneUid | Represents the UID from a zone object returned by the get-ConfigZone cmdlet. | false | false |  |
 
 ## Input Type
 ### 

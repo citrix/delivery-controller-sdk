@@ -30,6 +30,7 @@ Get-AcctIdentityPool [[-IdentityPoolName] <String>] [-IdentityPoolUid <Guid>] [-
 | SortBy | See about_Acct_Filtering for details. | false | false |  |
 | Filter | See about_Acct_Filtering for details. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value will become the default. |
+| ZoneUid | Represents the Zoneid. | false | false |  |
 
 ## Input Type
 ### 
