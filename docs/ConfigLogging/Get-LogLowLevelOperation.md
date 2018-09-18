@@ -11,7 +11,7 @@ Get-LogLowLevelOperation [-Id <Guid>] [-HighLevelOperationId <Guid>] [-StartTime
    Retrieves low level operations matching the specified criteria. If no parameters are specified this cmdlet returns all low level operations.
 
 ## Related Commands
-  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation.html)
+  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

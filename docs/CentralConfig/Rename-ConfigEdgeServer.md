@@ -17,10 +17,10 @@ Rename-ConfigEdgeServer [-Name] <String> [-NewName] <String> [-PassThru] [-Loggi
 The following special characters are not allowed in the name: \ / ; : # . * ? = < > | [ ] ( ) " ' `
 
 ## Related Commands
-  * [New-ConfigEdgeServer](New-ConfigEdgeServer.html)
-  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer.html)
-  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer.html)
-  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer.html)
+  * [New-ConfigEdgeServer](New-ConfigEdgeServer/)
+  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer/)
+  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer/)
+  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,8 +13,8 @@ Get-EnvTestServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus.html)
-  * [Reset-EnvTestServiceGroupMembership](Reset-EnvTestServiceGroupMembership.html)
+  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus/)
+  * [Reset-EnvTestServiceGroupMembership](Reset-EnvTestServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

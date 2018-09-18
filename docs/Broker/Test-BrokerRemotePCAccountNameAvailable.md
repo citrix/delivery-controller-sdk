@@ -11,8 +11,8 @@ Test-BrokerRemotePCAccountNameAvailable [-OU] <String[]> [-AdminAddress <String>
    This cmdlet checks whether proposed RemotePCAccount OU is available for use. It returns a record for each OU indicating the availability of that OU, with $true indicating that the OU is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerRemotePCAccount](Get-BrokerRemotePCAccount.html)
-  * [New-BrokerRemotePCAccount](New-BrokerRemotePCAccount.html)
+  * [Get-BrokerRemotePCAccount](Get-BrokerRemotePCAccount/)
+  * [New-BrokerRemotePCAccount](New-BrokerRemotePCAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

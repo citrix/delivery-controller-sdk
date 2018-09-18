@@ -13,9 +13,9 @@ Switch-ProvTask [-Host2] <String> [-LoggingId <Guid>] [-AdminAddress <String>] [
 Tasks can only execute on a single host.  If the host is removed from a deployment, the tasks cannot continue to execute.  These 'orphaned' tasks can be moved to a different host within the deployment so that they can continue to execute.  All tasks must be moved; there is no mechanism to move individual tasks.  Run the Switch-ProvTask command against the host to which the tasks are to be moved; that is, if you are not running the command directly on the host, use the AdminAddress parameter to specify the host to which tasks will be moved.
 
 ## Related Commands
-  * [Get-ProvTask](Get-ProvTask.html)
-  * [Stop-ProvTask](Stop-ProvTask.html)
-  * [Remove-ProvTask](Remove-ProvTask.html)
+  * [Get-ProvTask](Get-ProvTask/)
+  * [Stop-ProvTask](Stop-ProvTask/)
+  * [Remove-ProvTask](Remove-ProvTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

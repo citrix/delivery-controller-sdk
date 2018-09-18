@@ -21,7 +21,7 @@ Remove-AppLibIsolationGroupMetadata [-InputObject] <IsolationGroup[]> -Map <PSOb
    Provides the ability to remove metadata from the given IsolationGroup.
 
 ## Related Commands
-  * [Set-AppLibIsolationGroupMetadata](Set-AppLibIsolationGroupMetadata.html)
+  * [Set-AppLibIsolationGroupMetadata](Set-AppLibIsolationGroupMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

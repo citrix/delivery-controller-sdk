@@ -11,9 +11,9 @@ Test-BrokerApplicationGroupNameAvailable [-Name] <String[]> [-AdminAddress <Stri
    This cmdlet checks whether proposed ApplicationGroup Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup.html)
-  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup.html)
-  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup.html)
+  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup/)
+  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup/)
+  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

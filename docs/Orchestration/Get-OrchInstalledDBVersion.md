@@ -19,8 +19,8 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-OrchDBVersionChangeScript](Get-OrchDBVersionChangeScript.html)
-  * [Get-OrchDBSchema](Get-OrchDBSchema.html)
+  * [Get-OrchDBVersionChangeScript](Get-OrchDBVersionChangeScript/)
+  * [Get-OrchDBSchema](Get-OrchDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

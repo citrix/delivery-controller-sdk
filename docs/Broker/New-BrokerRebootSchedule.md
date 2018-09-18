@@ -13,10 +13,10 @@ New-BrokerRebootSchedule -DesktopGroupUid <Int32> -RebootDuration <Int32> [-Day 
    The New-BrokerRebootSchedule cmdlet is used to define a reboot schedule for a desktop group.
 
 ## Related Commands
-  * [Get-BrokerRebootSchedule](Get-BrokerRebootSchedule.html)
-  * [Set-BrokerRebootSchedule](Set-BrokerRebootSchedule.html)
-  * [Remove-BrokerRebootSchedule](Remove-BrokerRebootSchedule.html)
-  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle.html)
+  * [Get-BrokerRebootSchedule](Get-BrokerRebootSchedule/)
+  * [Set-BrokerRebootSchedule](Set-BrokerRebootSchedule/)
+  * [Remove-BrokerRebootSchedule](Remove-BrokerRebootSchedule/)
+  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

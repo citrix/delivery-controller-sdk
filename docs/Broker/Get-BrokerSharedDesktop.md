@@ -88,7 +88,7 @@ Shared desktops are desktops that are assigned randomly to users upon connection
        Note: The desktop will not shut down if it is in maintenance mode, but will shut down after the desktop is taken out of maintenance mode.
 
 ## Related Commands
-  * [Set-BrokerSharedDesktop](Set-BrokerSharedDesktop.html)
+  * [Set-BrokerSharedDesktop](Set-BrokerSharedDesktop/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

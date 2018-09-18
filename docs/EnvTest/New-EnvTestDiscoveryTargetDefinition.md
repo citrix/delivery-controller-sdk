@@ -13,15 +13,15 @@ New-EnvTestDiscoveryTargetDefinition -TestSuiteId <String> [-TargetIdType <Strin
    Creates a new EnvTestDiscoveryTargetDefinition object that can be piped into Start-EnvTestTask to define one or more targets of execution, optionally including root objects for discovery.
 
 ## Related Commands
-  * [Get-EnvTestDefinition](Get-EnvTestDefinition.html)
-  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition.html)
-  * [Get-EnvTestTask](Get-EnvTestTask.html)
-  * [Start-EnvTestTask](Start-EnvTestTask.html)
-  * [Switch-EnvTestTask](Switch-EnvTestTask.html)
-  * [Stop-EnvTestTask](Stop-EnvTestTask.html)
-  * [Remove-EnvTestTask](Remove-EnvTestTask.html)
-  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata.html)
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata.html)
+  * [Get-EnvTestDefinition](Get-EnvTestDefinition/)
+  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition/)
+  * [Get-EnvTestTask](Get-EnvTestTask/)
+  * [Start-EnvTestTask](Start-EnvTestTask/)
+  * [Switch-EnvTestTask](Switch-EnvTestTask/)
+  * [Stop-EnvTestTask](Stop-EnvTestTask/)
+  * [Remove-EnvTestTask](Remove-EnvTestTask/)
+  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata/)
+  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,7 +13,7 @@ Set-MonitorNotificationSnmpServerConfiguration [-ServerName <String>] [-PortNumb
    The saved configuration describes the new settings to be used to send Snmps
 
 ## Related Commands
-  * [Get-MonitorNotificationSnmpServerConfiguration](Get-MonitorNotificationSnmpServerConfiguration.html)
+  * [Get-MonitorNotificationSnmpServerConfiguration](Get-MonitorNotificationSnmpServerConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

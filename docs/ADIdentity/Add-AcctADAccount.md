@@ -17,12 +17,12 @@ All aspects of this command that need to make modifications to the accounts in A
 The following rules apply to the importing of Active Directory accounts; If the current account password is supplied, the cmdlet will attempt to change the password so that it is known only to the Citrix Identity Service.  This uses password change operations and does not need AD account administration permissions. If the current password is not supplied, the cmdlet will attempt to reset the password for the Active Directory account so that it is known only to the Citrix Identity Service. This requires the cmdlet to have enough privileges in Active Directory for the accounts' password reset to be available. Imported accounts in a disabled or locked state in Active Directory are imported with the account marked in an error state. If the identity pool into which the account is being imported does not have a domain set, it assumes the domain of the first account imported into it.
 
 ## Related Commands
-  * [New-AcctADAccount](New-AcctADAccount.html)
-  * [Remove-AcctADAccount](Remove-AcctADAccount.html)
-  * [Repair-AcctADAccount](Repair-AcctADAccount.html)
-  * [Get-AcctADAccount](Get-AcctADAccount.html)
-  * [Update-AcctADAccount](Update-AcctADAccount.html)
-  * [Unlock-AcctADAccount](Unlock-AcctADAccount.html)
+  * [New-AcctADAccount](New-AcctADAccount/)
+  * [Remove-AcctADAccount](Remove-AcctADAccount/)
+  * [Repair-AcctADAccount](Repair-AcctADAccount/)
+  * [Get-AcctADAccount](Get-AcctADAccount/)
+  * [Update-AcctADAccount](Update-AcctADAccount/)
+  * [Unlock-AcctADAccount](Unlock-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

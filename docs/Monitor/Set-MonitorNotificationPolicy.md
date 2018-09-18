@@ -13,9 +13,9 @@ Set-MonitorNotificationPolicy -Uid <Int64> [-Name <String>] [-Description <Strin
    Returns a new policy instance using the specified parameters
 
 ## Related Commands
-  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy.html)
-  * [New-MonitorNotificationPolicy](New-MonitorNotificationPolicy.html)
-  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy.html)
+  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy/)
+  * [New-MonitorNotificationPolicy](New-MonitorNotificationPolicy/)
+  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

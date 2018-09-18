@@ -13,9 +13,9 @@ Unlock-AcctIdentityPool -IdentityPoolUid <Guid> [-LoggingId <Guid>] [-AdminAddre
    Provides the ability to unlock the specified identity pool.  Identity pools are locked automatically when being updated (e.g. when new accounts are being created into them).  The pool must never be left in a locked state; this command allows recovery from an error should this ever occur.  Use this command with caution, as unlocking an identity pool which is supposed to be locked may result in unexpected behavior.
 
 ## Related Commands
-  * [New-AcctIdentityPool](New-AcctIdentityPool.html)
-  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool.html)
-  * [Set-AcctIdentityPool](Set-AcctIdentityPool.html)
+  * [New-AcctIdentityPool](New-AcctIdentityPool/)
+  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool/)
+  * [Set-AcctIdentityPool](Set-AcctIdentityPool/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

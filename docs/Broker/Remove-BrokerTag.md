@@ -19,11 +19,11 @@ To remove an association, supply one of the Application, Machine, Desktop or Des
 To delete a tag entirely, together with any associations between the tag and other objects in the site, specify the tag without any associated object parameter.
 
 ## Related Commands
-  * [Add-BrokerTag](Add-BrokerTag.html)
-  * [Get-BrokerTag](Get-BrokerTag.html)
-  * [New-BrokerTag](New-BrokerTag.html)
-  * [Rename-BrokerTag](Rename-BrokerTag.html)
-  * [Set-BrokerTag](Set-BrokerTag.html)
+  * [Add-BrokerTag](Add-BrokerTag/)
+  * [Get-BrokerTag](Get-BrokerTag/)
+  * [New-BrokerTag](New-BrokerTag/)
+  * [Rename-BrokerTag](Rename-BrokerTag/)
+  * [Set-BrokerTag](Set-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

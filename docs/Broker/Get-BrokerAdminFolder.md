@@ -46,8 +46,8 @@ A folder for use in the administration console for organising other objects. E.g
        The unique ID of the admin folder (the root folder has the value zero)
 
 ## Related Commands
-  * [New-BrokerAdminFolder](New-BrokerAdminFolder.html)
-  * [Remove-BrokerAdminFolder](Remove-BrokerAdminFolder.html)
+  * [New-BrokerAdminFolder](New-BrokerAdminFolder/)
+  * [Remove-BrokerAdminFolder](Remove-BrokerAdminFolder/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

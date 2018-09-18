@@ -120,10 +120,10 @@ See about_Broker_Machines for more information.
        Uid of the Zone associated with this catalog.
 
 ## Related Commands
-  * [New-BrokerCatalog](New-BrokerCatalog.html)
-  * [Remove-BrokerCatalog](Remove-BrokerCatalog.html)
-  * [Rename-BrokerCatalog](Rename-BrokerCatalog.html)
-  * [Set-BrokerCatalog](Set-BrokerCatalog.html)
+  * [New-BrokerCatalog](New-BrokerCatalog/)
+  * [Remove-BrokerCatalog](Remove-BrokerCatalog/)
+  * [Rename-BrokerCatalog](Rename-BrokerCatalog/)
+  * [Set-BrokerCatalog](Set-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

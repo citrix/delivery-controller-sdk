@@ -17,9 +17,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Orchestration SDK cmdlet.
 
 ## Related Commands
-  * [Get-OrchServiceStatus](Get-OrchServiceStatus.html)
-  * [Get-OrchDBConnection](Get-OrchDBConnection.html)
-  * [Set-OrchDBConnection](Set-OrchDBConnection.html)
+  * [Get-OrchServiceStatus](Get-OrchServiceStatus/)
+  * [Get-OrchDBConnection](Get-OrchDBConnection/)
+  * [Set-OrchDBConnection](Set-OrchDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,9 +11,9 @@ Export-BrokerDesktopPolicy [-AdminAddress <String>] [<CommonParameters>]
    Export-BrokerDesktopPolicy returns an array of bytes containing the site-wide Citrix Group Policy settings. These policy settings are applied to every machine in the site.
 
 ## Related Commands
-  * [Import-BrokerDesktopPolicy](Import-BrokerDesktopPolicy.html)
-  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot.html)
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
+  * [Import-BrokerDesktopPolicy](Import-BrokerDesktopPolicy/)
+  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot/)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

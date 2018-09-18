@@ -11,11 +11,11 @@ Get-EnvTestServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the EnvTest Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Get-EnvTestDataStore](Get-EnvTestDataStore.html)
-  * [Set-EnvTestDBConnection](Set-EnvTestDBConnection.html)
-  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection.html)
-  * [Get-EnvTestDBConnection](Get-EnvTestDBConnection.html)
-  * [Get-EnvTestDBSchema](Get-EnvTestDBSchema.html)
+  * [Get-EnvTestDataStore](Get-EnvTestDataStore/)
+  * [Set-EnvTestDBConnection](Set-EnvTestDBConnection/)
+  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection/)
+  * [Get-EnvTestDBConnection](Get-EnvTestDBConnection/)
+  * [Get-EnvTestDBSchema](Get-EnvTestDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

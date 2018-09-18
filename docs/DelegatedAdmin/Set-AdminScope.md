@@ -19,12 +19,12 @@ To change the contents of a scope, use the Add-<Noun>Scope and Remove-<Noun>Scop
 To update the metadata associated with a scope, use the Set-AdminScopeMetadata and Remove-AdminScopeMetadata cmdlets.
 
 ## Related Commands
-  * [New-AdminScope](New-AdminScope.html)
-  * [Get-AdminScope](Get-AdminScope.html)
-  * [Remove-AdminScope](Remove-AdminScope.html)
-  * [Rename-AdminScope](Rename-AdminScope.html)
-  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata.html)
-  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata.html)
+  * [New-AdminScope](New-AdminScope/)
+  * [Get-AdminScope](Get-AdminScope/)
+  * [Remove-AdminScope](Remove-AdminScope/)
+  * [Rename-AdminScope](Rename-AdminScope/)
+  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata/)
+  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

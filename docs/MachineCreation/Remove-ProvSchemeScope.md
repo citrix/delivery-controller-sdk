@@ -24,8 +24,8 @@ To remove a ProvisioningScheme from a scope you need permission to change the sc
 If the ProvisioningScheme is not in a specified scope, that scope will be silently ignored.
 
 ## Related Commands
-  * [Add-ProvSchemeScope](Add-ProvSchemeScope.html)
-  * [Get-ProvScopedObject](Get-ProvScopedObject.html)
+  * [Add-ProvSchemeScope](Add-ProvSchemeScope/)
+  * [Get-ProvScopedObject](Get-ProvScopedObject/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

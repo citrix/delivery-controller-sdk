@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix ConfigurationLogging Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-LogServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-LogInstalledDBVersion](Get-LogInstalledDBVersion.html)
-  * [Get-LogServiceStatus](Get-LogServiceStatus.html)
-  * [Get-LogDBSchema](Get-LogDBSchema.html)
+  * [Get-LogInstalledDBVersion](Get-LogInstalledDBVersion/)
+  * [Get-LogServiceStatus](Get-LogServiceStatus/)
+  * [Get-LogDBSchema](Get-LogDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

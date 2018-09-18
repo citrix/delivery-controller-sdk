@@ -15,9 +15,9 @@ Set-BrokerHostingPowerAction [-MachineName] <String> [-PassThru] [-ActualPriorit
 For a detailed description of the queuing mechanism, see 'help about_Broker_PowerManagement'.
 
 ## Related Commands
-  * [Get-BrokerHostingPowerAction](Get-BrokerHostingPowerAction.html)
-  * [New-BrokerHostingPowerAction](New-BrokerHostingPowerAction.html)
-  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction.html)
+  * [Get-BrokerHostingPowerAction](Get-BrokerHostingPowerAction/)
+  * [New-BrokerHostingPowerAction](New-BrokerHostingPowerAction/)
+  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

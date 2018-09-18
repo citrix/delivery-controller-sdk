@@ -13,8 +13,8 @@ Remove-BrokerDelayedHostingPowerAction [-MachineName] <String> [-LoggingId <Guid
    Removes one or more delayed power actions that have not yet been queued for execution.
 
 ## Related Commands
-  * [Get-BrokerDelayedHostingPowerAction](Get-BrokerDelayedHostingPowerAction.html)
-  * [New-BrokerDelayedHostingPowerAction](New-BrokerDelayedHostingPowerAction.html)
+  * [Get-BrokerDelayedHostingPowerAction](Get-BrokerDelayedHostingPowerAction/)
+  * [New-BrokerDelayedHostingPowerAction](New-BrokerDelayedHostingPowerAction/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

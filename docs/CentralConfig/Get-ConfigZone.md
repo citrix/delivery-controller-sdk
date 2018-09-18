@@ -11,12 +11,12 @@ Get-ConfigZone [[-Name] <String>] [-Uid <Guid>] [-ControllerName <String>] [-Con
    Retrieves zones matching the specified criteria. If no parameters are specified all zones will be returned.
 
 ## Related Commands
-  * [New-ConfigZone](New-ConfigZone.html)
-  * [Set-ConfigZone](Set-ConfigZone.html)
-  * [Rename-ConfigZone](Rename-ConfigZone.html)
-  * [Remove-ConfigZone](Remove-ConfigZone.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Set-ConfigService](Set-ConfigService.html)
+  * [New-ConfigZone](New-ConfigZone/)
+  * [Set-ConfigZone](Set-ConfigZone/)
+  * [Rename-ConfigZone](Rename-ConfigZone/)
+  * [Remove-ConfigZone](Remove-ConfigZone/)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Set-ConfigService](Set-ConfigService/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

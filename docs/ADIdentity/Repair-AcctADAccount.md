@@ -17,12 +17,12 @@ If the current account password is not suplied using the Password or SecurePassw
 If the current account password is supplied then this command will use the password change operation which does not require any elevated permissions in Active Directory.
 
 ## Related Commands
-  * [New-AcctADAccount](New-AcctADAccount.html)
-  * [Add-AcctADAccount](Add-AcctADAccount.html)
-  * [Remove-AcctADAccount](Remove-AcctADAccount.html)
-  * [Unlock-AcctADAccount](Unlock-AcctADAccount.html)
-  * [Update-AcctADAccount](Update-AcctADAccount.html)
-  * [Get-AcctADAccount](Get-AcctADAccount.html)
+  * [New-AcctADAccount](New-AcctADAccount/)
+  * [Add-AcctADAccount](Add-AcctADAccount/)
+  * [Remove-AcctADAccount](Remove-AcctADAccount/)
+  * [Unlock-AcctADAccount](Unlock-AcctADAccount/)
+  * [Update-AcctADAccount](Update-AcctADAccount/)
+  * [Get-AcctADAccount](Get-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

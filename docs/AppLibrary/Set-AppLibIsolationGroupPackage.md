@@ -11,7 +11,7 @@ Set-AppLibIsolationGroupPackage [-IsolationGroupUid] <Int32> -AppVPackageUid <In
    Updates an App-V package's settings in the specified Isolation Group.
 
 ## Related Commands
-  * [Remove-AppLibIsolationGroupPackage](Remove-AppLibIsolationGroupPackage.html)
+  * [Remove-AppLibIsolationGroupPackage](Remove-AppLibIsolationGroupPackage/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

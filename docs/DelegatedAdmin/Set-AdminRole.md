@@ -19,14 +19,14 @@ To modify the permissions of a role, use the Add-AdminPermission and Remove-Admi
 To update the metadata associated with a role, use the Set-AdminRoleMetadata and Remove-AdminRoleMetadata cmdlets.
 
 ## Related Commands
-  * [New-AdminRole](New-AdminRole.html)
-  * [Get-AdminRole](Get-AdminRole.html)
-  * [Remove-AdminRole](Remove-AdminRole.html)
-  * [Rename-AdminRole](Rename-AdminRole.html)
-  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata.html)
-  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata.html)
-  * [Add-AdminPermission](Add-AdminPermission.html)
-  * [Remove-AdminPermission](Remove-AdminPermission.html)
+  * [New-AdminRole](New-AdminRole/)
+  * [Get-AdminRole](Get-AdminRole/)
+  * [Remove-AdminRole](Remove-AdminRole/)
+  * [Rename-AdminRole](Rename-AdminRole/)
+  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata/)
+  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata/)
+  * [Add-AdminPermission](Add-AdminPermission/)
+  * [Remove-AdminPermission](Remove-AdminPermission/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

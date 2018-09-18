@@ -36,9 +36,9 @@ The configuration slot object returned represents a named collection of related 
        Unique Uid of this configuration slot.
 
 ## Related Commands
-  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot.html)
-  * [Remove-BrokerConfigurationSlot](Remove-BrokerConfigurationSlot.html)
-  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration.html)
+  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot/)
+  * [Remove-BrokerConfigurationSlot](Remove-BrokerConfigurationSlot/)
+  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

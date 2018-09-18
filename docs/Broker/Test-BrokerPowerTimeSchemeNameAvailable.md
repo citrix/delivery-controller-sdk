@@ -11,9 +11,9 @@ Test-BrokerPowerTimeSchemeNameAvailable [-Name] <String[]> [-AdminAddress <Strin
    This cmdlet checks whether proposed PowerTimeScheme Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerPowerTimeScheme](Get-BrokerPowerTimeScheme.html)
-  * [New-BrokerPowerTimeScheme](New-BrokerPowerTimeScheme.html)
-  * [Rename-BrokerPowerTimeScheme](Rename-BrokerPowerTimeScheme.html)
+  * [Get-BrokerPowerTimeScheme](Get-BrokerPowerTimeScheme/)
+  * [New-BrokerPowerTimeScheme](New-BrokerPowerTimeScheme/)
+  * [Rename-BrokerPowerTimeScheme](Rename-BrokerPowerTimeScheme/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

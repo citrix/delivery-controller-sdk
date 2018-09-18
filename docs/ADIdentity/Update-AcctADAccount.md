@@ -13,12 +13,12 @@ Update-AcctADAccount -IdentityPoolUid <Guid> [-AllAccounts] [-LoggingId <Guid>] 
    Provides the ability to synchronize the state of the AD accounts stored in the AD Identity Service with the AD accounts themselves.  By default, this checks all accounts marked as 'error' to determine if accounts are still in an error state (i.e. disabled or locked).  If you specify the 'AllAccounts' option, it checks accounts not in error state and updates the status of these accounts too.
 
 ## Related Commands
-  * [New-AcctADAccount](New-AcctADAccount.html)
-  * [Add-AcctADAccount](Add-AcctADAccount.html)
-  * [Remove-AcctADAccount](Remove-AcctADAccount.html)
-  * [Repair-AcctADAccount](Repair-AcctADAccount.html)
-  * [Unlock-AcctADAccount](Unlock-AcctADAccount.html)
-  * [Get-AcctADAccount](Get-AcctADAccount.html)
+  * [New-AcctADAccount](New-AcctADAccount/)
+  * [Add-AcctADAccount](Add-AcctADAccount/)
+  * [Remove-AcctADAccount](Remove-AcctADAccount/)
+  * [Repair-AcctADAccount](Repair-AcctADAccount/)
+  * [Unlock-AcctADAccount](Unlock-AcctADAccount/)
+  * [Get-AcctADAccount](Get-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -17,7 +17,7 @@ Set-OrchServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId <
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-OrchServiceMetadata](Remove-OrchServiceMetadata.html)
+  * [Remove-OrchServiceMetadata](Remove-OrchServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

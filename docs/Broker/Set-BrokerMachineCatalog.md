@@ -21,8 +21,8 @@ o PhysicalMachines
 Changing a machine's catalog does not change the machine's desktop group membership. There is no effect on user sessions present on a machine if its catalog is changed.
 
 ## Related Commands
-  * [Set-BrokerMachine](Set-BrokerMachine.html)
-  * [New-BrokerCatalog](New-BrokerCatalog.html)
+  * [Set-BrokerMachine](Set-BrokerMachine/)
+  * [New-BrokerCatalog](New-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -56,9 +56,9 @@ The session linger object returned represents a session linger setting in a desk
        Indicates if linger-specific user filter is enabled.
 
 ## Related Commands
-  * [New-BrokerSessionLinger](New-BrokerSessionLinger.html)
-  * [Set-BrokerSessionLinger](Set-BrokerSessionLinger.html)
-  * [Remove-BrokerSessionLinger](Remove-BrokerSessionLinger.html)
+  * [New-BrokerSessionLinger](New-BrokerSessionLinger/)
+  * [Set-BrokerSessionLinger](Set-BrokerSessionLinger/)
+  * [Remove-BrokerSessionLinger](Remove-BrokerSessionLinger/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

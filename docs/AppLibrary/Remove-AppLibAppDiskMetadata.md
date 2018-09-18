@@ -21,7 +21,7 @@ Remove-AppLibAppDiskMetadata [-InputObject] <AppDisk[]> -Map <PSObject> [-Loggin
    Provides the ability to remove metadata from the given AppDisk.
 
 ## Related Commands
-  * [Set-AppLibAppDiskMetadata](Set-AppLibAppDiskMetadata.html)
+  * [Set-AppLibAppDiskMetadata](Set-AppLibAppDiskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

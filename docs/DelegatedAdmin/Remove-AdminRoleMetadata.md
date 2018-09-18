@@ -21,7 +21,7 @@ Remove-AdminRoleMetadata [-InputObject] <Role[]> -Map <PSObject> [-LoggingId <Gu
    Provides the ability to remove metadata from the given Role.
 
 ## Related Commands
-  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata.html)
+  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

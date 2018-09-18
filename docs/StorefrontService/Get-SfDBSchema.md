@@ -39,8 +39,8 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-SfDBConnection](Set-SfDBConnection.html)
-  * [Test-SfDBConnection](Test-SfDBConnection.html)
+  * [Set-SfDBConnection](Set-SfDBConnection/)
+  * [Test-SfDBConnection](Test-SfDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is the one on the local machine, or the one most recently specified using the -AdminAddress parameter of a Broker SDK cmdlet.
 
 ## Related Commands
-  * [Set-BrokerDBConnection](Set-BrokerDBConnection.html)
-  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus.html)
-  * [Test-BrokerDBConnection](Test-BrokerDBConnection.html)
+  * [Set-BrokerDBConnection](Set-BrokerDBConnection/)
+  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus/)
+  * [Test-BrokerDBConnection](Test-BrokerDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

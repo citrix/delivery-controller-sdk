@@ -25,8 +25,8 @@ As the snapshot or VM template are specified using a path into the Citrix Host S
 The previous hard disk image path is stored into the history (see Get-ProvSchemeMasterVMImageHistory).  The data stored in the history allows for a rollback to be undertaken, to revert to the previous hard disk image if required.
 
 ## Related Commands
-  * [Get-ProvSchemeMasterVMImageHistory](Get-ProvSchemeMasterVMImageHistory.html)
-  * [Get-ProvScheme](Get-ProvScheme.html)
+  * [Get-ProvSchemeMasterVMImageHistory](Get-ProvSchemeMasterVMImageHistory/)
+  * [Get-ProvScheme](Get-ProvScheme/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

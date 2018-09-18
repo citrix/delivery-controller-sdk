@@ -17,8 +17,8 @@ The machines are added randomly from the catalog and are selected from those tha
 Both the catalog and desktop group can be referenced either by instance, name, or unique identifier (Uid). The allocation type of the catalog must be compatible with the type of desktop group. This means the session support (single/multi) and the allocation type (private/shared) of the catalog must match the session support and allocation type in the desktop group.
 
 ## Related Commands
-  * [Add-BrokerMachine](Add-BrokerMachine.html)
-  * [Remove-BrokerMachine](Remove-BrokerMachine.html)
+  * [Add-BrokerMachine](Add-BrokerMachine/)
+  * [Remove-BrokerMachine](Remove-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

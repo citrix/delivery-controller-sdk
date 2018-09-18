@@ -15,7 +15,7 @@ Once a region has been chosen, use the standard Set-Item provider cmdlet to sele
 This cmdlet may return no output, in which case the cloud connection can be considered "regionless" (or, implicitly, all within a single region). In such cases, there is no need to select a region, and the hypervisor connection can be used as is.
 
 ## Related Commands
-  * [Set-Item](Set-Item.html)
+  * [Set-Item](Set-Item/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

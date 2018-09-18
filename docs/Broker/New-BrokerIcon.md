@@ -13,9 +13,9 @@ New-BrokerIcon [-EncodedIconData] <String> [-LoggingId <Guid>] [-AdminAddress <S
 New-BrokerIcon can be used with the Get-CtxIcon cmdlet from Citrix.Common.Commands, to obtain the Base64 icon. See Examples for a demonstration.
 
 ## Related Commands
-  * [Get-CtxIcon](Get-CtxIcon.html)
-  * [Get-BrokerIcon](Get-BrokerIcon.html)
-  * [Remove-BrokerIcon](Remove-BrokerIcon.html)
+  * [Get-CtxIcon](Get-CtxIcon/)
+  * [Get-BrokerIcon](Get-BrokerIcon/)
+  * [Remove-BrokerIcon](Remove-BrokerIcon/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

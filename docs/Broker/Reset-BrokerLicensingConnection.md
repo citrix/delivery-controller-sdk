@@ -17,8 +17,8 @@ Resetting the connection causes the list of available licenses for the connectio
 Each broker service instance holds its own connection to the license server. In order for the licensing changes to be applied immediately throughout the XenDesktop site this command needs to be run on every controller in the site.
 
 ## Related Commands
-  * [Get-BrokerSite](Get-BrokerSite.html)
-  * [Set-BrokerSite](Set-BrokerSite.html)
+  * [Get-BrokerSite](Get-BrokerSite/)
+  * [Set-BrokerSite](Set-BrokerSite/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,7 +13,7 @@ Set-ConfigSiteMetadata -Map <PSObject> [-LoggingId <Guid>] [-AdminAddress <Strin
    Provides the ability for additional custom data to be stored against the Site.
 
 ## Related Commands
-  * [Remove-ConfigSiteMetadata](Remove-ConfigSiteMetadata.html)
+  * [Remove-ConfigSiteMetadata](Remove-ConfigSiteMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

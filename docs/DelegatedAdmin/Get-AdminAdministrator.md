@@ -13,11 +13,11 @@ Get-AdminAdministrator [[-Name] <String>] [-Sid <String>] [-Enabled <Boolean>] [
 See about_Admin_Filtering for information about advanced filtering options.
 
 ## Related Commands
-  * [New-AdminAdministrator](New-AdminAdministrator.html)
-  * [Set-AdminAdministrator](Set-AdminAdministrator.html)
-  * [Remove-AdminAdministrator](Remove-AdminAdministrator.html)
-  * [Set-AdminAdministratorMetadata](Set-AdminAdministratorMetadata.html)
-  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata.html)
+  * [New-AdminAdministrator](New-AdminAdministrator/)
+  * [Set-AdminAdministrator](Set-AdminAdministrator/)
+  * [Remove-AdminAdministrator](Remove-AdminAdministrator/)
+  * [Set-AdminAdministratorMetadata](Set-AdminAdministratorMetadata/)
+  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

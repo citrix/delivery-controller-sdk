@@ -11,9 +11,9 @@ Test-BrokerCatalogNameAvailable [-Name] <String[]> [-AdminAddress <String>] [<Co
    This cmdlet checks whether proposed Catalog Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerCatalog](Get-BrokerCatalog.html)
-  * [New-BrokerCatalog](New-BrokerCatalog.html)
-  * [Rename-BrokerCatalog](Rename-BrokerCatalog.html)
+  * [Get-BrokerCatalog](Get-BrokerCatalog/)
+  * [New-BrokerCatalog](New-BrokerCatalog/)
+  * [Rename-BrokerCatalog](Rename-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

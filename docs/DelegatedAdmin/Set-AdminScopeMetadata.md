@@ -21,7 +21,7 @@ Set-AdminScopeMetadata [-InputObject] <Scope[]> -Map <PSObject> [-LoggingId <Gui
    Provides the ability for additional custom data to be stored against given Scope objects.
 
 ## Related Commands
-  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata.html)
+  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

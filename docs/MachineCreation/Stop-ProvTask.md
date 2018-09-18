@@ -11,9 +11,9 @@ Stop-ProvTask [-TaskId] <Guid> [-LoggingId <Guid>] [-AdminAddress <String>] [<Co
    Enables tasks currently running in the MachineCreation Service to be stopped.  Once stopped, tasks cannot be restarted.
 
 ## Related Commands
-  * [Get-ProvTask](Get-ProvTask.html)
-  * [Remove-ProvTask](Remove-ProvTask.html)
-  * [Switch-ProvTask](Switch-ProvTask.html)
+  * [Get-ProvTask](Get-ProvTask/)
+  * [Remove-ProvTask](Remove-ProvTask/)
+  * [Switch-ProvTask](Switch-ProvTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

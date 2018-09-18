@@ -11,9 +11,9 @@ Get-ConfigRegisteredServiceInstance [-ServiceInstanceUid <Guid>] [-ServiceGroupU
    Use this cmdlet to retrieve the service instances currently registered with the Configuration Service that match the parameters supplied.  If no parameters are supplied, all the service instances are returned.
 
 ## Related Commands
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
-  * [Set-ConfigRegisteredServiceInstance](Set-ConfigRegisteredServiceInstance.html)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
+  * [Set-ConfigRegisteredServiceInstance](Set-ConfigRegisteredServiceInstance/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

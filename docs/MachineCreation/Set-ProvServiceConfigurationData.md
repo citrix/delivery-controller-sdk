@@ -11,8 +11,8 @@ Set-ProvServiceConfigurationData [-Name] <String> -Value <String> [-LoggingId <G
    Provides the ability for additional custom data to be stored for the MachineCreation Service.
 
 ## Related Commands
-  * [Remove-ProvServiceConfigurationData](Remove-ProvServiceConfigurationData.html)
-  * [Get-ProvServiceConfigurationData](Get-ProvServiceConfigurationData.html)
+  * [Remove-ProvServiceConfigurationData](Remove-ProvServiceConfigurationData/)
+  * [Get-ProvServiceConfigurationData](Get-ProvServiceConfigurationData/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

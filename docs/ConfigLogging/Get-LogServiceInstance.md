@@ -13,8 +13,8 @@ Get-LogServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-LogServiceStatus](Get-LogServiceStatus.html)
-  * [Reset-LogServiceGroupMembership](Reset-LogServiceGroupMembership.html)
+  * [Get-LogServiceStatus](Get-LogServiceStatus/)
+  * [Reset-LogServiceGroupMembership](Reset-LogServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

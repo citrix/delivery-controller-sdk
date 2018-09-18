@@ -19,8 +19,8 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-AppLibDBVersionChangeScript](Get-AppLibDBVersionChangeScript.html)
-  * [Get-AppLibDBSchema](Get-AppLibDBSchema.html)
+  * [Get-AppLibDBVersionChangeScript](Get-AppLibDBVersionChangeScript/)
+  * [Get-AppLibDBSchema](Get-AppLibDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

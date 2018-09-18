@@ -17,8 +17,8 @@ o Application - assign the application to the specified user(s).
 o Application group - assign the applications in the application group to the specified user(s).
 
 ## Related Commands
-  * [Get-BrokerUser](Get-BrokerUser.html)
-  * [Remove-BrokerUser](Remove-BrokerUser.html)
+  * [Get-BrokerUser](Get-BrokerUser/)
+  * [Remove-BrokerUser](Remove-BrokerUser/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

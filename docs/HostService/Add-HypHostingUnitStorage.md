@@ -11,10 +11,10 @@ Add-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-Stor
    Use this command to add storage locations for storing the hard disks required by the virtual machines created by the Citrix Machine Creation Service. You cannot use this command if the connection for the hosting unit is in maintenance mode.
 
 ## Related Commands
-  * [New-Item](New-Item.html)
-  * [Add-HypMetadata](Add-HypMetadata.html)
-  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage.html)
-  * [Set-HypHostingUnitStorage](Set-HypHostingUnitStorage.html)
+  * [New-Item](New-Item/)
+  * [Add-HypMetadata](Add-HypMetadata/)
+  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage/)
+  * [Set-HypHostingUnitStorage](Set-HypHostingUnitStorage/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

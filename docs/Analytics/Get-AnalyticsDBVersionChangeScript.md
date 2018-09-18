@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Analytics Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-AnalyticsServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-AnalyticsInstalledDBVersion](Get-AnalyticsInstalledDBVersion.html)
-  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus.html)
-  * [Get-AnalyticsDBSchema](Get-AnalyticsDBSchema.html)
+  * [Get-AnalyticsInstalledDBVersion](Get-AnalyticsInstalledDBVersion/)
+  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus/)
+  * [Get-AnalyticsDBSchema](Get-AnalyticsDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

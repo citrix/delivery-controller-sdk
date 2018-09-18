@@ -11,8 +11,8 @@ Remove-SfOptimalGateway -SiteId <Int64> -ResourcesVirtualPath <String> [-Logging
    Removes the optimal gateway for farms configuration.
 
 ## Related Commands
-  * [Get-SfOptimalGatewayCommand](Get-SfOptimalGatewayCommand.html)
-  * [Set-SfOptimalGatewayCommand](Set-SfOptimalGatewayCommand.html)
+  * [Get-SfOptimalGatewayCommand](Get-SfOptimalGatewayCommand/)
+  * [Set-SfOptimalGatewayCommand](Set-SfOptimalGatewayCommand/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

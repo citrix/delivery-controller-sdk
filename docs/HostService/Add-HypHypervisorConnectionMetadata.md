@@ -21,8 +21,8 @@ Add-HypHypervisorConnectionMetadata [-InputObject] <HypervisorConnection[]> -Map
    Provides the ability for additional custom data to be stored against given HypervisorConnection objects. This cmdlet will not overwrite existing metadata on an object - use the Set-HypHypervisorConnectionMetadata cmdlet instead.
 
 ## Related Commands
-  * [Set-HypHypervisorConnectionMetadata](Set-HypHypervisorConnectionMetadata.html)
-  * [Remove-HypHypervisorConnectionMetadata](Remove-HypHypervisorConnectionMetadata.html)
+  * [Set-HypHypervisorConnectionMetadata](Set-HypHypervisorConnectionMetadata/)
+  * [Remove-HypHypervisorConnectionMetadata](Remove-HypHypervisorConnectionMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

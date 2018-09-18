@@ -15,9 +15,9 @@ New-BrokerUser [-Name] <String> [-AdminAddress <String>] [<CommonParameters>]
 The identity of the user or group must be specified using either the Name or SID parameter
 
 ## Related Commands
-  * [Add-BrokerUser](Add-BrokerUser.html)
-  * [Get-BrokerUser](Get-BrokerUser.html)
-  * [Remove-BrokerUser](Remove-BrokerUser.html)
+  * [Add-BrokerUser](Add-BrokerUser/)
+  * [Get-BrokerUser](Get-BrokerUser/)
+  * [Remove-BrokerUser](Remove-BrokerUser/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

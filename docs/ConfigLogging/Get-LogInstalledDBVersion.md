@@ -19,8 +19,8 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-LogDBVersionChangeScript](Get-LogDBVersionChangeScript.html)
-  * [Get-LogDBSchema](Get-LogDBSchema.html)
+  * [Get-LogDBVersionChangeScript](Get-LogDBVersionChangeScript/)
+  * [Get-LogDBSchema](Get-LogDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

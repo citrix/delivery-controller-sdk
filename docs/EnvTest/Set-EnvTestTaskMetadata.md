@@ -17,7 +17,7 @@ Set-EnvTestTaskMetadata [-InputObject] <EnvTestTask[]> -Map <PSObject> [-Logging
    Provides the ability for additional custom data to be stored against given Task objects.
 
 ## Related Commands
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata.html)
+  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

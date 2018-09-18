@@ -21,7 +21,7 @@ Many of the properties that can be set with Set-BrokerSharedDesktop can be set b
 See about_Broker_Desktops for more information about desktops.
 
 ## Related Commands
-  * [Get-BrokerSharedDesktop](Get-BrokerSharedDesktop.html)
+  * [Get-BrokerSharedDesktop](Get-BrokerSharedDesktop/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

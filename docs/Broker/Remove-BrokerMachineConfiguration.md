@@ -22,11 +22,11 @@ If a desktop group is specified, then the Remove-MachineConfiguration cmdlet rem
 If an application is specified, then the Remove-MachineConfiguration cmdlet removes the association between the machine configuration and that application. Again, in this case, the machine configuration is not removed from the site.
 
 ## Related Commands
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
-  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration.html)
-  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration.html)
-  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration.html)
-  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration.html)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
+  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration/)
+  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration/)
+  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration/)
+  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

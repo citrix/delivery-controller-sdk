@@ -17,7 +17,7 @@ Remove-LogServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId
    Provides the ability to remove metadata from the given Service.
 
 ## Related Commands
-  * [Set-LogServiceMetadata](Set-LogServiceMetadata.html)
+  * [Set-LogServiceMetadata](Set-LogServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

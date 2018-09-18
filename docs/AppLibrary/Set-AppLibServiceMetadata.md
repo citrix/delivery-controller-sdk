@@ -17,7 +17,7 @@ Set-AppLibServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-AppLibServiceMetadata](Remove-AppLibServiceMetadata.html)
+  * [Remove-AppLibServiceMetadata](Remove-AppLibServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

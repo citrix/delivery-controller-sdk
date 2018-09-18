@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Orchestration SDK cmdlet.
 
 ## Related Commands
-  * [Get-OrchServiceStatus](Get-OrchServiceStatus.html)
-  * [Set-OrchDBConnection](Set-OrchDBConnection.html)
-  * [Test-OrchDBConnection](Test-OrchDBConnection.html)
+  * [Get-OrchServiceStatus](Get-OrchServiceStatus/)
+  * [Set-OrchDBConnection](Set-OrchDBConnection/)
+  * [Test-OrchDBConnection](Test-OrchDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

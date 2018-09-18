@@ -13,8 +13,8 @@ Get-ConfigServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus.html)
-  * [Reset-ConfigServiceGroupMembership](Reset-ConfigServiceGroupMembership.html)
+  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus/)
+  * [Reset-ConfigServiceGroupMembership](Reset-ConfigServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

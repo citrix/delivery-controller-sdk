@@ -11,14 +11,14 @@ Get-EnvTestDefinition [-TestId <String[]>] [-CultureName <String>] [-AdminAddres
    Returns a list of test definitions that are available from currently running components.
 
 ## Related Commands
-  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition.html)
-  * [Get-EnvTestTask](Get-EnvTestTask.html)
-  * [Start-EnvTestTask](Start-EnvTestTask.html)
-  * [Switch-EnvTestTask](Switch-EnvTestTask.html)
-  * [Stop-EnvTestTask](Stop-EnvTestTask.html)
-  * [Remove-EnvTestTask](Remove-EnvTestTask.html)
-  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata.html)
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata.html)
+  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition/)
+  * [Get-EnvTestTask](Get-EnvTestTask/)
+  * [Start-EnvTestTask](Start-EnvTestTask/)
+  * [Switch-EnvTestTask](Switch-EnvTestTask/)
+  * [Stop-EnvTestTask](Stop-EnvTestTask/)
+  * [Remove-EnvTestTask](Remove-EnvTestTask/)
+  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata/)
+  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

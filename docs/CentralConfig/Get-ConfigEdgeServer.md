@@ -11,10 +11,10 @@ Get-ConfigEdgeServer [[-Name] <String>] [-Uid <Guid>] [-Description <String>] [-
    Retrieves Edge Servers matching the specified criteria. If no parameters specified, returns all known Edge Servers
 
 ## Related Commands
-  * [New-ConfigEdgeServer](New-ConfigEdgeServer.html)
-  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer.html)
-  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer.html)
-  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer.html)
+  * [New-ConfigEdgeServer](New-ConfigEdgeServer/)
+  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer/)
+  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer/)
+  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

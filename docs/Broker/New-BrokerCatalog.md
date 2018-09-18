@@ -19,10 +19,10 @@ o MinimalFunctionalLevel: The minimal functional level supported in the catalog.
 o SessionSupport: The session support (single/multi) of the catalog. The session support of the machine is determined by the variant of the Citrix VDA software installed (workstation/terminal services, respectively).
 
 ## Related Commands
-  * [Get-BrokerCatalog](Get-BrokerCatalog.html)
-  * [Rename-BrokerCatalog](Rename-BrokerCatalog.html)
-  * [Remove-BrokerCatalog](Remove-BrokerCatalog.html)
-  * [Set-BrokerCatalog](Set-BrokerCatalog.html)
+  * [Get-BrokerCatalog](Get-BrokerCatalog/)
+  * [Rename-BrokerCatalog](Rename-BrokerCatalog/)
+  * [Remove-BrokerCatalog](Remove-BrokerCatalog/)
+  * [Set-BrokerCatalog](Set-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -19,12 +19,12 @@ Associating an application group with a desktop group allows the applications th
 To remove an application group from the system, you must first remove all of its applications. Use the Remove-BrokerApplication cmdlet to remove an application (either to remove it from an application group, or to remove it from the system entirely).
 
 ## Related Commands
-  * [Add-BrokerApplicationGroup](Add-BrokerApplicationGroup.html)
-  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup.html)
-  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup.html)
-  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup.html)
-  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
+  * [Add-BrokerApplicationGroup](Add-BrokerApplicationGroup/)
+  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup/)
+  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup/)
+  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup/)
+  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

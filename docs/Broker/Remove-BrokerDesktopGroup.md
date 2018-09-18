@@ -18,13 +18,13 @@ o Break Remote PC associations between desktop groups and a catalog.
 The Remote PC relationships are used by Remote PC automation to determine which desktop groups a machine in a particular Remote PC catalog can be published to. The assignment policy rules belonging to those desktop groups also determines the set of users that are allowed to be assigned to machines from the catalog.
 
 ## Related Commands
-  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup.html)
-  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup.html)
-  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup.html)
-  * [Add-BrokerDesktopGroup](Add-BrokerDesktopGroup.html)
-  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup.html)
-  * [New-BrokerCatalog](New-BrokerCatalog.html)
-  * [Remove-BrokerCatalog](Remove-BrokerCatalog.html)
+  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup/)
+  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup/)
+  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup/)
+  * [Add-BrokerDesktopGroup](Add-BrokerDesktopGroup/)
+  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup/)
+  * [New-BrokerCatalog](New-BrokerCatalog/)
+  * [Remove-BrokerCatalog](Remove-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

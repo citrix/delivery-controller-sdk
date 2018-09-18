@@ -17,12 +17,12 @@ Remove-AppLibTaskMetadata [-InputObject] <Task[]> -Map <PSObject> [-LoggingId <G
    Provides the ability to remove metadata from the given Task.
 
 ## Related Commands
-  * [Add-AppLibTaskMetadata](Add-AppLibTaskMetadata.html)
-  * [Set-AppLibTaskMetadata](Set-AppLibTaskMetadata.html)
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Remove-AppLibTask](Remove-AppLibTask.html)
-  * [Stop-AppLibTask](Stop-AppLibTask.html)
-  * [Switch-AppLibTask](Switch-AppLibTask.html)
+  * [Add-AppLibTaskMetadata](Add-AppLibTaskMetadata/)
+  * [Set-AppLibTaskMetadata](Set-AppLibTaskMetadata/)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Remove-AppLibTask](Remove-AppLibTask/)
+  * [Stop-AppLibTask](Stop-AppLibTask/)
+  * [Switch-AppLibTask](Switch-AppLibTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

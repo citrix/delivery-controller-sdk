@@ -15,8 +15,8 @@ Remove-ProvSchemeMasterVMImageHistory -VMImageHistoryUid <Guid> [-LoggingId <Gui
    Provides the ability to remove the record of previously used master VMs or snapshots for provisioning schemes.
 
 ## Related Commands
-  * [Get-ProvSchemeMasterVMImageHistory](Get-ProvSchemeMasterVMImageHistory.html)
-  * [Publish-ProvMasterVMImage](Publish-ProvMasterVMImage.html)
+  * [Get-ProvSchemeMasterVMImageHistory](Get-ProvSchemeMasterVMImageHistory/)
+  * [Publish-ProvMasterVMImage](Publish-ProvMasterVMImage/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

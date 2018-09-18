@@ -23,9 +23,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Configuration SDK cmdlet.
 
 ## Related Commands
-  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus.html)
-  * [Get-ConfigDBConnection](Get-ConfigDBConnection.html)
-  * [Test-ConfigDBConnection](Test-ConfigDBConnection.html)
+  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus/)
+  * [Get-ConfigDBConnection](Get-ConfigDBConnection/)
+  * [Test-ConfigDBConnection](Test-ConfigDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,9 +15,9 @@ Set-AcctIdentityPool -IdentityPoolUid <Guid> [-NamingScheme <String>] [-NamingSc
 Note: When changing a naming scheme or naming scheme type, the index is not reset to 0; it continues to avoid AD account name clashes with existing accounts.  If required, use the New-AcctAdAccount command to change the index when creating further accounts.
 
 ## Related Commands
-  * [New-AcctIdentityPool](New-AcctIdentityPool.html)
-  * [Get-AcctIdentityPool](Get-AcctIdentityPool.html)
-  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool.html)
+  * [New-AcctIdentityPool](New-AcctIdentityPool/)
+  * [Get-AcctIdentityPool](Get-AcctIdentityPool/)
+  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

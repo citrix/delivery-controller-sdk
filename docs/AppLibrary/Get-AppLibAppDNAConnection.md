@@ -11,10 +11,10 @@ Get-AppLibAppDNAConnection [-LoggingId <Guid>] [-AdminAddress <String>] [<Common
    Gets the AppDNA Connection details used to integrate Citrix Studio with AppDNA.
 
 ## Related Commands
-  * [Set-AppLibAppDNAConnection](Set-AppLibAppDNAConnection.html)
-  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection.html)
-  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection.html)
-  * [Disable-AppLibAppDNAConnection](Disable-AppLibAppDNAConnection.html)
+  * [Set-AppLibAppDNAConnection](Set-AppLibAppDNAConnection/)
+  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection/)
+  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection/)
+  * [Disable-AppLibAppDNAConnection](Disable-AppLibAppDNAConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

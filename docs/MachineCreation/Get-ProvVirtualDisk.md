@@ -11,7 +11,7 @@ Get-ProvVirtualDisk [-VirtualDiskId <Guid>] [-StorageId <Guid>] [-HostingUnitUid
    Provides the ability to obtain a list of the Virtual Disks that are known to the Machine Creation Service and their locations on the storage.
 
 ## Related Commands
-  * [Get-ProvVirtualDiskPendingOperation](Get-ProvVirtualDiskPendingOperation.html)
+  * [Get-ProvVirtualDiskPendingOperation](Get-ProvVirtualDiskPendingOperation/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

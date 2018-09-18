@@ -19,12 +19,12 @@ You cannot remove built-in roles.
 An error will be produced if the role being removed is currently assigned to an administrator unless you specify the -Force option. When -Force is specified, any rights that reference the role are also removed.
 
 ## Related Commands
-  * [New-AdminRole](New-AdminRole.html)
-  * [Get-AdminRole](Get-AdminRole.html)
-  * [Set-AdminRole](Set-AdminRole.html)
-  * [Rename-AdminRole](Rename-AdminRole.html)
-  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata.html)
-  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata.html)
+  * [New-AdminRole](New-AdminRole/)
+  * [Get-AdminRole](Get-AdminRole/)
+  * [Set-AdminRole](Set-AdminRole/)
+  * [Rename-AdminRole](Rename-AdminRole/)
+  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata/)
+  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -17,7 +17,7 @@ Remove-SfTaskMetadata [-InputObject] <Task[]> -Map <PSObject> [-LoggingId <Guid>
    Provides the ability to remove metadata from the given Task.
 
 ## Related Commands
-  * [Set-SfTaskMetadata](Set-SfTaskMetadata.html)
+  * [Set-SfTaskMetadata](Set-SfTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

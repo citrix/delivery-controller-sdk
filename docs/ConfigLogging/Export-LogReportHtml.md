@@ -14,7 +14,7 @@ o Details.Html - this shows additional logging data from the low level operation
 Hyperlinks in summary.html allow drill-down into the associated low level logging data contained within details.html.
 
 ## Related Commands
-  * [Export-LogReportCsv](Export-LogReportCsv.html)
+  * [Export-LogReportCsv](Export-LogReportCsv/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,7 +13,7 @@ Get-HypConfigurationDataForItem [-LiteralPath] <String> [-AdminAddress <String>]
 This mechanism is used for obtaining data that is not required frequently and/or has a high overhead associated with its retrieval (so as to maintain the responsiveness of the provider). For this release of the PowerShell snap-in, the only provider items that can be used with this operation are VM items.  For a VM, this provides a mechanism to obtain the number of CPUs, the amount of Memory (in MB) and hard disk drive capacity (in GB).
 
 ## Related Commands
-  * [Get-Item](Get-Item.html)
+  * [Get-Item](Get-Item/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

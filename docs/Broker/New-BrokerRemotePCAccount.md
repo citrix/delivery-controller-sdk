@@ -11,9 +11,9 @@ New-BrokerRemotePCAccount -CatalogUid <Int32> -OU <String> [-AllowSubfolderMatch
    Create a new RemotePCAccount. A RemotePCAccount defines machine filters to support Remote PC automation adding unconfigured machines to catalogs.
 
 ## Related Commands
-  * [Get-BrokerRemotePCAccount](Get-BrokerRemotePCAccount.html)
-  * [Set-BrokerRemotePCAccount](Set-BrokerRemotePCAccount.html)
-  * [Remove-BrokerRemotePCAccount](Remove-BrokerRemotePCAccount.html)
+  * [Get-BrokerRemotePCAccount](Get-BrokerRemotePCAccount/)
+  * [Set-BrokerRemotePCAccount](Set-BrokerRemotePCAccount/)
+  * [Remove-BrokerRemotePCAccount](Remove-BrokerRemotePCAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

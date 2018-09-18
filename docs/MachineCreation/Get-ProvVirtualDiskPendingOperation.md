@@ -11,7 +11,7 @@ Get-ProvVirtualDiskPendingOperation [-Id <Guid>] [-ReturnTotalRecordCount] [-Max
    Provides the ability to obtain a list of the operations queued for Virtual Disks.
 
 ## Related Commands
-  * [Get-ProvVirtualDisk](Get-ProvVirtualDisk.html)
+  * [Get-ProvVirtualDisk](Get-ProvVirtualDisk/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,8 +11,8 @@ New-AppLibAppVPackageRepositoryEvent [-RepositoryType <Int32>] [-PackageCount <I
    Indicates that an App-V package repository is added to Citrix Studio.
 
 ## Related Commands
-  * [FIXME](FIXME.html)
-  * [FIXME](FIXME.html)
+  * [FIXME](FIXME/)
+  * [FIXME](FIXME/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

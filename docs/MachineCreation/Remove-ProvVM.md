@@ -13,8 +13,8 @@ Remove-ProvVM [-ProvisioningSchemeUid] <Guid> -VMName <String[]> [-ForgetVM] [-R
    Lets you remove VMs from the Machine Creation Services and the hypervisor that they run on.
 
 ## Related Commands
-  * [Get-ProvVM](Get-ProvVM.html)
-  * [New-ProvVM](New-ProvVM.html)
+  * [Get-ProvVM](Get-ProvVM/)
+  * [New-ProvVM](New-ProvVM/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

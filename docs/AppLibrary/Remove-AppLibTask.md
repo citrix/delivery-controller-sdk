@@ -11,9 +11,9 @@ Remove-AppLibTask [-TaskId] <Guid> [-LoggingId <Guid>] [-AdminAddress <String>] 
    Enables completed tasks that have run within the AppLibrary Service to be removed from the database.
 
 ## Related Commands
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Add-AppLibTaskMetadata](Add-AppLibTaskMetadata.html)
-  * [Remove-AppLibTaskMetadata](Remove-AppLibTaskMetadata.html)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Add-AppLibTaskMetadata](Add-AppLibTaskMetadata/)
+  * [Remove-AppLibTaskMetadata](Remove-AppLibTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

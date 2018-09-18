@@ -21,7 +21,7 @@ Set-AppLibLibraryMetadata [-InputObject] <Library[]> -Map <PSObject> [-LoggingId
    Provides the ability for additional custom data to be stored against given Library objects.
 
 ## Related Commands
-  * [Remove-AppLibLibraryMetadata](Remove-AppLibLibraryMetadata.html)
+  * [Remove-AppLibLibraryMetadata](Remove-AppLibLibraryMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

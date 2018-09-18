@@ -17,7 +17,7 @@ Remove-AppLibServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-Loggin
    Provides the ability to remove metadata from the given Service.
 
 ## Related Commands
-  * [Set-AppLibServiceMetadata](Set-AppLibServiceMetadata.html)
+  * [Set-AppLibServiceMetadata](Set-AppLibServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

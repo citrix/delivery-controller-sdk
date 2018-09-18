@@ -11,9 +11,9 @@ New-MonitorNotificationPolicy -Name <String> [-Description <String>] [-Webhook <
    Returns a new policy instance using the specified parameters
 
 ## Related Commands
-  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy.html)
-  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy.html)
-  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy.html)
+  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy/)
+  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy/)
+  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

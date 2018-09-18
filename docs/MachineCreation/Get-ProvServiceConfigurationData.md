@@ -11,8 +11,8 @@ Get-ProvServiceConfigurationData [-Name <String[]>] [-Value <String[]>] [-Return
    Provides the ability to determine the configuration parameters for the service
 
 ## Related Commands
-  * [Set-ProvServiceConfigurationData](Set-ProvServiceConfigurationData.html)
-  * [Remove-ProvServiceConfigurationData](Remove-ProvServiceConfigurationData.html)
+  * [Set-ProvServiceConfigurationData](Set-ProvServiceConfigurationData/)
+  * [Remove-ProvServiceConfigurationData](Remove-ProvServiceConfigurationData/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

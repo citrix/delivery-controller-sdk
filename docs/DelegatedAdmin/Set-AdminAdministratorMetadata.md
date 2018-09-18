@@ -21,7 +21,7 @@ Set-AdminAdministratorMetadata [-InputObject] <Administrator[]> -Map <PSObject> 
    Provides the ability for additional custom data to be stored against given Administrator objects.
 
 ## Related Commands
-  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata.html)
+  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

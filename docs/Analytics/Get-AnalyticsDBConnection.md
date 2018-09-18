@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Analytics SDK cmdlet.
 
 ## Related Commands
-  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus.html)
-  * [Set-AnalyticsDBConnection](Set-AnalyticsDBConnection.html)
-  * [Test-AnalyticsDBConnection](Test-AnalyticsDBConnection.html)
+  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus/)
+  * [Set-AnalyticsDBConnection](Set-AnalyticsDBConnection/)
+  * [Test-AnalyticsDBConnection](Test-AnalyticsDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

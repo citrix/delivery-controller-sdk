@@ -23,9 +23,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a EnvTest SDK cmdlet.
 
 ## Related Commands
-  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus.html)
-  * [Get-EnvTestDBConnection](Get-EnvTestDBConnection.html)
-  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection.html)
+  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus/)
+  * [Get-EnvTestDBConnection](Get-EnvTestDBConnection/)
+  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

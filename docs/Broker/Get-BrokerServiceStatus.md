@@ -11,10 +11,10 @@ Get-BrokerServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the Broker Service on the controller to be determined. If the service has multiple data stores it will return the overall state as an aggregate of all the data store states. For example, if the site data store status is OK and the secondary data store status is DBUnconfigured then it will return DBUnconfigured. Before using this command, you don't have to configure the database connection to the Service.
 
 ## Related Commands
-  * [Set-BrokerDBConnection](Set-BrokerDBConnection.html)
-  * [Test-BrokerDBConnection](Test-BrokerDBConnection.html)
-  * [Get-BrokerDBConnection](Get-BrokerDBConnection.html)
-  * [Get-BrokerDBSchema](Get-BrokerDBSchema.html)
+  * [Set-BrokerDBConnection](Set-BrokerDBConnection/)
+  * [Test-BrokerDBConnection](Test-BrokerDBConnection/)
+  * [Get-BrokerDBConnection](Get-BrokerDBConnection/)
+  * [Get-BrokerDBSchema](Get-BrokerDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,9 +13,9 @@ Set-BrokerRebootSchedule [-DesktopGroupName] <String> [-PassThru] [-Day <RebootS
    The Set-BrokerRebootSchedule cmdlet is used to alter the settings of an existing desktop group reboot schedule.
 
 ## Related Commands
-  * [Get-BrokerRebootSchedule](Get-BrokerRebootSchedule.html)
-  * [New-BrokerRebootSchedule](New-BrokerRebootSchedule.html)
-  * [Remove-BrokerRebootSchedule](Remove-BrokerRebootSchedule.html)
+  * [Get-BrokerRebootSchedule](Get-BrokerRebootSchedule/)
+  * [New-BrokerRebootSchedule](New-BrokerRebootSchedule/)
+  * [Remove-BrokerRebootSchedule](Remove-BrokerRebootSchedule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

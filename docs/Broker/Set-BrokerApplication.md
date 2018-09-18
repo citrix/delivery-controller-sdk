@@ -19,12 +19,12 @@ Add-RemoveApplication -DesktopGroup $group2
 You can change properties of HostedOnDesktop, InstalledOnClient and PublishedContent applications but it is not possible to change the ApplicationType. Also, the Name cannot be changed using this cmdlet; to do this, use the Rename-BrokerApplication cmdlet.
 
 ## Related Commands
-  * [New-BrokerApplication](New-BrokerApplication.html)
-  * [Add-BrokerApplication](Add-BrokerApplication.html)
-  * [Get-BrokerApplication](Get-BrokerApplication.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
-  * [Rename-BrokerApplication](Rename-BrokerApplication.html)
-  * [Move-BrokerApplication](Move-BrokerApplication.html)
+  * [New-BrokerApplication](New-BrokerApplication/)
+  * [Add-BrokerApplication](Add-BrokerApplication/)
+  * [Get-BrokerApplication](Get-BrokerApplication/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
+  * [Rename-BrokerApplication](Rename-BrokerApplication/)
+  * [Move-BrokerApplication](Move-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

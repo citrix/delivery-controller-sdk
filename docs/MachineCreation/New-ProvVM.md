@@ -15,10 +15,10 @@ New-ProvVM -ProvisioningSchemeUid <Guid> -ADAccountName <String[]> [-FastBuild] 
 The virtual machines are created using all of the storage specified in the provisioning scheme. The storage is used in a round robin mechanism. For the duration of this task, the AD accounts are locked (by the AD Identity Service), which stops the same accounts being used by other virtual machine creation tasks.
 
 ## Related Commands
-  * [Get-ProvVM](Get-ProvVM.html)
-  * [Remove-ProvVM](Remove-ProvVM.html)
-  * [Lock-ProvVM](Lock-ProvVM.html)
-  * [Unlock-ProvVM](Unlock-ProvVM.html)
+  * [Get-ProvVM](Get-ProvVM/)
+  * [Remove-ProvVM](Remove-ProvVM/)
+  * [Lock-ProvVM](Lock-ProvVM/)
+  * [Unlock-ProvVM](Unlock-ProvVM/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

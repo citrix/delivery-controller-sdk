@@ -13,10 +13,10 @@ Set-BrokerCatalog [-Name] <String> [-PassThru] [-Description <String>] [-IsRemot
    The Set-BrokerCatalog cmdlet sets properties of a catalog or set of catalogs. The catalog can be specified by name, in which case only one catalog can be specified, or one or more catalog instances can be passed to the command either by piping or by using the -InputObject parameter.
 
 ## Related Commands
-  * [Get-BrokerCatalog](Get-BrokerCatalog.html)
-  * [New-BrokerCatalog](New-BrokerCatalog.html)
-  * [Remove-BrokerCatalog](Remove-BrokerCatalog.html)
-  * [Rename-BrokerCatalog](Rename-BrokerCatalog.html)
+  * [Get-BrokerCatalog](Get-BrokerCatalog/)
+  * [New-BrokerCatalog](New-BrokerCatalog/)
+  * [Remove-BrokerCatalog](Remove-BrokerCatalog/)
+  * [Rename-BrokerCatalog](Rename-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

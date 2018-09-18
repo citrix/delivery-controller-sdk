@@ -27,12 +27,12 @@ Note that if the application is in use by a user then the application cannot be 
 If more than just the application is supplied as a parameter to the cmdlet (for instance, if a DesktopGroup object is also specified) then the application is not deleted. Instead, only the association from the application to that desktop group is removed.
 
 ## Related Commands
-  * [New-BrokerApplication](New-BrokerApplication.html)
-  * [Add-BrokerApplication](Add-BrokerApplication.html)
-  * [Get-BrokerApplication](Get-BrokerApplication.html)
-  * [Rename-BrokerApplication](Rename-BrokerApplication.html)
-  * [Move-BrokerApplication](Move-BrokerApplication.html)
-  * [Set-BrokerApplication](Set-BrokerApplication.html)
+  * [New-BrokerApplication](New-BrokerApplication/)
+  * [Add-BrokerApplication](Add-BrokerApplication/)
+  * [Get-BrokerApplication](Get-BrokerApplication/)
+  * [Rename-BrokerApplication](Rename-BrokerApplication/)
+  * [Move-BrokerApplication](Move-BrokerApplication/)
+  * [Set-BrokerApplication](Set-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

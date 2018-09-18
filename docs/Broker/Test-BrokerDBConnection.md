@@ -17,9 +17,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is the one on the local machine, or the one most recently specified using the -AdminAddress parameter of a Broker SDK cmdlet.
 
 ## Related Commands
-  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus.html)
-  * [Get-BrokerDBConnection](Get-BrokerDBConnection.html)
-  * [Set-BrokerDBConnection](Set-BrokerDBConnection.html)
+  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus/)
+  * [Get-BrokerDBConnection](Get-BrokerDBConnection/)
+  * [Set-BrokerDBConnection](Set-BrokerDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

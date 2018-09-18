@@ -17,8 +17,8 @@ Set-ConfigRegisteredServiceInstanceMetadata [-InputObject] <ServiceInstance[]> -
    Provides the ability for additional custom data to be stored against given ServiceInstance objects.
 
 ## Related Commands
-  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata.html)
-  * [Remove-ConfigRegisteredServiceInstanceMetadata](Remove-ConfigRegisteredServiceInstanceMetadata.html)
+  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata/)
+  * [Remove-ConfigRegisteredServiceInstanceMetadata](Remove-ConfigRegisteredServiceInstanceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

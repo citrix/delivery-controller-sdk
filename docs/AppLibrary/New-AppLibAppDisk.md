@@ -17,10 +17,10 @@ New-AppLibAppDisk [-AppDiskName] <String> -SourceAppDiskName <String> -Preparati
    Lets you create a new AppDisk.
 
 ## Related Commands
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [Import-AppLibAppDisk](Import-AppLibAppDisk.html)
-  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable.html)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [Import-AppLibAppDisk](Import-AppLibAppDisk/)
+  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

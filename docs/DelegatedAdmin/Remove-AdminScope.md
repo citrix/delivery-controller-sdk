@@ -19,12 +19,12 @@ You cannot remove the built-in 'All' scope.
 An error will be produced if the scope being removed is currently assigned to an administrator unless you specify the -Force option. When -Force is specified, any rights that reference the scope are also removed.
 
 ## Related Commands
-  * [New-AdminScope](New-AdminScope.html)
-  * [Get-AdminScope](Get-AdminScope.html)
-  * [Set-AdminScope](Set-AdminScope.html)
-  * [Rename-AdminScope](Rename-AdminScope.html)
-  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata.html)
-  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata.html)
+  * [New-AdminScope](New-AdminScope/)
+  * [Get-AdminScope](Get-AdminScope/)
+  * [Set-AdminScope](Set-AdminScope/)
+  * [Rename-AdminScope](Rename-AdminScope/)
+  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata/)
+  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -25,10 +25,10 @@ Once a machine has been assigned in this way, the original assignment rule plays
 Multiple desktop rules in the assignment policy can apply to the same desktop group. Where a user is granted entitlements by more than one rule for the same group, they can have as many machine assignments from the group as the total of their entitlements.
 
 ## Related Commands
-  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule.html)
-  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule.html)
-  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule.html)
-  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule.html)
+  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule/)
+  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule/)
+  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule/)
+  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

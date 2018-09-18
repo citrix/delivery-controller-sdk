@@ -11,9 +11,9 @@ New-BrokerHypervisorConnection [-HypHypervisorConnectionUid] <Guid> [-PreferredC
    The New-BrokerHypervisorConnection cmdlet creates a new hypervisor connection.
 
 ## Related Commands
-  * [Get-BrokerHypervisorConnection](Get-BrokerHypervisorConnection.html)
-  * [Remove-BrokerHypervisorConnection](Remove-BrokerHypervisorConnection.html)
-  * [Set-BrokerHypervisorConnection](Set-BrokerHypervisorConnection.html)
+  * [Get-BrokerHypervisorConnection](Get-BrokerHypervisorConnection/)
+  * [Remove-BrokerHypervisorConnection](Remove-BrokerHypervisorConnection/)
+  * [Set-BrokerHypervisorConnection](Set-BrokerHypervisorConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

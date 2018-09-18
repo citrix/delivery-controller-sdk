@@ -21,12 +21,12 @@ All aspects of this command that need to make modifications to the accounts in A
 If the option to remove the account from AD or to disable it in AD is specified, the AD operation must succeed for the account to be removed from the Citrix AD Identity Service database. Use caution when using the Force parameter because this allows removal of accounts that are in the 'inUse' state, which may result in the machines becoming unusable.
 
 ## Related Commands
-  * [New-AcctADAccount](New-AcctADAccount.html)
-  * [Add-AcctADAccount](Add-AcctADAccount.html)
-  * [Repair-AcctADAccount](Repair-AcctADAccount.html)
-  * [Unlock-AcctADAccount](Unlock-AcctADAccount.html)
-  * [Update-AcctADAccount](Update-AcctADAccount.html)
-  * [Get-AcctADAccount](Get-AcctADAccount.html)
+  * [New-AcctADAccount](New-AcctADAccount/)
+  * [Add-AcctADAccount](Add-AcctADAccount/)
+  * [Repair-AcctADAccount](Repair-AcctADAccount/)
+  * [Unlock-AcctADAccount](Unlock-AcctADAccount/)
+  * [Update-AcctADAccount](Update-AcctADAccount/)
+  * [Get-AcctADAccount](Get-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

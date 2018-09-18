@@ -15,10 +15,10 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Monitor SDK cmdlet.
 
 ## Related Commands
-  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus.html)
-  * [Get-MonitorDataStore](Get-MonitorDataStore.html)
-  * [Set-MonitorDBConnection](Set-MonitorDBConnection.html)
-  * [Test-MonitorDBConnection](Test-MonitorDBConnection.html)
+  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus/)
+  * [Get-MonitorDataStore](Get-MonitorDataStore/)
+  * [Set-MonitorDBConnection](Set-MonitorDBConnection/)
+  * [Test-MonitorDBConnection](Test-MonitorDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

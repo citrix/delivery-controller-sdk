@@ -11,11 +11,11 @@ Get-LogServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the ConfigurationLogging Service on the controller to be determined. If the service has multiple data stores it will return the overall state as an aggregate of all the data store states. For example, if the site data store status is OK and the secondary data store status is DBUnconfigured then it will return DBUnconfigured. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Get-LogDataStore](Get-LogDataStore.html)
-  * [Set-LogDBConnection](Set-LogDBConnection.html)
-  * [Test-LogDBConnection](Test-LogDBConnection.html)
-  * [Get-LogDBConnection](Get-LogDBConnection.html)
-  * [Get-LogDBSchema](Get-LogDBSchema.html)
+  * [Get-LogDataStore](Get-LogDataStore/)
+  * [Set-LogDBConnection](Set-LogDBConnection/)
+  * [Test-LogDBConnection](Test-LogDBConnection/)
+  * [Get-LogDBConnection](Get-LogDBConnection/)
+  * [Get-LogDBSchema](Get-LogDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

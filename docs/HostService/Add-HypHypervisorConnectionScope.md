@@ -24,8 +24,8 @@ To add a HypervisorConnection to a scope you need permission to change the scope
 If the HypervisorConnection is already in a scope, that scope will be silently ignored.
 
 ## Related Commands
-  * [Remove-HypHypervisorConnectionScope](Remove-HypHypervisorConnectionScope.html)
-  * [Get-HypScopedObject](Get-HypScopedObject.html)
+  * [Remove-HypHypervisorConnectionScope](Remove-HypHypervisorConnectionScope/)
+  * [Get-HypScopedObject](Get-HypScopedObject/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

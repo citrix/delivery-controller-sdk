@@ -11,10 +11,10 @@ Test-AppLibAppDNAConnection [-Address] <String> -Database <String> -UserName <St
    Tests whether a connection to the configured AppDNA server can be made.
 
 ## Related Commands
-  * [Set-AppLibAppDNAConnection](Set-AppLibAppDNAConnection.html)
-  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection.html)
-  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection.html)
-  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection.html)
+  * [Set-AppLibAppDNAConnection](Set-AppLibAppDNAConnection/)
+  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection/)
+  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection/)
+  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

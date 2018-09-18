@@ -17,7 +17,7 @@ Set-ProvServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId <
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-ProvServiceMetadata](Remove-ProvServiceMetadata.html)
+  * [Remove-ProvServiceMetadata](Remove-ProvServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

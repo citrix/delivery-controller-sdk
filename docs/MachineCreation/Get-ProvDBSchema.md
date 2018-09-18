@@ -39,8 +39,8 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-ProvDBConnection](Set-ProvDBConnection.html)
-  * [Test-ProvDBConnection](Test-ProvDBConnection.html)
+  * [Set-ProvDBConnection](Set-ProvDBConnection/)
+  * [Test-ProvDBConnection](Test-ProvDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

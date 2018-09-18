@@ -11,10 +11,10 @@ New-SfCluster -ServerName <String> -FarmName <String> -XmlServices <Uri[]> [-Sto
    The server will have a default set of services containing fully-functionaly Storefront server with Authentication, Store, Receiver for Web and Desktop Appliance.
 
 ## Related Commands
-  * [Get-SfCluster](Get-SfCluster.html)
-  * [Add-SfServerToCluster](Add-SfServerToCluster.html)
-  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster.html)
-  * [Set-SfCluster](Set-SfCluster.html)
+  * [Get-SfCluster](Get-SfCluster/)
+  * [Add-SfServerToCluster](Add-SfServerToCluster/)
+  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster/)
+  * [Set-SfCluster](Set-SfCluster/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

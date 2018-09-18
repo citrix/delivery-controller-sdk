@@ -11,9 +11,9 @@ Test-BrokerAppEntitlementPolicyRuleNameAvailable [-Name] <String[]> [-AdminAddre
    This cmdlet checks whether proposed AppEntitlementPolicyRule Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule.html)
-  * [New-BrokerAppEntitlementPolicyRule](New-BrokerAppEntitlementPolicyRule.html)
-  * [Rename-BrokerAppEntitlementPolicyRule](Rename-BrokerAppEntitlementPolicyRule.html)
+  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule/)
+  * [New-BrokerAppEntitlementPolicyRule](New-BrokerAppEntitlementPolicyRule/)
+  * [Rename-BrokerAppEntitlementPolicyRule](Rename-BrokerAppEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

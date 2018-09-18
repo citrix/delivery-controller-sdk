@@ -13,8 +13,8 @@ Remove-ProvSchemeControllerAddress -ProvisioningSchemeUid <Guid> -ControllerAddr
    Removes the specified controller addresses from the specified object. Attempting to remove an address not present writes an error record to the pipeline.
 
 ## Related Commands
-  * [Get-ProvScheme](Get-ProvScheme.html)
-  * [Add-ProvSchemeControllerAddress](Add-ProvSchemeControllerAddress.html)
+  * [Get-ProvScheme](Get-ProvScheme/)
+  * [Add-ProvSchemeControllerAddress](Add-ProvSchemeControllerAddress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

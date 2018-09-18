@@ -11,9 +11,9 @@ Import-BrokerDesktopPolicy [-Policy] <Byte[]> [-LoggingId <Guid>] [-AdminAddress
    Import-BrokerDesktopPolicy sets the site wide Citrix Group Policy settings. A successful call to this cmdlet will result in the supplied data being uploaded to every machine in the site prior to its next session launch.
 
 ## Related Commands
-  * [Export-BrokerDesktopPolicy](Export-BrokerDesktopPolicy.html)
-  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot.html)
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
+  * [Export-BrokerDesktopPolicy](Export-BrokerDesktopPolicy/)
+  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot/)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

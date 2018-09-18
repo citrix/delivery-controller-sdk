@@ -11,8 +11,8 @@ Test-BrokerLicenseServer [-ComputerName] <String> [-AdminAddress <String>] [[-Po
    Tests whether or not a given license server can be used by the broker.
 
 ## Related Commands
-  * [Get-BrokerSite](Get-BrokerSite.html)
-  * [Set-BrokerSite](Set-BrokerSite.html)
+  * [Get-BrokerSite](Get-BrokerSite/)
+  * [Set-BrokerSite](Set-BrokerSite/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

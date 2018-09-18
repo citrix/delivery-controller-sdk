@@ -11,9 +11,9 @@ Get-LogHighLevelOperation [-Id <Guid>] [-Text <String>] [-StartTime <DateTime>] 
    Retrieves high level operations matching the specified criteria. If no parameters are specified this cmdlet returns all high level operations.
 
 ## Related Commands
-  * [Start-LogHighLevelOperation](Start-LogHighLevelOperation.html)
-  * [Stop-LogHighLevelOperation](Stop-LogHighLevelOperation.html)
-  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation.html)
+  * [Start-LogHighLevelOperation](Start-LogHighLevelOperation/)
+  * [Stop-LogHighLevelOperation](Stop-LogHighLevelOperation/)
+  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

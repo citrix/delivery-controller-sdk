@@ -15,7 +15,7 @@ As this command uses Active Directory to determine what groups the user has, the
 Only enabled administrator records are returned.
 
 ## Related Commands
-  * [Get-AdminAdministrator](Get-AdminAdministrator.html)
+  * [Get-AdminAdministrator](Get-AdminAdministrator/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

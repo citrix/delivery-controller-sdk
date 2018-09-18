@@ -19,13 +19,13 @@ To assign a scope to an administrator, combine it with a role and then assign th
 The identifier of the new scope is chosen automatically.
 
 ## Related Commands
-  * [Get-AdminScope](Get-AdminScope.html)
-  * [Set-AdminScope](Set-AdminScope.html)
-  * [Rename-AdminScope](Rename-AdminScope.html)
-  * [Remove-AdminScope](Remove-AdminScope.html)
-  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata.html)
-  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata.html)
-  * [Add-AdminRight](Add-AdminRight.html)
+  * [Get-AdminScope](Get-AdminScope/)
+  * [Set-AdminScope](Set-AdminScope/)
+  * [Rename-AdminScope](Rename-AdminScope/)
+  * [Remove-AdminScope](Remove-AdminScope/)
+  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata/)
+  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata/)
+  * [Add-AdminRight](Add-AdminRight/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

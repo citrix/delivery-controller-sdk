@@ -13,10 +13,10 @@ Rename-AcctIdentityPool -IdentityPoolUid <Guid> -NewIdentityPoolName <String> [-
    Provides the ability to change the name of an existing identity pool.
 
 ## Related Commands
-  * [Get-AcctIdentityPool](Get-AcctIdentityPool.html)
-  * [Set-AcctIdentityPool](Set-AcctIdentityPool.html)
-  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool.html)
-  * [Test-AcctIdentityPoolNameAvailable](Test-AcctIdentityPoolNameAvailable.html)
+  * [Get-AcctIdentityPool](Get-AcctIdentityPool/)
+  * [Set-AcctIdentityPool](Set-AcctIdentityPool/)
+  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool/)
+  * [Test-AcctIdentityPoolNameAvailable](Test-AcctIdentityPoolNameAvailable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

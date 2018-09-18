@@ -21,7 +21,7 @@ Set-ConfigEdgeServerMetadata [-InputObject] <EdgeServer[]> -Map <PSObject> [-Log
    Provides the ability for additional custom data to be stored against given EdgeServer objects.
 
 ## Related Commands
-  * [Remove-ConfigEdgeServerMetadata](Remove-ConfigEdgeServerMetadata.html)
+  * [Remove-ConfigEdgeServerMetadata](Remove-ConfigEdgeServerMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

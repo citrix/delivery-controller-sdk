@@ -19,8 +19,8 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-SfDBVersionChangeScript](Get-SfDBVersionChangeScript.html)
-  * [Get-SfDBSchema](Get-SfDBSchema.html)
+  * [Get-SfDBVersionChangeScript](Get-SfDBVersionChangeScript/)
+  * [Get-SfDBSchema](Get-SfDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

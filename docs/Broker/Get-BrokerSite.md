@@ -106,8 +106,8 @@ The BrokerSite object represents logical representation of the XenDesktop site. 
        The XML Service trust settings.
 
 ## Related Commands
-  * [Set-BrokerSite](Set-BrokerSite.html)
-  * [Get-BrokerIcon](Get-BrokerIcon.html)
+  * [Set-BrokerSite](Set-BrokerSite/)
+  * [Get-BrokerIcon](Get-BrokerIcon/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

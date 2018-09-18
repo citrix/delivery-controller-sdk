@@ -11,8 +11,8 @@ Stop-BrokerSession [-InputObject] <Session[]> [-LoggingId <Guid>] [-AdminAddress
    Stops or logs off sessions.
 
 ## Related Commands
-  * [Disconnect-BrokerSession](Disconnect-BrokerSession.html)
-  * [Get-BrokerSession](Get-BrokerSession.html)
+  * [Disconnect-BrokerSession](Disconnect-BrokerSession/)
+  * [Get-BrokerSession](Get-BrokerSession/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

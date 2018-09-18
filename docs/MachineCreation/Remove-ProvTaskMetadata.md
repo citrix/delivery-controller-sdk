@@ -17,12 +17,12 @@ Remove-ProvTaskMetadata [-InputObject] <Task[]> -Map <PSObject> [-LoggingId <Gui
    Provides the ability to remove metadata from the given Task.
 
 ## Related Commands
-  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata.html)
-  * [Set-ProvTaskMetadata](Set-ProvTaskMetadata.html)
-  * [Get-ProvTask](Get-ProvTask.html)
-  * [Remove-ProvTask](Remove-ProvTask.html)
-  * [Stop-ProvTask](Stop-ProvTask.html)
-  * [Switch-ProvTask](Switch-ProvTask.html)
+  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata/)
+  * [Set-ProvTaskMetadata](Set-ProvTaskMetadata/)
+  * [Get-ProvTask](Get-ProvTask/)
+  * [Remove-ProvTask](Remove-ProvTask/)
+  * [Stop-ProvTask](Stop-ProvTask/)
+  * [Switch-ProvTask](Switch-ProvTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

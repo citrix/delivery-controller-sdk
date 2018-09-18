@@ -11,11 +11,11 @@ Get-AppLibTask [[-TaskId] <Guid>] [-Type <JobType>] [-Active <Boolean>] [-Metada
    Returns a list of tasks that have run or are currently running within the AppLibrary Service.
 
 ## Related Commands
-  * [Remove-AppLibTask](Remove-AppLibTask.html)
-  * [Stop-AppLibTask](Stop-AppLibTask.html)
-  * [Switch-AppLibTask](Switch-AppLibTask.html)
-  * [Add-AppLibTaskMetadata](Add-AppLibTaskMetadata.html)
-  * [Remove-AppLibTaskMetadata](Remove-AppLibTaskMetadata.html)
+  * [Remove-AppLibTask](Remove-AppLibTask/)
+  * [Stop-AppLibTask](Stop-AppLibTask/)
+  * [Switch-AppLibTask](Switch-AppLibTask/)
+  * [Add-AppLibTaskMetadata](Add-AppLibTaskMetadata/)
+  * [Remove-AppLibTaskMetadata](Remove-AppLibTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -39,8 +39,8 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-OrchDBConnection](Set-OrchDBConnection.html)
-  * [Test-OrchDBConnection](Test-OrchDBConnection.html)
+  * [Set-OrchDBConnection](Set-OrchDBConnection/)
+  * [Test-OrchDBConnection](Test-OrchDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

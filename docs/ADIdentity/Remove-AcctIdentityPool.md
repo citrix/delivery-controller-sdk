@@ -13,10 +13,10 @@ Remove-AcctIdentityPool -IdentityPoolUid <Guid> [-LoggingId <Guid>] [-AdminAddre
    Provides the ability to remove identity pools.  The identity pool must be emptied of any AD accounts that it contains before it can be removed.
 
 ## Related Commands
-  * [New-AcctIdentityPool](New-AcctIdentityPool.html)
-  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool.html)
-  * [Set-AcctIdentityPool](Set-AcctIdentityPool.html)
-  * [Unlock-AcctIdentityPool](Unlock-AcctIdentityPool.html)
+  * [New-AcctIdentityPool](New-AcctIdentityPool/)
+  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool/)
+  * [Set-AcctIdentityPool](Set-AcctIdentityPool/)
+  * [Unlock-AcctIdentityPool](Unlock-AcctIdentityPool/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

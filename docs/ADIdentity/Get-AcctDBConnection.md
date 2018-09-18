@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a ADIdentity SDK cmdlet.
 
 ## Related Commands
-  * [Get-AcctServiceStatus](Get-AcctServiceStatus.html)
-  * [Set-AcctDBConnection](Set-AcctDBConnection.html)
-  * [Test-AcctDBConnection](Test-AcctDBConnection.html)
+  * [Get-AcctServiceStatus](Get-AcctServiceStatus/)
+  * [Set-AcctDBConnection](Set-AcctDBConnection/)
+  * [Test-AcctDBConnection](Test-AcctDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -23,13 +23,13 @@ In addition the ` character is not allowed in the Name property.
 See about_Broker_Applications for more information.
 
 ## Related Commands
-  * [Add-BrokerApplication](Add-BrokerApplication.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
-  * [Get-BrokerApplication](Get-BrokerApplication.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
-  * [Rename-BrokerApplication](Rename-BrokerApplication.html)
-  * [Move-BrokerApplication](Move-BrokerApplication.html)
-  * [Set-BrokerApplication](Set-BrokerApplication.html)
+  * [Add-BrokerApplication](Add-BrokerApplication/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
+  * [Get-BrokerApplication](Get-BrokerApplication/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
+  * [Rename-BrokerApplication](Rename-BrokerApplication/)
+  * [Move-BrokerApplication](Move-BrokerApplication/)
+  * [Set-BrokerApplication](Set-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

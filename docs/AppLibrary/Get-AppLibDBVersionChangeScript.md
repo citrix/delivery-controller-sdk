@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix AppLibrary Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-AppLibServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-AppLibInstalledDBVersion](Get-AppLibInstalledDBVersion.html)
-  * [Get-AppLibServiceStatus](Get-AppLibServiceStatus.html)
-  * [Get-AppLibDBSchema](Get-AppLibDBSchema.html)
+  * [Get-AppLibInstalledDBVersion](Get-AppLibInstalledDBVersion/)
+  * [Get-AppLibServiceStatus](Get-AppLibServiceStatus/)
+  * [Get-AppLibDBSchema](Get-AppLibDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

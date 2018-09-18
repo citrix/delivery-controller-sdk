@@ -11,10 +11,10 @@ Get-ProvVM [[-ProvisioningSchemeName] <String>] [-ProvisioningSchemeUid <Guid>] 
    Provides the ability to obtain a list of the VMs that were created using Machine Creation Services.
 
 ## Related Commands
-  * [New-ProvVM](New-ProvVM.html)
-  * [Remove-ProvVM](Remove-ProvVM.html)
-  * [Lock-ProvVM](Lock-ProvVM.html)
-  * [Unlock-ProvVM](Unlock-ProvVM.html)
+  * [New-ProvVM](New-ProvVM/)
+  * [Remove-ProvVM](Remove-ProvVM/)
+  * [Lock-ProvVM](Lock-ProvVM/)
+  * [Unlock-ProvVM](Unlock-ProvVM/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,9 +13,9 @@ Lock-ProvVM [-VMID] <String[]> -ProvisioningSchemeUid <Guid> [-Tag <String>] [-L
    Provides the ability to 'lock' a virtual machine with a tag string.  This stops other commands from being able to remove the virtual machine without unlocking the VM first.  This is to enable consumers of the virtual machines to indicate that the VM is being used.
 
 ## Related Commands
-  * [UnLock-ProvVM](UnLock-ProvVM.html)
-  * [Get-ProvVM](Get-ProvVM.html)
-  * [Remove-ProvVM](Remove-ProvVM.html)
+  * [UnLock-ProvVM](UnLock-ProvVM/)
+  * [Get-ProvVM](Get-ProvVM/)
+  * [Remove-ProvVM](Remove-ProvVM/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -45,9 +45,9 @@ The BrokerConfiguredFTA object represents a file type association configured for
        UUID of the configured file type association.
 
 ## Related Commands
-  * [New-BrokerConfiguredFTA](New-BrokerConfiguredFTA.html)
-  * [Remove-BrokerConfiguredFTA](Remove-BrokerConfiguredFTA.html)
-  * [Update-BrokerImportedFTA](Update-BrokerImportedFTA.html)
+  * [New-BrokerConfiguredFTA](New-BrokerConfiguredFTA/)
+  * [Remove-BrokerConfiguredFTA](Remove-BrokerConfiguredFTA/)
+  * [Update-BrokerImportedFTA](Update-BrokerImportedFTA/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

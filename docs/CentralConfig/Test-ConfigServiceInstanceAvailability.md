@@ -11,9 +11,9 @@ Test-ConfigServiceInstanceAvailability [-ServiceInstance] <ServiceInstance[]> [-
    
 
 ## Related Commands
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
-  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance.html)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
+  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

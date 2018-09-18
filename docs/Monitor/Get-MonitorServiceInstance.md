@@ -13,8 +13,8 @@ Get-MonitorServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus.html)
-  * [Reset-MonitorServiceGroupMembership](Reset-MonitorServiceGroupMembership.html)
+  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus/)
+  * [Reset-MonitorServiceGroupMembership](Reset-MonitorServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix MachineCreation Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-ProvServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-ProvInstalledDBVersion](Get-ProvInstalledDBVersion.html)
-  * [Get-ProvServiceStatus](Get-ProvServiceStatus.html)
-  * [Get-ProvDBSchema](Get-ProvDBSchema.html)
+  * [Get-ProvInstalledDBVersion](Get-ProvInstalledDBVersion/)
+  * [Get-ProvServiceStatus](Get-ProvServiceStatus/)
+  * [Get-ProvDBSchema](Get-ProvDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

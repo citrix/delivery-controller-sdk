@@ -13,10 +13,10 @@ Add-BrokerMachineConfiguration [-Name] <String> [-Application <Application>] [-D
    Associates a machine configuration with a desktop group. The settings in the machine configuration are then applied to the machines in the desktop group.
 
 ## Related Commands
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
-  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration.html)
-  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration.html)
-  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration.html)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
+  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration/)
+  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration/)
+  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

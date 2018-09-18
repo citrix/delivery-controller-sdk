@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix ADIdentity Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-AcctServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-AcctInstalledDBVersion](Get-AcctInstalledDBVersion.html)
-  * [Get-AcctServiceStatus](Get-AcctServiceStatus.html)
-  * [Get-AcctDBSchema](Get-AcctDBSchema.html)
+  * [Get-AcctInstalledDBVersion](Get-AcctInstalledDBVersion/)
+  * [Get-AcctServiceStatus](Get-AcctServiceStatus/)
+  * [Get-AcctDBSchema](Get-AcctDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

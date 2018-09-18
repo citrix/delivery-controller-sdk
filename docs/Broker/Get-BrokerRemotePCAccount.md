@@ -35,9 +35,9 @@ RemotePCAccounts define a set of machines either by machine name patterns or by 
        The Uid of the RemotePCAccount object.
 
 ## Related Commands
-  * [New-BrokerRemotePCAccount](New-BrokerRemotePCAccount.html)
-  * [Set-BrokerRemotePCAccount](Set-BrokerRemotePCAccount.html)
-  * [Remove-BrokerRemotePCAccount](Remove-BrokerRemotePCAccount.html)
+  * [New-BrokerRemotePCAccount](New-BrokerRemotePCAccount/)
+  * [Set-BrokerRemotePCAccount](Set-BrokerRemotePCAccount/)
+  * [Remove-BrokerRemotePCAccount](Remove-BrokerRemotePCAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

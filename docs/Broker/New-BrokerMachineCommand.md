@@ -25,8 +25,8 @@ If the Synchronous switch is provided, the target must be a machine and no SendT
 Note that the combined length of the Category and CommandName is limited to 64 characters. The Category and CommandName must both be entirely alphanumeric and not include any white space.
 
 ## Related Commands
-  * [Get-BrokerMachineCommand](Get-BrokerMachineCommand.html)
-  * [Remove-BrokerMachineCommand](Remove-BrokerMachineCommand.html)
+  * [Get-BrokerMachineCommand](Get-BrokerMachineCommand/)
+  * [Remove-BrokerMachineCommand](Remove-BrokerMachineCommand/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

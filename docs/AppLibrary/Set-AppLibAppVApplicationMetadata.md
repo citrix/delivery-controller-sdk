@@ -21,7 +21,7 @@ Set-AppLibAppVApplicationMetadata [-InputObject] <AppVApplication[]> -Map <PSObj
    Provides the ability for additional custom data to be stored against given AppVApplication objects.
 
 ## Related Commands
-  * [Remove-AppLibAppVApplicationMetadata](Remove-AppLibAppVApplicationMetadata.html)
+  * [Remove-AppLibAppVApplicationMetadata](Remove-AppLibAppVApplicationMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

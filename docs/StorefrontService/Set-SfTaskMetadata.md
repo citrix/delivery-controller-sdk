@@ -17,7 +17,7 @@ Set-SfTaskMetadata [-InputObject] <Task[]> -Map <PSObject> [-LoggingId <Guid>] [
    Provides the ability for additional custom data to be stored against given Task objects.
 
 ## Related Commands
-  * [Remove-SfTaskMetadata](Remove-SfTaskMetadata.html)
+  * [Remove-SfTaskMetadata](Remove-SfTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

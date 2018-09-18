@@ -17,10 +17,10 @@ An application rule in the entitlement policy defines the users who are allowed 
 Changing a rule does not affect existing sessions launched using the rule, but if the change removes an entitlement to a machine that was previously granted, users may be unable to reconnect to a disconnected session on that machine.
 
 ## Related Commands
-  * [New-BrokerAppEntitlementPolicyRule](New-BrokerAppEntitlementPolicyRule.html)
-  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule.html)
-  * [Rename-BrokerAppEntitlementPolicyRule](Rename-BrokerAppEntitlementPolicyRule.html)
-  * [Remove-BrokerAppEntitlementPolicyRule](Remove-BrokerAppEntitlementPolicyRule.html)
+  * [New-BrokerAppEntitlementPolicyRule](New-BrokerAppEntitlementPolicyRule/)
+  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule/)
+  * [Rename-BrokerAppEntitlementPolicyRule](Rename-BrokerAppEntitlementPolicyRule/)
+  * [Remove-BrokerAppEntitlementPolicyRule](Remove-BrokerAppEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

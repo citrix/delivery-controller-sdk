@@ -53,7 +53,7 @@ An unconfigured machine is a machine that has registered with the site but is no
        Security identifier of the unconfigured machine.
 
 ## Related Commands
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

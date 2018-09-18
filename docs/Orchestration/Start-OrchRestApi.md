@@ -11,8 +11,8 @@ Start-OrchRestApi [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameter
    Initializes the PowerShell business logic and starts the REST API that is hosted by the selected instance of the Orchestration Service.
 
 ## Related Commands
-  * [Get-OrchService](Get-OrchService.html)
-  * [Stop-OrchRestApi](Stop-OrchRestApi.html)
+  * [Get-OrchService](Get-OrchService/)
+  * [Stop-OrchRestApi](Stop-OrchRestApi/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -17,13 +17,13 @@ There are two parameter sets for this cmdlet, allowing you to specify the applic
 See about_Broker_Desktops and about_Broker_Applications for more information.
 
 ## Related Commands
-  * [New-BrokerApplication](New-BrokerApplication.html)
-  * [Add-BrokerApplication](Add-BrokerApplication.html)
-  * [Add-BrokerTag](Add-BrokerTag.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
-  * [Rename-BrokerApplication](Rename-BrokerApplication.html)
-  * [Move-BrokerApplication](Move-BrokerApplication.html)
-  * [Set-BrokerApplication](Set-BrokerApplication.html)
+  * [New-BrokerApplication](New-BrokerApplication/)
+  * [Add-BrokerApplication](Add-BrokerApplication/)
+  * [Add-BrokerTag](Add-BrokerTag/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
+  * [Rename-BrokerApplication](Rename-BrokerApplication/)
+  * [Move-BrokerApplication](Move-BrokerApplication/)
+  * [Set-BrokerApplication](Set-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

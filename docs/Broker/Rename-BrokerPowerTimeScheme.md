@@ -17,10 +17,10 @@ Each power time scheme is associated with a particular desktop group, and covers
 For more information about the power policy mechanism and pool size management, see 'help about_Broker_PowerManagement'.
 
 ## Related Commands
-  * [Get-BrokerPowerTimeScheme](Get-BrokerPowerTimeScheme.html)
-  * [Set-BrokerPowerTimeScheme](Set-BrokerPowerTimeScheme.html)
-  * [New-BrokerPowerTimeScheme](New-BrokerPowerTimeScheme.html)
-  * [Remove-BrokerPowerTimeScheme](Remove-BrokerPowerTimeScheme.html)
+  * [Get-BrokerPowerTimeScheme](Get-BrokerPowerTimeScheme/)
+  * [Set-BrokerPowerTimeScheme](Set-BrokerPowerTimeScheme/)
+  * [New-BrokerPowerTimeScheme](New-BrokerPowerTimeScheme/)
+  * [Remove-BrokerPowerTimeScheme](Remove-BrokerPowerTimeScheme/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

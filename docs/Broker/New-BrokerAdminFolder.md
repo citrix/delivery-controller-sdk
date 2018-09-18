@@ -15,8 +15,8 @@ New-BrokerAdminFolder creates the folder object and optionally places it within 
 The following special characters are not allowed in the FolderName: \ / ; : # . * ? = < > | [ ] ( ) " ' `
 
 ## Related Commands
-  * [Get-BrokerAdminFolder](Get-BrokerAdminFolder.html)
-  * [Remove-BrokerAdminFolder](Remove-BrokerAdminFolder.html)
+  * [Get-BrokerAdminFolder](Get-BrokerAdminFolder/)
+  * [Remove-BrokerAdminFolder](Remove-BrokerAdminFolder/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

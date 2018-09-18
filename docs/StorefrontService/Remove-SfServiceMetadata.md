@@ -17,7 +17,7 @@ Remove-SfServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId 
    Provides the ability to remove metadata from the given Service.
 
 ## Related Commands
-  * [Set-SfServiceMetadata](Set-SfServiceMetadata.html)
+  * [Set-SfServiceMetadata](Set-SfServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

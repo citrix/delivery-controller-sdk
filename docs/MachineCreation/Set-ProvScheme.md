@@ -27,10 +27,10 @@ Number of CPUs that will be used for VMs created from the provisioning scheme. M
 To change the name of the provisioning scheme see Rename-ProvScheme.
 
 ## Related Commands
-  * [New-ProvScheme](New-ProvScheme.html)
-  * [Remove-ProvScheme](Remove-ProvScheme.html)
-  * [Get-ProvScheme](Get-ProvScheme.html)
-  * [Rename-ProvScheme](Rename-ProvScheme.html)
+  * [New-ProvScheme](New-ProvScheme/)
+  * [Remove-ProvScheme](Remove-ProvScheme/)
+  * [Get-ProvScheme](Get-ProvScheme/)
+  * [Rename-ProvScheme](Rename-ProvScheme/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

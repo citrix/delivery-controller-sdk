@@ -15,8 +15,8 @@ Permission groups are configured using the Import-AdminRoleConfiguration command
 See about_Admin_Filtering for information about advanced filtering options.
 
 ## Related Commands
-  * [Import-AdminRoleConfiguration](Import-AdminRoleConfiguration.html)
-  * [Get-AdminPermission](Get-AdminPermission.html)
+  * [Import-AdminRoleConfiguration](Import-AdminRoleConfiguration/)
+  * [Get-AdminPermission](Get-AdminPermission/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

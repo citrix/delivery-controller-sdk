@@ -25,12 +25,12 @@ The AD account names will pad the index to use all the space specified in the id
 There can be only one creation process running for a specific identity pool at any one time. Attempting to start another account creation process while an existing one is executing results in an error being returned.
 
 ## Related Commands
-  * [Add-AcctADAccount](Add-AcctADAccount.html)
-  * [Remove-AcctADAccount](Remove-AcctADAccount.html)
-  * [Get-AcctADAccount](Get-AcctADAccount.html)
-  * [Repair-AcctADAccount](Repair-AcctADAccount.html)
-  * [Unlock-AcctADAccount](Unlock-AcctADAccount.html)
-  * [Update-AcctADAccount](Update-AcctADAccount.html)
+  * [Add-AcctADAccount](Add-AcctADAccount/)
+  * [Remove-AcctADAccount](Remove-AcctADAccount/)
+  * [Get-AcctADAccount](Get-AcctADAccount/)
+  * [Repair-AcctADAccount](Repair-AcctADAccount/)
+  * [Unlock-AcctADAccount](Unlock-AcctADAccount/)
+  * [Update-AcctADAccount](Update-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

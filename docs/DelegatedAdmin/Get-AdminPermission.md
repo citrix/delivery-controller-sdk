@@ -17,11 +17,11 @@ Permissions can also have metadata associated with them.
 See about_Admin_Filtering for information about advanced filtering options.
 
 ## Related Commands
-  * [Add-AdminPermission](Add-AdminPermission.html)
-  * [Remove-AdminPermission](Remove-AdminPermission.html)
-  * [Get-AdminRole](Get-AdminRole.html)
-  * [Get-AdminPermissionGroup](Get-AdminPermissionGroup.html)
-  * [Test-AdminAccess](Test-AdminAccess.html)
+  * [Add-AdminPermission](Add-AdminPermission/)
+  * [Remove-AdminPermission](Remove-AdminPermission/)
+  * [Get-AdminRole](Get-AdminRole/)
+  * [Get-AdminPermissionGroup](Get-AdminPermissionGroup/)
+  * [Test-AdminAccess](Test-AdminAccess/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -74,9 +74,9 @@ The BrokerImportedFTA object represents a file type association imported from wo
        Unique internal identifier of imported file type association.
 
 ## Related Commands
-  * [New-BrokerConfiguredFTA](New-BrokerConfiguredFTA.html)
-  * [Remove-BrokerImportedFTA](Remove-BrokerImportedFTA.html)
-  * [Update-BrokerImportedFTA](Update-BrokerImportedFTA.html)
+  * [New-BrokerConfiguredFTA](New-BrokerConfiguredFTA/)
+  * [Remove-BrokerImportedFTA](Remove-BrokerImportedFTA/)
+  * [Update-BrokerImportedFTA](Update-BrokerImportedFTA/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

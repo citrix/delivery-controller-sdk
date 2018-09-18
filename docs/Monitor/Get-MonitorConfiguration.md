@@ -11,8 +11,8 @@ Get-MonitorConfiguration [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonPa
    FIXME
 
 ## Related Commands
-  * [FIXME](FIXME.html)
-  * [FIXME](FIXME.html)
+  * [FIXME](FIXME/)
+  * [FIXME](FIXME/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,15 +13,15 @@ Switch-EnvTestTask [-Task <EnvTestTask>] [-AdminAddress <String>] [<CommonParame
    Sets the current task that will be returned by a call to Get-EnvTestTask with no parameters.
 
 ## Related Commands
-  * [Get-EnvTestDefinition](Get-EnvTestDefinition.html)
-  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition.html)
-  * [Get-EnvTestTask](Get-EnvTestTask.html)
-  * [New-EnvTestTask](New-EnvTestTask.html)
-  * [Start-EnvTestTask](Start-EnvTestTask.html)
-  * [Stop-EnvTestTask](Stop-EnvTestTask.html)
-  * [Remove-EnvTestTask](Remove-EnvTestTask.html)
-  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata.html)
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata.html)
+  * [Get-EnvTestDefinition](Get-EnvTestDefinition/)
+  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition/)
+  * [Get-EnvTestTask](Get-EnvTestTask/)
+  * [New-EnvTestTask](New-EnvTestTask/)
+  * [Start-EnvTestTask](Start-EnvTestTask/)
+  * [Stop-EnvTestTask](Stop-EnvTestTask/)
+  * [Remove-EnvTestTask](Remove-EnvTestTask/)
+  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata/)
+  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

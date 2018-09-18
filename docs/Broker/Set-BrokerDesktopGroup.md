@@ -13,10 +13,10 @@ Set-BrokerDesktopGroup [-Name] <String> [-PassThru] [-AppDisks <Guid[]>] [-Autom
    The Set-BrokerDesktopGroup cmdlet is used to disable or enable an existing broker desktop group or to alter its settings.
 
 ## Related Commands
-  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup.html)
-  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup.html)
-  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup.html)
-  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup.html)
+  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup/)
+  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup/)
+  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup/)
+  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

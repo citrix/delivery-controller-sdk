@@ -11,9 +11,9 @@ Test-BrokerEntitlementPolicyRuleNameAvailable [-Name] <String[]> [-AdminAddress 
    This cmdlet checks whether proposed EntitlementPolicyRule Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule.html)
-  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule.html)
-  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule.html)
+  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule/)
+  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule/)
+  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

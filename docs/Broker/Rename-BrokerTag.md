@@ -13,11 +13,11 @@ Rename-BrokerTag [-Name] <String> [-NewName] <String> [-PassThru] [-LoggingId <G
    Renames one or more tags with the supplied name.
 
 ## Related Commands
-  * [Add-BrokerTag](Add-BrokerTag.html)
-  * [Get-BrokerTag](Get-BrokerTag.html)
-  * [New-BrokerTag](New-BrokerTag.html)
-  * [Remove-BrokerTag](Remove-BrokerTag.html)
-  * [Set-BrokerTag](Set-BrokerTag.html)
+  * [Add-BrokerTag](Add-BrokerTag/)
+  * [Get-BrokerTag](Get-BrokerTag/)
+  * [New-BrokerTag](New-BrokerTag/)
+  * [Remove-BrokerTag](Remove-BrokerTag/)
+  * [Set-BrokerTag](Set-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

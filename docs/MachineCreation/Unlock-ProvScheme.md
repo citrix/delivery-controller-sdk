@@ -13,8 +13,8 @@ Unlock-ProvScheme -ProvisioningSchemeUid <Guid> [-LoggingId <Guid>] [-AdminAddre
    Provides the ability to unlock a provisioning scheme that has the Id of a failed Task still associated with it. This allows another long-running task to operate on that scheme. The cmdlet will not unlock a scheme with a task still marked as being active.  Use Stop-ProvTask (or, if the task is registered with a failed server, Switch-ProvTask and Stop-ProvTask) to stop any active task first.
 
 ## Related Commands
-  * [Get-ProvScheme](Get-ProvScheme.html)
-  * [Stop-ProvTask](Stop-ProvTask.html)
+  * [Get-ProvScheme](Get-ProvScheme/)
+  * [Stop-ProvTask](Stop-ProvTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

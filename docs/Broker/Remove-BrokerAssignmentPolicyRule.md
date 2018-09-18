@@ -17,10 +17,10 @@ A desktop rule in the assignment policy defines the users who are entitled to se
 Deleting a desktop rule does not remove machine assignments that have already been made by the rule, nor does it affect active sessions to those machines in any way.
 
 ## Related Commands
-  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule.html)
-  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule.html)
-  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule.html)
-  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule.html)
+  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule/)
+  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule/)
+  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule/)
+  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

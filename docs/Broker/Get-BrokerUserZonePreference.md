@@ -37,10 +37,10 @@ The BrokerUserZonePreference object represents a user/group account having an as
        UPN of user/group account (user@domain).
 
 ## Related Commands
-  * [New-BrokerUserZonePreference](New-BrokerUserZonePreference.html)
-  * [Set-BrokerUserZonePreference](Set-BrokerUserZonePreference.html)
-  * [Remove-BrokerUserZonePreference](Remove-BrokerUserZonePreference.html)
-  * [Get-BrokerUser](Get-BrokerUser.html)
+  * [New-BrokerUserZonePreference](New-BrokerUserZonePreference/)
+  * [Set-BrokerUserZonePreference](Set-BrokerUserZonePreference/)
+  * [Remove-BrokerUserZonePreference](Remove-BrokerUserZonePreference/)
+  * [Get-BrokerUser](Get-BrokerUser/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

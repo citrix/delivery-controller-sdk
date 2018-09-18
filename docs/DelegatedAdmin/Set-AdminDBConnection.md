@@ -23,9 +23,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a DelegatedAdmin SDK cmdlet.
 
 ## Related Commands
-  * [Get-AdminServiceStatus](Get-AdminServiceStatus.html)
-  * [Get-AdminDBConnection](Get-AdminDBConnection.html)
-  * [Test-AdminDBConnection](Test-AdminDBConnection.html)
+  * [Get-AdminServiceStatus](Get-AdminServiceStatus/)
+  * [Get-AdminDBConnection](Get-AdminDBConnection/)
+  * [Test-AdminDBConnection](Test-AdminDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

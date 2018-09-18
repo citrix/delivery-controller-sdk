@@ -113,7 +113,7 @@ Private desktops are machines that have been configured with a DesktopKind of 'P
        Note: The desktop will not shut down if it is in maintenance mode, but will shut down after the desktop is taken out of maintenance mode.
 
 ## Related Commands
-  * [Set-BrokerPrivateDesktop](Set-BrokerPrivateDesktop.html)
+  * [Set-BrokerPrivateDesktop](Set-BrokerPrivateDesktop/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

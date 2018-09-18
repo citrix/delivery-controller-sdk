@@ -13,7 +13,7 @@ Reset-LogDataStore [-DataStore] <String> [-LoggingId <Guid>] [-AdminAddress <Str
 There is no requirement for a database connection to be configured in order for this command to be used.
 
 ## Related Commands
-  * [Get-LogDataStore](Get-LogDataStore.html)
+  * [Get-LogDataStore](Get-LogDataStore/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

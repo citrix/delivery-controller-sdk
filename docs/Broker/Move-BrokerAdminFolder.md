@@ -15,8 +15,8 @@ Move-BrokerAdminFolder [-Name] <String> [-Destination] <AdminFolder> [-NewName <
 The following special characters are not allowed in the new FolderName: \ / ; : # . * ? = < > | [ ] ( ) " ' `
 
 ## Related Commands
-  * [Get-BrokerAdminFolder](Get-BrokerAdminFolder.html)
-  * [New-BrokerAdminFolder](New-BrokerAdminFolder.html)
+  * [Get-BrokerAdminFolder](Get-BrokerAdminFolder/)
+  * [New-BrokerAdminFolder](New-BrokerAdminFolder/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,9 +13,9 @@ Remove-BrokerSessionLinger [-DesktopGroupName] <String> [-LoggingId <Guid>] [-Ad
    The Remove-BrokerSessionLinger cmdlet is used to delete an existing session linger setting.
 
 ## Related Commands
-  * [New-BrokerSessionLinger](New-BrokerSessionLinger.html)
-  * [Get-BrokerSessionLinger](Get-BrokerSessionLinger.html)
-  * [Set-BrokerSessionLinger](Set-BrokerSessionLinger.html)
+  * [New-BrokerSessionLinger](New-BrokerSessionLinger/)
+  * [Get-BrokerSessionLinger](Get-BrokerSessionLinger/)
+  * [Set-BrokerSessionLinger](Set-BrokerSessionLinger/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

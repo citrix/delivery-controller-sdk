@@ -24,8 +24,8 @@ To remove a AppDisk from a scope you need permission to change the scopes of the
 If the AppDisk is not in a specified scope, that scope will be silently ignored.
 
 ## Related Commands
-  * [Add-AppLibAppDiskScope](Add-AppLibAppDiskScope.html)
-  * [Get-AppLibScopedObject](Get-AppLibScopedObject.html)
+  * [Add-AppLibAppDiskScope](Add-AppLibAppDiskScope/)
+  * [Get-AppLibScopedObject](Get-AppLibScopedObject/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

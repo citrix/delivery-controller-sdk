@@ -17,7 +17,7 @@ Remove-AnalyticsServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-Log
    Provides the ability to remove metadata from the given Service.
 
 ## Related Commands
-  * [Set-AnalyticsServiceMetadata](Set-AnalyticsServiceMetadata.html)
+  * [Set-AnalyticsServiceMetadata](Set-AnalyticsServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

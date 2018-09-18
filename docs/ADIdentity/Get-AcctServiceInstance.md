@@ -13,8 +13,8 @@ Get-AcctServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-AcctServiceStatus](Get-AcctServiceStatus.html)
-  * [Reset-AcctServiceGroupMembership](Reset-AcctServiceGroupMembership.html)
+  * [Get-AcctServiceStatus](Get-AcctServiceStatus/)
+  * [Reset-AcctServiceGroupMembership](Reset-AcctServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

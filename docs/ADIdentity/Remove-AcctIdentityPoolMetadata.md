@@ -21,7 +21,7 @@ Remove-AcctIdentityPoolMetadata [-InputObject] <IdentityPool[]> -Map <PSObject> 
    Provides the ability to remove metadata from the given IdentityPool.
 
 ## Related Commands
-  * [Set-AcctIdentityPoolMetadata](Set-AcctIdentityPoolMetadata.html)
+  * [Set-AcctIdentityPoolMetadata](Set-AcctIdentityPoolMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

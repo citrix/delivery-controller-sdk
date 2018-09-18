@@ -11,8 +11,8 @@ Get-LogSummary [-StartDateRange <DateTime>] [-EndDateRange <DateTime>] [-Interva
    The Get-LogSummary cmdlet retrieves summary counts of operations logged within time intervals inside a date range. The returned data indicates the rate at which configuration changes and activities were performed out within a time period.
 
 ## Related Commands
-  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation.html)
-  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation.html)
+  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation/)
+  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

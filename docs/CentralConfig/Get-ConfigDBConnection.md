@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Configuration SDK cmdlet.
 
 ## Related Commands
-  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus.html)
-  * [Set-ConfigDBConnection](Set-ConfigDBConnection.html)
-  * [Test-ConfigDBConnection](Test-ConfigDBConnection.html)
+  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus/)
+  * [Set-ConfigDBConnection](Set-ConfigDBConnection/)
+  * [Test-ConfigDBConnection](Test-ConfigDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

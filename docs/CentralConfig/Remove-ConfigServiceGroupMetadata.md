@@ -17,8 +17,8 @@ Remove-ConfigServiceGroupMetadata [-InputObject] <ServiceGroup[]> -Map <PSObject
    Provides the ability to remove metadata from the given ServiceGroup.
 
 ## Related Commands
-  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata.html)
-  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata.html)
+  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata/)
+  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

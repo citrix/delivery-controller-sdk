@@ -21,7 +21,7 @@ Set-AppLibIsolationGroupMetadata [-InputObject] <IsolationGroup[]> -Map <PSObjec
    Provides the ability for additional custom data to be stored against given IsolationGroup objects.
 
 ## Related Commands
-  * [Remove-AppLibIsolationGroupMetadata](Remove-AppLibIsolationGroupMetadata.html)
+  * [Remove-AppLibIsolationGroupMetadata](Remove-AppLibIsolationGroupMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

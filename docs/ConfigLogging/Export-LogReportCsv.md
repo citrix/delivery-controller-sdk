@@ -11,7 +11,7 @@ Export-LogReportCsv -OutputFile <String> [-StartDateRange <DateTime>] [-EndDateR
    This cmdlet exports the Configuration Logging data into a CSV data file. The hierarchical logging data is flattened into a single CSV ‘table’. The content of CSV file is not intended to be human-readable. It is meant to be input data for external reporting or manipulation tools (for example, a spread sheet application).
 
 ## Related Commands
-  * [Export-LogReportHtml](Export-LogReportHtml.html)
+  * [Export-LogReportHtml](Export-LogReportHtml/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -17,10 +17,10 @@ A desktop rule in the entitlement policy defines the users who are allowed per-s
 Changing a rule does not affect existing sessions launched using the rule, but if the change removes an entitlement to a machine that was previously granted, users may be unable to reconnect to a disconnected session on that machine.
 
 ## Related Commands
-  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule.html)
-  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule.html)
-  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule.html)
-  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule.html)
+  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule/)
+  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule/)
+  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule/)
+  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

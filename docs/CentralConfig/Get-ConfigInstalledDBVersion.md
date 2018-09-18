@@ -19,8 +19,8 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-ConfigDBVersionChangeScript](Get-ConfigDBVersionChangeScript.html)
-  * [Get-ConfigDBSchema](Get-ConfigDBSchema.html)
+  * [Get-ConfigDBVersionChangeScript](Get-ConfigDBVersionChangeScript/)
+  * [Get-ConfigDBSchema](Get-ConfigDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,10 +11,10 @@ Get-ConfigServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the Configuration Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-ConfigDBConnection](Set-ConfigDBConnection.html)
-  * [Test-ConfigDBConnection](Test-ConfigDBConnection.html)
-  * [Get-ConfigDBConnection](Get-ConfigDBConnection.html)
-  * [Get-ConfigDBSchema](Get-ConfigDBSchema.html)
+  * [Set-ConfigDBConnection](Set-ConfigDBConnection/)
+  * [Test-ConfigDBConnection](Test-ConfigDBConnection/)
+  * [Get-ConfigDBConnection](Get-ConfigDBConnection/)
+  * [Get-ConfigDBSchema](Get-ConfigDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

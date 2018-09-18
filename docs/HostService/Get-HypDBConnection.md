@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Host SDK cmdlet.
 
 ## Related Commands
-  * [Get-HypServiceStatus](Get-HypServiceStatus.html)
-  * [Set-HypDBConnection](Set-HypDBConnection.html)
-  * [Test-HypDBConnection](Test-HypDBConnection.html)
+  * [Get-HypServiceStatus](Get-HypServiceStatus/)
+  * [Set-HypDBConnection](Set-HypDBConnection/)
+  * [Test-HypDBConnection](Test-HypDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

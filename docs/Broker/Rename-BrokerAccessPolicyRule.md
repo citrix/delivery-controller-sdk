@@ -15,10 +15,10 @@ Rename-BrokerAccessPolicyRule [-Name] <String> [-NewName] <String> [-PassThru] [
 An access policy rule defines a set of connection filters and access control rights relating to a desktop group. These allow fine-grained control of what access is granted to a desktop group based on details of, for example, a user's endpoint device, its address, and the user's identity.
 
 ## Related Commands
-  * [New-BrokerAccessPolicyRule](New-BrokerAccessPolicyRule.html)
-  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule.html)
-  * [Set-BrokerAccessPolicyRule](Set-BrokerAccessPolicyRule.html)
-  * [Remove-BrokerAccessPolicyRule](Remove-BrokerAccessPolicyRule.html)
+  * [New-BrokerAccessPolicyRule](New-BrokerAccessPolicyRule/)
+  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule/)
+  * [Set-BrokerAccessPolicyRule](Set-BrokerAccessPolicyRule/)
+  * [Remove-BrokerAccessPolicyRule](Remove-BrokerAccessPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

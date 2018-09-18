@@ -17,7 +17,7 @@ Remove-MonitorServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-Loggi
    Provides the ability to remove metadata from the given Service.
 
 ## Related Commands
-  * [Set-MonitorServiceMetadata](Set-MonitorServiceMetadata.html)
+  * [Set-MonitorServiceMetadata](Set-MonitorServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix EnvTest Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-EnvTestServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-EnvTestInstalledDBVersion](Get-EnvTestInstalledDBVersion.html)
-  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus.html)
-  * [Get-EnvTestDBSchema](Get-EnvTestDBSchema.html)
+  * [Get-EnvTestInstalledDBVersion](Get-EnvTestInstalledDBVersion/)
+  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus/)
+  * [Get-EnvTestDBSchema](Get-EnvTestDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

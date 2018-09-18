@@ -21,12 +21,12 @@ To update the metadata associated with a zone, use the Set-ConfigZoneMetadata an
 To change the name of a zone use Rename-ConfigZone cmdlet.
 
 ## Related Commands
-  * [New-ConfigZone](New-ConfigZone.html)
-  * [Get-ConfigZone](Get-ConfigZone.html)
-  * [Rename-ConfigZone](Rename-ConfigZone.html)
-  * [Remove-ConfigZone](Remove-ConfigZone.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Set-ConfigService](Set-ConfigService.html)
+  * [New-ConfigZone](New-ConfigZone/)
+  * [Get-ConfigZone](Get-ConfigZone/)
+  * [Rename-ConfigZone](Rename-ConfigZone/)
+  * [Remove-ConfigZone](Remove-ConfigZone/)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Set-ConfigService](Set-ConfigService/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

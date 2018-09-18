@@ -24,8 +24,8 @@ To add a IdentityPool to a scope you need permission to change the scopes of the
 If the IdentityPool is already in a scope, that scope will be silently ignored.
 
 ## Related Commands
-  * [Remove-AcctIdentityPoolScope](Remove-AcctIdentityPoolScope.html)
-  * [Get-AcctScopedObject](Get-AcctScopedObject.html)
+  * [Remove-AcctIdentityPoolScope](Remove-AcctIdentityPoolScope/)
+  * [Get-AcctScopedObject](Get-AcctScopedObject/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

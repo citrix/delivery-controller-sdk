@@ -19,13 +19,13 @@ Modifications to the product code, product edition, product version and licensin
 To configure the site, first import the feature table using the Import-ConfigFeatureTable cmdlet.
 
 ## Related Commands
-  * [Export-ConfigFeatureTable](Export-ConfigFeatureTable.html)
-  * [Get-ConfigSite](Get-ConfigSite.html)
-  * [Get-ConfigProduct](Get-ConfigProduct.html)
-  * [Get-ConfigProductEdition](Get-ConfigProductEdition.html)
-  * [Get-ConfigProductFeature](Get-ConfigProductFeature.html)
-  * [Get-ConfigProductVersion](Get-ConfigProductVersion.html)
-  * [Get-ConfigLicensingModel](Get-ConfigLicensingModel.html)
+  * [Export-ConfigFeatureTable](Export-ConfigFeatureTable/)
+  * [Get-ConfigSite](Get-ConfigSite/)
+  * [Get-ConfigProduct](Get-ConfigProduct/)
+  * [Get-ConfigProductEdition](Get-ConfigProductEdition/)
+  * [Get-ConfigProductFeature](Get-ConfigProductFeature/)
+  * [Get-ConfigProductVersion](Get-ConfigProductVersion/)
+  * [Get-ConfigLicensingModel](Get-ConfigLicensingModel/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

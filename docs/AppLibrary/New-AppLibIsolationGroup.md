@@ -11,9 +11,9 @@ New-AppLibIsolationGroup [-LibraryUid] <Int32> [-Name] <String> [-Description <S
    The isolation group will be added to the library
 
 ## Related Commands
-  * [Remove-AppLibIsolationGroup](Remove-AppLibIsolationGroup.html)
-  * [Set-AppLibIsolationGroup](Set-AppLibIsolationGroup.html)
-  * [Set-AppLibIsolationGroupPackage](Set-AppLibIsolationGroupPackage.html)
+  * [Remove-AppLibIsolationGroup](Remove-AppLibIsolationGroup/)
+  * [Set-AppLibIsolationGroup](Set-AppLibIsolationGroup/)
+  * [Set-AppLibIsolationGroupPackage](Set-AppLibIsolationGroupPackage/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

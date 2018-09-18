@@ -17,8 +17,8 @@ Add-ConfigServiceGroupMetadata [-InputObject] <ServiceGroup[]> -Map <PSObject> [
    Provides the ability for additional custom data to be stored against given ServiceGroup objects. This cmdlet will not overwrite existing metadata on an object - use the Set-ConfigServiceGroupMetadata cmdlet instead.
 
 ## Related Commands
-  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata.html)
-  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata.html)
+  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata/)
+  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

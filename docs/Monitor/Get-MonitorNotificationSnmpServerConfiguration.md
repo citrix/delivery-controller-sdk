@@ -11,7 +11,7 @@ Get-MonitorNotificationSnmpServerConfiguration [-LoggingId <Guid>] [-AdminAddres
    Returns the existing Snmpserver configurations required to send Snmp alerts.
 
 ## Related Commands
-  * [Set-MonitorNotificationSnmpServerConfiguration](Set-MonitorNotificationSnmpServerConfiguration.html)
+  * [Set-MonitorNotificationSnmpServerConfiguration](Set-MonitorNotificationSnmpServerConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -17,9 +17,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a ADIdentity SDK cmdlet.
 
 ## Related Commands
-  * [Get-AcctServiceStatus](Get-AcctServiceStatus.html)
-  * [Get-AcctDBConnection](Get-AcctDBConnection.html)
-  * [Set-AcctDBConnection](Set-AcctDBConnection.html)
+  * [Get-AcctServiceStatus](Get-AcctServiceStatus/)
+  * [Get-AcctDBConnection](Get-AcctDBConnection/)
+  * [Set-AcctDBConnection](Set-AcctDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

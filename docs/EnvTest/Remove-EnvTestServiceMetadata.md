@@ -17,7 +17,7 @@ Remove-EnvTestServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-Loggi
    Provides the ability to remove metadata from the given Service.
 
 ## Related Commands
-  * [Set-EnvTestServiceMetadata](Set-EnvTestServiceMetadata.html)
+  * [Set-EnvTestServiceMetadata](Set-EnvTestServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

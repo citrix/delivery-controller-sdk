@@ -17,7 +17,7 @@ Set-LogServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId <G
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-LogServiceMetadata](Remove-LogServiceMetadata.html)
+  * [Remove-LogServiceMetadata](Remove-LogServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

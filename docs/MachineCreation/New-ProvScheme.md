@@ -21,9 +21,9 @@ This cmdlet requires information to be provided that is retrieved using other sn
 The provisioning scheme is a collection of all of the data that is required to form a template against which virtual machines can be created.  It therefore requires the following: Hosting Unit A reference to an item defined in the Host Service that defines the hypervisor, the network, and the storage to be used. Identity Pool A reference to the collection of Active Directory accounts that is used for virtual machines created from the provisioning scheme.
 
 ## Related Commands
-  * [Get-ProvTask](Get-ProvTask.html)
-  * [Get-ProvScheme](Get-ProvScheme.html)
-  * [Test-ProvSchemeNameAvailable](Test-ProvSchemeNameAvailable.html)
+  * [Get-ProvTask](Get-ProvTask/)
+  * [Get-ProvScheme](Get-ProvScheme/)
+  * [Test-ProvSchemeNameAvailable](Test-ProvSchemeNameAvailable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

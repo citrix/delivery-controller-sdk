@@ -24,8 +24,8 @@ To add a ProvisioningScheme to a scope you need permission to change the scopes 
 If the ProvisioningScheme is already in a scope, that scope will be silently ignored.
 
 ## Related Commands
-  * [Remove-ProvSchemeScope](Remove-ProvSchemeScope.html)
-  * [Get-ProvScopedObject](Get-ProvScopedObject.html)
+  * [Remove-ProvSchemeScope](Remove-ProvSchemeScope/)
+  * [Get-ProvScopedObject](Get-ProvScopedObject/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,7 +11,7 @@ Start-BrokerCatalogPvdImagePrepare [-InputObject] <Catalog[]> [-LoggingId <Guid>
    The Start-BrokerCatalogPvdImagePrepare cmdlet instructs the Broker to request the Personal VDisk (PVD) preparation process for all of the machines in the specified catalog(s). The process begins when each machine is subsequently powered off, at which point brokering of user desktop sessions is suspended as well as regular machine power operations until the process completes. Only catalogs with a PersistUserChanges value of OnPvd are supported by this cmdlet.
 
 ## Related Commands
-  * [Start-BrokerMachinePvdImagePrepare](Start-BrokerMachinePvdImagePrepare.html)
+  * [Start-BrokerMachinePvdImagePrepare](Start-BrokerMachinePvdImagePrepare/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

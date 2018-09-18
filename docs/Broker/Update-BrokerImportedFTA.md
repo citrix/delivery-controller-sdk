@@ -25,8 +25,8 @@ Imported file type associations are grouped together based on the desktop group 
 If file type associations are imported more than once for a desktop group, for example, if this cmdlet is run twice for two workers belonging to the same desktop group, all existing imported file type associations for that desktop group are deleted and imported again.
 
 ## Related Commands
-  * [Get-BrokerImportedFTA](Get-BrokerImportedFTA.html)
-  * [Remove-BrokerImportedFTA](Remove-BrokerImportedFTA.html)
+  * [Get-BrokerImportedFTA](Get-BrokerImportedFTA/)
+  * [Remove-BrokerImportedFTA](Remove-BrokerImportedFTA/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

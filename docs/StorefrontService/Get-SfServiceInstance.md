@@ -13,8 +13,8 @@ Get-SfServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-SfServiceStatus](Get-SfServiceStatus.html)
-  * [Reset-SfServiceGroupMembership](Reset-SfServiceGroupMembership.html)
+  * [Get-SfServiceStatus](Get-SfServiceStatus/)
+  * [Reset-SfServiceGroupMembership](Reset-SfServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

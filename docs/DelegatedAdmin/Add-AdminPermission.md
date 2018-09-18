@@ -19,11 +19,11 @@ Duplicate permissions do not produce an error, and permissions are skipped if th
 You cannot modify the permissions of built-in roles.
 
 ## Related Commands
-  * [Remove-AdminPermission](Remove-AdminPermission.html)
-  * [Get-AdminPermission](Get-AdminPermission.html)
-  * [Get-AdminRole](Get-AdminRole.html)
-  * [Get-AdminPermissionGroup](Get-AdminPermissionGroup.html)
-  * [Test-AdminAccess](Test-AdminAccess.html)
+  * [Remove-AdminPermission](Remove-AdminPermission/)
+  * [Get-AdminPermission](Get-AdminPermission/)
+  * [Get-AdminRole](Get-AdminRole/)
+  * [Get-AdminPermissionGroup](Get-AdminPermissionGroup/)
+  * [Test-AdminAccess](Test-AdminAccess/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

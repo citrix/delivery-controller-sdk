@@ -17,7 +17,7 @@ Set-EnvTestServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingI
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-EnvTestServiceMetadata](Remove-EnvTestServiceMetadata.html)
+  * [Remove-EnvTestServiceMetadata](Remove-EnvTestServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

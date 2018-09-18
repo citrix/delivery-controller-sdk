@@ -27,7 +27,7 @@ The BrokerDesktopGroupAppDisk object represents a single instance of a desktop g
        The Uid of the desktop group
 
 ## Related Commands
-  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup.html)
+  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,9 +13,9 @@ Remove-BrokerSessionPreLaunch [-DesktopGroupName] <String> [-LoggingId <Guid>] [
    The Remove-BrokerSessionPreLaunch cmdlet is used to delete an existing session pre-launch setting.
 
 ## Related Commands
-  * [New-BrokerSessionPreLaunch](New-BrokerSessionPreLaunch.html)
-  * [Get-BrokerSessionPreLaunch](Get-BrokerSessionPreLaunch.html)
-  * [Set-BrokerSessionPreLaunch](Set-BrokerSessionPreLaunch.html)
+  * [New-BrokerSessionPreLaunch](New-BrokerSessionPreLaunch/)
+  * [Get-BrokerSessionPreLaunch](Get-BrokerSessionPreLaunch/)
+  * [Set-BrokerSessionPreLaunch](Set-BrokerSessionPreLaunch/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

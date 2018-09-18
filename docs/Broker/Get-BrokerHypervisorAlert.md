@@ -67,7 +67,7 @@ The BrokerHypervisorAlert represents a hypervisor alert object. It contains the 
        The unique internal identifier of this alert.
 
 ## Related Commands
-  * [New-BrokerHypervisorConnection](New-BrokerHypervisorConnection.html)
+  * [New-BrokerHypervisorConnection](New-BrokerHypervisorConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

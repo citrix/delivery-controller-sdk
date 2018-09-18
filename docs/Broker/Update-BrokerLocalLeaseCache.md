@@ -11,7 +11,7 @@ Update-BrokerLocalLeaseCache [-Workers] [-Applications] [-Icons] [-Desktops] [-L
    Removes all local cached lease data and any state information stored in the registry.
 
 ## Related Commands
-  * [Remove-BrokerLease](Remove-BrokerLease.html)
+  * [Remove-BrokerLease](Remove-BrokerLease/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

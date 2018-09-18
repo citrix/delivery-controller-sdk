@@ -13,8 +13,8 @@ Remove-BrokerLease [-Key] <String> [-LoggingId <Guid>] [-AdminAddress <String>] 
    Marks the specified lease for deletion. Note that the lease is eventually fully deleted when enough time has been allowed for the deletion to propagate to all controller machines in the site, but is immediately removed from lease search results.
 
 ## Related Commands
-  * [Update-BrokerLocalLeaseCache](Update-BrokerLocalLeaseCache.html)
-  * [Remove-BrokerCache](Remove-BrokerCache.html)
+  * [Update-BrokerLocalLeaseCache](Update-BrokerLocalLeaseCache/)
+  * [Remove-BrokerCache](Remove-BrokerCache/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

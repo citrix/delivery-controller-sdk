@@ -13,11 +13,11 @@ Remove-BrokerRebootScheduleV2 [-Name] <String> [-LoggingId <Guid>] [-AdminAddres
    The Remove-BrokerRebootScheduleV2 cmdlet is used to delete an existing reboot schedule.
 
 ## Related Commands
-  * [Get-BrokerRebootScheduleV2](Get-BrokerRebootScheduleV2.html)
-  * [Set-BrokerRebootScheduleV2](Set-BrokerRebootScheduleV2.html)
-  * [New-BrokerRebootScheduleV2](New-BrokerRebootScheduleV2.html)
-  * [Rename-BrokerRebootScheduleV2](Rename-BrokerRebootScheduleV2.html)
-  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle.html)
+  * [Get-BrokerRebootScheduleV2](Get-BrokerRebootScheduleV2/)
+  * [Set-BrokerRebootScheduleV2](Set-BrokerRebootScheduleV2/)
+  * [New-BrokerRebootScheduleV2](New-BrokerRebootScheduleV2/)
+  * [Rename-BrokerRebootScheduleV2](Rename-BrokerRebootScheduleV2/)
+  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

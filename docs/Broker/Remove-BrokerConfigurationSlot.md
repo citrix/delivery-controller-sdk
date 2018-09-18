@@ -13,8 +13,8 @@ Remove-BrokerConfigurationSlot [-Name] <String> [-LoggingId <Guid>] [-AdminAddre
    Removes a configuration slot from the site. All machine configurations associated with this slot are also removed.
 
 ## Related Commands
-  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot.html)
-  * [Get-BrokerConfigurationSlot](Get-BrokerConfigurationSlot.html)
+  * [New-BrokerConfigurationSlot](New-BrokerConfigurationSlot/)
+  * [Get-BrokerConfigurationSlot](Get-BrokerConfigurationSlot/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

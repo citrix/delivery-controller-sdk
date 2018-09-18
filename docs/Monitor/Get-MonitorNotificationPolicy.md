@@ -13,9 +13,9 @@ Get-MonitorNotificationPolicy -Name <String> [-LoggingId <Guid>] [-AdminAddress 
    Returns a list of MonitorNotificationPolicy objects matching the specified parameters
 
 ## Related Commands
-  * [New-MonitorNotificationPolicy](New-MonitorNotificationPolicy.html)
-  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy.html)
-  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy.html)
+  * [New-MonitorNotificationPolicy](New-MonitorNotificationPolicy/)
+  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy/)
+  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

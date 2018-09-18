@@ -22,10 +22,10 @@ When a user selects a desktop entitlement published from a shared group, a machi
 Multiple desktop rules in the entitlement policy can apply to the same desktop group. Where a user is granted an entitlement by more than one rule for the same group, they can use as many desktop sessions at the same time as they have entitlements.
 
 ## Related Commands
-  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule.html)
-  * [Set-BrokerEntitlementPolicyRule](Set-BrokerEntitlementPolicyRule.html)
-  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule.html)
-  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule.html)
+  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule/)
+  * [Set-BrokerEntitlementPolicyRule](Set-BrokerEntitlementPolicyRule/)
+  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule/)
+  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

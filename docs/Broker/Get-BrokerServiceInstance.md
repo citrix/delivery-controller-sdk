@@ -13,8 +13,8 @@ Get-BrokerServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus.html)
-  * [Reset-BrokerServiceGroupMembership](Reset-BrokerServiceGroupMembership.html)
+  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus/)
+  * [Reset-BrokerServiceGroupMembership](Reset-BrokerServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

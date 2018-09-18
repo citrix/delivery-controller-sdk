@@ -17,13 +17,13 @@ Register-ConfigServiceInstance -ServiceInstance <ServiceInstance[]> [-LoggingId 
 If the service group specified by the service instance already exists, the service is added to the service group, otherwise a new service group is created to hold the service instance.
 
 ## Related Commands
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
-  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata.html)
-  * [Set-ConfigRegisteredServiceInstanceMetadata](Set-ConfigRegisteredServiceInstanceMetadata.html)
-  * [Remove-ConfigRegisteredServiceInstanceMetadata](Remove-ConfigRegisteredServiceInstanceMetadata.html)
-  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata.html)
-  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata.html)
-  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata.html)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
+  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata/)
+  * [Set-ConfigRegisteredServiceInstanceMetadata](Set-ConfigRegisteredServiceInstanceMetadata/)
+  * [Remove-ConfigRegisteredServiceInstanceMetadata](Remove-ConfigRegisteredServiceInstanceMetadata/)
+  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata/)
+  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata/)
+  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

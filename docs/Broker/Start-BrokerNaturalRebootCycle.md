@@ -13,9 +13,9 @@ Start-BrokerNaturalRebootCycle [-InputObject] <Catalog[]> [-LoggingId <Guid>] [-
 The machines are rebooted in a non-disruptive manner, allowing machines that are in use to continue working and be restarted only after they become idle.
 
 ## Related Commands
-  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle.html)
-  * [Start-BrokerDesktopGroupRebootCycle](Start-BrokerDesktopGroupRebootCycle.html)
-  * [Start-BrokerNaturalDesktopGroupRebootCycle](Start-BrokerNaturalDesktopGroupRebootCycle.html)
+  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle/)
+  * [Start-BrokerDesktopGroupRebootCycle](Start-BrokerDesktopGroupRebootCycle/)
+  * [Start-BrokerNaturalDesktopGroupRebootCycle](Start-BrokerNaturalDesktopGroupRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

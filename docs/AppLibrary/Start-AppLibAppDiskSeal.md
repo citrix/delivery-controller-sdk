@@ -13,11 +13,11 @@ Start-AppLibAppDiskSeal -AppDiskUid <Guid> [-SkipAppDnaAnalysis] [-RunAsynchrono
    Lets you mark an AppDisk with installed applications as ready for use.
 
 ## Related Commands
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [New-AppLibAppDisk](New-AppLibAppDisk.html)
-  * [Set-AppLibAppDisk](Set-AppLibAppDisk.html)
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [Import-AppLibAppDisk](Import-AppLibAppDisk.html)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [New-AppLibAppDisk](New-AppLibAppDisk/)
+  * [Set-AppLibAppDisk](Set-AppLibAppDisk/)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [Import-AppLibAppDisk](Import-AppLibAppDisk/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

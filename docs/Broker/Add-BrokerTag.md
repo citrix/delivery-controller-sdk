@@ -13,11 +13,11 @@ Add-BrokerTag [-Name] <String> [-Application <Application>] [-ApplicationGroup <
    Associates one or more tags with a machine, application group, application, desktop group or desktop within the site.
 
 ## Related Commands
-  * [Get-BrokerTag](Get-BrokerTag.html)
-  * [New-BrokerTag](New-BrokerTag.html)
-  * [Remove-BrokerTag](Remove-BrokerTag.html)
-  * [Rename-BrokerTag](Rename-BrokerTag.html)
-  * [Set-BrokerTag](Set-BrokerTag.html)
+  * [Get-BrokerTag](Get-BrokerTag/)
+  * [New-BrokerTag](New-BrokerTag/)
+  * [Remove-BrokerTag](Remove-BrokerTag/)
+  * [Rename-BrokerTag](Rename-BrokerTag/)
+  * [Set-BrokerTag](Set-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

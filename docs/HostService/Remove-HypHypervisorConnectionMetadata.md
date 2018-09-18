@@ -21,8 +21,8 @@ Remove-HypHypervisorConnectionMetadata [-InputObject] <HypervisorConnection[]> -
    Provides the ability to remove metadata from the given HypervisorConnection.
 
 ## Related Commands
-  * [Add-HypHypervisorConnectionMetadata](Add-HypHypervisorConnectionMetadata.html)
-  * [Set-HypHypervisorConnectionMetadata](Set-HypHypervisorConnectionMetadata.html)
+  * [Add-HypHypervisorConnectionMetadata](Add-HypHypervisorConnectionMetadata/)
+  * [Set-HypHypervisorConnectionMetadata](Set-HypHypervisorConnectionMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

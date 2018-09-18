@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix DelegatedAdmin Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-AdminServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-AdminInstalledDBVersion](Get-AdminInstalledDBVersion.html)
-  * [Get-AdminServiceStatus](Get-AdminServiceStatus.html)
-  * [Get-AdminDBSchema](Get-AdminDBSchema.html)
+  * [Get-AdminInstalledDBVersion](Get-AdminInstalledDBVersion/)
+  * [Get-AdminServiceStatus](Get-AdminServiceStatus/)
+  * [Get-AdminDBSchema](Get-AdminDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
