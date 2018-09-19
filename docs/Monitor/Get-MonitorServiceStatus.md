@@ -11,11 +11,11 @@ Get-MonitorServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the Monitor Service on the controller to be determined. If the service has multiple data stores it will return the overall state as an aggregate of all the data store states. For example, if the site data store status is OK and the secondary data store status is DBUnconfigured then it will return DBUnconfigured. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Get-MonitorDataStore](Get-MonitorDataStore.html)
-  * [Set-MonitorDBConnection](Set-MonitorDBConnection.html)
-  * [Test-MonitorDBConnection](Test-MonitorDBConnection.html)
-  * [Get-MonitorDBConnection](Get-MonitorDBConnection.html)
-  * [Get-MonitorDBSchema](Get-MonitorDBSchema.html)
+  * [Get-MonitorDataStore](Get-MonitorDataStore/)
+  * [Set-MonitorDBConnection](Set-MonitorDBConnection/)
+  * [Test-MonitorDBConnection](Test-MonitorDBConnection/)
+  * [Get-MonitorDBConnection](Get-MonitorDBConnection/)
+  * [Get-MonitorDBSchema](Get-MonitorDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

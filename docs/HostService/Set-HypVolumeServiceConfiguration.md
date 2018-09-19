@@ -15,7 +15,7 @@ Set-HypVolumeServiceConfiguration -RegionName <String> -BaseLinuxTemplateId <Str
 Each cmdlet invocation can be used to either change the volume worker URL, or to modify (or add) an entry in the Linux template map. These two operations are supported by parameter sets. To change both properties, you must invoke the cmdlet twice.
 
 ## Related Commands
-  * [Get-HypVolumeServiceConfiguration](Get-HypVolumeServiceConfiguration.html)
+  * [Get-HypVolumeServiceConfiguration](Get-HypVolumeServiceConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

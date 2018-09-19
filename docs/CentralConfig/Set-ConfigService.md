@@ -15,10 +15,10 @@ Set-ConfigService [-MachineName] <String[]> [-Zone] <Zone> [-LoggingId <Guid>] [
    This cmdlet is used to change the association between Services (referred also as Controllers) and Zones. A Service can be associated with only one Zone. By default, all services are assigned to the primary Zone.
 
 ## Related Commands
-  * [Get-ConfigService](Get-ConfigService.html)
-  * [Get-ConfigZone](Get-ConfigZone.html)
-  * [New-ConfigZone](New-ConfigZone.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
+  * [Get-ConfigService](Get-ConfigService/)
+  * [Get-ConfigZone](Get-ConfigZone/)
+  * [New-ConfigZone](New-ConfigZone/)
+  * [Set-ConfigSite](Set-ConfigSite/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

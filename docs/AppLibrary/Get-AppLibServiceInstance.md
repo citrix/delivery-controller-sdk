@@ -13,8 +13,8 @@ Get-AppLibServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-AppLibServiceStatus](Get-AppLibServiceStatus.html)
-  * [Reset-AppLibServiceGroupMembership](Reset-AppLibServiceGroupMembership.html)
+  * [Get-AppLibServiceStatus](Get-AppLibServiceStatus/)
+  * [Reset-AppLibServiceGroupMembership](Reset-AppLibServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

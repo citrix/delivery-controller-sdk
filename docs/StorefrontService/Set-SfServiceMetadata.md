@@ -17,7 +17,7 @@ Set-SfServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId <Gu
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-SfServiceMetadata](Remove-SfServiceMetadata.html)
+  * [Remove-SfServiceMetadata](Remove-SfServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

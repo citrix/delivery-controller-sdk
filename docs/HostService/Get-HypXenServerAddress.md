@@ -13,7 +13,7 @@ Get-HypXenServerAddress [-LiteralPath] <String> [-AdminAddress <String>] [<Commo
 If the addresses are https addresses, the command uses the certificates installed on the XenServers to provide suitable https addresses where possible.  Only servers that can be resolved are returned.
 
 ## Related Commands
-  * [Add-HypHypervisorConnectionAddress](Add-HypHypervisorConnectionAddress.html)
+  * [Add-HypHypervisorConnectionAddress](Add-HypHypervisorConnectionAddress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,8 +15,8 @@ If the session is active, no warning is issued to the user before that session i
 After disconnection, sessions enter a Disconnected state. In a Disconnected state, a session still exists but there is no remote connection to that session.
 
 ## Related Commands
-  * [Get-BrokerSession](Get-BrokerSession.html)
-  * [Stop-BrokerSession](Stop-BrokerSession.html)
+  * [Get-BrokerSession](Get-BrokerSession/)
+  * [Stop-BrokerSession](Stop-BrokerSession/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

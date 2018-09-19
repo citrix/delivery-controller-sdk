@@ -17,12 +17,12 @@ Set-ProvTaskMetadata [-InputObject] <Task[]> -Map <PSObject> [-LoggingId <Guid>]
    Use this cmdlet to store additional custom data against given Task objects.
 
 ## Related Commands
-  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata.html)
-  * [Remove-ProvTaskMetadata](Remove-ProvTaskMetadata.html)
-  * [Get-ProvTask](Get-ProvTask.html)
-  * [Stop-ProvTask](Stop-ProvTask.html)
-  * [Remove-ProvTask](Remove-ProvTask.html)
-  * [Switch-ProvTask](Switch-ProvTask.html)
+  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata/)
+  * [Remove-ProvTaskMetadata](Remove-ProvTaskMetadata/)
+  * [Get-ProvTask](Get-ProvTask/)
+  * [Stop-ProvTask](Stop-ProvTask/)
+  * [Remove-ProvTask](Remove-ProvTask/)
+  * [Switch-ProvTask](Switch-ProvTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

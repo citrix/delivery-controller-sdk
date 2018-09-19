@@ -11,8 +11,8 @@ Get-AppLibAppDiskStartMenuIcon [-AppDiskUid <Guid>] [-AppDiskName <String>] [-Ic
    Returns a list of AppDisk start menu icons known to the AppLibrary Service.
 
 ## Related Commands
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [Get-AppLibAppDiskStartMenuShortcut](Get-AppLibAppDiskStartMenuShortcut.html)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [Get-AppLibAppDiskStartMenuShortcut](Get-AppLibAppDiskStartMenuShortcut/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -56,9 +56,9 @@ The session pre-launch object returned represents a session pre-launch setting i
        Indicates if pre-launch-specific user filter is enabled.
 
 ## Related Commands
-  * [New-BrokerSessionPreLaunch](New-BrokerSessionPreLaunch.html)
-  * [Set-BrokerSessionPreLaunch](Set-BrokerSessionPreLaunch.html)
-  * [Remove-BrokerSessionPreLaunch](Remove-BrokerSessionPreLaunch.html)
+  * [New-BrokerSessionPreLaunch](New-BrokerSessionPreLaunch/)
+  * [Set-BrokerSessionPreLaunch](Set-BrokerSessionPreLaunch/)
+  * [Remove-BrokerSessionPreLaunch](Remove-BrokerSessionPreLaunch/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

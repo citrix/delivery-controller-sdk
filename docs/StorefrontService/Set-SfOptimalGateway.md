@@ -11,8 +11,8 @@ Set-SfOptimalGateway -SiteId <Int64> -ResourcesVirtualPath <String> -HostNames <
    Set the farms and the optimal gateway to use for launch.
 
 ## Related Commands
-  * [Get-SfOptimalGatewayCommand](Get-SfOptimalGatewayCommand.html)
-  * [Remove-SfOptimalGatewayCommand](Remove-SfOptimalGatewayCommand.html)
+  * [Get-SfOptimalGatewayCommand](Get-SfOptimalGatewayCommand/)
+  * [Remove-SfOptimalGatewayCommand](Remove-SfOptimalGatewayCommand/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,9 +15,9 @@ Copy-AcctIdentityPool -IdentityPoolUid <Guid> [-NewIdentityPoolName] <String> [-
 The new IdentityPool will contain all the accounts that were in the original pool and will have the same domain and OU set. The naming scheme will be unset and the StartCount will be set to 1.
 
 ## Related Commands
-  * [New-AcctIdentityPool](New-AcctIdentityPool.html)
-  * [Get-AcctIdentityPool](Get-AcctIdentityPool.html)
-  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool.html)
+  * [New-AcctIdentityPool](New-AcctIdentityPool/)
+  * [Get-AcctIdentityPool](Get-AcctIdentityPool/)
+  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -21,7 +21,7 @@ Set-AppLibAppDiskMetadata [-InputObject] <AppDisk[]> -Map <PSObject> [-LoggingId
    Provides the ability for additional custom data to be stored against given AppDisk objects.
 
 ## Related Commands
-  * [Remove-AppLibAppDiskMetadata](Remove-AppLibAppDiskMetadata.html)
+  * [Remove-AppLibAppDiskMetadata](Remove-AppLibAppDiskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

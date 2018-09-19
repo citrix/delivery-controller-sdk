@@ -13,7 +13,7 @@ Get-AppLibAppDiskObjectReference [-AppDiskName] <String> [-AdminAddress <String>
    Returns, for a given AppDisk name or UID, the number of references by objects in other services (e.g. Broker Desktop Groups).
 
 ## Related Commands
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,11 +13,11 @@ Revoke-HypSecurityGroupIngress [-LiteralPath] <String> -IPRange <String[]> -Prot
    To remove a rule, specify parameters matching an existing rule's values.
 
 ## Related Commands
-  * [Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html](Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html.html)
-  * [IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml](IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml.html)
-  * [Grant-HypSecurityGroupIngress](Grant-HypSecurityGroupIngress.html)
-  * [Grant-HypSecurityGroupEgress](Grant-HypSecurityGroupEgress.html)
-  * [Revoke-HypSecurityGroupIngress](Revoke-HypSecurityGroupIngress.html)
+  * [Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html](Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html/)
+  * [IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml](IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml/)
+  * [Grant-HypSecurityGroupIngress](Grant-HypSecurityGroupIngress/)
+  * [Grant-HypSecurityGroupEgress](Grant-HypSecurityGroupEgress/)
+  * [Revoke-HypSecurityGroupIngress](Revoke-HypSecurityGroupIngress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

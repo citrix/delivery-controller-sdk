@@ -11,8 +11,8 @@ Test-HypHypervisorConnectionNameAvailable -HypervisorConnectionName <String[]> [
    Use this command to check that the proposed name for a hypervisor connection is unused. This check is done without regard for scoping of the existing hypervisor connection, so the names of inaccessible hypervisor connection are also checked.
 
 ## Related Commands
-  * [New-Item](New-Item.html)
-  * [Rename-Item](Rename-Item.html)
+  * [New-Item](New-Item/)
+  * [Rename-Item](Rename-Item/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

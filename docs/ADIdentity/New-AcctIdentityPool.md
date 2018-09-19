@@ -15,11 +15,11 @@ The naming scheme, naming scheme type, and domain must be specified if the ident
 Each identity pool is tied to a single domain. All the identities in an identity pool belong to the same domain. If the domain is not specified by a parameter to this command the domain will be set when an account is imported into it.
 
 ## Related Commands
-  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool.html)
-  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool.html)
-  * [Set-AcctIdentityPool](Set-AcctIdentityPool.html)
-  * [Test-AcctIdentityPoolNameAvailable](Test-AcctIdentityPoolNameAvailable.html)
-  * [New-AcctADAccount](New-AcctADAccount.html)
+  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool/)
+  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool/)
+  * [Set-AcctIdentityPool](Set-AcctIdentityPool/)
+  * [Test-AcctIdentityPoolNameAvailable](Test-AcctIdentityPoolNameAvailable/)
+  * [New-AcctADAccount](New-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

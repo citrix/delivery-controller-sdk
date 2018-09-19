@@ -11,8 +11,8 @@ Test-BrokerMachineNameAvailable [-MachineName] <String[]> [-AdminAddress <String
    This cmdlet checks whether proposed Machine MachineName is available for use. It returns a record for each MachineName indicating the availability of that MachineName, with $true indicating that the MachineName is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
-  * [New-BrokerMachine](New-BrokerMachine.html)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
+  * [New-BrokerMachine](New-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,10 +11,10 @@ Get-ConfigLicensingModel -ProductCode <String> [-AdminAddress <String>] [<Common
    
 
 ## Related Commands
-  * [Get-ConfigProduct](Get-ConfigProduct.html)
-  * [Get-ConfigSite](Get-ConfigSite.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable.html)
+  * [Get-ConfigProduct](Get-ConfigProduct/)
+  * [Get-ConfigSite](Get-ConfigSite/)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

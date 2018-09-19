@@ -13,9 +13,9 @@ Invoke-AppLibAppDiskDnaImport -AppDiskUid <Guid> -ReservedMachine <String> [-Run
    Will extract metadata from a provided AppDisk, import it into AppDNA and start an analysis of the imported metadata.
 
 ## Related Commands
-  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection.html)
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Stop-AppLibTask](Stop-AppLibTask.html)
+  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection/)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Stop-AppLibTask](Stop-AppLibTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

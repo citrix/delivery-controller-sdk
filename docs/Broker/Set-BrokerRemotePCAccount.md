@@ -11,9 +11,9 @@ Set-BrokerRemotePCAccount [-InputObject] <RemotePCAccount[]> [-PassThru] [-Allow
    Modify one or more RemotePCAccounts.
 
 ## Related Commands
-  * [Get-BrokerRemotePCAccount](Get-BrokerRemotePCAccount.html)
-  * [New-BrokerRemotePCAccount](New-BrokerRemotePCAccount.html)
-  * [Remove-BrokerRemotePCAccount](Remove-BrokerRemotePCAccount.html)
+  * [Get-BrokerRemotePCAccount](Get-BrokerRemotePCAccount/)
+  * [New-BrokerRemotePCAccount](New-BrokerRemotePCAccount/)
+  * [Remove-BrokerRemotePCAccount](Remove-BrokerRemotePCAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

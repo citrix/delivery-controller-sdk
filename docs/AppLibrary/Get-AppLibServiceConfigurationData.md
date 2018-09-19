@@ -11,8 +11,8 @@ Get-AppLibServiceConfigurationData [-Name <String[]>] [-Value <String[]>] [-Retu
    Provides the ability to determine the configuration parameters for the service
 
 ## Related Commands
-  * [Set-AppLibServiceConfigurationData](Set-AppLibServiceConfigurationData.html)
-  * [Remove-AppLibServiceConfigurationData](Remove-AppLibServiceConfigurationData.html)
+  * [Set-AppLibServiceConfigurationData](Set-AppLibServiceConfigurationData/)
+  * [Remove-AppLibServiceConfigurationData](Remove-AppLibServiceConfigurationData/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

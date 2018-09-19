@@ -13,8 +13,8 @@ Unlock-ProvVM [-VMID] <String[]> -ProvisioningSchemeUid <Guid> [-LoggingId <Guid
    Provides the ability to unlock a virtual machine.
 
 ## Related Commands
-  * [Get-ProvVM](Get-ProvVM.html)
-  * [Lock-ProvVM](Lock-ProvVM.html)
+  * [Get-ProvVM](Get-ProvVM/)
+  * [Lock-ProvVM](Lock-ProvVM/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

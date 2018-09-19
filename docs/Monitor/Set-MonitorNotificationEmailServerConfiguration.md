@@ -13,7 +13,7 @@ Set-MonitorNotificationEmailServerConfiguration -ProtocolType <EmailProtocolType
    The saved configuration describes the new settings to be used to send emails
 
 ## Related Commands
-  * [Get-MonitorNotificationEmailServerConfiguration](Get-MonitorNotificationEmailServerConfiguration.html)
+  * [Get-MonitorNotificationEmailServerConfiguration](Get-MonitorNotificationEmailServerConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

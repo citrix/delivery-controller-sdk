@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Broker Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-BrokerServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-BrokerInstalledDBVersion](Get-BrokerInstalledDBVersion.html)
-  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus.html)
-  * [Get-BrokerDBSchema](Get-BrokerDBSchema.html)
+  * [Get-BrokerInstalledDBVersion](Get-BrokerInstalledDBVersion/)
+  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus/)
+  * [Get-BrokerDBSchema](Get-BrokerDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -62,9 +62,9 @@ The BrokerHypervisorConnection represents hypervisor connection object. It conta
        Unique internal identifier of hypervisor connection.
 
 ## Related Commands
-  * [New-BrokerHypervisorConnection](New-BrokerHypervisorConnection.html)
-  * [Remove-BrokerHypervisorConnection](Remove-BrokerHypervisorConnection.html)
-  * [Set-BrokerHypervisorConnection](Set-BrokerHypervisorConnection.html)
+  * [New-BrokerHypervisorConnection](New-BrokerHypervisorConnection/)
+  * [Remove-BrokerHypervisorConnection](Remove-BrokerHypervisorConnection/)
+  * [Set-BrokerHypervisorConnection](Set-BrokerHypervisorConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

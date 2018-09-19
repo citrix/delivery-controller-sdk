@@ -11,7 +11,7 @@ Get-HypVMMacAddress [-LiteralPath] <String> [-AdminAddress <String>] [<CommonPar
    Use this command to obtain a list of MAC addresses of all the virtual machines in the specified connection.
 
 ## Related Commands
-  * [Get-Item](Get-Item.html)
+  * [Get-Item](Get-Item/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

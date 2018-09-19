@@ -21,7 +21,7 @@ Remove-AppLibAppVApplicationMetadata [-InputObject] <AppVApplication[]> -Map <PS
    Provides the ability to remove metadata from the given AppVApplication.
 
 ## Related Commands
-  * [Set-AppLibAppVApplicationMetadata](Set-AppLibAppVApplicationMetadata.html)
+  * [Set-AppLibAppVApplicationMetadata](Set-AppLibAppVApplicationMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

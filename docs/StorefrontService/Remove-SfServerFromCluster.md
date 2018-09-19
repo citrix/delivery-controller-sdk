@@ -11,10 +11,10 @@ Remove-SfServerFromCluster -ClusterId <Guid> -ServerName <String> [-StorefrontUr
    Removes server from the cluster and propagates information to other servers. The configuration of the server is wiped out, so the server can be reused.
 
 ## Related Commands
-  * [Get-SfCluster](Get-SfCluster.html)
-  * [New-SfCluster](New-SfCluster.html)
-  * [Add-SfServerToCluster](Add-SfServerToCluster.html)
-  * [Set-SfCluster](Set-SfCluster.html)
+  * [Get-SfCluster](Get-SfCluster/)
+  * [New-SfCluster](New-SfCluster/)
+  * [Add-SfServerToCluster](Add-SfServerToCluster/)
+  * [Set-SfCluster](Set-SfCluster/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

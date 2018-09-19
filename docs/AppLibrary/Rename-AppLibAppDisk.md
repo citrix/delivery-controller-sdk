@@ -13,10 +13,10 @@ Rename-AppLibAppDisk -AppDiskUid <Guid> [-NewAppDiskName] <String> [-PassThru] [
    Provides the ability to change the name of an existing AppDisk.  The unique identifier for the AppDisk never changes after it has been created so, regardless of any name changes, the AppDisk can always be identified by its unique identifier.
 
 ## Related Commands
-  * [New-AppLibAppDisk](New-AppLibAppDisk.html)
-  * [Set-AppLibAppDisk](Set-AppLibAppDisk.html)
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable.html)
+  * [New-AppLibAppDisk](New-AppLibAppDisk/)
+  * [Set-AppLibAppDisk](Set-AppLibAppDisk/)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

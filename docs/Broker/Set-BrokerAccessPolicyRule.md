@@ -17,10 +17,10 @@ An access policy rule defines a set of connection filters and access control rig
 Changing a rule does not affect existing user sessions, but it may result in users being unable to launch new sessions, or reconnect to disconnected sessions if the change removes access to the desktop group delivering those sessions.
 
 ## Related Commands
-  * [New-BrokerAccessPolicyRule](New-BrokerAccessPolicyRule.html)
-  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule.html)
-  * [Rename-BrokerAccessPolicyRule](Rename-BrokerAccessPolicyRule.html)
-  * [Remove-BrokerAccessPolicyRule](Remove-BrokerAccessPolicyRule.html)
+  * [New-BrokerAccessPolicyRule](New-BrokerAccessPolicyRule/)
+  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule/)
+  * [Rename-BrokerAccessPolicyRule](Rename-BrokerAccessPolicyRule/)
+  * [Remove-BrokerAccessPolicyRule](Remove-BrokerAccessPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

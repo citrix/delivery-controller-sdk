@@ -13,9 +13,9 @@ Start-BrokerRebootCycle [-InputObject] <Catalog[]> -RebootDuration <Int32> [-War
 Creating a reboot cycle for catalog ensures that all machines in the catalog are running the most recent image for the catalog and that all PvD image updates have been performed.
 
 ## Related Commands
-  * [Start-BrokerDesktopGroupRebootCycle](Start-BrokerDesktopGroupRebootCycle.html)
-  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle.html)
-  * [Get-BrokerRebootCycle](Get-BrokerRebootCycle.html)
+  * [Start-BrokerDesktopGroupRebootCycle](Start-BrokerDesktopGroupRebootCycle/)
+  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle/)
+  * [Get-BrokerRebootCycle](Get-BrokerRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,10 +11,10 @@ Get-SfServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the Storefront Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-SfDBConnection](Set-SfDBConnection.html)
-  * [Test-SfDBConnection](Test-SfDBConnection.html)
-  * [Get-SfDBConnection](Get-SfDBConnection.html)
-  * [Get-SfDBSchema](Get-SfDBSchema.html)
+  * [Set-SfDBConnection](Set-SfDBConnection/)
+  * [Test-SfDBConnection](Test-SfDBConnection/)
+  * [Get-SfDBConnection](Get-SfDBConnection/)
+  * [Get-SfDBSchema](Get-SfDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

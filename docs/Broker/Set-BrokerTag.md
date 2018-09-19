@@ -13,11 +13,11 @@ Set-BrokerTag [-Name] <String> [-PassThru] [-Description <String>] [-LoggingId <
    The Set-BrokerTag cmdlet sets properties of a tag or set of tags. The tags on which to operate can be specified by name, in which case multiple tags may be specified through the use of wildcards, or by passing one or more Tag instances to the cmdlet by piping or by using the -InputObject parameter.
 
 ## Related Commands
-  * [Add-BrokerTag](Add-BrokerTag.html)
-  * [Get-BrokerTag](Get-BrokerTag.html)
-  * [New-BrokerTag](New-BrokerTag.html)
-  * [Remove-BrokerTag](Remove-BrokerTag.html)
-  * [Rename-BrokerTag](Rename-BrokerTag.html)
+  * [Add-BrokerTag](Add-BrokerTag/)
+  * [Get-BrokerTag](Get-BrokerTag/)
+  * [New-BrokerTag](New-BrokerTag/)
+  * [Remove-BrokerTag](Remove-BrokerTag/)
+  * [Rename-BrokerTag](Rename-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

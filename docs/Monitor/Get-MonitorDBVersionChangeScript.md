@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Monitor Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-MonitorServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-MonitorInstalledDBVersion](Get-MonitorInstalledDBVersion.html)
-  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus.html)
-  * [Get-MonitorDBSchema](Get-MonitorDBSchema.html)
+  * [Get-MonitorInstalledDBVersion](Get-MonitorInstalledDBVersion/)
+  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus/)
+  * [Get-MonitorDBSchema](Get-MonitorDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

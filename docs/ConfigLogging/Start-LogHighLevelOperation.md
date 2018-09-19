@@ -31,8 +31,8 @@ o Rebooting a user's desktop.
 Once the change being logged has completed (whether successfully or not) the Stop-LogHighLevelOperation cmdlet should be called to log the completion of a started high level operation.
 
 ## Related Commands
-  * [Stop-LogHighLevelOperation](Stop-LogHighLevelOperation.html)
-  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation.html)
+  * [Stop-LogHighLevelOperation](Stop-LogHighLevelOperation/)
+  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

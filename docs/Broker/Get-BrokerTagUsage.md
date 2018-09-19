@@ -59,7 +59,7 @@ Each BrokerTagUsage object summarizes on the usage of a single Tag.
        The number of objects of all types that have this tag restriction and that are *not* visible to the calling delegated administrator.
 
 ## Related Commands
-  * [Get-BrokerTag](Get-BrokerTag.html)
+  * [Get-BrokerTag](Get-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

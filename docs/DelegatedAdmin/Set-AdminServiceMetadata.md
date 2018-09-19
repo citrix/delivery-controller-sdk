@@ -17,7 +17,7 @@ Set-AdminServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId 
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-AdminServiceMetadata](Remove-AdminServiceMetadata.html)
+  * [Remove-AdminServiceMetadata](Remove-AdminServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

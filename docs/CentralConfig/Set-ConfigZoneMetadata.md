@@ -21,7 +21,7 @@ Set-ConfigZoneMetadata [-InputObject] <Zone[]> -Map <PSObject> [-LoggingId <Guid
    Provides the ability for additional custom data to be stored against given Zone objects.
 
 ## Related Commands
-  * [Remove-ConfigZoneMetadata](Remove-ConfigZoneMetadata.html)
+  * [Remove-ConfigZoneMetadata](Remove-ConfigZoneMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,7 +11,7 @@ Remove-HypHypervisorConnectionAddress [-LiteralPath] <String> [-HypervisorAddres
    Use this command to remove addresses that can be used to connect to the hypervisor specified by the hypervisor connection.  If all addresses are removed, the connection cannot be used until a valid address is added to the hypervisor connection.
 
 ## Related Commands
-  * [Add-HypHypervisorConnectionAddress](Add-HypHypervisorConnectionAddress.html)
+  * [Add-HypHypervisorConnectionAddress](Add-HypHypervisorConnectionAddress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

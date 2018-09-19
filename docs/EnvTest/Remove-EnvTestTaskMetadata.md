@@ -17,7 +17,7 @@ Remove-EnvTestTaskMetadata [-InputObject] <EnvTestTask[]> -Map <PSObject> [-Logg
    Provides the ability to remove metadata from the given Task.
 
 ## Related Commands
-  * [Set-EnvTestTaskMetadata](Set-EnvTestTaskMetadata.html)
+  * [Set-EnvTestTaskMetadata](Set-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

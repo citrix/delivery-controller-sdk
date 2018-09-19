@@ -13,8 +13,8 @@ Add-ProvSchemeControllerAddress -ProvisioningSchemeUid <Guid> [-ControllerAddres
    Provides the ability to associate controller hosts (and hence implicitly a set of brokers) with a specific provisioning scheme.  This optional data is passed to the machines created by the Machine Creation Services, where it is used to associate the newly created machine with a broker.  The list is returned along with the provisioning scheme that it is assigned to.
 
 ## Related Commands
-  * [Get-ProvScheme](Get-ProvScheme.html)
-  * [Remove-ProvSchemeControllerAddress](Remove-ProvSchemeControllerAddress.html)
+  * [Get-ProvScheme](Get-ProvScheme/)
+  * [Remove-ProvSchemeControllerAddress](Remove-ProvSchemeControllerAddress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

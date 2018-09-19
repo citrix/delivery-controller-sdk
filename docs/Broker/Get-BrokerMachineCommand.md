@@ -70,8 +70,8 @@ The command object returned represents a command handled by a specific service o
        Name of the user this command is targeted at.
 
 ## Related Commands
-  * [New-BrokerMachineCommand](New-BrokerMachineCommand.html)
-  * [Remove-BrokerMachineCommand](Remove-BrokerMachineCommand.html)
+  * [New-BrokerMachineCommand](New-BrokerMachineCommand/)
+  * [Remove-BrokerMachineCommand](Remove-BrokerMachineCommand/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

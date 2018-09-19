@@ -11,9 +11,9 @@ Get-SfTask [[-TaskId] <Guid>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>
    Returns a list of tasks that have run or are currently running within the Storefront Service.
 
 ## Related Commands
-  * [Remove-SfTask](Remove-SfTask.html)
-  * [Add-SfTaskMetadata](Add-SfTaskMetadata.html)
-  * [Remove-SfTaskMetadata](Remove-SfTaskMetadata.html)
+  * [Remove-SfTask](Remove-SfTask/)
+  * [Add-SfTaskMetadata](Add-SfTaskMetadata/)
+  * [Remove-SfTaskMetadata](Remove-SfTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

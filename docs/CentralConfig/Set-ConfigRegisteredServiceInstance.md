@@ -11,9 +11,9 @@ Set-ConfigRegisteredServiceInstance -ServiceInstanceUid <Guid> -Address <String>
    Use this cmdlet to change the address property of an existing service instance that is registered in the Configuration Service.
 
 ## Related Commands
-  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance.html)
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
+  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance/)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

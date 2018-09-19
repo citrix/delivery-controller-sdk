@@ -11,9 +11,9 @@ Test-BrokerAccessPolicyRuleNameAvailable [-Name] <String[]> [-AdminAddress <Stri
    This cmdlet checks whether proposed AccessPolicyRule Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule.html)
-  * [New-BrokerAccessPolicyRule](New-BrokerAccessPolicyRule.html)
-  * [Rename-BrokerAccessPolicyRule](Rename-BrokerAccessPolicyRule.html)
+  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule/)
+  * [New-BrokerAccessPolicyRule](New-BrokerAccessPolicyRule/)
+  * [Rename-BrokerAccessPolicyRule](Rename-BrokerAccessPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

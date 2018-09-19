@@ -11,9 +11,9 @@ Remove-SfTask [-TaskId] <Guid> [-LoggingId <Guid>] [-AdminAddress <String>] [<Co
    Enables completed tasks that have run within the Storefront Service to be removed from the database.
 
 ## Related Commands
-  * [Get-SfTask](Get-SfTask.html)
-  * [Add-SfTaskMetadata](Add-SfTaskMetadata.html)
-  * [Remove-SfTaskMetadata](Remove-SfTaskMetadata.html)
+  * [Get-SfTask](Get-SfTask/)
+  * [Add-SfTaskMetadata](Add-SfTaskMetadata/)
+  * [Remove-SfTaskMetadata](Remove-SfTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

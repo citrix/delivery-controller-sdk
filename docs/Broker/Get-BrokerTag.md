@@ -32,11 +32,11 @@ The BrokerTag object represents a single instance of a Tag associated to other o
        The UUID associated to the Tag
 
 ## Related Commands
-  * [Add-BrokerTag](Add-BrokerTag.html)
-  * [New-BrokerTag](New-BrokerTag.html)
-  * [Remove-BrokerTag](Remove-BrokerTag.html)
-  * [Rename-BrokerTag](Rename-BrokerTag.html)
-  * [Set-BrokerTag](Set-BrokerTag.html)
+  * [Add-BrokerTag](Add-BrokerTag/)
+  * [New-BrokerTag](New-BrokerTag/)
+  * [Remove-BrokerTag](Remove-BrokerTag/)
+  * [Rename-BrokerTag](Rename-BrokerTag/)
+  * [Set-BrokerTag](Set-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a AppLibrary SDK cmdlet.
 
 ## Related Commands
-  * [Get-AppLibServiceStatus](Get-AppLibServiceStatus.html)
-  * [Set-AppLibDBConnection](Set-AppLibDBConnection.html)
-  * [Test-AppLibDBConnection](Test-AppLibDBConnection.html)
+  * [Get-AppLibServiceStatus](Get-AppLibServiceStatus/)
+  * [Set-AppLibDBConnection](Set-AppLibDBConnection/)
+  * [Test-AppLibDBConnection](Test-AppLibDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

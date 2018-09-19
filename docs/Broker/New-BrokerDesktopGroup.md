@@ -15,13 +15,13 @@ Desktop groups hold settings that apply to all desktops they contain.
 For any automatic power management settings of a desktop group to take effect, the group's TimeZone property must be specified. Automatic power management operations include pool management (power time schemes), reboot schedules, session disconnect and logoff actions, and powering on assigned machines etc.
 
 ## Related Commands
-  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup.html)
-  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup.html)
-  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup.html)
-  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup.html)
-  * [Add-BrokerMachine](Add-BrokerMachine.html)
-  * [Add-BrokerMachinesToDesktopGroup](Add-BrokerMachinesToDesktopGroup.html)
-  * [Get-BrokerSite](Get-BrokerSite.html)
+  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup/)
+  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup/)
+  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup/)
+  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup/)
+  * [Add-BrokerMachine](Add-BrokerMachine/)
+  * [Add-BrokerMachinesToDesktopGroup](Add-BrokerMachinesToDesktopGroup/)
+  * [Get-BrokerSite](Get-BrokerSite/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

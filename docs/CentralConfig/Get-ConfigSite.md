@@ -13,8 +13,8 @@ Get-ConfigSite [-AdminAddress <String>] [<CommonParameters>]
 A XenDesktop installation has only a single site instance.
 
 ## Related Commands
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable.html)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

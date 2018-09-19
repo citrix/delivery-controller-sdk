@@ -162,12 +162,12 @@ The BrokerApplication object represents a published application in the site. It 
        The working directory the executable is launched from.
 
 ## Related Commands
-  * [New-BrokerApplication](New-BrokerApplication.html)
-  * [Add-BrokerApplication](Add-BrokerApplication.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
-  * [Rename-BrokerApplication](Rename-BrokerApplication.html)
-  * [Move-BrokerApplication](Move-BrokerApplication.html)
-  * [Set-BrokerApplication](Set-BrokerApplication.html)
+  * [New-BrokerApplication](New-BrokerApplication/)
+  * [Add-BrokerApplication](Add-BrokerApplication/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
+  * [Rename-BrokerApplication](Rename-BrokerApplication/)
+  * [Move-BrokerApplication](Move-BrokerApplication/)
+  * [Set-BrokerApplication](Set-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

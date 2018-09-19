@@ -13,9 +13,9 @@ Start-BrokerDesktopGroupRebootCycle [-InputObject] <DesktopGroup[]> -RebootDurat
 The functionality offered is similar to that of New-BrokerRebootSchedule but the resulting reboot cycles execute once as defined by the command parameters rather than on a repeating schedule.
 
 ## Related Commands
-  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle.html)
-  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle.html)
-  * [Get-BrokerRebootCycle](Get-BrokerRebootCycle.html)
+  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle/)
+  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle/)
+  * [Get-BrokerRebootCycle](Get-BrokerRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

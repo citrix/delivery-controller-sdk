@@ -11,10 +11,10 @@ Add-SfServerToCluster -ClusterId <Guid> -ServerName <String> [-StorefrontUrl <Ur
    Adds a new server to an existing cluster. Optionally updates Farm and StoreFront URL. After operation succeeds, all servers are configured identically.
 
 ## Related Commands
-  * [Get-SfCluster](Get-SfCluster.html)
-  * [New-SfCluster](New-SfCluster.html)
-  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster.html)
-  * [Set-SfCluster](Set-SfCluster.html)
+  * [Get-SfCluster](Get-SfCluster/)
+  * [New-SfCluster](New-SfCluster/)
+  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster/)
+  * [Set-SfCluster](Set-SfCluster/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

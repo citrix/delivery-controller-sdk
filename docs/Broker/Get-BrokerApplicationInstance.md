@@ -60,9 +60,9 @@ The BrokerApplicationInstance object represents an instance of a published appli
        User name (SAMName).
 
 ## Related Commands
-  * [Get-BrokerApplication](Get-BrokerApplication.html)
-  * [Get-BrokerDesktop](Get-BrokerDesktop.html)
-  * [Get-BrokerSession](Get-BrokerSession.html)
+  * [Get-BrokerApplication](Get-BrokerApplication/)
+  * [Get-BrokerDesktop](Get-BrokerDesktop/)
+  * [Get-BrokerSession](Get-BrokerSession/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

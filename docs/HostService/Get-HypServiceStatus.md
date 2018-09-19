@@ -11,10 +11,10 @@ Get-HypServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the Host Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-HypDBConnection](Set-HypDBConnection.html)
-  * [Test-HypDBConnection](Test-HypDBConnection.html)
-  * [Get-HypDBConnection](Get-HypDBConnection.html)
-  * [Get-HypDBSchema](Get-HypDBSchema.html)
+  * [Set-HypDBConnection](Set-HypDBConnection/)
+  * [Test-HypDBConnection](Test-HypDBConnection/)
+  * [Get-HypDBConnection](Get-HypDBConnection/)
+  * [Get-HypDBSchema](Get-HypDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

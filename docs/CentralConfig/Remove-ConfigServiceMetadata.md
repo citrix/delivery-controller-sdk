@@ -17,7 +17,7 @@ Remove-ConfigServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-Loggin
    Provides the ability to remove metadata from the given Service.
 
 ## Related Commands
-  * [Set-ConfigServiceMetadata](Set-ConfigServiceMetadata.html)
+  * [Set-ConfigServiceMetadata](Set-ConfigServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

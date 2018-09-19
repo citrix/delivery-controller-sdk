@@ -17,7 +17,7 @@ Desktops in maintenance mode are also excluded from automatic power management, 
 This cmdlet is equivalent to using the Set-BrokerMachine cmdlet to set the value of only the InMaintenanceMode property.
 
 ## Related Commands
-  * [Set-BrokerMachine](Set-BrokerMachine.html)
+  * [Set-BrokerMachine](Set-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

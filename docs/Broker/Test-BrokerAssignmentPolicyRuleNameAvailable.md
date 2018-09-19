@@ -11,9 +11,9 @@ Test-BrokerAssignmentPolicyRuleNameAvailable [-Name] <String[]> [-AdminAddress <
    This cmdlet checks whether proposed AssignmentPolicyRule Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule.html)
-  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule.html)
-  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule.html)
+  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule/)
+  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule/)
+  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -27,8 +27,8 @@ Group-BrokerMachine is similar to the standard PowerShell Group-Object, but is f
 Note that the MaxRecordCount, ReturnTotalRecordCount, Skip, and SortBy parameters apply to GroupInfo records output rather than the filtered machines.
 
 ## Related Commands
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
-  * [Group-Object](Group-Object.html)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
+  * [Group-Object](Group-Object/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

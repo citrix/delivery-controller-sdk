@@ -19,9 +19,9 @@ For convenience, you can use the -All parameter to specify the 'All' scope.
 Use the Get-AdminAdministrator cmdlet to determine what rights an administrator has.
 
 ## Related Commands
-  * [Get-AdminAdministrator](Get-AdminAdministrator.html)
-  * [Get-AdminEffectiveRight](Get-AdminEffectiveRight.html)
-  * [Add-AdminRight](Add-AdminRight.html)
+  * [Get-AdminAdministrator](Get-AdminAdministrator/)
+  * [Get-AdminEffectiveRight](Get-AdminEffectiveRight/)
+  * [Add-AdminRight](Add-AdminRight/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

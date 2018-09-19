@@ -17,9 +17,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Analytics SDK cmdlet.
 
 ## Related Commands
-  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus.html)
-  * [Get-AnalyticsDBConnection](Get-AnalyticsDBConnection.html)
-  * [Set-AnalyticsDBConnection](Set-AnalyticsDBConnection.html)
+  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus/)
+  * [Get-AnalyticsDBConnection](Get-AnalyticsDBConnection/)
+  * [Set-AnalyticsDBConnection](Set-AnalyticsDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

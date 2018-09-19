@@ -17,12 +17,12 @@ Rename-ConfigZone [-Name] <String> [-NewName] <String> [-PassThru] [-LoggingId <
 All zone names must be unique.
 
 ## Related Commands
-  * [New-ConfigZone](New-ConfigZone.html)
-  * [Set-ConfigZone](Set-ConfigZone.html)
-  * [Get-ConfigZone](Get-ConfigZone.html)
-  * [Remove-ConfigZone](Remove-ConfigZone.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Set-ConfigService](Set-ConfigService.html)
+  * [New-ConfigZone](New-ConfigZone/)
+  * [Set-ConfigZone](Set-ConfigZone/)
+  * [Get-ConfigZone](Get-ConfigZone/)
+  * [Remove-ConfigZone](Remove-ConfigZone/)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Set-ConfigService](Set-ConfigService/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

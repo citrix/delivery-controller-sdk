@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Storefront Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-SfServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-SfInstalledDBVersion](Get-SfInstalledDBVersion.html)
-  * [Get-SfServiceStatus](Get-SfServiceStatus.html)
-  * [Get-SfDBSchema](Get-SfDBSchema.html)
+  * [Get-SfInstalledDBVersion](Get-SfInstalledDBVersion/)
+  * [Get-SfServiceStatus](Get-SfServiceStatus/)
+  * [Get-SfDBSchema](Get-SfDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

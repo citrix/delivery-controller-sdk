@@ -15,10 +15,10 @@ Rename-BrokerAppEntitlementPolicyRule [-Name] <String> [-NewName] <String> [-Pas
 An application rule in the entitlement policy defines the users who are allowed per-session access to a machine to run one or more applications published from the rule's desktop group.
 
 ## Related Commands
-  * [New-BrokerAppEntitlementPolicyRule](New-BrokerAppEntitlementPolicyRule.html)
-  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule.html)
-  * [Set-BrokerAppEntitlementPolicyRule](Set-BrokerAppEntitlementPolicyRule.html)
-  * [Remove-BrokerAppEntitlementPolicyRule](Remove-BrokerAppEntitlementPolicyRule.html)
+  * [New-BrokerAppEntitlementPolicyRule](New-BrokerAppEntitlementPolicyRule/)
+  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule/)
+  * [Set-BrokerAppEntitlementPolicyRule](Set-BrokerAppEntitlementPolicyRule/)
+  * [Remove-BrokerAppEntitlementPolicyRule](Remove-BrokerAppEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

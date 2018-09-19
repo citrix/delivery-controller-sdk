@@ -39,8 +39,8 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-HypDBConnection](Set-HypDBConnection.html)
-  * [Test-HypDBConnection](Test-HypDBConnection.html)
+  * [Set-HypDBConnection](Set-HypDBConnection/)
+  * [Test-HypDBConnection](Test-HypDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

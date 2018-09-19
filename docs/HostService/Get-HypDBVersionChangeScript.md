@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Host Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-HypServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-HypInstalledDBVersion](Get-HypInstalledDBVersion.html)
-  * [Get-HypServiceStatus](Get-HypServiceStatus.html)
-  * [Get-HypDBSchema](Get-HypDBSchema.html)
+  * [Get-HypInstalledDBVersion](Get-HypInstalledDBVersion/)
+  * [Get-HypServiceStatus](Get-HypServiceStatus/)
+  * [Get-HypDBSchema](Get-HypDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

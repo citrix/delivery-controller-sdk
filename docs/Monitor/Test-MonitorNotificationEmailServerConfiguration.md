@@ -15,8 +15,8 @@ Test-MonitorNotificationEmailServerConfiguration -EmailAddresses <String[]> [-Lo
    FIXME
 
 ## Related Commands
-  * [Get-MonitorNotificationEmailServerConfiguration](Get-MonitorNotificationEmailServerConfiguration.html)
-  * [Set-MonitorNotificationEmailServerConfiguration](Set-MonitorNotificationEmailServerConfiguration.html)
+  * [Get-MonitorNotificationEmailServerConfiguration](Get-MonitorNotificationEmailServerConfiguration/)
+  * [Set-MonitorNotificationEmailServerConfiguration](Set-MonitorNotificationEmailServerConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

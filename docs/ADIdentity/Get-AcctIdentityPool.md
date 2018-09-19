@@ -11,10 +11,10 @@ Get-AcctIdentityPool [[-IdentityPoolName] <String>] [-IdentityPoolUid <Guid>] [-
    Provides the ability to locate existing identity pools.
 
 ## Related Commands
-  * [New-AcctIdentityPool](New-AcctIdentityPool.html)
-  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool.html)
-  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool.html)
-  * [Set-AcctIdentityPool](Set-AcctIdentityPool.html)
+  * [New-AcctIdentityPool](New-AcctIdentityPool/)
+  * [Remove-AcctIdentityPool](Remove-AcctIdentityPool/)
+  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool/)
+  * [Set-AcctIdentityPool](Set-AcctIdentityPool/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,8 +11,8 @@ Test-HypHostingUnitNameAvailable -HostingUnitName <String[]> [-AdminAddress <Str
    Use this command to check that the proposed name for a hosting unit is unused. This check is done without regard for scoping of the existing hosting unit, so the names of inaccessible hosting units are also checked.
 
 ## Related Commands
-  * [New-Item](New-Item.html)
-  * [Rename-Item](Rename-Item.html)
+  * [New-Item](New-Item/)
+  * [Rename-Item](Rename-Item/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -257,9 +257,9 @@ The session object returned represents a session on a machine in the site. The s
        The UID of the zone in which the machine hosting the session is located.
 
 ## Related Commands
-  * [Disconnect-BrokerSession](Disconnect-BrokerSession.html)
-  * [Stop-BrokerSession](Stop-BrokerSession.html)
-  * [Get-BrokerDesktop](Get-BrokerDesktop.html)
+  * [Disconnect-BrokerSession](Disconnect-BrokerSession/)
+  * [Stop-BrokerSession](Stop-BrokerSession/)
+  * [Get-BrokerDesktop](Get-BrokerDesktop/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,8 +15,8 @@ By default, this cmdlet returns only those snapshots that have been used previou
 The ShowAll parameter may be supplied to also show the snapshot for the image currently in use, and the snapshots for any images prepared for later use.
 
 ## Related Commands
-  * [Publish-ProvMasterVMImage](Publish-ProvMasterVMImage.html)
-  * [Remove-ProvSchemeMasterVMImageHistory](Remove-ProvSchemeMasterVMImageHistory.html)
+  * [Publish-ProvMasterVMImage](Publish-ProvMasterVMImage/)
+  * [Remove-ProvSchemeMasterVMImageHistory](Remove-ProvSchemeMasterVMImageHistory/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

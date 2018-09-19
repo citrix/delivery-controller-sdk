@@ -11,8 +11,8 @@ Remove-BrokerMachineCommand [-InputObject] <MachineCommand[]> [-LoggingId <Guid>
    Sets the state of a pending command queued for delivery to a desktop to Canceled. The command is not removed from the system.
 
 ## Related Commands
-  * [Get-BrokerMachineCommand](Get-BrokerMachineCommand.html)
-  * [New-BrokerMachineCommand](New-BrokerMachineCommand.html)
+  * [Get-BrokerMachineCommand](Get-BrokerMachineCommand/)
+  * [New-BrokerMachineCommand](New-BrokerMachineCommand/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

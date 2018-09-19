@@ -19,14 +19,14 @@ The identifier of the new role is chosen automatically, and custom roles created
 You cannot modify built-in roles, and only some license editions support custom roles.
 
 ## Related Commands
-  * [Get-AdminRole](Get-AdminRole.html)
-  * [Set-AdminRole](Set-AdminRole.html)
-  * [Rename-AdminRole](Rename-AdminRole.html)
-  * [Remove-AdminRole](Remove-AdminRole.html)
-  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata.html)
-  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata.html)
-  * [Add-AdminPermission](Add-AdminPermission.html)
-  * [Add-AdminRight](Add-AdminRight.html)
+  * [Get-AdminRole](Get-AdminRole/)
+  * [Set-AdminRole](Set-AdminRole/)
+  * [Rename-AdminRole](Rename-AdminRole/)
+  * [Remove-AdminRole](Remove-AdminRole/)
+  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata/)
+  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata/)
+  * [Add-AdminPermission](Add-AdminPermission/)
+  * [Add-AdminRight](Add-AdminRight/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

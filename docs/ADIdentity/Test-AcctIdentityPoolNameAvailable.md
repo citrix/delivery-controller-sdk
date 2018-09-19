@@ -11,8 +11,8 @@ Test-AcctIdentityPoolNameAvailable [-IdentityPoolName] <String[]> [-AdminAddress
    Checks to ensure that the proposed name for an identity pool is unused. This check is done without regard for scoping of existing identity pools, so the names of inaccessible pools are also checked.
 
 ## Related Commands
-  * [New-AcctIdentityPool](New-AcctIdentityPool.html)
-  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool.html)
+  * [New-AcctIdentityPool](New-AcctIdentityPool/)
+  * [Rename-AcctIdentityPool](Rename-AcctIdentityPool/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

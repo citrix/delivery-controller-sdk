@@ -13,7 +13,7 @@ Get-AdminRoleConfiguration [[-Name] <String>] [-Id <Guid>] [-Locale <String>] [-
 Role configurations are part of the product configuration and define what permissions, permission groups, and built-in roles the product has. This cmdlet also provides the mapping of permissions to operations.
 
 ## Related Commands
-  * [Import-AdminRoleConfiguration](Import-AdminRoleConfiguration.html)
+  * [Import-AdminRoleConfiguration](Import-AdminRoleConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,8 +11,8 @@ Remove-AppLibServiceConfigurationData [[-Name] <String>] [-LoggingId <Guid>] [-A
    Provides the ability to remove data from the AppLibrary Service configuration data.
 
 ## Related Commands
-  * [Set-AppLibServiceConfigurationData](Set-AppLibServiceConfigurationData.html)
-  * [Get-AppLibServiceConfigurationData](Get-AppLibServiceConfigurationData.html)
+  * [Set-AppLibServiceConfigurationData](Set-AppLibServiceConfigurationData/)
+  * [Get-AppLibServiceConfigurationData](Get-AppLibServiceConfigurationData/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

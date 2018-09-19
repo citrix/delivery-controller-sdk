@@ -15,8 +15,8 @@ Remove-BrokerAdminFolder [-Name] <String> [-LoggingId <Guid>] [-AdminAddress <St
 Remove-BrokerAdminFolder will not remove a folder if it contains any other objects (e.g. sub-folders or applications).
 
 ## Related Commands
-  * [Get-BrokerAdminFolder](Get-BrokerAdminFolder.html)
-  * [New-BrokerAdminFolder](New-BrokerAdminFolder.html)
+  * [Get-BrokerAdminFolder](Get-BrokerAdminFolder/)
+  * [New-BrokerAdminFolder](New-BrokerAdminFolder/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

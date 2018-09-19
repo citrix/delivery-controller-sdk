@@ -11,9 +11,9 @@ Set-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-Stor
    Use this command to set options for storage locations that are defined for a hosting unit. Do not use this command if the connection for the hosting unit is in maintenance mode.
 
 ## Related Commands
-  * [New-Item](New-Item.html)
-  * [Add-HypMetadata](Add-HypMetadata.html)
-  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage.html)
+  * [New-Item](New-Item/)
+  * [Add-HypMetadata](Add-HypMetadata/)
+  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

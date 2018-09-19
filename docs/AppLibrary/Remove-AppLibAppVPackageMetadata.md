@@ -21,7 +21,7 @@ Remove-AppLibAppVPackageMetadata [-InputObject] <AppVPackage[]> -Map <PSObject> 
    Provides the ability to remove metadata from the given AppVPackage.
 
 ## Related Commands
-  * [Set-AppLibAppVPackageMetadata](Set-AppLibAppVPackageMetadata.html)
+  * [Set-AppLibAppVPackageMetadata](Set-AppLibAppVPackageMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

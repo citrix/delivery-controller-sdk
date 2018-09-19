@@ -15,10 +15,10 @@ Rename-BrokerCatalog [-Name] <String> [-NewName] <String> [-PassThru] [-LoggingI
 The following special characters are not allowed in a catalog name: \ / ; : # . * ? = < > | [ ] ( ) " ' `
 
 ## Related Commands
-  * [Get-BrokerCatalog](Get-BrokerCatalog.html)
-  * [New-BrokerCatalog](New-BrokerCatalog.html)
-  * [Remove-BrokerCatalog](Remove-BrokerCatalog.html)
-  * [Set-BrokerCatalog](Set-BrokerCatalog.html)
+  * [Get-BrokerCatalog](Get-BrokerCatalog/)
+  * [New-BrokerCatalog](New-BrokerCatalog/)
+  * [Remove-BrokerCatalog](Remove-BrokerCatalog/)
+  * [Set-BrokerCatalog](Set-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

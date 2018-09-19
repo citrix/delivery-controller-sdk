@@ -11,14 +11,14 @@ Get-EnvTestTask [-TaskId <Guid>] [-List] [-AdminAddress <String>] [<CommonParame
    Returns either the current task, a specified task, or list of tasks that are currently known to the EnvTest Service.
 
 ## Related Commands
-  * [Get-EnvTestDefinition](Get-EnvTestDefinition.html)
-  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition.html)
-  * [Start-EnvTestTask](Start-EnvTestTask.html)
-  * [Switch-EnvTestTask](Switch-EnvTestTask.html)
-  * [Stop-EnvTestTask](Stop-EnvTestTask.html)
-  * [Remove-EnvTestTask](Remove-EnvTestTask.html)
-  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata.html)
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata.html)
+  * [Get-EnvTestDefinition](Get-EnvTestDefinition/)
+  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition/)
+  * [Start-EnvTestTask](Start-EnvTestTask/)
+  * [Switch-EnvTestTask](Switch-EnvTestTask/)
+  * [Stop-EnvTestTask](Stop-EnvTestTask/)
+  * [Remove-EnvTestTask](Remove-EnvTestTask/)
+  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata/)
+  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

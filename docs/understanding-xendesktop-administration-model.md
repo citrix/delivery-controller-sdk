@@ -294,7 +294,7 @@ operation details. Each low-level log is a part of a larger high-level operation
 
 -   For changes in configuration, a before and after value for the items changed.
 
-For more information about what is logged, see the [Configuration Logging](http://docs.citrix.com/en-us/xenapp-and-xendesktop/7-6/xad-monitor-article/xad-config-logging-about.html) documentation.
+For more information about what is logged, see the [Configuration Logging](http://docs.citrix.com/en-us/xenapp-and-xendesktop/7-6/xad-monitor-article/xad-config-logging-about/) documentation.
 
 **Right**
 

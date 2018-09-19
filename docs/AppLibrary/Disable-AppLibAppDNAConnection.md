@@ -11,10 +11,10 @@ Disable-AppLibAppDNAConnection [-LoggingId <Guid>] [-AdminAddress <String>] [<Co
    Disables Citrix Studio integration with the configured AppDNA connection.
 
 ## Related Commands
-  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection.html)
-  * [Get-AppLibAppDNAConnection](Get-AppLibAppDNAConnection.html)
-  * [Set-AppLibAppDNAConnection](Set-AppLibAppDNAConnection.html)
-  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection.html)
+  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection/)
+  * [Get-AppLibAppDNAConnection](Get-AppLibAppDNAConnection/)
+  * [Set-AppLibAppDNAConnection](Set-AppLibAppDNAConnection/)
+  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -19,8 +19,8 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-BrokerDBVersionChangeScript](Get-BrokerDBVersionChangeScript.html)
-  * [Get-BrokerDBSchema](Get-BrokerDBSchema.html)
+  * [Get-BrokerDBVersionChangeScript](Get-BrokerDBVersionChangeScript/)
+  * [Get-BrokerDBSchema](Get-BrokerDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

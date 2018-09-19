@@ -11,8 +11,8 @@ Get-SfOptimalGateway -SiteId <Int64> -ResourcesVirtualPath <String> [-AdminAddre
    Gets the configured optimal gateways for farms.
 
 ## Related Commands
-  * [Set-SfOptimalGatewayCommand](Set-SfOptimalGatewayCommand.html)
-  * [Remove-SfOptimalGatewayCommand](Remove-SfOptimalGatewayCommand.html)
+  * [Set-SfOptimalGatewayCommand](Set-SfOptimalGatewayCommand/)
+  * [Remove-SfOptimalGatewayCommand](Remove-SfOptimalGatewayCommand/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

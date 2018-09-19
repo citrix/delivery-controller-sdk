@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a MachineCreation SDK cmdlet.
 
 ## Related Commands
-  * [Get-ProvServiceStatus](Get-ProvServiceStatus.html)
-  * [Set-ProvDBConnection](Set-ProvDBConnection.html)
-  * [Test-ProvDBConnection](Test-ProvDBConnection.html)
+  * [Get-ProvServiceStatus](Get-ProvServiceStatus/)
+  * [Set-ProvDBConnection](Set-ProvDBConnection/)
+  * [Test-ProvDBConnection](Test-ProvDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

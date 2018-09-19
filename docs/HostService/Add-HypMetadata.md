@@ -11,7 +11,7 @@ Add-HypMetadata [-LiteralPath] <String> [-Property] <String> [-Value] <String> [
    Use this command to store additional custom data against a hosting unit or hypervisor connection.  This data is not used by the Machine Creation Service, and is provided only for consumers of the services to store any data that may be required for their operations.  The metadata is returned along with the hypervisor connection or hosting unit that it is assigned to.
 
 ## Related Commands
-  * [Remove-HypMetadata](Remove-HypMetadata.html)
+  * [Remove-HypMetadata](Remove-HypMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

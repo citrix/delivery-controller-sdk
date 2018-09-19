@@ -15,9 +15,9 @@ New-BrokerSessionPreLaunch -DesktopGroupUid <Int32> [-Enabled <Boolean>] [-MaxAv
 Note that each desktop group can only have a single session pre-launch setting. Session pre-launch only applies to application sessions.
 
 ## Related Commands
-  * [Get-BrokerSessionPreLaunch](Get-BrokerSessionPreLaunch.html)
-  * [Set-BrokerSessionPreLaunch](Set-BrokerSessionPreLaunch.html)
-  * [Remove-BrokerSessionPreLaunch](Remove-BrokerSessionPreLaunch.html)
+  * [Get-BrokerSessionPreLaunch](Get-BrokerSessionPreLaunch/)
+  * [Set-BrokerSessionPreLaunch](Set-BrokerSessionPreLaunch/)
+  * [Remove-BrokerSessionPreLaunch](Remove-BrokerSessionPreLaunch/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

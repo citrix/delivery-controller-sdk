@@ -11,8 +11,8 @@ Remove-BrokerConfiguredFTA [-InputObject] <ConfiguredFTA[]> [-LoggingId <Guid>] 
    Deletes one or more file type associations configured for a published application. At least one configured file type association object must be specified.
 
 ## Related Commands
-  * [Get-BrokerConfiguredFTA](Get-BrokerConfiguredFTA.html)
-  * [New-BrokerConfiguredFTA](New-BrokerConfiguredFTA.html)
+  * [Get-BrokerConfiguredFTA](Get-BrokerConfiguredFTA/)
+  * [New-BrokerConfiguredFTA](New-BrokerConfiguredFTA/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

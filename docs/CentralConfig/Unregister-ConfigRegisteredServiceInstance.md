@@ -11,7 +11,7 @@ Unregister-ConfigRegisteredServiceInstance [-ServiceInstanceUid] <Guid> [-Loggin
    Use this cmdlet to remove a service instance from the Configuration Service registry. This does not remove any service groups (if all service instances for a Service Group are removed, an empty service group remains and must be removed using the Remove-ConfigServiceGroup command).
 
 ## Related Commands
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

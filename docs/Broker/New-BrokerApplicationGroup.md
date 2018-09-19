@@ -23,17 +23,17 @@ To manipulate the set of tags associated with an application group, use Add-Brok
 See about_Broker_Applications for more information.
 
 ## Related Commands
-  * [Add-BrokerApplicationGroup](Add-BrokerApplicationGroup.html)
-  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup.html)
-  * [Remove-BrokerApplicationGroup](Remove-BrokerApplicationGroup.html)
-  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup.html)
-  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup.html)
-  * [Add-BrokerApplication](Add-BrokerApplication.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
-  * [Add-BrokerUser](Add-BrokerUser.html)
-  * [Remove-BrokerUser](Remove-BrokerUser.html)
-  * [Add-BrokerTag](Add-BrokerTag.html)
-  * [Remove-BrokerTag](Remove-BrokerTag.html)
+  * [Add-BrokerApplicationGroup](Add-BrokerApplicationGroup/)
+  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup/)
+  * [Remove-BrokerApplicationGroup](Remove-BrokerApplicationGroup/)
+  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup/)
+  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup/)
+  * [Add-BrokerApplication](Add-BrokerApplication/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
+  * [Add-BrokerUser](Add-BrokerUser/)
+  * [Remove-BrokerUser](Remove-BrokerUser/)
+  * [Add-BrokerTag](Add-BrokerTag/)
+  * [Remove-BrokerTag](Remove-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,8 +13,8 @@ Remove-BrokerUser [-Name] <String> [-ApplicationGroup <ApplicationGroup>] [-Appl
    The Remove-BrokerUser cmdlet removes broker user objects from another specified object, such as a broker private desktop, to which the user had previously been added.
 
 ## Related Commands
-  * [Add-BrokerUser](Add-BrokerUser.html)
-  * [Get-BrokerUser](Get-BrokerUser.html)
+  * [Add-BrokerUser](Add-BrokerUser/)
+  * [Get-BrokerUser](Get-BrokerUser/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

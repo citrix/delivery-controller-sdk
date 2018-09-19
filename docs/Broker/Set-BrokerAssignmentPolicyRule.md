@@ -17,10 +17,10 @@ A desktop rule in the assignment policy defines the users who are entitled to se
 Changing a desktop rule does not alter machine assignments that have already been made by the rule, nor does it affect active sessions to those machines in any way.
 
 ## Related Commands
-  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule.html)
-  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule.html)
-  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule.html)
-  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule.html)
+  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule/)
+  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule/)
+  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule/)
+  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

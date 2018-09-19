@@ -21,7 +21,7 @@ Remove-AppLibLibraryMetadata [-InputObject] <Library[]> -Map <PSObject> [-Loggin
    Provides the ability to remove metadata from the given Library.
 
 ## Related Commands
-  * [Set-AppLibLibraryMetadata](Set-AppLibLibraryMetadata.html)
+  * [Set-AppLibLibraryMetadata](Set-AppLibLibraryMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -23,8 +23,8 @@ If the -DesktopGroup parameter is not used then the machines are removed from th
 Machines cannot be removed from their catalog while they are members of a desktop group.
 
 ## Related Commands
-  * [Add-BrokerMachine](Add-BrokerMachine.html)
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
+  * [Add-BrokerMachine](Add-BrokerMachine/)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

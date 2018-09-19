@@ -13,9 +13,9 @@ Set-BrokerSessionLinger [-DesktopGroupName] <String> [-PassThru] [-Enabled <Bool
    The Set-BrokerSessionLinger cmdlet is used to alter the settings of an existing desktop group session linger setting.
 
 ## Related Commands
-  * [New-BrokerSessionLinger](New-BrokerSessionLinger.html)
-  * [Get-BrokerSessionLinger](Get-BrokerSessionLinger.html)
-  * [Remove-BrokerSessionLinger](Remove-BrokerSessionLinger.html)
+  * [New-BrokerSessionLinger](New-BrokerSessionLinger/)
+  * [Get-BrokerSessionLinger](Get-BrokerSessionLinger/)
+  * [Remove-BrokerSessionLinger](Remove-BrokerSessionLinger/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

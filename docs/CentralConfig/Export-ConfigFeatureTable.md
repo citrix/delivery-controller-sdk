@@ -11,8 +11,8 @@ Export-ConfigFeatureTable [-AdminAddress <String>] [<CommonParameters>]
    
 
 ## Related Commands
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable.html)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

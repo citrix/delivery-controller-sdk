@@ -21,7 +21,7 @@ Remove-ConfigEdgeServerMetadata [-InputObject] <EdgeServer[]> -Map <PSObject> [-
    Provides the ability to remove metadata from the given EdgeServer.
 
 ## Related Commands
-  * [Set-ConfigEdgeServerMetadata](Set-ConfigEdgeServerMetadata.html)
+  * [Set-ConfigEdgeServerMetadata](Set-ConfigEdgeServerMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

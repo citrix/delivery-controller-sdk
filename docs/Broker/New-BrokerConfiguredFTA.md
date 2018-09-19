@@ -23,9 +23,9 @@ The first use case leverages imported file type associations to configure file t
 The second use case is more complex and allows you to create your own file type association without having to import it first. This also lets you create custom file type associations that may not already exist on the worker machines. This use case is more error-prone, however, because the individual attributes of the file type association must be correctly specified by you.
 
 ## Related Commands
-  * [Get-BrokerImportedFTA](Get-BrokerImportedFTA.html)
-  * [Get-BrokerConfiguredFTA](Get-BrokerConfiguredFTA.html)
-  * [Remove-BrokerConfiguredFTA](Remove-BrokerConfiguredFTA.html)
+  * [Get-BrokerImportedFTA](Get-BrokerImportedFTA/)
+  * [Get-BrokerConfiguredFTA](Get-BrokerConfiguredFTA/)
+  * [Remove-BrokerConfiguredFTA](Remove-BrokerConfiguredFTA/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

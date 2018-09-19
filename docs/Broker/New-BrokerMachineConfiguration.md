@@ -13,11 +13,11 @@ New-BrokerMachineConfiguration -ConfigurationSlotUid <Int32> -LeafName <String> 
 The SettingsGroup of the configuration slot restricts the permitted settings. Use the SDK snap-in that matches the SettingsGroup to create the encoded settings data.
 
 ## Related Commands
-  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration.html)
-  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration.html)
-  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration.html)
-  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration.html)
-  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration.html)
+  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration/)
+  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration/)
+  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration/)
+  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration/)
+  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

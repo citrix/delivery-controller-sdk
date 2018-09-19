@@ -15,10 +15,10 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a ConfigurationLogging SDK cmdlet.
 
 ## Related Commands
-  * [Get-LogServiceStatus](Get-LogServiceStatus.html)
-  * [Get-LogDataStore](Get-LogDataStore.html)
-  * [Set-LogDBConnection](Set-LogDBConnection.html)
-  * [Test-LogDBConnection](Test-LogDBConnection.html)
+  * [Get-LogServiceStatus](Get-LogServiceStatus/)
+  * [Get-LogDataStore](Get-LogDataStore/)
+  * [Set-LogDBConnection](Set-LogDBConnection/)
+  * [Test-LogDBConnection](Test-LogDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

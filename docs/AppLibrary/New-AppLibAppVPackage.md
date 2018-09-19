@@ -11,7 +11,7 @@ New-AppLibAppVPackage [-LibraryUid <Int32>] [-Path <String>] [-RetrieveIcon <Boo
    The package and the applications that make it up are added to the library.
 
 ## Related Commands
-  * [Remove-AppLibAppVPackage](Remove-AppLibAppVPackage.html)
+  * [Remove-AppLibAppVPackage](Remove-AppLibAppVPackage/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -39,9 +39,9 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Get-LogDataStore](Get-LogDataStore.html)
-  * [Set-LogDBConnection](Set-LogDBConnection.html)
-  * [Test-LogDBConnection](Test-LogDBConnection.html)
+  * [Get-LogDataStore](Get-LogDataStore/)
+  * [Set-LogDBConnection](Set-LogDBConnection/)
+  * [Test-LogDBConnection](Test-LogDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

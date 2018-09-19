@@ -199,12 +199,12 @@ A desktop group object represents a collection of machines that are fully config
        Ordered list of zone preferences taken into account when launching resources from this desktop group. Possible values for each preference are UserLocation, UserHome, UserHomeOnly and ApplilcationHome.
 
 ## Related Commands
-  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup.html)
-  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup.html)
-  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup.html)
-  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup.html)
-  * [Add-BrokerUser](Add-BrokerUser.html)
-  * [Add-BrokerTag](Add-BrokerTag.html)
+  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup/)
+  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup/)
+  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup/)
+  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup/)
+  * [Add-BrokerUser](Add-BrokerUser/)
+  * [Add-BrokerTag](Add-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

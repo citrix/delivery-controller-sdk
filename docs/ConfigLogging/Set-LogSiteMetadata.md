@@ -17,7 +17,7 @@ Set-LogSiteMetadata -Map <PSObject> [-LoggingId <Guid>] [-AdminAddress <String>]
    Provides the ability for additional custom data to be stored against given Site objects.
 
 ## Related Commands
-  * [Remove-LogSiteMetadata](Remove-LogSiteMetadata.html)
+  * [Remove-LogSiteMetadata](Remove-LogSiteMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

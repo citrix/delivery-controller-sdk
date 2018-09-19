@@ -13,9 +13,9 @@ Set-BrokerSessionPreLaunch [-DesktopGroupName] <String> [-PassThru] [-Enabled <B
    The Set-BrokerSessionPreLaunch cmdlet is used to alter the settings of an existing desktop group session pre-launch setting.
 
 ## Related Commands
-  * [New-BrokerSessionPreLaunch](New-BrokerSessionPreLaunch.html)
-  * [Get-BrokerSessionPreLaunch](Get-BrokerSessionPreLaunch.html)
-  * [Remove-BrokerSessionPreLaunch](Remove-BrokerSessionPreLaunch.html)
+  * [New-BrokerSessionPreLaunch](New-BrokerSessionPreLaunch/)
+  * [Get-BrokerSessionPreLaunch](Get-BrokerSessionPreLaunch/)
+  * [Remove-BrokerSessionPreLaunch](Remove-BrokerSessionPreLaunch/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

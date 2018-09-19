@@ -15,10 +15,10 @@ Set-ConfigEdgeServer [-Name] <String[]> [-Description <String>] [-MachineAddress
    The Set-ConfigEdgeServer cmdlet sets properties of an edge server or a set of edge servers. The edge server can be specified by name or by one or more edge server instances can be passed to the command either by piping or by using the -InputObject parameter
 
 ## Related Commands
-  * [New-ConfigEdgeServer](New-ConfigEdgeServer.html)
-  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer.html)
-  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer.html)
-  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer.html)
+  * [New-ConfigEdgeServer](New-ConfigEdgeServer/)
+  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer/)
+  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer/)
+  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

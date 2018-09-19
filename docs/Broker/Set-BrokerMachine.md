@@ -13,8 +13,8 @@ Set-BrokerMachine [-MachineName] <String> [-PassThru] [-AssignedClientName <Stri
    The Set-BrokerMachine cmdlet sets properties on a machine or set of machines. You can specify a single machine by name or multiple machine instances can be passed to the command by piping or using the -InputObject parameter.
 
 ## Related Commands
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
-  * [New-BrokerMachine](New-BrokerMachine.html)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
+  * [New-BrokerMachine](New-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

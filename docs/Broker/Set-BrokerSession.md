@@ -13,7 +13,7 @@ Set-BrokerSession [-SessionKey] <Guid> [-PassThru] [-Hidden <Boolean>] [-Logging
    The Set-BrokerSession cmdlet sets properties on a session or set of sessions. You can specify a single session by Uid or SessionKey (Guid) or multiple session instances can be passed to the command by piping or using the -InputObject parameter.
 
 ## Related Commands
-  * [Get-BrokerSession](Get-BrokerSession.html)
+  * [Get-BrokerSession](Get-BrokerSession/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

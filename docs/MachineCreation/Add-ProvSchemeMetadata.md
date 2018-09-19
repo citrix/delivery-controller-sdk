@@ -21,8 +21,8 @@ Add-ProvSchemeMetadata [-InputObject] <ProvisioningScheme[]> -Map <PSObject> [-L
    Provides the ability for additional custom data to be stored against given ProvisioningScheme objects. This cmdlet will not overwrite existing metadata on an object - use the Set-ProvSchemeMetadata cmdlet instead.
 
 ## Related Commands
-  * [Set-ProvSchemeMetadata](Set-ProvSchemeMetadata.html)
-  * [Remove-ProvSchemeMetadata](Remove-ProvSchemeMetadata.html)
+  * [Set-ProvSchemeMetadata](Set-ProvSchemeMetadata/)
+  * [Remove-ProvSchemeMetadata](Remove-ProvSchemeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

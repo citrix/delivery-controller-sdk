@@ -11,7 +11,7 @@ Get-HypVolumeServiceConfiguration [[-VolumeServiceConfigurationName] <String>] [
    Retrieve VolumeServiceConfigurations whose properties match the given filter criteria. If no parameters are specified, this cmdlet retrieves all VolumeServiceConfiguration objects.
 
 ## Related Commands
-  * [Set-HypVolumeServiceConfiguration](Set-HypVolumeServiceConfiguration.html)
+  * [Set-HypVolumeServiceConfiguration](Set-HypVolumeServiceConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

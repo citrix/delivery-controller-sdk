@@ -11,10 +11,10 @@ Set-SfCluster -ClusterId <Guid> [-StorefrontUrl <Uri>] [-FarmName <String>] [-Xm
    Sets the parameters on the given cluster and propagate the changes to all servers within a given cluster.
 
 ## Related Commands
-  * [Get-SfCluster](Get-SfCluster.html)
-  * [New-SfCluster](New-SfCluster.html)
-  * [Add-SfServerToCluster](Add-SfServerToCluster.html)
-  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster.html)
+  * [Get-SfCluster](Get-SfCluster/)
+  * [New-SfCluster](New-SfCluster/)
+  * [Add-SfServerToCluster](Add-SfServerToCluster/)
+  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

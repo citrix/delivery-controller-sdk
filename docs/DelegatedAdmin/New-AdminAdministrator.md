@@ -17,11 +17,11 @@ Administrator objects are used to determine what rights, and therefore what perm
 When the Enabled flag of an administrator is set to false, any rights of the administrator are ignored by the system when performing permission checks.
 
 ## Related Commands
-  * [Get-AdminAdministrator](Get-AdminAdministrator.html)
-  * [Set-AdminAdministrator](Set-AdminAdministrator.html)
-  * [Remove-AdminAdministrator](Remove-AdminAdministrator.html)
-  * [Set-AdminAdministratorMetadata](Set-AdminAdministratorMetadata.html)
-  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata.html)
+  * [Get-AdminAdministrator](Get-AdminAdministrator/)
+  * [Set-AdminAdministrator](Set-AdminAdministrator/)
+  * [Remove-AdminAdministrator](Remove-AdminAdministrator/)
+  * [Set-AdminAdministratorMetadata](Set-AdminAdministratorMetadata/)
+  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

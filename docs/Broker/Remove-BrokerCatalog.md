@@ -15,12 +15,12 @@ Remove-BrokerCatalog [-Name] <String> [-LoggingId <Guid>] [-AdminAddress <String
 In order to remove a catalog from a site, the catalog must not contain machines. To remove a machine from a catalog use the Remove-BrokerMachine cmdlet. Note: in order to remove a machine from a catalog, it must not belong to a desktop group.
 
 ## Related Commands
-  * [New-BrokerCatalog](New-BrokerCatalog.html)
-  * [Get-BrokerCatalog](Get-BrokerCatalog.html)
-  * [Rename-BrokerCatalog](Rename-BrokerCatalog.html)
-  * [Set-BrokerCatalog](Set-BrokerCatalog.html)
-  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup.html)
-  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup.html)
+  * [New-BrokerCatalog](New-BrokerCatalog/)
+  * [Get-BrokerCatalog](Get-BrokerCatalog/)
+  * [Rename-BrokerCatalog](Rename-BrokerCatalog/)
+  * [Set-BrokerCatalog](Set-BrokerCatalog/)
+  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup/)
+  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,9 +13,9 @@ Add-MonitorNotificationPolicyTargets -Uid <Int64> -TargetIds <String[]> [-Scope 
    Add targets to the existing policy specified and returns the updated policy
 
 ## Related Commands
-  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy.html)
-  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy.html)
-  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy.html)
+  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy/)
+  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy/)
+  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

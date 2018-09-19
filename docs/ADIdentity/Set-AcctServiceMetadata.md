@@ -17,7 +17,7 @@ Set-AcctServiceMetadata [-InputObject] <Service[]> -Map <PSObject> [-LoggingId <
    Allows you to store additional custom data against given Service objects.
 
 ## Related Commands
-  * [Remove-AcctServiceMetadata](Remove-AcctServiceMetadata.html)
+  * [Remove-AcctServiceMetadata](Remove-AcctServiceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,7 +11,7 @@ Get-HypHypervisorPlugin [-AdminAddress <String>] [<CommonParameters>]
    Use this command to retrieve a list of all the available hypervisor types, and their localized names.
 
 ## Related Commands
-  * [New-Item](New-Item.html)
+  * [New-Item](New-Item/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

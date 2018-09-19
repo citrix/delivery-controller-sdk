@@ -13,11 +13,11 @@ Remove-AppLibAppDisk -AppDiskUid <Guid> [-Force] [-RunAsynchronously] [-PurgeJob
    Provides the ability to remove an existing AppDisk, either the AppDisk name or the Uid can be used to identify the AppDisk to delete
 
 ## Related Commands
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [New-AppLibAppDisk](New-AppLibAppDisk.html)
-  * [Set-AppLibAppDisk](Set-AppLibAppDisk.html)
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [Import-AppLibAppDisk](Import-AppLibAppDisk.html)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [New-AppLibAppDisk](New-AppLibAppDisk/)
+  * [Set-AppLibAppDisk](Set-AppLibAppDisk/)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [Import-AppLibAppDisk](Import-AppLibAppDisk/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

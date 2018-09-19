@@ -13,8 +13,8 @@ Add-HypHypervisorConnectionAddress [-LiteralPath] <String> [-HypervisorAddress] 
 The addresses required are; XenServer - The address of the XenServer machines (must all reference the same XenServer pool). VMWare vSphere/ESX - The address of a vCenter Server. Microsoft SCVMM/Hyper-V - the address of an SCVMM server.
 
 ## Related Commands
-  * [Remove-HypHypervisorConnectionAddress](Remove-HypHypervisorConnectionAddress.html)
-  * [Get-HypXenServerAddress](Get-HypXenServerAddress.html)
+  * [Remove-HypHypervisorConnectionAddress](Remove-HypHypervisorConnectionAddress/)
+  * [Get-HypXenServerAddress](Get-HypXenServerAddress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

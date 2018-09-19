@@ -11,7 +11,7 @@ Get-MonitorNotificationEmailServerConfiguration [-LoggingId <Guid>] [-AdminAddre
    Retrurns the existing email server configurations required to send email alerts.
 
 ## Related Commands
-  * [Set-MonitorNotificationEmailServerConfiguration](Set-MonitorNotificationEmailServerConfiguration.html)
+  * [Set-MonitorNotificationEmailServerConfiguration](Set-MonitorNotificationEmailServerConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

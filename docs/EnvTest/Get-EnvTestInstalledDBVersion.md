@@ -19,8 +19,8 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-EnvTestDBVersionChangeScript](Get-EnvTestDBVersionChangeScript.html)
-  * [Get-EnvTestDBSchema](Get-EnvTestDBSchema.html)
+  * [Get-EnvTestDBVersionChangeScript](Get-EnvTestDBVersionChangeScript/)
+  * [Get-EnvTestDBSchema](Get-EnvTestDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

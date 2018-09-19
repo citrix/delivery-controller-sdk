@@ -24,9 +24,9 @@ For a machine to be used in a site, the machine must be added to a desktop group
 For more information about machines, see about_Broker_Machines.
 
 ## Related Commands
-  * [Add-BrokerMachinesToDesktopGroup](Add-BrokerMachinesToDesktopGroup.html)
-  * [Remove-BrokerMachine](Remove-BrokerMachine.html)
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
+  * [Add-BrokerMachinesToDesktopGroup](Add-BrokerMachinesToDesktopGroup/)
+  * [Remove-BrokerMachine](Remove-BrokerMachine/)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,10 +15,10 @@ New-BrokerUserZonePreference [-SID] <String> -HomeZoneUid <Guid> [-LoggingId <Gu
 Subject to the configuration of the desktop groups in use, and the availability of machines in the preferred zone, desktops and applications are launched using machines in that zone where possible.
 
 ## Related Commands
-  * [Get-BrokerUserZonePreference](Get-BrokerUserZonePreference.html)
-  * [Set-BrokerUserZonePreference](Set-BrokerUserZonePreference.html)
-  * [Remove-BrokerUserZonePreference](Remove-BrokerUserZonePreference.html)
-  * [Get-BrokerUser](Get-BrokerUser.html)
+  * [Get-BrokerUserZonePreference](Get-BrokerUserZonePreference/)
+  * [Set-BrokerUserZonePreference](Set-BrokerUserZonePreference/)
+  * [Remove-BrokerUserZonePreference](Remove-BrokerUserZonePreference/)
+  * [Get-BrokerUser](Get-BrokerUser/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

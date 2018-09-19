@@ -11,9 +11,9 @@ Stop-AppLibTask [-TaskId] <Guid> [-LoggingId <Guid>] [-AdminAddress <String>] [<
    Enables tasks currently running in the AppLibrary Service to be stopped.  Once stopped, tasks cannot be restarted.
 
 ## Related Commands
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Remove-AppLibTask](Remove-AppLibTask.html)
-  * [Switch-AppLibTask](Switch-AppLibTask.html)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Remove-AppLibTask](Remove-AppLibTask/)
+  * [Switch-AppLibTask](Switch-AppLibTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

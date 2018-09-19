@@ -11,9 +11,9 @@ Remove-BrokerIcon [-InputObject] <Icon[]> [-LoggingId <Guid>] [-AdminAddress <St
    Removes an icon from the database.
 
 ## Related Commands
-  * [Get-BrokerIcon](Get-BrokerIcon.html)
-  * [New-BrokerIcon](New-BrokerIcon.html)
-  * [Set-BrokerIconMetadata](Set-BrokerIconMetadata.html)
+  * [Get-BrokerIcon](Get-BrokerIcon/)
+  * [New-BrokerIcon](New-BrokerIcon/)
+  * [Set-BrokerIconMetadata](Set-BrokerIconMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

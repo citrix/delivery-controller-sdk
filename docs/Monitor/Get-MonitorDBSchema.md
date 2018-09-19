@@ -39,9 +39,9 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Get-MonitorDataStore](Get-MonitorDataStore.html)
-  * [Set-MonitorDBConnection](Set-MonitorDBConnection.html)
-  * [Test-MonitorDBConnection](Test-MonitorDBConnection.html)
+  * [Get-MonitorDataStore](Get-MonitorDataStore/)
+  * [Set-MonitorDBConnection](Set-MonitorDBConnection/)
+  * [Test-MonitorDBConnection](Test-MonitorDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

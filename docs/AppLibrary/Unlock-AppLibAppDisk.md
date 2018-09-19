@@ -13,8 +13,8 @@ Unlock-AppLibAppDisk -AppDiskUid <Guid> [-LoggingId <Guid>] [-AdminAddress <Stri
    Provides the ability to unlockan AppDisk that has the Id of a failed Task still associated with it. This allows another long-running task to operate on that scheme. The cmdlet will not unlock a scheme with a task still marked as being active.  Use Stop-AppLibTask to stop any active task first.
 
 ## Related Commands
-  * [Get-AppLibAppDiske](Get-AppLibAppDiske.html)
-  * [Stop-AppLibTask](Stop-AppLibTask.html)
+  * [Get-AppLibAppDiske](Get-AppLibAppDiske/)
+  * [Stop-AppLibTask](Stop-AppLibTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

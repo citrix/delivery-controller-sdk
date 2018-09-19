@@ -11,9 +11,9 @@ Get-BrokerDesktopGroupAnalysisReport [-InputObject] <DesktopGroup[]> [-RetrieveR
    Gets the detailed AppDNA compatibility report for an AppDisk associated with a particular Desktop Group.
 
 ## Related Commands
-  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup.html)
-  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup.html)
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
+  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup/)
+  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup/)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

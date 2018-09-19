@@ -15,10 +15,10 @@ Remove-ConfigEdgeServer [-Name] <String[]> [-LoggingId <Guid>] [-AdminAddress <S
    Remove edge servers from the site
 
 ## Related Commands
-  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer.html)
-  * [New-ConfigEdgeServer](New-ConfigEdgeServer.html)
-  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer.html)
-  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer.html)
+  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer/)
+  * [New-ConfigEdgeServer](New-ConfigEdgeServer/)
+  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer/)
+  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

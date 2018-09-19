@@ -23,9 +23,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Host SDK cmdlet.
 
 ## Related Commands
-  * [Get-HypServiceStatus](Get-HypServiceStatus.html)
-  * [Get-HypDBConnection](Get-HypDBConnection.html)
-  * [Test-HypDBConnection](Test-HypDBConnection.html)
+  * [Get-HypServiceStatus](Get-HypServiceStatus/)
+  * [Get-HypDBConnection](Get-HypDBConnection/)
+  * [Test-HypDBConnection](Test-HypDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

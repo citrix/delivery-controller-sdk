@@ -19,11 +19,11 @@ There are two parameter sets for this cmdlet, allowing you to specify the applic
 See about_Broker_Applications for more information.
 
 ## Related Commands
-  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup.html)
-  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup.html)
-  * [Remove-BrokerApplicationGroup](Remove-BrokerApplicationGroup.html)
-  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup.html)
-  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup.html)
+  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup/)
+  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup/)
+  * [Remove-BrokerApplicationGroup](Remove-BrokerApplicationGroup/)
+  * [Rename-BrokerApplicationGroup](Rename-BrokerApplicationGroup/)
+  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

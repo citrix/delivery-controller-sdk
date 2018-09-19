@@ -11,9 +11,9 @@ Test-BrokerAppAssignmentPolicyRuleNameAvailable [-Name] <String[]> [-AdminAddres
    This cmdlet checks whether proposed AppAssignmentPolicyRule Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerAppAssignmentPolicyRule](Get-BrokerAppAssignmentPolicyRule.html)
-  * [New-BrokerAppAssignmentPolicyRule](New-BrokerAppAssignmentPolicyRule.html)
-  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule.html)
+  * [Get-BrokerAppAssignmentPolicyRule](Get-BrokerAppAssignmentPolicyRule/)
+  * [New-BrokerAppAssignmentPolicyRule](New-BrokerAppAssignmentPolicyRule/)
+  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

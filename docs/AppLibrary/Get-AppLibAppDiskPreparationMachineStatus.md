@@ -13,9 +13,9 @@ Get-AppLibAppDiskPreparationMachineStatus [-AppDiskName] <String> [-AdminAddress
    Machines within a Machine Catalog are reserved temporarily during a number of AppDisk operations, including creation and import. This cmdlet returns the machine name, power state and registration state of the machine currently assigned as the preparation machine for the given AppDisk. If the AppDisk has no associated preparation machine, no result will be returned.
 
 ## Related Commands
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [New-AppLibAppDisk](New-AppLibAppDisk.html)
-  * [Import-AppLibAppDisk](Import-AppLibAppDisk.html)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [New-AppLibAppDisk](New-AppLibAppDisk/)
+  * [Import-AppLibAppDisk](Import-AppLibAppDisk/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

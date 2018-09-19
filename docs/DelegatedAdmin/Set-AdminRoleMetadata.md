@@ -21,7 +21,7 @@ Set-AdminRoleMetadata [-InputObject] <Role[]> -Map <PSObject> [-LoggingId <Guid>
    Provides the ability for additional custom data to be stored against given Role objects.
 
 ## Related Commands
-  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata.html)
+  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

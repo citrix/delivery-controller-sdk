@@ -21,8 +21,8 @@ Add-HypHostingUnitMetadata [-InputObject] <HostingUnit[]> -Map <PSObject> [-Logg
    Provides the ability for additional custom data to be stored against given HostingUnit objects. This cmdlet will not overwrite existing metadata on an object - use the Set-HypHostingUnitMetadata cmdlet instead.
 
 ## Related Commands
-  * [Set-HypHostingUnitMetadata](Set-HypHostingUnitMetadata.html)
-  * [Remove-HypHostingUnitMetadata](Remove-HypHostingUnitMetadata.html)
+  * [Set-HypHostingUnitMetadata](Set-HypHostingUnitMetadata/)
+  * [Remove-HypHostingUnitMetadata](Remove-HypHostingUnitMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

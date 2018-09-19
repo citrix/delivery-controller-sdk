@@ -23,9 +23,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Storefront SDK cmdlet.
 
 ## Related Commands
-  * [Get-SfServiceStatus](Get-SfServiceStatus.html)
-  * [Get-SfDBConnection](Get-SfDBConnection.html)
-  * [Test-SfDBConnection](Test-SfDBConnection.html)
+  * [Get-SfServiceStatus](Get-SfServiceStatus/)
+  * [Get-SfDBConnection](Get-SfDBConnection/)
+  * [Test-SfDBConnection](Test-SfDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

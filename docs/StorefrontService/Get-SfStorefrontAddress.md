@@ -11,11 +11,11 @@ Get-SfStorefrontAddress [-ByteArray] <Byte[]> [<CommonParameters>]
    Use this command to convert a configuration byte array into a set of named property settings. The byte array will either have been retrieved from the Citrix Broker Service, or from the New-SfStorefrontAddress cmdlet.
 
 ## Related Commands
-  * [New-SfStorefrontAddress](New-SfStorefrontAddress.html)
-  * [Add-SfStorefrontAddress](Add-SfStorefrontAddress.html)
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
-  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration.html)
-  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration.html)
+  * [New-SfStorefrontAddress](New-SfStorefrontAddress/)
+  * [Add-SfStorefrontAddress](Add-SfStorefrontAddress/)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
+  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration/)
+  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

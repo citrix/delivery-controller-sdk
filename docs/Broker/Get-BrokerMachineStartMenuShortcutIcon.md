@@ -11,8 +11,8 @@ Get-BrokerMachineStartMenuShortcutIcon [-MachineName] <String> [-Path] <String> 
    Retrieves the icon associated with a particular shortcut on a particular machine. This icon is usually used to help create a published application to access the shortcut.
 
 ## Related Commands
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
-  * [New-BrokerIcon](New-BrokerIcon.html)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
+  * [New-BrokerIcon](New-BrokerIcon/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

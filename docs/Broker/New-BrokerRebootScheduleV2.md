@@ -13,11 +13,11 @@ New-BrokerRebootScheduleV2 [-Name] <String> -DesktopGroupUid <Int32> -RebootDura
    The New-BrokerRebootScheduleV2 cmdlet is used to define a reboot schedule for a desktop group.
 
 ## Related Commands
-  * [Get-BrokerRebootScheduleV2](Get-BrokerRebootScheduleV2.html)
-  * [Set-BrokerRebootScheduleV2](Set-BrokerRebootScheduleV2.html)
-  * [Remove-BrokerRebootScheduleV2](Remove-BrokerRebootScheduleV2.html)
-  * [Rename-BrokerRebootScheduleV2](Rename-BrokerRebootScheduleV2.html)
-  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle.html)
+  * [Get-BrokerRebootScheduleV2](Get-BrokerRebootScheduleV2/)
+  * [Set-BrokerRebootScheduleV2](Set-BrokerRebootScheduleV2/)
+  * [Remove-BrokerRebootScheduleV2](Remove-BrokerRebootScheduleV2/)
+  * [Rename-BrokerRebootScheduleV2](Rename-BrokerRebootScheduleV2/)
+  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

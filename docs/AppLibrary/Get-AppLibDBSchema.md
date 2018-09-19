@@ -39,8 +39,8 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-AppLibDBConnection](Set-AppLibDBConnection.html)
-  * [Test-AppLibDBConnection](Test-AppLibDBConnection.html)
+  * [Set-AppLibDBConnection](Set-AppLibDBConnection/)
+  * [Test-AppLibDBConnection](Test-AppLibDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -38,9 +38,9 @@ The BrokerDelayedHostingPowerAction object represents an instance of a power act
        The unique identifier of the power action.
 
 ## Related Commands
-  * [New-BrokerDelayedHostingPowerAction](New-BrokerDelayedHostingPowerAction.html)
-  * [Remove-BrokerDelayedHostingPowerAction](Remove-BrokerDelayedHostingPowerAction.html)
-  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction.html)
+  * [New-BrokerDelayedHostingPowerAction](New-BrokerDelayedHostingPowerAction/)
+  * [Remove-BrokerDelayedHostingPowerAction](Remove-BrokerDelayedHostingPowerAction/)
+  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

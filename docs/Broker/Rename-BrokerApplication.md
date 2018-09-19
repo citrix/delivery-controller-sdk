@@ -17,10 +17,10 @@ Renaming an application does not alter its published name. To change the name wi
 Renaming an application does not alter its BrowserName. If the BrowserName property also needs to be changed, use the Set-BrokerApplication cmdlet to modify it.
 
 ## Related Commands
-  * [New-BrokerApplication](New-BrokerApplication.html)
-  * [Set-BrokerApplication](Set-BrokerApplication.html)
-  * [Get-BrokerApplication](Get-BrokerApplication.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
+  * [New-BrokerApplication](New-BrokerApplication/)
+  * [Set-BrokerApplication](Set-BrokerApplication/)
+  * [Get-BrokerApplication](Get-BrokerApplication/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

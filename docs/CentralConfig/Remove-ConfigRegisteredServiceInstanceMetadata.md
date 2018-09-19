@@ -17,8 +17,8 @@ Remove-ConfigRegisteredServiceInstanceMetadata [-InputObject] <ServiceInstance[]
    Provides the ability to remove metadata from the given ServiceInstance.
 
 ## Related Commands
-  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata.html)
-  * [Set-ConfigRegisteredServiceInstanceMetadata](Set-ConfigRegisteredServiceInstanceMetadata.html)
+  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata/)
+  * [Set-ConfigRegisteredServiceInstanceMetadata](Set-ConfigRegisteredServiceInstanceMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

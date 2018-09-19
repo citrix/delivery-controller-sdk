@@ -50,8 +50,8 @@ The BrokerLease object represents a single instance of a lease. It contains the 
        Uid of the Zone this resource belongs to.
 
 ## Related Commands
-  * [Remove-BrokerLease](Remove-BrokerLease.html)
-  * [Update-BrokerLocalLeaseCache](Update-BrokerLocalLeaseCache.html)
+  * [Remove-BrokerLease](Remove-BrokerLease/)
+  * [Update-BrokerLocalLeaseCache](Update-BrokerLocalLeaseCache/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

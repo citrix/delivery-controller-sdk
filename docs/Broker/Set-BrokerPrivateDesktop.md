@@ -27,7 +27,7 @@ Many of the fields that can be set with this cmdlet can also be set with Set-Bro
 For more information about desktops, see about_Broker_Desktops; for more information about machines, see about_Broker_Machines.
 
 ## Related Commands
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

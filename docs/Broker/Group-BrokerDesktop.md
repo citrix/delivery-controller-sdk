@@ -31,8 +31,8 @@ Note that all session information properties for multi-session desktops is alway
 Also note that the MaxRecordCount, ReturnTotalRecordCount, Skip, and SortBy parameters apply to GroupInfo records output rather than the filtered desktops.
 
 ## Related Commands
-  * [Get-BrokerDesktop](Get-BrokerDesktop.html)
-  * [Group-Object](Group-Object.html)
+  * [Get-BrokerDesktop](Get-BrokerDesktop/)
+  * [Group-Object](Group-Object/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

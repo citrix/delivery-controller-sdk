@@ -15,15 +15,15 @@ Start-EnvTestTask -InputObject <PSObject[]> [-CultureName <String>] [-IgnoreRela
    Starts a new test task based on a set of criteria provided via parameters or piped input and either waits for the tests to run or returns immediately depending on how it is called.  When running a test suite and providing a target object for that suite, the service will discover related objects by default, but this behavior may be disabled if desired.
 
 ## Related Commands
-  * [Get-EnvTestDefinition](Get-EnvTestDefinition.html)
-  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition.html)
-  * [Get-EnvTestTask](Get-EnvTestTask.html)
-  * [New-EnvTestDiscoveryTargetDefinition](New-EnvTestDiscoveryTargetDefinition.html)
-  * [Switch-EnvTestTask](Switch-EnvTestTask.html)
-  * [Stop-EnvTestTask](Stop-EnvTestTask.html)
-  * [Remove-EnvTestTask](Remove-EnvTestTask.html)
-  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata.html)
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata.html)
+  * [Get-EnvTestDefinition](Get-EnvTestDefinition/)
+  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition/)
+  * [Get-EnvTestTask](Get-EnvTestTask/)
+  * [New-EnvTestDiscoveryTargetDefinition](New-EnvTestDiscoveryTargetDefinition/)
+  * [Switch-EnvTestTask](Switch-EnvTestTask/)
+  * [Stop-EnvTestTask](Stop-EnvTestTask/)
+  * [Remove-EnvTestTask](Remove-EnvTestTask/)
+  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata/)
+  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

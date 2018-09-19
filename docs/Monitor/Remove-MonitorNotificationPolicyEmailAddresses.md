@@ -13,9 +13,9 @@ Remove-MonitorNotificationPolicyEmailAddresses -Uid <Int64> -EmailAddresses <Str
    Remove email addresses from the existing policy specified and returns the updated policy.
 
 ## Related Commands
-  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy.html)
-  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy.html)
-  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy.html)
+  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy/)
+  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy/)
+  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

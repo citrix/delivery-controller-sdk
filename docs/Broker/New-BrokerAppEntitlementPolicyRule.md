@@ -23,10 +23,10 @@ When a user selects an application published from a shared group, a machine is s
 Even though only a single application entitlement and therefore session can be defined for a group, the user can still run multiple applications from the group because the applications run within the same session.
 
 ## Related Commands
-  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule.html)
-  * [Set-BrokerAppEntitlementPolicyRule](Set-BrokerAppEntitlementPolicyRule.html)
-  * [Rename-BrokerAppEntitlementPolicyRule](Rename-BrokerAppEntitlementPolicyRule.html)
-  * [Remove-BrokerAppEntitlementPolicyRule](Remove-BrokerAppEntitlementPolicyRule.html)
+  * [Get-BrokerAppEntitlementPolicyRule](Get-BrokerAppEntitlementPolicyRule/)
+  * [Set-BrokerAppEntitlementPolicyRule](Set-BrokerAppEntitlementPolicyRule/)
+  * [Rename-BrokerAppEntitlementPolicyRule](Rename-BrokerAppEntitlementPolicyRule/)
+  * [Remove-BrokerAppEntitlementPolicyRule](Remove-BrokerAppEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

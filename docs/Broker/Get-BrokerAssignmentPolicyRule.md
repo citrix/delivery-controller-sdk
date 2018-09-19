@@ -69,10 +69,10 @@ The BrokerAssignmentPolicyRule object represents a single desktop rule within th
        UUID of the rule.
 
 ## Related Commands
-  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule.html)
-  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule.html)
-  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule.html)
-  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule.html)
+  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule/)
+  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule/)
+  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule/)
+  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

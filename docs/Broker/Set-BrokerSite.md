@@ -15,8 +15,8 @@ The broker site is a top-level, logical representation of the XenDesktop site, f
 A XenDesktop installation has only a single broker site instance.
 
 ## Related Commands
-  * [Get-BrokerSite](Get-BrokerSite.html)
-  * [New-BrokerIcon](New-BrokerIcon.html)
+  * [Get-BrokerSite](Get-BrokerSite/)
+  * [New-BrokerIcon](New-BrokerIcon/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

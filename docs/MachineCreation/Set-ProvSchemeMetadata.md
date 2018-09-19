@@ -21,8 +21,8 @@ Set-ProvSchemeMetadata [-InputObject] <ProvisioningScheme[]> -Map <PSObject> [-L
    Provides the ability for additional custom data to be stored against given ProvisioningScheme objects.
 
 ## Related Commands
-  * [Add-ProvSchemeMetadata](Add-ProvSchemeMetadata.html)
-  * [Remove-ProvSchemeMetadata](Remove-ProvSchemeMetadata.html)
+  * [Add-ProvSchemeMetadata](Add-ProvSchemeMetadata/)
+  * [Remove-ProvSchemeMetadata](Remove-ProvSchemeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

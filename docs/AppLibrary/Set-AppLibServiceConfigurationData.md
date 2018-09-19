@@ -11,8 +11,8 @@ Set-AppLibServiceConfigurationData [-Name] <String> -Value <String> [-LoggingId 
    Provides the ability for additional custom data to be stored for the AppLibrary Service.
 
 ## Related Commands
-  * [Remove-AppLibServiceConfigurationData](Remove-AppLibServiceConfigurationData.html)
-  * [Get-AppLibServiceConfigurationData](Get-AppLibServiceConfigurationData.html)
+  * [Remove-AppLibServiceConfigurationData](Remove-AppLibServiceConfigurationData/)
+  * [Get-AppLibServiceConfigurationData](Get-AppLibServiceConfigurationData/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

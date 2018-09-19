@@ -21,11 +21,11 @@ Duplicate permissions do not produce an error, and permissions that the roles do
 You cannot modify the permissions of built-in roles.
 
 ## Related Commands
-  * [Add-AdminPermission](Add-AdminPermission.html)
-  * [Get-AdminPermission](Get-AdminPermission.html)
-  * [Get-AdminRole](Get-AdminRole.html)
-  * [Get-AdminPermissionGroup](Get-AdminPermissionGroup.html)
-  * [Test-AdminAccess](Test-AdminAccess.html)
+  * [Add-AdminPermission](Add-AdminPermission/)
+  * [Get-AdminPermission](Get-AdminPermission/)
+  * [Get-AdminRole](Get-AdminRole/)
+  * [Get-AdminPermissionGroup](Get-AdminPermissionGroup/)
+  * [Test-AdminAccess](Test-AdminAccess/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

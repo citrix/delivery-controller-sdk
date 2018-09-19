@@ -25,4 +25,4 @@ Get-BrokerMachine -SessionSupport MultiSession -Property 'DnsName','LoadIndex','
 ```
 **Note:** Load index values go up to 10000. They indicate VDA machine load calculated from the configured sources, such as number of sessions. A value of 10000 indicates a fully loaded VDA machine; the broker will not send another user session to that machine.
 
-For more information and examples, see the cmdlet help for the get-brokermachine cmdlet and About topics such as about_broker_filtering-xd7.html. See: [PowerShell cmdlet help](http://docs.citrix.com/en-us/xenapp-and-xendesktop/7-6/cds-sdk-wrapper-rho/xad-commands.html).
+For more information and examples, see the cmdlet help for the get-brokermachine cmdlet and About topics such as about_broker_filtering-xd7.html. See: [PowerShell cmdlet help](http://docs.citrix.com/en-us/xenapp-and-xendesktop/7-6/cds-sdk-wrapper-rho/xad-commands/).

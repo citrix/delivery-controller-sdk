@@ -11,9 +11,9 @@ Add-HypHostingUnitNetwork [-LiteralPath] <String> [-NetworkPath] <String> [-Logg
    Use this command to extend the set of hypervisor networks that are made available through the HostingUnit to the Citrix Machine Creation Service. When new machines are created, their virtual NICs can be associated only with networks that are in this set. This command cannot be used if the connection for the hosting unit is in maintenance mode.
 
 ## Related Commands
-  * [New-Item](New-Item.html)
-  * [Add-HypMetadata](Add-HypMetadata.html)
-  * [remove-HypHostingUnitNetwork](remove-HypHostingUnitNetwork.html)
+  * [New-Item](New-Item/)
+  * [Add-HypMetadata](Add-HypMetadata/)
+  * [remove-HypHostingUnitNetwork](remove-HypHostingUnitNetwork/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

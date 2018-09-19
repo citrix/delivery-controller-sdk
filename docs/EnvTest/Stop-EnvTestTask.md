@@ -13,15 +13,15 @@ Stop-EnvTestTask [-Task <EnvTestTask>] [-AdminAddress <String>] [<CommonParamete
    Stops a still running task from completing.  A task may still be retreived via Get-EnvTestTask until it Remove-EnvTestTask is called with its task id.
 
 ## Related Commands
-  * [Get-EnvTestDefinition](Get-EnvTestDefinition.html)
-  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition.html)
-  * [Get-EnvTestTask](Get-EnvTestTask.html)
-  * [New-EnvTestTask](New-EnvTestTask.html)
-  * [Start-EnvTestTask](Start-EnvTestTask.html)
-  * [Switch-EnvTestTask](Switch-EnvTestTask.html)
-  * [Remove-EnvTestTask](Remove-EnvTestTask.html)
-  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata.html)
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata.html)
+  * [Get-EnvTestDefinition](Get-EnvTestDefinition/)
+  * [Get-EnvTestSuiteDefinition](Get-EnvTestSuiteDefinition/)
+  * [Get-EnvTestTask](Get-EnvTestTask/)
+  * [New-EnvTestTask](New-EnvTestTask/)
+  * [Start-EnvTestTask](Start-EnvTestTask/)
+  * [Switch-EnvTestTask](Switch-EnvTestTask/)
+  * [Remove-EnvTestTask](Remove-EnvTestTask/)
+  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata/)
+  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

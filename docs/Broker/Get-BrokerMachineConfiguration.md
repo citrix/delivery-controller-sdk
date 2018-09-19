@@ -48,11 +48,11 @@ The machine configuration object returned represents a named collection of relat
        Uid of this machine configuration.
 
 ## Related Commands
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
-  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration.html)
-  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration.html)
-  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration.html)
-  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration.html)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
+  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration/)
+  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration/)
+  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration/)
+  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

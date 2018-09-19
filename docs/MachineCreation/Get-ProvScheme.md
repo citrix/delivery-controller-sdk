@@ -11,12 +11,12 @@ Get-ProvScheme [[-ProvisioningSchemeName] <String>] [-ProvisioningSchemeUid <Gui
    Lets you retrieve the list of defined provisioning schemes.
 
 ## Related Commands
-  * [New-ProvScheme](New-ProvScheme.html)
-  * [Remove-ProvScheme](Remove-ProvScheme.html)
-  * [Add-ProvSchemeMetadata](Add-ProvSchemeMetadata.html)
-  * [Remove-ProvSchemeMetadata](Remove-ProvSchemeMetadata.html)
-  * [Add-ProvSchemeControllerAddress](Add-ProvSchemeControllerAddress.html)
-  * [Remove-ProvSchemeControllerAddress](Remove-ProvSchemeControllerAddress.html)
+  * [New-ProvScheme](New-ProvScheme/)
+  * [Remove-ProvScheme](Remove-ProvScheme/)
+  * [Add-ProvSchemeMetadata](Add-ProvSchemeMetadata/)
+  * [Remove-ProvSchemeMetadata](Remove-ProvSchemeMetadata/)
+  * [Add-ProvSchemeControllerAddress](Add-ProvSchemeControllerAddress/)
+  * [Remove-ProvSchemeControllerAddress](Remove-ProvSchemeControllerAddress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

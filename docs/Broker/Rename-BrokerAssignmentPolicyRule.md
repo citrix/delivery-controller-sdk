@@ -15,10 +15,10 @@ Rename-BrokerAssignmentPolicyRule [-Name] <String> [-NewName] <String> [-PassThr
 A desktop rule in the assignment policy defines the users who are entitled to self-service persistent machine assignments from the rule's desktop group. A rule defines how many machines a user is allowed from the group for delivery of full desktop sessions.
 
 ## Related Commands
-  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule.html)
-  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule.html)
-  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule.html)
-  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule.html)
+  * [New-BrokerAssignmentPolicyRule](New-BrokerAssignmentPolicyRule/)
+  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule/)
+  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule/)
+  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

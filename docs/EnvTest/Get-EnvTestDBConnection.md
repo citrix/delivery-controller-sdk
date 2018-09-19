@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a EnvTest SDK cmdlet.
 
 ## Related Commands
-  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus.html)
-  * [Set-EnvTestDBConnection](Set-EnvTestDBConnection.html)
-  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection.html)
+  * [Get-EnvTestServiceStatus](Get-EnvTestServiceStatus/)
+  * [Set-EnvTestDBConnection](Set-EnvTestDBConnection/)
+  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,11 +11,11 @@ Get-ProvTask [[-TaskId] <Guid>] [-Type <JobType>] [-Active <Boolean>] [-Metadata
    Returns a list of tasks that have run or are currently running within the MachineCreation Service.
 
 ## Related Commands
-  * [Remove-ProvTask](Remove-ProvTask.html)
-  * [Stop-ProvTask](Stop-ProvTask.html)
-  * [Switch-ProvTask](Switch-ProvTask.html)
-  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata.html)
-  * [Remove-ProvTaskMetadata](Remove-ProvTaskMetadata.html)
+  * [Remove-ProvTask](Remove-ProvTask/)
+  * [Stop-ProvTask](Stop-ProvTask/)
+  * [Switch-ProvTask](Switch-ProvTask/)
+  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata/)
+  * [Remove-ProvTaskMetadata](Remove-ProvTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

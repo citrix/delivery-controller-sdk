@@ -21,7 +21,7 @@ Remove-AdminScopeMetadata [-InputObject] <Scope[]> -Map <PSObject> [-LoggingId <
    Provides the ability to remove metadata from the given Scope.
 
 ## Related Commands
-  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata.html)
+  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

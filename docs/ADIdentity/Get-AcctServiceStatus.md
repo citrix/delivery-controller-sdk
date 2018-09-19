@@ -11,10 +11,10 @@ Get-AcctServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the ADIdentity Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-AcctDBConnection](Set-AcctDBConnection.html)
-  * [Test-AcctDBConnection](Test-AcctDBConnection.html)
-  * [Get-AcctDBConnection](Get-AcctDBConnection.html)
-  * [Get-AcctDBSchema](Get-AcctDBSchema.html)
+  * [Set-AcctDBConnection](Set-AcctDBConnection/)
+  * [Test-AcctDBConnection](Test-AcctDBConnection/)
+  * [Get-AcctDBConnection](Get-AcctDBConnection/)
+  * [Get-AcctDBSchema](Get-AcctDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

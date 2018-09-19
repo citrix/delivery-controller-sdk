@@ -85,9 +85,9 @@ The reboot cycle object returned represents a single occurrence of the process o
        Title of the warning message dialog.
 
 ## Related Commands
-  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle.html)
-  * [Start-DesktopGroupRebootCycle](Start-DesktopGroupRebootCycle.html)
-  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle.html)
+  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle/)
+  * [Start-DesktopGroupRebootCycle](Start-DesktopGroupRebootCycle/)
+  * [Stop-BrokerRebootCycle](Stop-BrokerRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -11,10 +11,10 @@ Set-AppLibAppDNAConnection [-Address] <String> -Database <String> -UserName <Str
    Sets the connection details for integration of AppDNA into AppLibrary to allow AppDNA Analysis of AppDisk, Machines and DesktopGroups.
 
 ## Related Commands
-  * [Get-AppLibAppDNAConnection](Get-AppLibAppDNAConnection.html)
-  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection.html)
-  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection.html)
-  * [Deisable-AppLibAppDNAConnection](Deisable-AppLibAppDNAConnection.html)
+  * [Get-AppLibAppDNAConnection](Get-AppLibAppDNAConnection/)
+  * [Remove-AppLibAppDNAConnection](Remove-AppLibAppDNAConnection/)
+  * [Enable-AppLibAppDNAConnection](Enable-AppLibAppDNAConnection/)
+  * [Deisable-AppLibAppDNAConnection](Deisable-AppLibAppDNAConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

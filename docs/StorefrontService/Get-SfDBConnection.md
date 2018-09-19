@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Storefront SDK cmdlet.
 
 ## Related Commands
-  * [Get-SfServiceStatus](Get-SfServiceStatus.html)
-  * [Set-SfDBConnection](Set-SfDBConnection.html)
-  * [Test-SfDBConnection](Test-SfDBConnection.html)
+  * [Get-SfServiceStatus](Get-SfServiceStatus/)
+  * [Set-SfDBConnection](Set-SfDBConnection/)
+  * [Test-SfDBConnection](Test-SfDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

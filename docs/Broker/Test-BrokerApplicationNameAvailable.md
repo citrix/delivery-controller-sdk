@@ -11,9 +11,9 @@ Test-BrokerApplicationNameAvailable [-Name] <String[]> [-AdminAddress <String>] 
    This cmdlet checks whether proposed Application Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerApplication](Get-BrokerApplication.html)
-  * [New-BrokerApplication](New-BrokerApplication.html)
-  * [Rename-BrokerApplication](Rename-BrokerApplication.html)
+  * [Get-BrokerApplication](Get-BrokerApplication/)
+  * [New-BrokerApplication](New-BrokerApplication/)
+  * [Rename-BrokerApplication](Rename-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

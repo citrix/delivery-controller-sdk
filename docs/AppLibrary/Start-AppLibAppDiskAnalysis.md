@@ -13,10 +13,10 @@ Start-AppLibAppDiskAnalysis -AppDiskUid <Guid> [-RunAsynchronously] [-PurgeJobOn
    AppDNA will analyse the chosen AppDisk to check for any compatability issues.
 
 ## Related Commands
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [New-AppLibAppDisk](New-AppLibAppDisk.html)
-  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable.html)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [New-AppLibAppDisk](New-AppLibAppDisk/)
+  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

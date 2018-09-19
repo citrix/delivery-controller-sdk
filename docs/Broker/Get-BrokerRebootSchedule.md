@@ -57,10 +57,10 @@ The reboot schedule object returned represents a regularly scheduled reboot of m
        Title of the warning message dialog.
 
 ## Related Commands
-  * [Set-BrokerRebootSchedule](Set-BrokerRebootSchedule.html)
-  * [New-BrokerRebootSchedule](New-BrokerRebootSchedule.html)
-  * [Remove-BrokerRebootSchedule](Remove-BrokerRebootSchedule.html)
-  * [Get-BrokerRebootCycle](Get-BrokerRebootCycle.html)
+  * [Set-BrokerRebootSchedule](Set-BrokerRebootSchedule/)
+  * [New-BrokerRebootSchedule](New-BrokerRebootSchedule/)
+  * [Remove-BrokerRebootSchedule](Remove-BrokerRebootSchedule/)
+  * [Get-BrokerRebootCycle](Get-BrokerRebootCycle/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

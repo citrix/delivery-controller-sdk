@@ -13,7 +13,7 @@ Get-MonitorDataStore [-AdminAddress <String>] [<CommonParameters>]
 A database connection must be configured in order for this command to be used if the service has a secondary data store. This is not required for the site data store.
 
 ## Related Commands
-  * [Reset-MonitorDataStore](Reset-MonitorDataStore.html)
+  * [Reset-MonitorDataStore](Reset-MonitorDataStore/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

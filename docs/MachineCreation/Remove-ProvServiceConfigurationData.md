@@ -11,8 +11,8 @@ Remove-ProvServiceConfigurationData [[-Name] <String>] [-LoggingId <Guid>] [-Adm
    Provides the ability to remove data from the MachineCreation Service configuration data.
 
 ## Related Commands
-  * [Set-ProvServiceConfigurationData](Set-ProvServiceConfigurationData.html)
-  * [Get-ProvServiceConfigurationData](Get-ProvServiceConfigurationData.html)
+  * [Set-ProvServiceConfigurationData](Set-ProvServiceConfigurationData/)
+  * [Get-ProvServiceConfigurationData](Get-ProvServiceConfigurationData/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

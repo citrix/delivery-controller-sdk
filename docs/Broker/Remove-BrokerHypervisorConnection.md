@@ -13,9 +13,9 @@ Remove-BrokerHypervisorConnection [-Name] <String> [-LoggingId <Guid>] [-AdminAd
    Remove-BrokerHypervisorConnection removes a hypervisor connection from the system. A hypervisor connection cannot be removed if it's being used by a machine.
 
 ## Related Commands
-  * [Get-BrokerHypervisorConnection](Get-BrokerHypervisorConnection.html)
-  * [Set-BrokerHypervisorConnection](Set-BrokerHypervisorConnection.html)
-  * [New-BrokerHypervisorConnection](New-BrokerHypervisorConnection.html)
+  * [Get-BrokerHypervisorConnection](Get-BrokerHypervisorConnection/)
+  * [Set-BrokerHypervisorConnection](Set-BrokerHypervisorConnection/)
+  * [New-BrokerHypervisorConnection](New-BrokerHypervisorConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

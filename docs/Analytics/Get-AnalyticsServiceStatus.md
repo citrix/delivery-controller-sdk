@@ -11,10 +11,10 @@ Get-AnalyticsServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the Analytics Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-AnalyticsDBConnection](Set-AnalyticsDBConnection.html)
-  * [Test-AnalyticsDBConnection](Test-AnalyticsDBConnection.html)
-  * [Get-AnalyticsDBConnection](Get-AnalyticsDBConnection.html)
-  * [Get-AnalyticsDBSchema](Get-AnalyticsDBSchema.html)
+  * [Set-AnalyticsDBConnection](Set-AnalyticsDBConnection/)
+  * [Test-AnalyticsDBConnection](Test-AnalyticsDBConnection/)
+  * [Get-AnalyticsDBConnection](Get-AnalyticsDBConnection/)
+  * [Get-AnalyticsDBSchema](Get-AnalyticsDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

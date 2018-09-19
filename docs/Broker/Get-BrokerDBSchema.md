@@ -47,8 +47,8 @@ If the service uses two data stores they can exist in the same database.
 You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-BrokerDBConnection](Set-BrokerDBConnection.html)
-  * [Test-BrokerDBConnection](Test-BrokerDBConnection.html)
+  * [Set-BrokerDBConnection](Set-BrokerDBConnection/)
+  * [Test-BrokerDBConnection](Test-BrokerDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

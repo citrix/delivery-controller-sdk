@@ -11,8 +11,8 @@ Get-AppLibAppDiskStartMenuShortcut [-StartMenuShortcutUid <Guid>] [-AppDiskUid <
    Returns a list of AppDisk shortcuts known to the AppLibrary Service.
 
 ## Related Commands
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [Get-AppLibAppDiskStartMenuIcon](Get-AppLibAppDiskStartMenuIcon.html)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [Get-AppLibAppDiskStartMenuIcon](Get-AppLibAppDiskStartMenuIcon/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

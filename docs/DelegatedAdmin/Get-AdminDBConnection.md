@@ -15,9 +15,9 @@ If the returned string is blank, no valid connection string has been specified. 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a DelegatedAdmin SDK cmdlet.
 
 ## Related Commands
-  * [Get-AdminServiceStatus](Get-AdminServiceStatus.html)
-  * [Set-AdminDBConnection](Set-AdminDBConnection.html)
-  * [Test-AdminDBConnection](Test-AdminDBConnection.html)
+  * [Get-AdminServiceStatus](Get-AdminServiceStatus/)
+  * [Set-AdminDBConnection](Set-AdminDBConnection/)
+  * [Test-AdminDBConnection](Test-AdminDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

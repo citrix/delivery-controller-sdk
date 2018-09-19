@@ -21,7 +21,7 @@ Set-AppLibAppVPackageMetadata [-InputObject] <AppVPackage[]> -Map <PSObject> [-L
    Provides the ability for additional custom data to be stored against given AppVPackage objects.
 
 ## Related Commands
-  * [Remove-AppLibAppVPackageMetadata](Remove-AppLibAppVPackageMetadata.html)
+  * [Remove-AppLibAppVPackageMetadata](Remove-AppLibAppVPackageMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

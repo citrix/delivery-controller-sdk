@@ -13,8 +13,8 @@ Get-HypServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-HypServiceStatus](Get-HypServiceStatus.html)
-  * [Reset-HypServiceGroupMembership](Reset-HypServiceGroupMembership.html)
+  * [Get-HypServiceStatus](Get-HypServiceStatus/)
+  * [Reset-HypServiceGroupMembership](Reset-HypServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

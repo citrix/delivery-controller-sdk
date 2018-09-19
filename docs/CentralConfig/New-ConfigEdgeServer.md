@@ -13,10 +13,10 @@ New-ConfigEdgeServer [-Name] <String> -MachineAddress <String> -Sid <String> -Uu
 An edge server is a machine which is running an agent service that performs a number of duties; these agent services are largely stateless and communicate back to the Citrix Workspace Cloud components in the cloud.
 
 ## Related Commands
-  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer.html)
-  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer.html)
-  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer.html)
-  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer.html)
+  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer/)
+  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer/)
+  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer/)
+  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

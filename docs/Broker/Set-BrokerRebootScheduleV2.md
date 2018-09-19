@@ -13,10 +13,10 @@ Set-BrokerRebootScheduleV2 [-Name] <String> [-PassThru] [-Day <RebootScheduleDay
    The Set-BrokerRebootScheduleV2 cmdlet is used to alter the settings of an existing desktop group reboot schedule.
 
 ## Related Commands
-  * [Get-BrokerRebootScheduleV2](Get-BrokerRebootScheduleV2.html)
-  * [New-BrokerRebootScheduleV2](New-BrokerRebootScheduleV2.html)
-  * [Remove-BrokerRebootScheduleV2](Remove-BrokerRebootScheduleV2.html)
-  * [Rename-BrokerRebootScheduleV2](Rename-BrokerRebootScheduleV2.html)
+  * [Get-BrokerRebootScheduleV2](Get-BrokerRebootScheduleV2/)
+  * [New-BrokerRebootScheduleV2](New-BrokerRebootScheduleV2/)
+  * [Remove-BrokerRebootScheduleV2](Remove-BrokerRebootScheduleV2/)
+  * [Rename-BrokerRebootScheduleV2](Rename-BrokerRebootScheduleV2/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

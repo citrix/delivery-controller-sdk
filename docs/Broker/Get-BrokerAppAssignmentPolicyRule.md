@@ -46,10 +46,10 @@ The BrokerAppAssignmentPolicyRule object represents a single application rule wi
        The unique ID of the rule itself.
 
 ## Related Commands
-  * [New-BrokerAppAssignmentPolicyRule](New-BrokerAppAssignmentPolicyRule.html)
-  * [Set-BrokerAppAssignmentPolicyRule](Set-BrokerAppAssignmentPolicyRule.html)
-  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule.html)
-  * [Remove-BrokerAppAssignmentPolicyRule](Remove-BrokerAppAssignmentPolicyRule.html)
+  * [New-BrokerAppAssignmentPolicyRule](New-BrokerAppAssignmentPolicyRule/)
+  * [Set-BrokerAppAssignmentPolicyRule](Set-BrokerAppAssignmentPolicyRule/)
+  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule/)
+  * [Remove-BrokerAppAssignmentPolicyRule](Remove-BrokerAppAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

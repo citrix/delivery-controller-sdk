@@ -27,8 +27,8 @@ Group-BrokerSession is similar to the standard PowerShell Group-Object, but is f
 Note that the MaxRecordCount, ReturnTotalRecordCount, Skip, and SortBy parameters apply to GroupInfo records output rather than the filtered sessions.
 
 ## Related Commands
-  * [Get-BrokerSession](Get-BrokerSession.html)
-  * [Group-Object](Group-Object.html)
+  * [Get-BrokerSession](Get-BrokerSession/)
+  * [Group-Object](Group-Object/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

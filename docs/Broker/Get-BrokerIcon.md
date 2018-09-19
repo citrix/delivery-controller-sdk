@@ -28,8 +28,8 @@ The BrokerIcon object represents a single instance of an icon. It contains the f
        The UID of the icon itself.
 
 ## Related Commands
-  * [New-BrokerIcon](New-BrokerIcon.html)
-  * [Remove-BrokerIcon](Remove-BrokerIcon.html)
+  * [New-BrokerIcon](New-BrokerIcon/)
+  * [Remove-BrokerIcon](Remove-BrokerIcon/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

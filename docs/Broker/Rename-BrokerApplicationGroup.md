@@ -15,11 +15,11 @@ Rename-BrokerApplicationGroup [-Name] <String> [-NewName] <String> [-PassThru] [
 Application group names are not visible to end users.
 
 ## Related Commands
-  * [Add-BrokerApplicationGroup](Add-BrokerApplicationGroup.html)
-  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup.html)
-  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup.html)
-  * [Remove-BrokerApplicationGroup](Remove-BrokerApplicationGroup.html)
-  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup.html)
+  * [Add-BrokerApplicationGroup](Add-BrokerApplicationGroup/)
+  * [Get-BrokerApplicationGroup](Get-BrokerApplicationGroup/)
+  * [New-BrokerApplicationGroup](New-BrokerApplicationGroup/)
+  * [Remove-BrokerApplicationGroup](Remove-BrokerApplicationGroup/)
+  * [Set-BrokerApplicationGroup](Set-BrokerApplicationGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

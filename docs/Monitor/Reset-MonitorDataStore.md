@@ -13,7 +13,7 @@ Reset-MonitorDataStore [-DataStore] <String> [-LoggingId <Guid>] [-AdminAddress 
 There is no requirement for a database connection to be configured in order for this command to be used.
 
 ## Related Commands
-  * [Get-MonitorDataStore](Get-MonitorDataStore.html)
+  * [Get-MonitorDataStore](Get-MonitorDataStore/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

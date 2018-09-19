@@ -15,12 +15,12 @@ Move-BrokerApplication [-Name] <String> [-Destination] <AdminFolder> [-NewName <
 The location and name of a published application in this sense is only of interest to the administrator, changes do not affect the end-user experience.
 
 ## Related Commands
-  * [New-BrokerApplication](New-BrokerApplication.html)
-  * [Add-BrokerApplication](Add-BrokerApplication.html)
-  * [Get-BrokerApplication](Get-BrokerApplication.html)
-  * [Remove-BrokerApplication](Remove-BrokerApplication.html)
-  * [Rename-BrokerApplication](Rename-BrokerApplication.html)
-  * [Set-BrokerApplication](Set-BrokerApplication.html)
+  * [New-BrokerApplication](New-BrokerApplication/)
+  * [Add-BrokerApplication](Add-BrokerApplication/)
+  * [Get-BrokerApplication](Get-BrokerApplication/)
+  * [Remove-BrokerApplication](Remove-BrokerApplication/)
+  * [Rename-BrokerApplication](Rename-BrokerApplication/)
+  * [Set-BrokerApplication](Set-BrokerApplication/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

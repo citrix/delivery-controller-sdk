@@ -17,12 +17,12 @@ Add-AppLibTaskMetadata [-InputObject] <Task[]> -Map <PSObject> [-LoggingId <Guid
    Use this cmdlet to store additional custom data against given Task objects. This cmdlet does not overwrite existing metadata on an object - use the Set-AppLibTaskMetadata cmdlet instead.
 
 ## Related Commands
-  * [Set-AppLibTaskMetadata](Set-AppLibTaskMetadata.html)
-  * [Remove-AppLibTaskMetadata](Remove-AppLibTaskMetadata.html)
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Stop-AppLibTask](Stop-AppLibTask.html)
-  * [Remove-AppLibTask](Remove-AppLibTask.html)
-  * [Switch-AppLibTask](Switch-AppLibTask.html)
+  * [Set-AppLibTaskMetadata](Set-AppLibTaskMetadata/)
+  * [Remove-AppLibTaskMetadata](Remove-AppLibTaskMetadata/)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Stop-AppLibTask](Stop-AppLibTask/)
+  * [Remove-AppLibTask](Remove-AppLibTask/)
+  * [Switch-AppLibTask](Switch-AppLibTask/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

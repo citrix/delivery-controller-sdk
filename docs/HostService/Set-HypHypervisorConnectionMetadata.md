@@ -21,8 +21,8 @@ Set-HypHypervisorConnectionMetadata [-InputObject] <HypervisorConnection[]> -Map
    Provides the ability for additional custom data to be stored against given HypervisorConnection objects.
 
 ## Related Commands
-  * [Add-HypHypervisorConnectionMetadata](Add-HypHypervisorConnectionMetadata.html)
-  * [Remove-HypHypervisorConnectionMetadata](Remove-HypHypervisorConnectionMetadata.html)
+  * [Add-HypHypervisorConnectionMetadata](Add-HypHypervisorConnectionMetadata/)
+  * [Remove-HypHypervisorConnectionMetadata](Remove-HypHypervisorConnectionMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,10 +15,10 @@ Rename-BrokerEntitlementPolicyRule [-Name] <String> [-NewName] <String> [-PassTh
 A desktop rule in the entitlement policy defines the users who are allowed per-session access to a machine from the rule's associated desktop group to run a full desktop session.
 
 ## Related Commands
-  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule.html)
-  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule.html)
-  * [Set-BrokerEntitlementPolicyRule](Set-BrokerEntitlementPolicyRule.html)
-  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule.html)
+  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule/)
+  * [Get-BrokerEntitlementPolicyRule](Get-BrokerEntitlementPolicyRule/)
+  * [Set-BrokerEntitlementPolicyRule](Set-BrokerEntitlementPolicyRule/)
+  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

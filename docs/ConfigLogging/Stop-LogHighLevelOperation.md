@@ -11,8 +11,8 @@ Stop-LogHighLevelOperation -HighLevelOperationId <String> -IsSuccessful <Boolean
    Stop-LogHighLevelOperation logs the completion of a started high level operation.
 
 ## Related Commands
-  * [Start-LogHighLevelOperation](Start-LogHighLevelOperation.html)
-  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation.html)
+  * [Start-LogHighLevelOperation](Start-LogHighLevelOperation/)
+  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

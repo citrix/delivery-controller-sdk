@@ -411,7 +411,7 @@ The machine object returned represents a physical or virtual machine, which has 
        The UID of the zone in which the machine is located.
 
 ## Related Commands
-  * [Group-BrokerMachine](Group-BrokerMachine.html)
+  * [Group-BrokerMachine](Group-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

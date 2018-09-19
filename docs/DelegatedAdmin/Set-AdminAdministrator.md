@@ -17,11 +17,11 @@ Set-AdminAdministrator [-Name] <String[]> [-Enabled <Boolean>] [-PassThru] [-Log
 You can specify the administrators to modify in a number of ways, by piping in existing objects, by passing existing objects with the InputObject parameter, or by specifying the names or SIDs explicitly.
 
 ## Related Commands
-  * [New-AdminAdministrator](New-AdminAdministrator.html)
-  * [Get-AdminAdministrator](Get-AdminAdministrator.html)
-  * [Remove-AdminAdministrator](Remove-AdminAdministrator.html)
-  * [Set-AdminAdministratorMetadata](Set-AdminAdministratorMetadata.html)
-  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata.html)
+  * [New-AdminAdministrator](New-AdminAdministrator/)
+  * [Get-AdminAdministrator](Get-AdminAdministrator/)
+  * [Remove-AdminAdministrator](Remove-AdminAdministrator/)
+  * [Set-AdminAdministratorMetadata](Set-AdminAdministratorMetadata/)
+  * [Remove-AdminAdministratorMetadata](Remove-AdminAdministratorMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

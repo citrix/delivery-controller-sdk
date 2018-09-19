@@ -13,9 +13,9 @@ Remove-MonitorNotificationPolicy [-Uid <Int64[]>] [-LoggingId <Guid>] [-AdminAdd
    Removes the policy object from database by marking them as deleted and disable all the condtions associated with that
 
 ## Related Commands
-  * [New-MonitorNotificationPolicy](New-MonitorNotificationPolicy.html)
-  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy.html)
-  * [Set-MonitorNotificationRulePolicy](Set-MonitorNotificationRulePolicy.html)
+  * [New-MonitorNotificationPolicy](New-MonitorNotificationPolicy/)
+  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy/)
+  * [Set-MonitorNotificationRulePolicy](Set-MonitorNotificationRulePolicy/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

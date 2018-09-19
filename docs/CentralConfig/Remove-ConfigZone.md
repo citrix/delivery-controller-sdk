@@ -17,12 +17,12 @@ Remove-ConfigZone [-Name] <String[]> [-LoggingId <Guid>] [-AdminAddress <String>
 You cannot remove a zone that is marked as primary or has associated controllers.
 
 ## Related Commands
-  * [Get-ConfigZone](Get-ConfigZone.html)
-  * [New-ConfigZone](New-ConfigZone.html)
-  * [Set-ConfigZone](Set-ConfigZone.html)
-  * [Rename-ConfigZone](Rename-ConfigZone.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Set-ConfigService](Set-ConfigService.html)
+  * [Get-ConfigZone](Get-ConfigZone/)
+  * [New-ConfigZone](New-ConfigZone/)
+  * [Set-ConfigZone](Set-ConfigZone/)
+  * [Rename-ConfigZone](Rename-ConfigZone/)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Set-ConfigService](Set-ConfigService/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

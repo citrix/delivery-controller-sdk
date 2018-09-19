@@ -17,12 +17,12 @@ Rename-AdminRole [-Name] <String> [-NewName] <String> [-PassThru] [-LoggingId <G
 Role names must be unique, and you cannot modify the name of built-in roles.
 
 ## Related Commands
-  * [New-AdminRole](New-AdminRole.html)
-  * [Get-AdminRole](Get-AdminRole.html)
-  * [Set-AdminRole](Set-AdminRole.html)
-  * [Remove-AdminRole](Remove-AdminRole.html)
-  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata.html)
-  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata.html)
+  * [New-AdminRole](New-AdminRole/)
+  * [Get-AdminRole](Get-AdminRole/)
+  * [Set-AdminRole](Set-AdminRole/)
+  * [Remove-AdminRole](Remove-AdminRole/)
+  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata/)
+  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

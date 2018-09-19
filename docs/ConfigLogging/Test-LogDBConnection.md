@@ -17,9 +17,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a ConfigurationLogging SDK cmdlet.
 
 ## Related Commands
-  * [Get-LogServiceStatus](Get-LogServiceStatus.html)
-  * [Get-LogDBConnection](Get-LogDBConnection.html)
-  * [Set-LogDBConnection](Set-LogDBConnection.html)
+  * [Get-LogServiceStatus](Get-LogServiceStatus/)
+  * [Get-LogDBConnection](Get-LogDBConnection/)
+  * [Set-LogDBConnection](Set-LogDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

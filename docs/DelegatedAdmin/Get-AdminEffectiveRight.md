@@ -11,9 +11,9 @@ Get-AdminEffectiveRight [-AdminAddress <String>] [<CommonParameters>]
    The Get-AdminEffectiveRight cmdlet returns the effective rights of the current user. This is the union of all rights of the enabled administrators that the current user matches, taking into account Active Directory group membership.
 
 ## Related Commands
-  * [Get-AdminAdministrator](Get-AdminAdministrator.html)
-  * [Add-AdminRight](Add-AdminRight.html)
-  * [Remove-AdminRight](Remove-AdminRight.html)
+  * [Get-AdminAdministrator](Get-AdminAdministrator/)
+  * [Add-AdminRight](Add-AdminRight/)
+  * [Remove-AdminRight](Remove-AdminRight/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

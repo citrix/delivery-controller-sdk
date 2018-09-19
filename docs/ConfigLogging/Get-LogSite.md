@@ -11,7 +11,7 @@ Get-LogSite [-AdminAddress <String>] [<CommonParameters>]
    This cmdlet retrieves the global configuration logging settings.
 
 ## Related Commands
-  * [Set-LogSite](Set-LogSite.html)
+  * [Set-LogSite](Set-LogSite/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

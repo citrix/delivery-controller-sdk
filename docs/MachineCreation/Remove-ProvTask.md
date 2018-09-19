@@ -11,9 +11,9 @@ Remove-ProvTask [-TaskId] <Guid> [-LoggingId <Guid>] [-AdminAddress <String>] [<
    Enables completed tasks that have run within the MachineCreation Service to be removed from the database.
 
 ## Related Commands
-  * [Get-ProvTask](Get-ProvTask.html)
-  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata.html)
-  * [Remove-ProvTaskMetadata](Remove-ProvTaskMetadata.html)
+  * [Get-ProvTask](Get-ProvTask/)
+  * [Add-ProvTaskMetadata](Add-ProvTaskMetadata/)
+  * [Remove-ProvTaskMetadata](Remove-ProvTaskMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

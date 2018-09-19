@@ -21,7 +21,7 @@ Set-AcctIdentityPoolMetadata [-InputObject] <IdentityPool[]> -Map <PSObject> [-L
    Provides the ability for additional custom data to be stored against given IdentityPool objects.
 
 ## Related Commands
-  * [Remove-AcctIdentityPoolMetadata](Remove-AcctIdentityPoolMetadata.html)
+  * [Remove-AcctIdentityPoolMetadata](Remove-AcctIdentityPoolMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -17,10 +17,10 @@ An application rule in the assignment policy defines the users who are entitled 
 Deleting an application rule does not remove machine assignments that have already been made by the rule, nor does it affect active sessions to those machines in any way.
 
 ## Related Commands
-  * [New-BrokerAppAssignmentPolicyRule](New-BrokerAppAssignmentPolicyRule.html)
-  * [Get-BrokerAppAssignmentPolicyRule](Get-BrokerAppAssignmentPolicyRule.html)
-  * [Set-BrokerAppAssignmentPolicyRule](Set-BrokerAppAssignmentPolicyRule.html)
-  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule.html)
+  * [New-BrokerAppAssignmentPolicyRule](New-BrokerAppAssignmentPolicyRule/)
+  * [Get-BrokerAppAssignmentPolicyRule](Get-BrokerAppAssignmentPolicyRule/)
+  * [Set-BrokerAppAssignmentPolicyRule](Set-BrokerAppAssignmentPolicyRule/)
+  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

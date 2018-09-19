@@ -13,10 +13,10 @@ Rename-ProvScheme -ProvisioningSchemeUid <Guid> [-NewProvisioningSchemeName] <St
    Provides the ability to change the name of an existing provisioning scheme.  The unique identifier for the provisioning scheme never changes after it has been created so, regardless of any name changes, the provisioning scheme can always be identified by its unique identifier.
 
 ## Related Commands
-  * [New-ProvScheme](New-ProvScheme.html)
-  * [Set-ProvScheme](Set-ProvScheme.html)
-  * [Get-ProvScheme](Get-ProvScheme.html)
-  * [Test-ProvSchemeNameAvailable](Test-ProvSchemeNameAvailable.html)
+  * [New-ProvScheme](New-ProvScheme/)
+  * [Set-ProvScheme](Set-ProvScheme/)
+  * [Get-ProvScheme](Get-ProvScheme/)
+  * [Test-ProvSchemeNameAvailable](Test-ProvSchemeNameAvailable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -15,9 +15,9 @@ A power action record defines the action to be performed, the machine on which t
 For a detailed description of the queuing mechanism, see 'help about_Broker_PowerManagement'.
 
 ## Related Commands
-  * [Get-BrokerHostingPowerAction](Get-BrokerHostingPowerAction.html)
-  * [Set-BrokerHostingPowerAction](Set-BrokerHostingPowerAction.html)
-  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction.html)
+  * [Get-BrokerHostingPowerAction](Get-BrokerHostingPowerAction/)
+  * [Set-BrokerHostingPowerAction](Set-BrokerHostingPowerAction/)
+  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

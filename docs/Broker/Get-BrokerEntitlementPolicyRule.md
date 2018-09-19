@@ -78,10 +78,10 @@ The BrokerEntitlementPolicyRule object represents a single desktop rule within t
        UUID of the rule.
 
 ## Related Commands
-  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule.html)
-  * [Set-BrokerEntitlementPolicyRule](Set-BrokerEntitlementPolicyRule.html)
-  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule.html)
-  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule.html)
+  * [New-BrokerEntitlementPolicyRule](New-BrokerEntitlementPolicyRule/)
+  * [Set-BrokerEntitlementPolicyRule](Set-BrokerEntitlementPolicyRule/)
+  * [Rename-BrokerEntitlementPolicyRule](Rename-BrokerEntitlementPolicyRule/)
+  * [Remove-BrokerEntitlementPolicyRule](Remove-BrokerEntitlementPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

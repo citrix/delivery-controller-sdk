@@ -11,8 +11,8 @@ Get-ConfigProduct [-AdminAddress <String>] [<CommonParameters>]
    
 
 ## Related Commands
-  * [Get-ConfigSite](Get-ConfigSite.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
+  * [Get-ConfigSite](Get-ConfigSite/)
+  * [Set-ConfigSite](Set-ConfigSite/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

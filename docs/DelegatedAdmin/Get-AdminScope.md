@@ -17,12 +17,12 @@ To determine what objects are currently in a scope, use the Get-<Prefix>ScopedOb
 See about_Admin_Filtering for information about advanced filtering options.
 
 ## Related Commands
-  * [New-AdminScope](New-AdminScope.html)
-  * [Set-AdminScope](Set-AdminScope.html)
-  * [Rename-AdminScope](Rename-AdminScope.html)
-  * [Remove-AdminScope](Remove-AdminScope.html)
-  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata.html)
-  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata.html)
+  * [New-AdminScope](New-AdminScope/)
+  * [Set-AdminScope](Set-AdminScope/)
+  * [Rename-AdminScope](Rename-AdminScope/)
+  * [Remove-AdminScope](Remove-AdminScope/)
+  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata/)
+  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

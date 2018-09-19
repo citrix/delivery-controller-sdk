@@ -13,8 +13,8 @@ Get-AnalyticsServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus.html)
-  * [Reset-AnalyticsServiceGroupMembership](Reset-AnalyticsServiceGroupMembership.html)
+  * [Get-AnalyticsServiceStatus](Get-AnalyticsServiceStatus/)
+  * [Reset-AnalyticsServiceGroupMembership](Reset-AnalyticsServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

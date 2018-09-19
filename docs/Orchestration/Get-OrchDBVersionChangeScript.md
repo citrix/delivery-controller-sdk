@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Orchestration Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-OrchServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-OrchInstalledDBVersion](Get-OrchInstalledDBVersion.html)
-  * [Get-OrchServiceStatus](Get-OrchServiceStatus.html)
-  * [Get-OrchDBSchema](Get-OrchDBSchema.html)
+  * [Get-OrchInstalledDBVersion](Get-OrchInstalledDBVersion/)
+  * [Get-OrchServiceStatus](Get-OrchServiceStatus/)
+  * [Get-OrchDBSchema](Get-OrchDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

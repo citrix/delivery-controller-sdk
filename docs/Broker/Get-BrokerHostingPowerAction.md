@@ -65,9 +65,9 @@ The BrokerHostingPowerAction object represents an instance of a power action. It
        The unique identifier of the power action.
 
 ## Related Commands
-  * [New-BrokerHostingPowerAction](New-BrokerHostingPowerAction.html)
-  * [Set-BrokerHostingPowerAction](Set-BrokerHostingPowerAction.html)
-  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction.html)
+  * [New-BrokerHostingPowerAction](New-BrokerHostingPowerAction/)
+  * [Set-BrokerHostingPowerAction](Set-BrokerHostingPowerAction/)
+  * [Remove-BrokerHostingPowerAction](Remove-BrokerHostingPowerAction/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

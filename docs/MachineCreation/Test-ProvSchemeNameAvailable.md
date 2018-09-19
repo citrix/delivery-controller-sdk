@@ -11,8 +11,8 @@ Test-ProvSchemeNameAvailable -ProvisioningSchemeName <String[]> [-AdminAddress <
    Checks to ensure that the proposed name for a provisioning scheme is unused. This check is done without regard for scoping of existing provisioning schemes, so the names of inaccessible schemes are also checked.
 
 ## Related Commands
-  * [New-ProvScheme](New-ProvScheme.html)
-  * [Rename-ProvScheme](Rename-ProvScheme.html)
+  * [New-ProvScheme](New-ProvScheme/)
+  * [Rename-ProvScheme](Rename-ProvScheme/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

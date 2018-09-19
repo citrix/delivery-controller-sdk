@@ -17,9 +17,9 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Monitor SDK cmdlet.
 
 ## Related Commands
-  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus.html)
-  * [Get-MonitorDBConnection](Get-MonitorDBConnection.html)
-  * [Set-MonitorDBConnection](Set-MonitorDBConnection.html)
+  * [Get-MonitorServiceStatus](Get-MonitorServiceStatus/)
+  * [Get-MonitorDBConnection](Get-MonitorDBConnection/)
+  * [Set-MonitorDBConnection](Set-MonitorDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

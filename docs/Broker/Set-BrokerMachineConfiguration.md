@@ -13,11 +13,11 @@ Set-BrokerMachineConfiguration [-Name] <String> [-PassThru] [-Description <Strin
    Sets the properties of a machine configuration. The encoded settings data must only contain settings that match the SettingsGroup of the associated configuration slot. Use the SDK snap-in that matches the SettingsGroup of the associated configuration slot to generate new encoded settings data or modify existing settings values.
 
 ## Related Commands
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
-  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration.html)
-  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration.html)
-  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration.html)
-  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration.html)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
+  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration/)
+  * [Rename-BrokerMachineConfiguration](Rename-BrokerMachineConfiguration/)
+  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration/)
+  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

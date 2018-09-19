@@ -13,12 +13,12 @@ Get-AdminRole [[-Name] <String>] [-Id <Guid>] [-BuiltIn <Boolean>] [-Description
 See about_Admin_Filtering for information about advanced filtering options.
 
 ## Related Commands
-  * [New-AdminRole](New-AdminRole.html)
-  * [Set-AdminRole](Set-AdminRole.html)
-  * [Rename-AdminRole](Rename-AdminRole.html)
-  * [Remove-AdminRole](Remove-AdminRole.html)
-  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata.html)
-  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata.html)
+  * [New-AdminRole](New-AdminRole/)
+  * [Set-AdminRole](Set-AdminRole/)
+  * [Rename-AdminRole](Rename-AdminRole/)
+  * [Remove-AdminRole](Remove-AdminRole/)
+  * [Set-AdminRoleMetadata](Set-AdminRoleMetadata/)
+  * [Remove-AdminRoleMetadata](Remove-AdminRoleMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

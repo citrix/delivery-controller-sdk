@@ -17,7 +17,7 @@ Remove-LogSiteMetadata -Map <PSObject> [-LoggingId <Guid>] [-AdminAddress <Strin
    Provides the ability to remove metadata from the given Site.
 
 ## Related Commands
-  * [Set-LogSiteMetadata](Set-LogSiteMetadata.html)
+  * [Set-LogSiteMetadata](Set-LogSiteMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

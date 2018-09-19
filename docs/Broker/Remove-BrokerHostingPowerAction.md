@@ -15,9 +15,9 @@ Remove-BrokerHostingPowerAction [-MachineName] <String> [-LoggingId <Guid>] [-Ad
 Power actions cannot be cancelled once they have started to be processed by the hypervisor.
 
 ## Related Commands
-  * [Get-BrokerHostingPowerAction](Get-BrokerHostingPowerAction.html)
-  * [New-BrokerHostingPowerAction](New-BrokerHostingPowerAction.html)
-  * [Set-BrokerHostingPowerAction](Set-BrokerHostingPowerAction.html)
+  * [Get-BrokerHostingPowerAction](Get-BrokerHostingPowerAction/)
+  * [New-BrokerHostingPowerAction](New-BrokerHostingPowerAction/)
+  * [Set-BrokerHostingPowerAction](Set-BrokerHostingPowerAction/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

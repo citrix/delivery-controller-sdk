@@ -13,10 +13,10 @@ Rename-BrokerDesktopGroup [-Name] <String> [-NewName] <String> [-PassThru] [-Log
    The Rename-BrokerDesktopGroup cmdlet changes the name of a desktop group. A desktop group cannot have the same name as another desktop group.
 
 ## Related Commands
-  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup.html)
-  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup.html)
-  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup.html)
-  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup.html)
+  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup/)
+  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup/)
+  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup/)
+  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

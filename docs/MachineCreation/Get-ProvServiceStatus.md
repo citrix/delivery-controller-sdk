@@ -11,10 +11,10 @@ Get-ProvServiceStatus [-AdminAddress <String>] [<CommonParameters>]
    Enables the status of the MachineCreation Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-ProvDBConnection](Set-ProvDBConnection.html)
-  * [Test-ProvDBConnection](Test-ProvDBConnection.html)
-  * [Get-ProvDBConnection](Get-ProvDBConnection.html)
-  * [Get-ProvDBSchema](Get-ProvDBSchema.html)
+  * [Set-ProvDBConnection](Set-ProvDBConnection/)
+  * [Test-ProvDBConnection](Test-ProvDBConnection/)
+  * [Get-ProvDBConnection](Get-ProvDBConnection/)
+  * [Get-ProvDBSchema](Get-ProvDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

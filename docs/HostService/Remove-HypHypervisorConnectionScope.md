@@ -24,8 +24,8 @@ To remove a HypervisorConnection from a scope you need permission to change the 
 If the HypervisorConnection is not in a specified scope, that scope will be silently ignored.
 
 ## Related Commands
-  * [Add-HypHypervisorConnectionScope](Add-HypHypervisorConnectionScope.html)
-  * [Get-HypScopedObject](Get-HypScopedObject.html)
+  * [Add-HypHypervisorConnectionScope](Add-HypHypervisorConnectionScope/)
+  * [Get-HypScopedObject](Get-HypScopedObject/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

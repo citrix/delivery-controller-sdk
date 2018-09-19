@@ -11,8 +11,8 @@ Stop-OrchRestApi [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters
    Disposes the PowerShell business logic and stops the REST API that is hosted by the selected instance of the Orchestration Service.
 
 ## Related Commands
-  * [Get-OrchService](Get-OrchService.html)
-  * [Start-OrchRestApi](Start-OrchRestApi.html)
+  * [Get-OrchService](Get-OrchService/)
+  * [Start-OrchRestApi](Start-OrchRestApi/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

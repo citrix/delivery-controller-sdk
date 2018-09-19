@@ -15,7 +15,7 @@ Import-AdminRoleConfiguration -Content <String> [-Force] [-LoggingId <Guid>] [-A
 The supplied configuration requires a digital signature; this is used to validate the integrity of the configuration.
 
 ## Related Commands
-  * [Get-AdminRoleConfiguration](Get-AdminRoleConfiguration.html)
+  * [Get-AdminRoleConfiguration](Get-AdminRoleConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,14 +13,14 @@ Import-ConfigFeatureTable -Content <String> [-LoggingId <Guid>] [-AdminAddress <
    
 
 ## Related Commands
-  * [Export-ConfigFeatureTable](Export-ConfigFeatureTable.html)
-  * [Get-ConfigSite](Get-ConfigSite.html)
-  * [Set-ConfigSite](Set-ConfigSite.html)
-  * [Get-ConfigProduct](Get-ConfigProduct.html)
-  * [Get-ConfigProductEdition](Get-ConfigProductEdition.html)
-  * [Get-ConfigProductFeature](Get-ConfigProductFeature.html)
-  * [Get-ConfigProductVersion](Get-ConfigProductVersion.html)
-  * [Get-ConfigLicensingModel](Get-ConfigLicensingModel.html)
+  * [Export-ConfigFeatureTable](Export-ConfigFeatureTable/)
+  * [Get-ConfigSite](Get-ConfigSite/)
+  * [Set-ConfigSite](Set-ConfigSite/)
+  * [Get-ConfigProduct](Get-ConfigProduct/)
+  * [Get-ConfigProductEdition](Get-ConfigProductEdition/)
+  * [Get-ConfigProductFeature](Get-ConfigProductFeature/)
+  * [Get-ConfigProductVersion](Get-ConfigProductVersion/)
+  * [Get-ConfigLicensingModel](Get-ConfigLicensingModel/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

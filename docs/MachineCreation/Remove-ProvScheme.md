@@ -15,8 +15,8 @@ Remove-ProvScheme -ProvisioningSchemeUid <Guid> [-ForgetVM] [-LoggingId <Guid>] 
 If 'ForgetVM' is not specified, a cmdlet task is created that runs in the background to remove the hard disk copies that have been created for the provisioning scheme in hypervisor storage.  Use the Get-ProvTask command to monitor the progress of this task.
 
 ## Related Commands
-  * [Get-ProvTask](Get-ProvTask.html)
-  * [New-ProvScheme](New-ProvScheme.html)
+  * [Get-ProvTask](Get-ProvTask/)
+  * [New-ProvScheme](New-ProvScheme/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

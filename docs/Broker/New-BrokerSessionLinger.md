@@ -15,9 +15,9 @@ New-BrokerSessionLinger -DesktopGroupUid <Int32> [-Enabled <Boolean>] [-MaxAvera
 Note that each desktop group can only have a single session linger setting. Session lingering only applies to application sessions.
 
 ## Related Commands
-  * [Get-BrokerSessionLinger](Get-BrokerSessionLinger.html)
-  * [Set-BrokerSessionLinger](Set-BrokerSessionLinger.html)
-  * [Remove-BrokerSessionLinger](Remove-BrokerSessionLinger.html)
+  * [Get-BrokerSessionLinger](Get-BrokerSessionLinger/)
+  * [Set-BrokerSessionLinger](Set-BrokerSessionLinger/)
+  * [Remove-BrokerSessionLinger](Remove-BrokerSessionLinger/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

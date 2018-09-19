@@ -11,8 +11,8 @@ Test-AppLibAppDiskNameAvailable -AppDiskName <String[]> [-AdminAddress <String>]
    Checks to ensure that the proposed name for an AppDisk is unused. This check is done without regard for scoping of existing AppDisks, so the names of inaccessible AppDisks are also checked.
 
 ## Related Commands
-  * [New-AppLibAppDisk](New-AppLibAppDisk.html)
-  * [Rename-AppLibAppDisk](Rename-AppLibAppDisk.html)
+  * [New-AppLibAppDisk](New-AppLibAppDisk/)
+  * [Rename-AppLibAppDisk](Rename-AppLibAppDisk/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

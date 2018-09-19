@@ -17,7 +17,7 @@ The machine must support the expected capabilities of the catalog: the catalog s
 For more information about machines, see about_Broker_Machines.
 
 ## Related Commands
-  * [Add-BrokerMachine](Add-BrokerMachine.html)
+  * [Add-BrokerMachine](Add-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

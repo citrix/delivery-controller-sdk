@@ -13,10 +13,10 @@ Import-AppLibAppDisk -HostingUnitUid <Guid> -HypervisorDiskId <String> -AppDiskN
    Lets you import a separately created AppDisk to the Application library service.
 
 ## Related Commands
-  * [Get-AppLibTask](Get-AppLibTask.html)
-  * [Get-AppLibAppDisk](Get-AppLibAppDisk.html)
-  * [New-AppLibAppDisk](New-AppLibAppDisk.html)
-  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable.html)
+  * [Get-AppLibTask](Get-AppLibTask/)
+  * [Get-AppLibAppDisk](Get-AppLibAppDisk/)
+  * [New-AppLibAppDisk](New-AppLibAppDisk/)
+  * [Test-AppLibAppDiskNameAvailable](Test-AppLibAppDiskNameAvailable/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

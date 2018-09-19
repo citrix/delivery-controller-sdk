@@ -15,8 +15,8 @@ Imported file type associations are grouped together based on the desktop group 
 Imported file type associations are different from configured file type associations. Imported file type associations are lists of known file type associations for a given desktop group. Configured file type associations are those that are actually associated with published applications for the purposes of content redirection.
 
 ## Related Commands
-  * [Get-BrokerImportedFTA](Get-BrokerImportedFTA.html)
-  * [Update-BrokerImportedFTA](Update-BrokerImportedFTA.html)
+  * [Get-BrokerImportedFTA](Get-BrokerImportedFTA/)
+  * [Update-BrokerImportedFTA](Update-BrokerImportedFTA/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

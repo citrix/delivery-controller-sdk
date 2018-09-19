@@ -11,7 +11,7 @@ Remove-HypHostingUnitNetwork [-LiteralPath] <String> [-NetworkPath] <String> [-L
    Use this command to remove networks from a hosting unit. This does not remove the network from the hypervisor, only the reference to the network for the Host Service. After it is removed, the network is no longer available for associating with virtual NICs (when creating new virtual machines with the Machine Creation Service). Any virtual machines that have been created already continue to use the network until they are removed from the deployment. This command cannot be used if the connection for the hosting unit is in maintenance mode. If the network to be removed no longer exists on the hypervisor for the hosting unit, you must supply a fully qualified path to the network location.
 
 ## Related Commands
-  * [Add-HypHostingUnitNetwork](Add-HypHostingUnitNetwork.html)
+  * [Add-HypHostingUnitNetwork](Add-HypHostingUnitNetwork/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

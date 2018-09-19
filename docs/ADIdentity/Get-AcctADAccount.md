@@ -13,12 +13,12 @@ Get-AcctADAccount [-IdentityPoolUid <Guid>] [-ADAccountSid <String>] [-Domain <S
    Provides the ability to locate the AD accounts stored within the AD Identity Service and view the state of the accounts.
 
 ## Related Commands
-  * [New-AcctADAccount](New-AcctADAccount.html)
-  * [Add-AcctADAccount](Add-AcctADAccount.html)
-  * [Remove-AcctADAccount](Remove-AcctADAccount.html)
-  * [Unlock-AcctADAccount](Unlock-AcctADAccount.html)
-  * [Update-AcctADAccount](Update-AcctADAccount.html)
-  * [Repair-AcctADAccount](Repair-AcctADAccount.html)
+  * [New-AcctADAccount](New-AcctADAccount/)
+  * [Add-AcctADAccount](Add-AcctADAccount/)
+  * [Remove-AcctADAccount](Remove-AcctADAccount/)
+  * [Unlock-AcctADAccount](Unlock-AcctADAccount/)
+  * [Update-AcctADAccount](Update-AcctADAccount/)
+  * [Repair-AcctADAccount](Repair-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

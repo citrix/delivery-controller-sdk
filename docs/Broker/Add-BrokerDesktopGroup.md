@@ -15,9 +15,9 @@ Add-BrokerDesktopGroup [-Name] <String> [-RemotePCCatalog <Catalog>] [-Priority 
 The Remote PC relationships are used by Remote PC automation to determine which desktop groups a machine in a particular Remote PC catalog can be published to. The assignment policy rules belonging to those desktop groups also determines the set of users that are allowed to be assigned to machines from the catalog.
 
 ## Related Commands
-  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup.html)
-  * [Add-BrokerCatalog](Add-BrokerCatalog.html)
-  * [Remove-BrokerCatalog](Remove-BrokerCatalog.html)
+  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup/)
+  * [Add-BrokerCatalog](Add-BrokerCatalog/)
+  * [Remove-BrokerCatalog](Remove-BrokerCatalog/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

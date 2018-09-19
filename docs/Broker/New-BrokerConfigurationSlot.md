@@ -13,9 +13,9 @@ New-BrokerConfigurationSlot [-Name] <String> -SettingsGroup <String> [-Descripti
 For example, the configuration slot may be restricted to configuring Citrix User Profile Manager settings by specifying the SettingsGroup parameter as "G=UPM".
 
 ## Related Commands
-  * [Get-BrokerConfigurationSlot](Get-BrokerConfigurationSlot.html)
-  * [Remove-BrokerConfigurationSlot](Remove-BrokerConfigurationSlot.html)
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
+  * [Get-BrokerConfigurationSlot](Get-BrokerConfigurationSlot/)
+  * [Remove-BrokerConfigurationSlot](Remove-BrokerConfigurationSlot/)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

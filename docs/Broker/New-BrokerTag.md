@@ -11,11 +11,11 @@ New-BrokerTag [-Name] <String> [-Description <String>] [-UUID <Guid>] [-LoggingI
    Creates a tag that can be associated with other objects using Add-BrokerTag.
 
 ## Related Commands
-  * [Add-BrokerTag](Add-BrokerTag.html)
-  * [Get-BrokerTag](Get-BrokerTag.html)
-  * [Remove-BrokerTag](Remove-BrokerTag.html)
-  * [Rename-BrokerTag](Rename-BrokerTag.html)
-  * [Set-BrokerTag](Set-BrokerTag.html)
+  * [Add-BrokerTag](Add-BrokerTag/)
+  * [Get-BrokerTag](Get-BrokerTag/)
+  * [Remove-BrokerTag](Remove-BrokerTag/)
+  * [Rename-BrokerTag](Rename-BrokerTag/)
+  * [Set-BrokerTag](Set-BrokerTag/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

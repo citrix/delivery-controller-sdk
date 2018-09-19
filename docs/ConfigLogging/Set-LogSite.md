@@ -11,7 +11,7 @@ Set-LogSite [-State <LoggingState>] [-Locale <String>] [-PassThru] [-LoggingId <
    This cmdlet sets the global configuration logging settings.
 
 ## Related Commands
-  * [Get-LogSite](Get-LogSite.html)
+  * [Get-LogSite](Get-LogSite/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -13,11 +13,11 @@ Grant-HypSecurityGroupEgress [-LiteralPath] <String> -IPRange <String[]> -Protoc
    Adding an egress rule permits network traffic from instances within the security group to pass to one or more destination CIDR IP address ranges or security groups.
 
 ## Related Commands
-  * [Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html](Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html.html)
-  * [IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml](IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml.html)
-  * [Grant-HypSecurityGroupIngress](Grant-HypSecurityGroupIngress.html)
-  * [Revoke-HypSecurityGroupIngress](Revoke-HypSecurityGroupIngress.html)
-  * [Revoke-HypSecurityGroupEgress](Revoke-HypSecurityGroupEgress.html)
+  * [Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html](Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html/)
+  * [IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml](IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml/)
+  * [Grant-HypSecurityGroupIngress](Grant-HypSecurityGroupIngress/)
+  * [Revoke-HypSecurityGroupIngress](Revoke-HypSecurityGroupIngress/)
+  * [Revoke-HypSecurityGroupEgress](Revoke-HypSecurityGroupEgress/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

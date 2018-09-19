@@ -17,12 +17,12 @@ Rename-AdminScope [-Name] <String> [-NewName] <String> [-PassThru] [-LoggingId <
 Scope names must be unique, and you cannot modify the name of the built-in 'All' scope.
 
 ## Related Commands
-  * [New-AdminScope](New-AdminScope.html)
-  * [Get-AdminScope](Get-AdminScope.html)
-  * [Set-AdminScope](Set-AdminScope.html)
-  * [Remove-AdminScope](Remove-AdminScope.html)
-  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata.html)
-  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata.html)
+  * [New-AdminScope](New-AdminScope/)
+  * [Get-AdminScope](Get-AdminScope/)
+  * [Set-AdminScope](Set-AdminScope/)
+  * [Remove-AdminScope](Remove-AdminScope/)
+  * [Set-AdminScopeMetadata](Set-AdminScopeMetadata/)
+  * [Remove-AdminScopeMetadata](Remove-AdminScopeMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

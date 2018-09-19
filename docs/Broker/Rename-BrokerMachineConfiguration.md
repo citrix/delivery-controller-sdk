@@ -13,11 +13,11 @@ Rename-BrokerMachineConfiguration [-Name] <String> [-NewName] <String> [-PassThr
    The Rename-MachineConfiguration cmdlet changes the name of a machine configuration. A machine configuration cannot have the same name as another machine configuration associated with the same slot.
 
 ## Related Commands
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
-  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration.html)
-  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration.html)
-  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration.html)
-  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration.html)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
+  * [Get-BrokerMachineConfiguration](Get-BrokerMachineConfiguration/)
+  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration/)
+  * [Remove-BrokerMachineConfiguration](Remove-BrokerMachineConfiguration/)
+  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

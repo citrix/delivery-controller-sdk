@@ -15,13 +15,13 @@ Unlock-AcctADAccount -ADAccountSid <String> [-LoggingId <Guid>] [-AdminAddress <
 Note: This command does NOT make any changes to the account information stored in Active Directory.
 
 ## Related Commands
-  * [Get-AcctADAccount](Get-AcctADAccount.html)
-  * [New-AcctADAccount](New-AcctADAccount.html)
-  * [Add-AcctADAccount](Add-AcctADAccount.html)
-  * [Repair-AcctADAccount](Repair-AcctADAccount.html)
-  * [Remove-AcctADAccount](Remove-AcctADAccount.html)
-  * [Update-AcctADAccount](Update-AcctADAccount.html)
-  * [Unlock-AcctADAccount](Unlock-AcctADAccount.html)
+  * [Get-AcctADAccount](Get-AcctADAccount/)
+  * [New-AcctADAccount](New-AcctADAccount/)
+  * [Add-AcctADAccount](Add-AcctADAccount/)
+  * [Repair-AcctADAccount](Repair-AcctADAccount/)
+  * [Remove-AcctADAccount](Remove-AcctADAccount/)
+  * [Update-AcctADAccount](Update-AcctADAccount/)
+  * [Unlock-AcctADAccount](Unlock-AcctADAccount/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

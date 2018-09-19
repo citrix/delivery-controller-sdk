@@ -11,8 +11,8 @@ Reset-BrokerServiceGroupMembership [-ConfigServiceInstance] <PSObject[]> [-Loggi
    Enables you to reload Broker Service access permissions and configuration service locations. The Reset-BrokerServiceGroupMembership command must be run on at least one instance of the service type (Broker) after installation and registration with the configuration service. Without this operation, the Broker services will be unable to communicate with other services in the XenDesktop deployment. When the command is run, the services are updated when additional services are added to the deployment, provided that the configuration service is not stopped. The Reset-BrokerServiceGroupMembership command can be run again to refresh this information if automatic updates do not occur when new services are added to the deployment. If more than one configuration service instance is passed to the command, the first instance that meets the expected service type requirements is used.
 
 ## Related Commands
-  * [Get-BrokerServiceInstance](Get-BrokerServiceInstance.html)
-  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus.html)
+  * [Get-BrokerServiceInstance](Get-BrokerServiceInstance/)
+  * [Get-BrokerServiceStatus](Get-BrokerServiceStatus/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

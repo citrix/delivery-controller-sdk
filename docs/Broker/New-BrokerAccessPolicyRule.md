@@ -19,10 +19,10 @@ Multiple rules in the access policy can apply to the same desktop group.
 For a user to gain access to a desktop group via a rule their connection must match all its enabled include filters, and none of its enabled exclude filters. In addition, for a user to be able to launch a desktop or application resource session from the desktop group, they must have an entitlement to use the resource granted by the entitlement or assignment policies, or by direct machine assignment.
 
 ## Related Commands
-  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule.html)
-  * [Set-BrokerAccessPolicyRule](Set-BrokerAccessPolicyRule.html)
-  * [Rename-BrokerAccessPolicyRule](Rename-BrokerAccessPolicyRule.html)
-  * [Remove-BrokerAccessPolicyRule](Remove-BrokerAccessPolicyRule.html)
+  * [Get-BrokerAccessPolicyRule](Get-BrokerAccessPolicyRule/)
+  * [Set-BrokerAccessPolicyRule](Set-BrokerAccessPolicyRule/)
+  * [Rename-BrokerAccessPolicyRule](Rename-BrokerAccessPolicyRule/)
+  * [Remove-BrokerAccessPolicyRule](Remove-BrokerAccessPolicyRule/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

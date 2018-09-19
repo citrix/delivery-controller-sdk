@@ -39,8 +39,8 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-EnvTestDBConnection](Set-EnvTestDBConnection.html)
-  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection.html)
+  * [Set-EnvTestDBConnection](Set-EnvTestDBConnection/)
+  * [Test-EnvTestDBConnection](Test-EnvTestDBConnection/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

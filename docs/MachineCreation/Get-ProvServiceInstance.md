@@ -13,8 +13,8 @@ Get-ProvServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-ProvServiceStatus](Get-ProvServiceStatus.html)
-  * [Reset-ProvServiceGroupMembership](Reset-ProvServiceGroupMembership.html)
+  * [Get-ProvServiceStatus](Get-ProvServiceStatus/)
+  * [Reset-ProvServiceGroupMembership](Reset-ProvServiceGroupMembership/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

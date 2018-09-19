@@ -11,9 +11,9 @@ Test-BrokerDesktopGroupNameAvailable [-Name] <String[]> [-AdminAddress <String>]
    This cmdlet checks whether proposed DesktopGroup Name is available for use. It returns a record for each Name indicating the availability of that Name, with $true indicating that the Name is unused and available for use, or $false if it is not available.
 
 ## Related Commands
-  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup.html)
-  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup.html)
-  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup.html)
+  * [Get-BrokerDesktopGroup](Get-BrokerDesktopGroup/)
+  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup/)
+  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Configuration Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-ConfigServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-ConfigInstalledDBVersion](Get-ConfigInstalledDBVersion.html)
-  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus.html)
-  * [Get-ConfigDBSchema](Get-ConfigDBSchema.html)
+  * [Get-ConfigInstalledDBVersion](Get-ConfigInstalledDBVersion/)
+  * [Get-ConfigServiceStatus](Get-ConfigServiceStatus/)
+  * [Get-ConfigDBSchema](Get-ConfigDBSchema/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

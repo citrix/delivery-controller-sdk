@@ -296,8 +296,8 @@ The desktop object returned represents a physical or virtual machine configured 
        Note: The desktop will not shut down if it is in maintenance mode, but will shut down after the desktop is taken out of maintenance mode.
 
 ## Related Commands
-  * [Group-BrokerMachine](Group-BrokerMachine.html)
-  * [Get-BrokerMachine](Get-BrokerMachine.html)
+  * [Group-BrokerMachine](Group-BrokerMachine/)
+  * [Get-BrokerMachine](Get-BrokerMachine/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

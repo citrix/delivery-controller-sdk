@@ -11,7 +11,7 @@ Remove-HypMetadata [-LiteralPath] <String> [-Property <String>] [-LoggingId <Gui
    Use this command to remove custom data from a specific hosting unit or hypervisor connection.  If the Property parameter is not provided, all metadata is removed from the specified item.
 
 ## Related Commands
-  * [Remove-HypMetadata](Remove-HypMetadata.html)
+  * [Remove-HypMetadata](Remove-HypMetadata/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

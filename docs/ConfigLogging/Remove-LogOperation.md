@@ -15,7 +15,7 @@ Remove-LogOperation -UserName <String> -SecurePassword <SecureString> [-StartDat
    Remove-LogOperation deletes logs from the Configuration  Logging database. This cmdlet targets high level operation logs for deletion. The associated low level operations logs are deleted as part of this operation via cascade deletion functionality present in the configuration logging database schema.
 
 ## Related Commands
-  * [](.html)
+  * [](/)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
