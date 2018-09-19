@@ -230,7 +230,7 @@ pages:
   - Get-BrokerServiceAddedCapability: Broker/Get-BrokerServiceAddedCapability.md
   - Get-BrokerServiceInstance: Broker/Get-BrokerServiceInstance.md
   - Get-BrokerServiceStatus: Broker/Get-BrokerServiceStatus.md
-  - Get-BrokerSession: Broker/Get-BrokerServiceStatus.md
+  - Get-BrokerSession: Broker/Get-BrokerSession.md
   - Get-BrokerSessionLinger: Broker/Get-BrokerSessionLinger.md
   - Get-BrokerSessionPreLaunch: Broker/Get-BrokerSessionPreLaunch.md
   - Get-BrokerSharedDesktop: Broker/Get-BrokerSharedDesktop.md
