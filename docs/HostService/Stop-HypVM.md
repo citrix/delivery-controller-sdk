@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Stop-HypVM [-LiteralPath] <String> [-AdminAddress <String>] [<CommonParameters>]
+Stop-HypVM [-LiteralPath] <String> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -16,6 +16,7 @@ Stop-HypVM [-LiteralPath] <String> [-AdminAddress <String>] [<CommonParameters>]
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | LiteralPath | Specifies the path within a hosting unit provider to the virtual machine item to stop. The path specified must be in one of the following formats: <drive>:\Connections\<Connection Name>\<Item Path of VM object> or  <drive>:\Connections\{<connection Uid>\<Item Path of VM object>} or <drive>:\HostingUnits\<HostingUnit Name>\<Item Path of VM object> or  <drive>:\HostingUnits\{<hostingUnit Uid>\<Item Path of VM object>} | true | true (ByValue) |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in will connect to.  This can be provided as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value will become the default. |
 
 ## Input Type

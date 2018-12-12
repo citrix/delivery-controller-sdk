@@ -1,37 +1,36 @@
-﻿# New-BrokerApplication
-
-   Creates a new published application.
-
+﻿
+# New-Brokerapplication
+Creates a new published application.
 ## Syntax
 ```
-New-BrokerApplication [-Name] <String> -ApplicationGroup <ApplicationGroup> -CommandLineExecutable <String> [-AdminFolder <AdminFolder>] [-ApplicationType <ApplicationType>] [-BrowserName <String>] [-ClientFolder <String>] [-CommandLineArguments <String>] [-CpuPriorityLevel <CpuPriorityLevel>] [-Description <String>] [-Enabled <Boolean>] [-HomeZoneOnly <Boolean>] [-HomeZoneUid <Guid>] [-IconFromClient <Boolean>] [-IconUid <Int32>] [-IgnoreUserHomeZone <Boolean>] [-MaxPerUserInstances <Int32>] [-MaxTotalInstances <Int32>] [-PublishedName <String>] [-SecureCmdLineArgumentsEnabled <Boolean>] [-ShortcutAddedToDesktop <Boolean>] [-ShortcutAddedToStartMenu <Boolean>] [-StartMenuFolder <String>] [-UserFilterEnabled <Boolean>] [-UUID <Guid>] [-Visible <Boolean>] [-WaitForPrinterCreation <Boolean>] [-WorkingDirectory <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+New-BrokerApplication [-Name] <String> -ApplicationGroup <ApplicationGroup> -CommandLineExecutable <String> [-AdminFolder <AdminFolder>] [-ApplicationType <ApplicationType>] [-BrowserName <String>] [-ClientFolder <String>] [-CommandLineArguments <String>] [-CpuPriorityLevel <CpuPriorityLevel>] [-Description <String>] [-Enabled <Boolean>] [-HomeZoneOnly <Boolean>] [-HomeZoneUid <Guid>] [-IconFromClient <Boolean>] [-IconUid <Int32>] [-IgnoreUserHomeZone <Boolean>] [-MaxPerUserInstances <Int32>] [-MaxTotalInstances <Int32>] [-PublishedName <String>] [-SecureCmdLineArgumentsEnabled <Boolean>] [-ShortcutAddedToDesktop <Boolean>] [-ShortcutAddedToStartMenu <Boolean>] [-StartMenuFolder <String>] [-UserFilterEnabled <Boolean>] [-UUID <Guid>] [-Visible <Boolean>] [-WaitForPrinterCreation <Boolean>] [-WorkingDirectory <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-New-BrokerApplication [-Name] <String> -DesktopGroup <DesktopGroup> -CommandLineExecutable <String> [-Priority <Int32>] [-AdminFolder <AdminFolder>] [-ApplicationType <ApplicationType>] [-BrowserName <String>] [-ClientFolder <String>] [-CommandLineArguments <String>] [-CpuPriorityLevel <CpuPriorityLevel>] [-Description <String>] [-Enabled <Boolean>] [-HomeZoneOnly <Boolean>] [-HomeZoneUid <Guid>] [-IconFromClient <Boolean>] [-IconUid <Int32>] [-IgnoreUserHomeZone <Boolean>] [-MaxPerUserInstances <Int32>] [-MaxTotalInstances <Int32>] [-PublishedName <String>] [-SecureCmdLineArgumentsEnabled <Boolean>] [-ShortcutAddedToDesktop <Boolean>] [-ShortcutAddedToStartMenu <Boolean>] [-StartMenuFolder <String>] [-UserFilterEnabled <Boolean>] [-UUID <Guid>] [-Visible <Boolean>] [-WaitForPrinterCreation <Boolean>] [-WorkingDirectory <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+New-BrokerApplication [-Name] <String> -DesktopGroup <DesktopGroup> -CommandLineExecutable <String> [-Priority <Int32>] [-AdminFolder <AdminFolder>] [-ApplicationType <ApplicationType>] [-BrowserName <String>] [-ClientFolder <String>] [-CommandLineArguments <String>] [-CpuPriorityLevel <CpuPriorityLevel>] [-Description <String>] [-Enabled <Boolean>] [-HomeZoneOnly <Boolean>] [-HomeZoneUid <Guid>] [-IconFromClient <Boolean>] [-IconUid <Int32>] [-IgnoreUserHomeZone <Boolean>] [-MaxPerUserInstances <Int32>] [-MaxTotalInstances <Int32>] [-PublishedName <String>] [-SecureCmdLineArgumentsEnabled <Boolean>] [-ShortcutAddedToDesktop <Boolean>] [-ShortcutAddedToStartMenu <Boolean>] [-StartMenuFolder <String>] [-UserFilterEnabled <Boolean>] [-UUID <Guid>] [-Visible <Boolean>] [-WaitForPrinterCreation <Boolean>] [-WorkingDirectory <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   The New-BrokerApplication cmdlet creates a new published application in the site.
+The New-BrokerApplication cmdlet creates a new published application in the site.
 
 New-BrokerApplication creates the application object, and associates it with a desktop group or application group. Application objects have three names that identify them (in addition to their Uid): the Name, BrowserName and the PublishedName. The BrowserName is unique across the entire site, and is primarily used internally. The Name is also unique and is what is seen by the administrator; it contains any prefix for an enclosing admin folder (if any). The PublishedName is not unique and is what is seen by the users.
 
 You can create HostedOnDesktop, InstalledOnClient or PublishedContent applications but the ApplicationType cannot be changed later.
 
-The following special characters are not allowed in the Name, BrowserName or the PublishedName properties: \ / ; : # . * ? = < > | [ ] ( ) " '
+The following special characters are not allowed in the Name, BrowserName or the PublishedName properties: \\ / ; : # . \* ? = &lt; &gt; | \[ \] ( ) " '
 
-In addition the ` character is not allowed in the Name property.
+In addition the \` character is not allowed in the Name property.
 
-See about_Broker_Applications for more information.
+See about\_Broker\_Applications for more information.
+
 
 ## Related Commands
-  * [Add-BrokerApplication](Add-BrokerApplication/)
-  * [Remove-BrokerApplication](Remove-BrokerApplication/)
-  * [Get-BrokerApplication](Get-BrokerApplication/)
-  * [Remove-BrokerApplication](Remove-BrokerApplication/)
-  * [Rename-BrokerApplication](Rename-BrokerApplication/)
-  * [Move-BrokerApplication](Move-BrokerApplication/)
-  * [Set-BrokerApplication](Set-BrokerApplication/)
-## Parameters
 
+* [Add-BrokerApplication](./Add-BrokerApplication/)
+* [Remove-BrokerApplication](./Remove-BrokerApplication/)
+* [Get-BrokerApplication](./Get-BrokerApplication/)
+* [Remove-BrokerApplication](./Remove-BrokerApplication/)
+* [Rename-BrokerApplication](./Rename-BrokerApplication/)
+* [Move-BrokerApplication](./Move-BrokerApplication/)
+* [Set-BrokerApplication](./Set-BrokerApplication/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Name | Specifies the name of the application (must be unique within folder). | true | true (ByPropertyName) |  |
@@ -41,7 +40,7 @@ See about_Broker_Applications for more information.
 | AdminFolder | The folder in which the new application should reside (if any). | false | true (ByPropertyName) |  |
 | ApplicationType | Specifies the type of the application: HostedOnDesktop, InstalledOnClient or PublishedContent. | false | true (ByPropertyName) | (required) |
 | BrowserName | Specifies the internal name for this application. It must be unique in the site. | false | true (ByPropertyName) | (same as Name) |
-| ClientFolder | Specifies the folder that the application belongs to as the user sees it. This is the application folder that is seen in the Citrix Online Plug-in, in Web Services, and also in the end-user's Start menu. Subdirectories can be specified with '\' character. The following special characters are not allowed: / * ? < > | " :. Note that this property cannot be set for applications of type InstalledOnClient. | false | true (ByPropertyName) | null |
+| ClientFolder | Specifies the folder that the application belongs to as the user sees it. This is the application folder that is seen in the Citrix Online Plug-in, in Web Services, and also in the end-user's Start menu. Subdirectories can be specified with '\\' character. The following special characters are not allowed: / \* ? &lt; &gt; | " :. Note that this property cannot be set for applications of type InstalledOnClient. | false | true (ByPropertyName) | null |
 | CommandLineArguments | Specifies the command-line arguments to use when launching the executable. Environment variables can be used. This setting is ignored for applications of type PublishedContent. | false | true (ByPropertyName) | null |
 | CpuPriorityLevel | Specifies the CPU priority for the launched process. Valid values are: Low, BelowNormal, Normal, AboveNormal, and High. Note that this property cannot be set for applications of type InstalledOnClient. | false | true (ByPropertyName) | Normal |
 | Description | Specifies the description of the application. This is only seen by Citrix administrators and is not visible to users. | false | true (ByPropertyName) | null |
@@ -57,7 +56,7 @@ See about_Broker_Applications for more information.
 | SecureCmdLineArgumentsEnabled | Specifies whether the command-line arguments are secured or not. This is reserved for possible future use, and all applications of type HostedOnDesktop can only have this value set to true. | false | true (ByPropertyName) | true |
 | ShortcutAddedToDesktop | Specifies whether or not a shortcut to the application should be placed on the user device. This is valid only for the Citrix Online Plug-in. | false | true (ByPropertyName) | false |
 | ShortcutAddedToStartMenu | Specifies whether a shortcut to the application should be placed in the user's start menu on their user device. | false | true (ByPropertyName) | false |
-| StartMenuFolder | Specifies the name of the start menu folder that holds the application shortcut (if any). This is valid only for the Citrix Online Plug-in. Subdirectories can be specified with '\' character. The following special characters are not allowed: / * ? < > | " :. | false | true (ByPropertyName) | null |
+| StartMenuFolder | Specifies the name of the start menu folder that holds the application shortcut (if any). This is valid only for the Citrix Online Plug-in. Subdirectories can be specified with '\\' character. The following special characters are not allowed: / \* ? &lt; &gt; | " :. | false | true (ByPropertyName) | null |
 | UserFilterEnabled | Specifies whether the application's user filter is enabled or disabled. Where the user filter is enabled, the application is visible only to users who appear in the filter (either explicitly or by virtue of group membership). | false | true (ByPropertyName) | false |
 | UUID | An optional GUID for this application. | false | true (ByPropertyName) | A new GUID is generated if none is supplied. |
 | Visible | Specifies whether or not this application is visible to users. Note that it's possible for an application to be disabled and still visible. | false | true (ByPropertyName) | true |
@@ -65,34 +64,46 @@ See about_Broker_Applications for more information.
 | WorkingDirectory | Specifies which working directory the executable is launched from. Environment variables can be used. This setting is ignored for applications of type PublishedContent. | false | true (ByPropertyName) | null |
 | LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | Priority | Specifies the priority of the mapping between the application and desktop group. A value of zero has the highest priority, with increasing values indicating lower priorities. | false | true (ByPropertyName) |  |
 
 ## Input Type
-### Depends on parameter
-   Parameters can be piped by property name.
+
+### Depends On Parameter
+Parameters can be piped by property name.
 ## Return Values
-### Citrix.Broker.Admin.SDK.Application
-   New-BrokerApplication returns an Application object.## Notes
-   Usually only the Name is specified with the New-BrokerApplication cmdlet, and the system chooses a BrowserName and PublishedName for you. By default the BrowserName is the same as the Name, if it is unique in the site. If not, then "-x" is appended to the name, where "x" is a number. For instance, if there is already an application with a BrowserName of "Notepad" and a new application is created with a Name of "Notepad", then the new application gets a BrowserName of "Notepad-1". If another "Notepad" is published, it has a BrowserName of "Notepad-2".<br>    That said, the BrowserName can optionally be specified as well.
+
+### Citrix.Broker.Admin.Sdk.Application
+New-BrokerApplication returns an Application object.
+## Notes
+Usually only the Name is specified with the New-BrokerApplication cmdlet, and the system chooses a BrowserName and PublishedName for you. By default the BrowserName is the same as the Name, if it is unique in the site. If not, then "-x" is appended to the name, where "x" is a number. For instance, if there is already an application with a BrowserName of "Notepad" and a new application is created with a Name of "Notepad", then the new application gets a BrowserName of "Notepad-1". If another "Notepad" is published, it has a BrowserName of "Notepad-2".<br>    That said, the BrowserName can optionally be specified as well.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> New-BrokerApplication -ApplicationType HostedOnDesktop -Name "Notepad" -CommandLineExecutable "notepad.exe" -DesktopGroup PrivateDG1
 ```
-   Description<br>-----------<br>Creates and returns an object for a published application called "Notepad" that launches "notepad.exe".
-### EXAMPLE 2
+#### Description
+Creates and returns an object for a published application called "Notepad" that launches "notepad.exe".
+### Example 2
 ```
 C:\PS> New-BrokerApplication -ApplicationType PublishedContent -Name "Citrix.com" -CommandLineExecutable "https://www.citrix.com/" -DesktopGroup SharedDG1
 ```
-   Description<br>-----------<br>Creates and returns an object for a published application called "Citrix.com" that launches the URL https://www.citrix.com/.
-### EXAMPLE 3
+#### Description
+Creates and returns an object for a published application called "Citrix.com" that launches the URL https://www.citrix.com/.
+### Example 3
 ```
 C:\PS> $dg = Get-BrokerDesktopGroup "SharedDG1"
+
 C:\PS> $app = New-BrokerApplication -ApplicationType HostedOnDesktop -Name "Notepad" -CommandLineExecutable "notepad.exe" -DesktopGroup $dg
+
 C:\PS> $group = Get-BrokerDesktopGroup -Name "Shared desktop group"
+
 C:\PS> Add-BrokerApplication $app -DesktopGroup $group
+
 C:\PS> $fta = Get-BrokerImportedFTA -ExtensionName ".txt"
+
 C:\PS> New-BrokerConfiguredFTA -ImportedFTA $fta -ApplicationUid $app.Uid
 ```
-   Description<br>-----------<br>This is a much more complete example. It creates an application object to publish Notepad and associates it first with the "SharedDG1" desktop group.<br>Next it adds an additional desktop group (one that can host applications), and publishes the application to that desktop group. It then gets the ImportedFTA object for the .txt file-type extension (this assumes file-type associations have already been imported), and then configures it so that ".txt" is associated with the published application.<br>Note: The appropriate access policy and app assignment/entitlement rules must also be configured to allow access to the application.
+#### Description
+This is a much more complete example. It creates an application object to publish Notepad and associates it first with the "SharedDG1" desktop group.&lt;br&gt;Next it adds an additional desktop group (one that can host applications), and publishes the application to that desktop group. It then gets the ImportedFTA object for the .txt file-type extension (this assumes file-type associations have already been imported), and then configures it so that ".txt" is associated with the published application.&lt;br&gt;Note: The appropriate access policy and app assignment/entitlement rules must also be configured to allow access to the application.

@@ -1,23 +1,22 @@
-﻿# Add-MonitorNotificationPolicyCondition
-
-   Add conditions to the existing policy specified and returns the updated policy.
-
+﻿
+# Add-Monitornotificationpolicycondition
+Add conditions to the existing policy specified and returns the updated policy.
 ## Syntax
 ```
-Add-MonitorNotificationPolicyCondition -InputObject <MonitorNotificationPolicy> [-AlertThreshold <Int32>] [-AlarmThreshold <Int32>] [-AlertRenotification <TimeSpan>] [-AlarmRenotification <TimeSpan>] [-SearchWindow <TimeSpan>] [-AlertConditionPersistenceInterval <TimeSpan>] [-AlarmConditionPersistenceInterval <TimeSpan>] [-Granularity <TimeSpan>] [-AlertSampleCount <Int32>] [-AlarmSampleCount <Int32>] [-AlertSamplePercent <Int32>] [-AlarmSamplePercent <Int32>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Add-MonitorNotificationPolicyCondition -InputObject <MonitorNotificationPolicy> [-AlertThreshold <Int32>] [-AlarmThreshold <Int32>] [-AlertRenotification <TimeSpan>] [-AlarmRenotification <TimeSpan>] [-SearchWindow <TimeSpan>] [-AlertConditionPersistenceInterval <TimeSpan>] [-AlarmConditionPersistenceInterval <TimeSpan>] [-Granularity <TimeSpan>] [-AlertSampleCount <Int32>] [-AlarmSampleCount <Int32>] [-AlertSamplePercent <Int32>] [-AlarmSamplePercent <Int32>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Add-MonitorNotificationPolicyCondition -Uid <Int64> -ConditionType <ConditionType> [-AlertThreshold <Int32>] [-AlarmThreshold <Int32>] [-AlertRenotification <TimeSpan>] [-AlarmRenotification <TimeSpan>] [-SearchWindow <TimeSpan>] [-AlertConditionPersistenceInterval <TimeSpan>] [-AlarmConditionPersistenceInterval <TimeSpan>] [-Granularity <TimeSpan>] [-AlertSampleCount <Int32>] [-AlarmSampleCount <Int32>] [-AlertSamplePercent <Int32>] [-AlarmSamplePercent <Int32>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Add-MonitorNotificationPolicyCondition -Uid <Int64> -ConditionType <ConditionType> [-AlertThreshold <Int32>] [-AlarmThreshold <Int32>] [-AlertRenotification <TimeSpan>] [-AlarmRenotification <TimeSpan>] [-SearchWindow <TimeSpan>] [-AlertConditionPersistenceInterval <TimeSpan>] [-AlarmConditionPersistenceInterval <TimeSpan>] [-Granularity <TimeSpan>] [-AlertSampleCount <Int32>] [-AlarmSampleCount <Int32>] [-AlertSamplePercent <Int32>] [-AlarmSamplePercent <Int32>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   Add conditions to the existing policy specified and returns the updated policy.
+Add conditions to the existing policy specified and returns the updated policy.
+
 
 ## Related Commands
-  * [Get-MonitorNotificationPolicy](Get-MonitorNotificationPolicy/)
-  * [Set-MonitorNotificationPolicy](Set-MonitorNotificationPolicy/)
-  * [Remove-MonitorNotificationPolicy](Remove-MonitorNotificationPolicy/)
-## Parameters
 
+* [Get-MonitorNotificationPolicy](./Get-MonitorNotificationPolicy/)
+* [Set-MonitorNotificationPolicy](./Set-MonitorNotificationPolicy/)
+* [Remove-MonitorNotificationPolicy](./Remove-MonitorNotificationPolicy/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | InputObject | Specifies the policy object to which the conditions to be added | true | true (ByValue) |  |
@@ -36,22 +35,28 @@ Add-MonitorNotificationPolicyCondition -Uid <Int64> -ConditionType <ConditionTyp
 | AlertSamplePercent | Defines the percentage of instances to measure before raising the warning notification. This value is applicable for ICA RTT (Session Percent) condition. | false | false |  |
 | AlarmSamplePercent | Defines the percentage of instances to measure before raising the critical notification. This value is applicable for ICA RTT (Session Percent) condition. | false | false |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type
+
 ### 
-   
+
 ## Return Values
-### MonitorNotificationPolicy
-   Returns the updated policy object
+
+### Monitornotificationpolicy
+Returns the updated policy object
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 $timeSpan = New-TimeSpan -Seconds 30
+
           $alertThreshold = 10
+
           $alarmThreshold = 20
-          
+
           Add-MonitorNotificationPolicyCondition -Uid 100 -ConditionType SessionsConcurrentCount -AlertThreshold $alertThreshold -AlarmThreshold $alarmThreshold  -AlertRenotification $timeSpan -AlarmRenotification $timeSpan
 ```
-   Description<br>-----------<br>Add SessionsConcurrentCount condition to the policy matching the id 100
+#### Description
+Add SessionsConcurrentCount condition to the policy matching the id 100

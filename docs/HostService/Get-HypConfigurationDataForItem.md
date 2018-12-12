@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-HypConfigurationDataForItem [-LiteralPath] <String> [-AdminAddress <String>] [<CommonParameters>]
+Get-HypConfigurationDataForItem [-LiteralPath] <String> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -13,12 +13,13 @@ Get-HypConfigurationDataForItem [-LiteralPath] <String> [-AdminAddress <String>]
 This mechanism is used for obtaining data that is not required frequently and/or has a high overhead associated with its retrieval (so as to maintain the responsiveness of the provider). For this release of the PowerShell snap-in, the only provider items that can be used with this operation are VM items.  For a VM, this provides a mechanism to obtain the number of CPUs, the amount of Memory (in MB) and hard disk drive capacity (in GB).
 
 ## Related Commands
-  * [Get-Item](Get-Item/)
+  * [Get-Item](Get-Item.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | LiteralPath | Specifies the path within a hosting unit provider to the item for which configuration data is to be retrieved. The path specified must be in one of the following formats; <drive>:\Connections\<Connection Name>\<Item Path of VM object> or  <drive>:\Connections\{<connection Uid>\<Item Path of VM object>} or <drive>:\HostingUnits\<HostingUnit Name>\<Item Path of VM object> or  <drive>:\HostingUnits\{<hostingUnit Uid>\<Item Path of VM object>} | true | true (ByValue) |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

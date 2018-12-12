@@ -128,7 +128,7 @@
             has not been used, the command attempts to use a local Host 
             Service. 
 
-        -LoggingId <String> 
+        -LoggingId <Guid> 
             Specifies the identifier of the high-level operation that this cmdlet call 
             forms a part of. Citrix Studio and Director typically create 
             high-level operations. PowerShell scripts can also wrap a series of cmdlet 
@@ -140,14 +140,9 @@
             be a part of. The scopes control which administrators are able to 
             work with the connection. 
 
-        -ZoneUid <Uid> 
+        -ZoneUid <Guid> 
             Specifies the ZoneUid the connection belongs to. The zone determines which 
             connections are local to the controller. 
-
-        -JobGroup <Uid> 
-            Specifies the Uid assocuiated with the HypStorage object created with 
-            the New-HypStorage command. This HypStorage object specifies any additional 
-            storage details required for the new connection. 
 
         The following parameters are available when using New-Item in the 
         HostingUnits directory (or a path that refers to the directory). 
@@ -226,17 +221,22 @@
 			Machine Creation Services creates VMs. Only a single GPU Group is supported 
 			and the value is immutable. 
 
-        -LoggingId <String> 
+        -LoggingId <Guid> 
             Specifies the identifier of the high-level operation that this cmdlet call 
             forms a part of. Citrix Studio and Director typically create 
             high-level operations. PowerShell scripts can also wrap a series of cmdlet 
             calls in a high-level operation by way of the Start-LogHighLevelOperation 
             and Stop-LogHighLevelOperation cmdlets. 
+		 
+		-JobGroup <Guid> 
+            Specifies the Uid assocuiated with the HypStorage object created with 
+            the New-HypStorage command. This HypStorage object specifies any additional 
+            storage details required for the new connection. 
 
         The following parameters are available when using New-Item relative to a 
         connection or hosting unit. 
 
-        -ItemType <string> 
+        -ItemType <String> 
             Specifies the type of item to create when invoked relative to a connection 
             or hosting unit. Supported ItemType values are: 
 
@@ -257,7 +257,7 @@
     Remove-Item 
         The following additional parameters are available. 
 
-        AdminAddress 
+        AdminAddress <String> 
             Specifies the address of the Host Service that the command 
             communicates with. After it is set, this address is used for all commands 
             in the Host Service PowerShell snap-in. If this parameter is not 
@@ -265,7 +265,7 @@
             has not been used, the command attempts to use a local Host 
             Service. 
 
-        -LoggingId <String> 
+        -LoggingId <Guid> 
             Specifies the identifier of the high-level operation that this cmdlet call 
             forms a part of. Citrix Studio and  Director typically create 
             high-level operations. PowerShell scripts can also wrap a series of cmdlet 
@@ -301,11 +301,11 @@
             the UserName parameter and either Password or SecurePassword, so use of one 
             precludes use of the other. 
              
-        -HypervisorAddress <string[]> 
+        -HypervisorAddress <String[]> 
             Specifies the addresses of the hypervisor that this connection represents. 
             This replaces all existing addresses. 
 
-        -LoggingId <String> 
+        -LoggingId <Guid> 
             Specifies the identifier of the high-level operation that this cmdlet call 
             forms a part of. Citrix Studio and Director typically create 
             high-level operations. PowerShell scripts can also wrap a series of cmdlet 
@@ -361,13 +361,13 @@
             has not been used, the command attempts to use a local Host 
             Service. 
              
-        -UseLocalStorageCaching <bool> 
+        -UseLocalStorageCaching <Boolean> 
             When Get-HypServiceAddedCapability indicates that the LocalStorageCaching 
             feature is available, use this parameter to specify that 
             the virtual machines created for this hosting unit will use local 
             storage caching for their disk images. 
 
-        -LoggingId <String> 
+        -LoggingId <Guid> 
             Specifies the identifier of the high-level operation that this cmdlet call 
             forms a part of. Citrix Studio and Director typically create 
             high-level operations. PowerShell scripts can also wrap a series of cmdlet 

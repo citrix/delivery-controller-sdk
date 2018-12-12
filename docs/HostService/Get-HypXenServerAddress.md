@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-HypXenServerAddress [-LiteralPath] <String> [-AdminAddress <String>] [<CommonParameters>]
+Get-HypXenServerAddress [-LiteralPath] <String> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -13,12 +13,13 @@ Get-HypXenServerAddress [-LiteralPath] <String> [-AdminAddress <String>] [<Commo
 If the addresses are https addresses, the command uses the certificates installed on the XenServers to provide suitable https addresses where possible.  Only servers that can be resolved are returned.
 
 ## Related Commands
-  * [Add-HypHypervisorConnectionAddress](Add-HypHypervisorConnectionAddress/)
+  * [Add-HypHypervisorConnectionAddress](Add-HypHypervisorConnectionAddress.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | LiteralPath | Specifies the path within a Host Service provider to the hypervisor connection item to which to add the address. The path specified must be in one of the following formats: <drive>:\Connections\<HypervisorConnectionName> or  <drive>:\Connections\{HHypervisorConnection Uid>} | true | true (ByValue) |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

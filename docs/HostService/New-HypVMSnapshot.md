@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-New-HypVMSnapshot [-LiteralPath] <String> [-SnapshotName] <String> [-LoggingId <Guid>] [-AdminAddress <String>] [[-SnapshotDescription] <String>] [<CommonParameters>]
+New-HypVMSnapshot [-LiteralPath] <String> [-SnapshotName] <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [[-SnapshotDescription] <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -18,6 +18,7 @@ New-HypVMSnapshot [-LiteralPath] <String> [-SnapshotName] <String> [-LoggingId <
 | LiteralPath | Specifies the path within a hosting unit provider to the virtual machine item for which to create a new snapshot. The path specified must be in one of the following formats: <drive>:\Connections\<Connection Name>\<Item Path of VM object> or  <drive>:\Connections\{<connection Uid>\<Item Path of VM object>} or <drive>:\HostingUnits\<HostingUnit Name>\<Item Path of VM object> or  <drive>:\HostingUnits\{<hostingUnit Uid>\<Item Path of VM object>} | true | true (ByValue) |  |
 | SnapshotName | The name of the new snapshot. This is visible in the hypervisor management console. | true | false |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 | SnapshotDescription | The description to add to the snapshot. This is visible in the hypervisor management console. | false | false |  |
 

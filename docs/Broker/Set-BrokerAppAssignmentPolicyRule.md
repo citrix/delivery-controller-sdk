@@ -1,28 +1,27 @@
-﻿# Set-BrokerAppAssignmentPolicyRule
-
-   Modifies an existing application rule in the site's assignment policy.
-
+﻿
+# Set-Brokerappassignmentpolicyrule
+Modifies an existing application rule in the site's assignment policy.
 ## Syntax
 ```
-Set-BrokerAppAssignmentPolicyRule [-InputObject] <AppAssignmentPolicyRule[]> [-PassThru] [-AddExcludedUsers <User[]>] [-AddIncludedUsers <User[]>] [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-RemoveExcludedUsers <User[]>] [-RemoveIncludedUsers <User[]>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-BrokerAppAssignmentPolicyRule [-InputObject] <AppAssignmentPolicyRule[]> [-PassThru] [-AddExcludedUsers <User[]>] [-AddIncludedUsers <User[]>] [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-RemoveExcludedUsers <User[]>] [-RemoveIncludedUsers <User[]>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Set-BrokerAppAssignmentPolicyRule [-Name] <String> [-PassThru] [-AddExcludedUsers <User[]>] [-AddIncludedUsers <User[]>] [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-RemoveExcludedUsers <User[]>] [-RemoveIncludedUsers <User[]>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-BrokerAppAssignmentPolicyRule [-Name] <String> [-PassThru] [-AddExcludedUsers <User[]>] [-AddIncludedUsers <User[]>] [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-RemoveExcludedUsers <User[]>] [-RemoveIncludedUsers <User[]>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   The Set-BrokerAppAssignmentPolicyRule cmdlet modifies an existing application rule in the site's assignment policy.
+The Set-BrokerAppAssignmentPolicyRule cmdlet modifies an existing application rule in the site's assignment policy.
 
 An application rule in the assignment policy defines the users who are entitled to a self-service persistent machine assignment from the rule's desktop group; once assigned the machine can run one or more applications published from the group.
 
 Changing an application rule does not alter machine assignments that have already been made by the rule, nor does it affect active sessions to those machines in any way.
 
-## Related Commands
-  * [New-BrokerAppAssignmentPolicyRule](New-BrokerAppAssignmentPolicyRule/)
-  * [Get-BrokerAppAssignmentPolicyRule](Get-BrokerAppAssignmentPolicyRule/)
-  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule/)
-  * [Remove-BrokerAppAssignmentPolicyRule](Remove-BrokerAppAssignmentPolicyRule/)
-## Parameters
 
+## Related Commands
+
+* [New-BrokerAppAssignmentPolicyRule](./New-BrokerAppAssignmentPolicyRule/)
+* [Get-BrokerAppAssignmentPolicyRule](./Get-BrokerAppAssignmentPolicyRule/)
+* [Rename-BrokerAppAssignmentPolicyRule](./Rename-BrokerAppAssignmentPolicyRule/)
+* [Remove-BrokerAppAssignmentPolicyRule](./Remove-BrokerAppAssignmentPolicyRule/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | InputObject | The application rule in the assignment policy to be modified. | true | true (ByValue) |  |
@@ -40,22 +39,27 @@ Changing an application rule does not alter machine assignments that have alread
 | RemoveIncludedUsers | Removes the specified users from the included users filter of the application rule, that is, the users and groups who are granted an entitlement to a machine assignment by the rule.<br>See the IncludedUsers parameter for more information. | false | false |  |
 | LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
-### Citrix.Broker.Admin.SDK.AppAssignmentPolicyRule
-   The application rule within the assignment policy to be modified.
+
+### Citrix.Broker.Admin.Sdk.Appassignmentpolicyrule
+The application rule within the assignment policy to be modified.
 ## Return Values
-### None or Citrix.Broker.Admin.SDK.AppAssignmentPolicyRule
-   This cmdlet does not generate any output, unless you use the PassThru parameter, in which case it generates a Citrix.Broker.Admin.SDK.AppAssignmentPolicyRule object.
+
+### None Or Citrix.Broker.Admin.Sdk.Appassignmentpolicyrule
+This cmdlet does not generate any output, unless you use the PassThru parameter, in which case it generates a Citrix.Broker.Admin.SDK.AppAssignmentPolicyRule object.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> Set-BrokerAppAssignmentPolicyRule 'Temp Staff' -AddIncludedUsers office\interns
 ```
-   Description<br>-----------<br>Adds the user group OFFICE\interns to the Temp Staff application rule in the assignment policy. This grants all members of that user group an entitlement to a machine in the rule's desktop group. The machines can run applications published from the group. The application session properties obtained using the rule are determined by the rule's other properties.
-### EXAMPLE 2
+#### Description
+Adds the user group OFFICE\\interns to the Temp Staff application rule in the assignment policy. This grants all members of that user group an entitlement to a machine in the rule's desktop group. The machines can run applications published from the group. The application session properties obtained using the rule are determined by the rule's other properties.
+### Example 2
 ```
 C:\PS> Set-BrokerAppAssignmentPolicyRule 'Temp Staff' -Enabled $false
 ```
-   Description<br>-----------<br>Disables the Temp Staff application rule in the assignment policy. This prevents further machine assignments being made using this rule until it is re-enabled. However, access to machines already assigned using the rule is not impacted.
+#### Description
+Disables the Temp Staff application rule in the assignment policy. This prevents further machine assignments being made using this rule until it is re-enabled. However, access to machines already assigned using the rule is not impacted.

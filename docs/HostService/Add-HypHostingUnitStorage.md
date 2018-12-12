@@ -4,17 +4,17 @@
 
 ## Syntax
 ```
-Add-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-StorageType <StorageType>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Add-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-StorageType <StorageType>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this command to add storage locations for storing the hard disks required by the virtual machines created by the Citrix Machine Creation Service. You cannot use this command if the connection for the hosting unit is in maintenance mode.
 
 ## Related Commands
-  * [New-Item](New-Item/)
-  * [Add-HypMetadata](Add-HypMetadata/)
-  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage/)
-  * [Set-HypHostingUnitStorage](Set-HypHostingUnitStorage/)
+  * [New-Item](New-Item.html)
+  * [Add-HypMetadata](Add-HypMetadata.html)
+  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage.html)
+  * [Set-HypHostingUnitStorage](Set-HypHostingUnitStorage.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -23,6 +23,7 @@ Add-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-Stor
 | StoragePath | Specifies the path to the storage that will be added. The path must be in one of the following formats: <drive>:\Connections\<ConnectionName>\MyStorage.storage or  <drive>:\Connections\{<Connection Uid>}\MyStorage.storage or  <drive>:\HostingUnits\<HostingUnitName>\MyStorage.storage or  <drive>:\HostingUnits\{<hostingUnit Uid>}\MyStorage.storage | true | true (ByValue) |  |
 | StorageType | Specifies the type of storage in StoragePath. Supported storage types are: OSStorage PersonalvDiskStorage TemporaryStorage | false | false | OSStorage |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller to which the PowerShell snap-in connects. This can be a host name or an IP address. | false | false | LocalHost. When a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

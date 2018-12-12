@@ -4,17 +4,17 @@
 
 ## Syntax
 ```
-Get-ConfigEdgeServer [[-Name] <String>] [-Uid <Guid>] [-Description <String>] [-MachineAddress <String>] [-Metadata <String>] [-Sid <String>] [-Uuid <Guid>] [-ZoneName <String>] [-ZoneUid <Guid>] [-Property <String[]>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-AdminAddress <String>] [<CommonParameters>]
+Get-ConfigEdgeServer [[-Name] <String>] [-Uid <Guid>] [-Description <String>] [-MachineAddress <String>] [-Metadata <String>] [-Sid <String>] [-TenantId <Guid>] [-Uuid <Guid>] [-ZoneName <String>] [-ZoneUid <Guid>] [-Property <String[]>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Retrieves Edge Servers matching the specified criteria. If no parameters specified, returns all known Edge Servers
 
 ## Related Commands
-  * [New-ConfigEdgeServer](New-ConfigEdgeServer/)
-  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer/)
-  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer/)
-  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer/)
+  * [New-ConfigEdgeServer](New-ConfigEdgeServer.html)
+  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer.html)
+  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer.html)
+  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -25,6 +25,7 @@ Get-ConfigEdgeServer [[-Name] <String>] [-Uid <Guid>] [-Description <String>] [-
 | MachineAddress | Gets the edge servers with the specified machine address | false | false |  |
 | Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
 | Sid | Gets the edge servers with the specified SID value | false | false |  |
+| TenantId | Gets the edge servers associated with the specified Tenant ID | false | false |  |
 | Uuid | Gets the edge servers with the specified uuid | false | false |  |
 | ZoneName | Gets the edge servers located in the given zone specified by zone name | false | false |  |
 | ZoneUid | Gets the edge servers located in the given zone specified by zone UID | false | false |  |
@@ -34,6 +35,7 @@ Get-ConfigEdgeServer [[-Name] <String>] [-Uid <Guid>] [-Description <String>] [-
 | Skip | Skips the specified number of records before returning results. Also reduces the count returned by -ReturnTotalRecordCount. | false | false | 0 |
 | SortBy | Sorts the results by the specified list of properties. The list is a set of property names separated by commas, semi-colons, or spaces. Optionally, prefix each name with a + or - to indicate ascending or descending order. Ascending order is assumed if no prefix is present. | false | false | The default sort order is by name or unique identifier. |
 | Filter | Gets records that match a PowerShell-style filter expression. See about_Config_Filtering for details. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

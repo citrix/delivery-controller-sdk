@@ -4,14 +4,14 @@
 
 ## Syntax
 ```
-Add-HypMetadata [-LiteralPath] <String> [-Property] <String> [-Value] <String> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Add-HypMetadata [-LiteralPath] <String> [-Property] <String> [-Value] <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this command to store additional custom data against a hosting unit or hypervisor connection.  This data is not used by the Machine Creation Service, and is provided only for consumers of the services to store any data that may be required for their operations.  The metadata is returned along with the hypervisor connection or hosting unit that it is assigned to.
 
 ## Related Commands
-  * [Remove-HypMetadata](Remove-HypMetadata/)
+  * [Remove-HypMetadata](Remove-HypMetadata.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -20,6 +20,7 @@ Add-HypMetadata [-LiteralPath] <String> [-Property] <String> [-Value] <String> [
 | Property | Specifies the property name of the metadata to be added.  The property must be unique for the item specified by the path.<br>The property cannot contain any of the following characters \/;:#.*?=<>|[]()""' | true | false |  |
 | Value | Specifies the value for the property. | true | false |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller to which the PowerShell snap-in connects.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

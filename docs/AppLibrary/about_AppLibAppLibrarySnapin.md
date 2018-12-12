@@ -1,12 +1,20 @@
-﻿# about_AppLibAppLibrarySnapin
-## TOPIC
-    about_AppLibAppLibrarySnapin 
+﻿
+# about\_AppLibAppLibrarySnapin
 
-## SHORT DESCRIPTION
-   This service short description 
+## Topic
+about\_AppLibAppLibrarySnapin
 
-## COMMAND PREFIX
-    All commands in this snap-in have the noun prefixed with 'AppLib'. 
 
-## LONG DESCRIPTION
-    This service long description 
+## Short Description
+
+This service short description
+
+
+## Command Prefix
+All commands in this snap-in have the noun prefixed with 'AppLib'.
+
+
+## Long Description
+This service long description
+
+

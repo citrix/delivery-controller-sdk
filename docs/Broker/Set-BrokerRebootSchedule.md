@@ -1,23 +1,22 @@
-﻿# Set-BrokerRebootSchedule
-
-   Updates the values of one or more desktop group reboot schedules.
-
+﻿
+# Set-Brokerrebootschedule
+Updates the values of one or more desktop group reboot schedules.
 ## Syntax
 ```
-Set-BrokerRebootSchedule [-InputObject] <RebootSchedule[]> [-PassThru] [-Day <RebootScheduleDays>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RebootDuration <Int32>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-BrokerRebootSchedule [-InputObject] <RebootSchedule[]> [-PassThru] [-Day <RebootScheduleDays>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RebootDuration <Int32>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Set-BrokerRebootSchedule [-DesktopGroupName] <String> [-PassThru] [-Day <RebootScheduleDays>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RebootDuration <Int32>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-BrokerRebootSchedule [-DesktopGroupName] <String> [-PassThru] [-Day <RebootScheduleDays>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RebootDuration <Int32>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   The Set-BrokerRebootSchedule cmdlet is used to alter the settings of an existing desktop group reboot schedule.
+The Set-BrokerRebootSchedule cmdlet is used to alter the settings of an existing desktop group reboot schedule.
+
 
 ## Related Commands
-  * [Get-BrokerRebootSchedule](Get-BrokerRebootSchedule/)
-  * [New-BrokerRebootSchedule](New-BrokerRebootSchedule/)
-  * [Remove-BrokerRebootSchedule](Remove-BrokerRebootSchedule/)
-## Parameters
 
+* [Get-BrokerRebootSchedule](./Get-BrokerRebootSchedule/)
+* [New-BrokerRebootSchedule](./New-BrokerRebootSchedule/)
+* [Remove-BrokerRebootSchedule](./Remove-BrokerRebootSchedule/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | InputObject | The reboot schedule to be modified. | true | true (ByValue) |  |
@@ -34,27 +33,33 @@ Set-BrokerRebootSchedule [-DesktopGroupName] <String> [-PassThru] [-Day <RebootS
 | WarningTitle | The window title used when showing the warning message in user sessions on a machine scheduled for reboot. | false | false |  |
 | LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
-### Citrix.Broker.Admin.SDK.RebootSchedule
-   Reboot schedules may be specified through pipeline input.
+
+### Citrix.Broker.Admin.Sdk.Rebootschedule
+Reboot schedules may be specified through pipeline input.
 ## Return Values
+
 ### None
-   
+
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> Set-BrokerRebootSchedule -DesktopGroupName Accounting -WarningMessage "Save your work" -WarningDuration 10 -WarningTitle "WARNING: Reboot pending"
 ```
-   Description<br>-----------<br>Sets the reboot schedule for the desktop group named Accounting to display a message with the title "WARNING: Reboot pending" and body "Save your work" ten minutes prior to rebooting each machine. The message is displayed in every user session on that machine.
-### EXAMPLE 2
+#### Description
+Sets the reboot schedule for the desktop group named Accounting to display a message with the title "WARNING: Reboot pending" and body "Save your work" ten minutes prior to rebooting each machine. The message is displayed in every user session on that machine.
+### Example 2
 ```
 C:\PS> Get-BrokerRebootSchedule -Frequency Weekly | Set-BrokerRebootSchedule -Day Friday
 ```
-   Description<br>-----------<br>Sets all weekly reboot schedules to run on Friday.
-### EXAMPLE 3
+#### Description
+Sets all weekly reboot schedules to run on Friday.
+### Example 3
 ```
 C:\PS> Set-BrokerRebootSchedule -DesktopGroupUid 17 -WarningMessage "Rebooting in %m% minutes." -WarningDuration 15 -WarningRepeatInterval 5
 ```
-   Description<br>-----------<br>Sets the reboot schedule for the desktop group having Uid 17 to display the message "Rebooting in %m% minutes." Fifteen, ten and five minutes prior to rebooting each machine, the message "Rebooting in %m% minutes." will be displayed in each user session with the pattern '%m%' replaced with the number of minutes until the reboot.
+#### Description
+Sets the reboot schedule for the desktop group having Uid 17 to display the message "Rebooting in %m% minutes." Fifteen, ten and five minutes prior to rebooting each machine, the message "Rebooting in %m% minutes." will be displayed in each user session with the pattern '%m%' replaced with the number of minutes until the reboot.

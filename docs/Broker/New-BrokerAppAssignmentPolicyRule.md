@@ -1,35 +1,35 @@
-﻿# New-BrokerAppAssignmentPolicyRule
-
-   Creates a new application rule in the site's assignment policy.
-
+﻿
+# New-Brokerappassignmentpolicyrule
+Creates a new application rule in the site's assignment policy.
 ## Syntax
 ```
-New-BrokerAppAssignmentPolicyRule [-Name] <String> -DesktopGroupUid <Int32> [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+New-BrokerAppAssignmentPolicyRule [-Name] <String> -DesktopGroupUid <Int32> [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   The New-BrokerAppAssignmentPolicyRule cmdlet adds a new application rule to the site's assignment policy.
+The New-BrokerAppAssignmentPolicyRule cmdlet adds a new application rule to the site's assignment policy.
 
 An application rule in the assignment policy defines the users who are entitled to a self-service persistent machine assignment from the rule's desktop group; once assigned the machine can run one or more applications published from the group.
 
 The following constraints apply when creating an application assignment rule for a desktop group:
 
-o   The group's desktop kind must be Private
-o   The group's delivery type must be AppsOnly
-o   Only a single application rule can apply to a given group
-o   Application assignment rules cannot be applied to RemotePC groups.
+
+* The group's desktop kind must be Private
+* The group's delivery type must be AppsOnly
+* Only a single application rule can apply to a given group
+* Application assignment rules cannot be applied to RemotePC groups.
 
 When a user selects an application published from a private group, a currently unassigned machine is selected from the group and permanently assigned to the user. An application session is then launched to the machine. Subsequent launches are routed directly to the now assigned machine.
 
 Once a machine has been assigned in this way, the original assignment rule plays no further part in access to the machine.
 
-## Related Commands
-  * [Get-BrokerAppAssignmentPolicyRule](Get-BrokerAppAssignmentPolicyRule/)
-  * [Set-BrokerAppAssignmentPolicyRule](Set-BrokerAppAssignmentPolicyRule/)
-  * [Rename-BrokerAppAssignmentPolicyRule](Rename-BrokerAppAssignmentPolicyRule/)
-  * [Remove-BrokerAppAssignmentPolicyRule](Remove-BrokerAppAssignmentPolicyRule/)
-## Parameters
 
+## Related Commands
+
+* [Get-BrokerAppAssignmentPolicyRule](./Get-BrokerAppAssignmentPolicyRule/)
+* [Set-BrokerAppAssignmentPolicyRule](./Set-BrokerAppAssignmentPolicyRule/)
+* [Rename-BrokerAppAssignmentPolicyRule](./Rename-BrokerAppAssignmentPolicyRule/)
+* [Remove-BrokerAppAssignmentPolicyRule](./Remove-BrokerAppAssignmentPolicyRule/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Name | Specifies the administrative name of the new application rule. Each rule in the site's assignment policy must have a unique name (irrespective of whether they are desktop or application rules). | true | true (ByPropertyName) |  |
@@ -42,18 +42,23 @@ Once a machine has been assigned in this way, the original assignment rule plays
 | IncludedUsers | Specifies the included users filter of the new application rule, that is, the users and groups who are granted an entitlement to a machine assignment by the rule.<br>If a user appears explicitly in the excluded users filter of the rule or is a member of a group that appears in the excluded users filter, no entitlement is granted whether or not the user appears in the included users filter. | false | true (ByPropertyName) | (empty list) |
 | LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   You cannot pipe input into this cmdlet.
+You cannot pipe input into this cmdlet.
 ## Return Values
-### Citrix.Broker.Admin.SDK.AppAssignmentPolicyRule
-   New-BrokerAppAssignmentPolicyRule returns the newly created application rule in the assignment policy.
+
+### Citrix.Broker.Admin.Sdk.Appassignmentpolicyrule
+New-BrokerAppAssignmentPolicyRule returns the newly created application rule in the assignment policy.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> $dg = Get-BrokerDesktopGroup 'Sales Support'
+
 C:\PS> New-BrokerAppAssignmentPolicyRule 'UK Office' -DesktopGroupUid $dg.Uid -IncludedUsers sales\uk-staff
 ```
-   Description<br>-----------<br>Creates an application rule in the assignment policy that grants all members of the SALES\uk-staff group an entitlement to a single machine from the Sales Support desktop group. The machine can be used for running applications published from the group.
+#### Description
+Creates an application rule in the assignment policy that grants all members of the SALES\\uk-staff group an entitlement to a single machine from the Sales Support desktop group. The machine can be used for running applications published from the group.

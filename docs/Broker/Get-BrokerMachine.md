@@ -1,423 +1,278 @@
-﻿# Get-BrokerMachine
-
-   Gets machines belonging to this site.
-
+﻿
+# Get-Brokermachine
+Gets machines belonging to this site.
 ## Syntax
 ```
-Get-BrokerMachine [-Uid] <Int32> [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerMachine [-Uid] <Int32> [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Get-BrokerMachine [[-MachineName] <String>] [-AgentVersion <String>] [-AllocationType <AllocationType>] [-ApplicationInUse <String>] [-AssignedClientName <String>] [-AssignedIPAddress <String>] [-AssignedUserSID <String>] [-AssociatedTenantId <Guid>] [-AssociatedUserFullName <String>] [-AssociatedUserName <String>] [-AssociatedUserSID <String>] [-AssociatedUserUPN <String>] [-BrowserName <String>] [-CatalogName <String>] [-CatalogUid <Int32>] [-CatalogUUID <Guid>] [-CbpVersion <CBPVersion>] [-ColorDepth <ColorDepth>] [-ControllerDNSName <String>] [-DeliveryType <DeliveryType>] [-Description <String>] [-DesktopCondition <String>] [-DesktopGroupName <String>] [-DesktopGroupUid <Int32>] [-DesktopGroupUUID <Guid>] [-DesktopKind <DesktopKind>] [-DesktopUid <Int32>] [-DNSName <String>] [-FaultState <MachineFaultState>] [-FunctionalLevel <FunctionalLevel>] [-HostedMachineId <String>] [-HostedMachineName <String>] [-HostingServerName <String>] [-HypervisorConnectionName <String>] [-HypervisorConnectionUid <Int32>] [-HypHypervisorConnectionUid <Guid>] [-IconUid <Int32>] [-ImageOutOfDate <Boolean>] [-InMaintenanceMode <Boolean>] [-IPAddress <String>] [-IsAssigned <Boolean>] [-IsPhysical <Boolean>] [-IsReserved <Boolean>] [-LastConnectionFailure <ConnectionFailureReason>] [-LastConnectionTime <DateTime>] [-LastConnectionUser <String>] [-LastDeregistrationReason <DeregistrationReason>] [-LastDeregistrationTime <DateTime>] [-LastErrorReason <String>] [-LastErrorTime <DateTime>] [-LastHostingUpdateTime <DateTime>] [-LastPvdErrorReason <String>] [-LastPvdErrorTime <DateTime>] [-LoadIndex <Int32>] [-MachineInternalState <MachineInternalState>] [-Metadata <String>] [-OSType <String>] [-OSVersion <String>] [-PersistUserChanges <PersistUserChanges>] [-PowerActionPending <Boolean>] [-PowerState <PowerState>] [-ProvisioningType <ProvisioningType>] [-PublishedApplication <String>] [-PublishedName <String>] [-PvdEstimatedCompletionTime <DateTime>] [-PvdPercentDone <Int32>] [-PvdStage <PvdStage>] [-PvdUpdateStartTime <DateTime>] [-RegistrationState <RegistrationState>] [-ScheduledReboot <ScheduledReboot>] [-SecureIcaRequired <Boolean>] [-SessionAutonomouslyBrokered <Boolean>] [-SessionClientAddress <String>] [-SessionClientName <String>] [-SessionClientVersion <String>] [-SessionConnectedViaHostName <String>] [-SessionConnectedViaIP <String>] [-SessionCount <Int32>] [-SessionDeviceId <String>] [-SessionHardwareId <String>] [-SessionHidden <Boolean>] [-SessionKey <Guid>] [-SessionLaunchedViaHostName <String>] [-SessionLaunchedViaIP <String>] [-SessionProtocol <String>] [-SessionSecureIcaActive <Boolean>] [-SessionsEstablished <Int32>] [-SessionSmartAccessTag <String>] [-SessionsPending <Int32>] [-SessionStartTime <DateTime>] [-SessionState <SessionState>] [-SessionStateChangeTime <DateTime>] [-SessionSupport <SessionSupport>] [-SessionType <SessionType>] [-SessionUid <Int64>] [-SessionUserName <String>] [-SessionUserSID <String>] [-SID <String>] [-SummaryState <DesktopSummaryState>] [-SupportedPowerActions <String[]>] [-Tag <String>] [-UUID <Guid>] [-VMToolsState <VMToolsState>] [-WillShutdownAfterUse <Boolean>] [-WindowsConnectionSetting <WindowsConnectionSetting>] [-ZoneName <String>] [-ZoneUid <Guid>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerMachine [[-MachineName] <String>] [-AgentVersion <String>] [-AllocationType <AllocationType>] [-ApplicationInUse <String>] [-AssignedClientName <String>] [-AssignedIPAddress <String>] [-AssignedUserSID <String>] [-AssociatedTenantId <Guid>] [-AssociatedUserFullName <String>] [-AssociatedUserName <String>] [-AssociatedUserSID <String>] [-AssociatedUserUPN <String>] [-BrowserName <String>] [-CatalogName <String>] [-CatalogUid <Int32>] [-CatalogUUID <Guid>] [-CbpVersion <CBPVersion>] [-ColorDepth <ColorDepth>] [-ControllerDNSName <String>] [-DeliveryType <DeliveryType>] [-Description <String>] [-DesktopCondition <String>] [-DesktopGroupName <String>] [-DesktopGroupUid <Int32>] [-DesktopGroupUUID <Guid>] [-DesktopKind <DesktopKind>] [-DesktopUid <Int32>] [-DNSName <String>] [-FaultState <MachineFaultState>] [-FunctionalLevel <FunctionalLevel>] [-HostedMachineId <String>] [-HostedMachineName <String>] [-HostingServerName <String>] [-HypervisorConnectionName <String>] [-HypervisorConnectionUid <Int32>] [-HypHypervisorConnectionUid <Guid>] [-IconUid <Int32>] [-ImageOutOfDate <Boolean>] [-InMaintenanceMode <Boolean>] [-IPAddress <String>] [-IsAssigned <Boolean>] [-IsPhysical <Boolean>] [-IsReserved <Boolean>] [-LastConnectionFailure <ConnectionFailureReason>] [-LastConnectionTime <DateTime>] [-LastConnectionUser <String>] [-LastDeregistrationReason <DeregistrationReason>] [-LastDeregistrationTime <DateTime>] [-LastErrorReason <String>] [-LastErrorTime <DateTime>] [-LastHostingUpdateTime <DateTime>] [-LastPvdErrorReason <String>] [-LastPvdErrorTime <DateTime>] [-LoadIndex <Int32>] [-MachineInternalState <MachineInternalState>] [-Metadata <String>] [-OSType <String>] [-OSVersion <String>] [-PersistUserChanges <PersistUserChanges>] [-PowerActionPending <Boolean>] [-PowerState <PowerState>] [-ProvisioningType <ProvisioningType>] [-PublishedApplication <String>] [-PublishedName <String>] [-PvdEstimatedCompletionTime <DateTime>] [-PvdPercentDone <Int32>] [-PvdStage <PvdStage>] [-PvdUpdateStartTime <DateTime>] [-RegistrationState <RegistrationState>] [-ScheduledReboot <ScheduledReboot>] [-SecureIcaRequired <Boolean>] [-SessionAutonomouslyBrokered <Boolean>] [-SessionClientAddress <String>] [-SessionClientName <String>] [-SessionClientVersion <String>] [-SessionConnectedViaHostName <String>] [-SessionConnectedViaIP <String>] [-SessionCount <Int32>] [-SessionDeviceId <String>] [-SessionHardwareId <String>] [-SessionHidden <Boolean>] [-SessionKey <Guid>] [-SessionLaunchedViaHostName <String>] [-SessionLaunchedViaIP <String>] [-SessionProtocol <String>] [-SessionSecureIcaActive <Boolean>] [-SessionsEstablished <Int32>] [-SessionSmartAccessTag <String>] [-SessionsPending <Int32>] [-SessionStartTime <DateTime>] [-SessionState <SessionState>] [-SessionStateChangeTime <DateTime>] [-SessionSupport <SessionSupport>] [-SessionType <SessionType>] [-SessionUid <Int64>] [-SessionUserName <String>] [-SessionUserSID <String>] [-SID <String>] [-SummaryState <DesktopSummaryState>] [-SupportedPowerActions <String[]>] [-Tag <String>] [-UUID <Guid>] [-VMToolsState <VMToolsState>] [-WillShutdownAfterUse <Boolean>] [-WindowsConnectionSetting <WindowsConnectionSetting>] [-ZoneName <String>] [-ZoneUid <Guid>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   Retrieves machines matching the specified criteria. If no parameters are specified, this cmdlet enumerates all machines.
+Retrieves machines matching the specified criteria. If no parameters are specified, this cmdlet enumerates all machines.
 
 Get-BrokerMachine returns objects that combine machine configuration and state information.
 
-For single-session machines, session information is displayed if present. If "fast user switching" is enabled, more than one session may be present on single-session machines. Because this cmdlet returns information only for a single session, if two sessions are present it will return information about the brokered session (rather than, for example, an unbrokered direct RDP session). If there is no session running, session-related fields return $null.
+For single-session machines, session information is displayed if present. If "fast user switching" is enabled, more than one session may be present on single-session machines. Because this cmdlet returns information only for a single session, if two sessions are present it will return information about the brokered session (rather than, for example, an unbrokered direct RDP session). If there is no session running, session-related fields return \$null.
 
-For multi-session machines, no session information about single sessions is displayed by this cmdlet, and so are always $null. Get-BrokerSession can be used to get information about sessions on both multi-session and single-session machines.
+For multi-session machines, no session information about single sessions is displayed by this cmdlet, and so are always \$null. Get-BrokerSession can be used to get information about sessions on both multi-session and single-session machines.
 
 To count machines, rather than retrieve full details of each machine, use Group-BrokerMachine instead.
 
-See about_Broker_Filtering for information about advanced filtering options, and about_Broker_Machines for background information about machines.
+See about\_Broker\_Filtering for information about advanced filtering options, and about\_Broker\_Machines for background information about machines.
 
 
--------------------------- BrokerMachine Object
+### Brokermachine Object
 The machine object returned represents a physical or virtual machine, which has been configured in the site.
 
-    -- AgentVersion (System.String)
-       Version of the Citrix Virtual Delivery Agent (VDA) installed on the machine.
 
-    -- AllocationType (Citrix.Broker.Admin.SDK.AllocationType)
-       Describes how the machine is allocated to the user, can be Permanent or Random.
+  * AgentVersion (System.String) Version of the Citrix Virtual Delivery Agent (VDA) installed on the machine.
 
-    -- ApplicationsInUse (System.String[])
-       List of applications in use on the machine (in the form of browser name).
+  * AllocationType (Citrix.Broker.Admin.SDK.AllocationType) Describes how the machine is allocated to the user, can be Permanent or Random.
 
-    -- AssignedClientName (System.String)
-       The name of the endpoint client device that the machine has been assigned to.
+  * ApplicationsInUse (System.String\[\]) List of applications in use on the machine (in the form of browser name).
 
-    -- AssignedIPAddress (System.String)
-       The IP address of the endpoint client device that the machine has been assigned to.
+  * AssignedClientName (System.String) The name of the endpoint client device that the machine has been assigned to.
 
-    -- AssignedUserSIDs (System.String[])
-       The SIDs of the users that have been assigned to the machine (private machines only).
+  * AssignedIPAddress (System.String) The IP address of the endpoint client device that the machine has been assigned to.
 
-    -- AssociatedTenantId (System.Guid?)
-       Tenant associated with the machine. Once a tenant is associated with a machine it can only host sessions for that tenant and no other. Tenant associations are transient and are cleared when the machine's image is reset.
+  * AssignedUserSIDs (System.String\[\]) The SIDs of the users that have been assigned to the machine (private machines only).
 
-    -- AssociatedUserFullNames (System.String[])
-       Full names of the users that have been associated with the machine (usually in the form "Firstname Lastname").
-       Associated users are the current user(s) for shared machines and the assigned users for private machines.
+  * AssociatedTenantId (System.Guid?) Tenant associated with the machine. Once a tenant is associated with a machine it can only host sessions for that tenant and no other. Tenant associations are transient and are cleared when the machine's image is reset.
 
-    -- AssociatedUserNames (System.String[])
-       Usernames of the users that have been associated with the machine (in the form "domain\user").
-       Associated users are the current user(s) for shared machines and the assigned users for private machines.
+  * AssociatedUserFullNames (System.String\[\]) Full names of the users that have been associated with the machine (usually in the form "Firstname Lastname"). Associated users are the current user(s) for shared machines and the assigned users for private machines.
 
-    -- AssociatedUserSIDs (System.String[])
-       The SIDs of the users that have been associated with the machine.
-       Associated users are the current user(s) for shared machines and the assigned users for private machines.
+  * AssociatedUserNames (System.String\[\]) Usernames of the users that have been associated with the machine (in the form "domain\\user"). Associated users are the current user(s) for shared machines and the assigned users for private machines.
 
-    -- AssociatedUserUPNs (System.String[])
-       The User Principal Names of the users associated with the machine (in the form user@domain).
-       Associated users are the current user(s) for shared machines and the assigned users for private machines.
+  * AssociatedUserSIDs (System.String\[\]) The SIDs of the users that have been associated with the machine. Associated users are the current user(s) for shared machines and the assigned users for private machines.
 
-    -- BrowserName (System.String)
-       Site-wide unique name identifying associated desktop to other components (for example StoreFront). This is typically non-null only for machines backing assigned private desktops.
+  * AssociatedUserUPNs (System.String\[\]) The User Principal Names of the users associated with the machine (in the form user@domain). Associated users are the current user(s) for shared machines and the assigned users for private machines.
 
-    -- Capabilities (System.String[])
-       List of the capabilities that the machine supports. Valid capabilities are:
-       o MultiSession: Indicates an RDS- (Terminal Services-) based machine, which supports multiple active sessions from different users.
-       o CBP1_5: Indicates the machine can use the CBP 1.5 protocol for communication.
+  * BrowserName (System.String) Site-wide unique name identifying associated desktop to other components (for example StoreFront). This is typically non-null only for machines backing assigned private desktops.
 
-    -- CatalogName (System.String)
-       Name of the catalog the machine is a member of.
+  * Capabilities (System.String\[\]) List of the capabilities that the machine supports. Valid capabilities are:
+    * MultiSession: Indicates an RDS- (Terminal Services-) based machine, which supports multiple active sessions from different users.
+    * CBP1\_5: Indicates the machine can use the CBP 1.5 protocol for communication.
 
-    -- CatalogUid (System.Int32)
-       UID of the catalog the machine is a member of.
+  * CatalogName (System.String) Name of the catalog the machine is a member of.
 
-    -- CatalogUUID (System.Guid)
-       UUID of the catalog the machine is a member of.
+  * CatalogUid (System.Int32) UID of the catalog the machine is a member of.
 
-    -- CbpVersion (Citrix.Broker.Admin.SDK.CBPVersion?)
-       The version of CBP that the VDA is currently registered with. This will be null when the VDA is not registered.
+  * CatalogUUID (System.Guid) UUID of the catalog the machine is a member of.
 
-    -- ColorDepth (Citrix.Broker.Admin.SDK.ColorDepth?)
-       The color depth setting configured on the machine, possible values are:
-       $null, FourBit, EightBit, SixteenBit, and TwentyFourBit.
+  * CbpVersion (Citrix.Broker.Admin.SDK.CBPVersion?) The version of CBP that the VDA is currently registered with. This will be null when the VDA is not registered.
 
-    -- ControllerDNSName (System.String)
-       The DNS host name of the controller that the machine is registered to.
+  * ColorDepth (Citrix.Broker.Admin.SDK.ColorDepth?) The color depth setting configured on the machine, possible values are: \$null, FourBit, EightBit, SixteenBit, and TwentyFourBit.
 
-    -- DeliveryType (Citrix.Broker.Admin.SDK.DeliveryType?)
-       Denotes whether the machine delivers desktops only, apps only or both.
+  * ControllerDNSName (System.String) The DNS host name of the controller that the machine is registered to.
 
-    -- Description (System.String)
-       Description of the machine.
+  * DeliveryType (Citrix.Broker.Admin.SDK.DeliveryType?) Denotes whether the machine delivers desktops only, apps only or both.
 
-    -- DesktopConditions (System.String[])
-       List of outstanding desktop conditions for the machine.
+  * Description (System.String) Description of the machine.
 
-    -- DesktopGroupName (System.String)
-       Name of the desktop group the machine is a member of.
+  * DesktopConditions (System.String\[\]) List of outstanding desktop conditions for the machine.
 
-    -- DesktopGroupUid (System.Int32?)
-       UID of the desktop group the machine is a member of.
+  * DesktopGroupName (System.String) Name of the desktop group the machine is a member of.
 
-    -- DesktopGroupUUID (System.Guid?)
-       UUID of the desktop group the machine is a member of.
+  * DesktopGroupUid (System.Int32?) UID of the desktop group the machine is a member of.
 
-    -- DesktopKind (Citrix.Broker.Admin.SDK.DesktopKind?)
-       Deprecated.
-       Denotes whether the machine is private or shared. Use AllocationType instead.
+  * DesktopGroupUUID (System.Guid?) UUID of the desktop group the machine is a member of.
 
-    -- DesktopUid (System.Int32?)
-       The UID of the associated desktop object.
+  * DesktopKind (Citrix.Broker.Admin.SDK.DesktopKind?) Deprecated. Denotes whether the machine is private or shared. Use AllocationType instead.
 
-    -- DNSName (System.String)
-       The DNS host name of the machine.
+  * DesktopUid (System.Int32?) The UID of the associated desktop object.
 
-    -- FaultState (Citrix.Broker.Admin.SDK.MachineFaultState)
-       Summary state of any current fault state of the machine. Can be one of the following:
-       o None - No fault; machine is healthy.
-       o FailedToStart - Last power-on operation for machine failed.
-       o StuckOnBoot - Machine does not seem to have booted following power on.
-       o Unregistered - Machine has failed to register within expected period, or its registration has been rejected.
-       o MaxCapacity - Machine is reporting itself at maximum capacity.
-      
-    -- FunctionalLevel (Citrix.Broker.Admin.SDK.FunctionalLevel?)
-       Functional level of the machine, if known.
+  * DNSName (System.String) The DNS host name of the machine.
 
-    -- HostedMachineId (System.String)
-       Unique ID within the hosting unit of the target managed machine.
+  * FaultState (Citrix.Broker.Admin.SDK.MachineFaultState) Summary state of any current fault state of the machine. Can be one of the following:
+    * None - No fault; machine is healthy.
+    * FailedToStart - Last power-on operation for machine failed.
+    * StuckOnBoot - Machine does not seem to have booted following power on.
+    * Unregistered - Machine has failed to register within expected period, or its registration has been rejected.
+    * MaxCapacity - Machine is reporting itself at maximum capacity.
 
-    -- HostedMachineName (System.String)
-       The friendly name of a hosted machine as used by its hypervisor. This is not necessarily the DNS name of the machine.
+  * FunctionalLevel (Citrix.Broker.Admin.SDK.FunctionalLevel?) Functional level of the machine, if known.
 
-    -- HostingServerName (System.String)
-       DNS name of the hypervisor that is hosting the machine if managed.
+  * HostedMachineId (System.String) Unique ID within the hosting unit of the target managed machine.
 
-    -- HypervisorConnectionName (System.String)
-       The name of the hypervisor connection that the machine has been assigned to, if managed.
+  * HostedMachineName (System.String) The friendly name of a hosted machine as used by its hypervisor. This is not necessarily the DNS name of the machine.
 
-    -- HypervisorConnectionUid (System.Int32?)
-       The UID of the hypervisor connection that the machine’s hosting server is accessed through.
+  * HostingServerName (System.String) DNS name of the hypervisor that is hosting the machine if managed.
 
-    -- HypHypervisorConnectionUid (System.Guid?)
-       The UUID of the hypervisor connection that the machine’s hosting server is accessed through
+  * HypervisorConnectionName (System.String) The name of the hypervisor connection that the machine has been assigned to, if managed.
 
-    -- IconUid (System.Int32?)
-       The UID of the machine's icon that is displayed in StoreFront.
+  * HypervisorConnectionUid (System.Int32?) The UID of the hypervisor connection that the machine’s hosting server is accessed through.
 
-    -- ImageOutOfDate (System.Boolean?)
-       Denotes if the VM image for a hosted machine is out of date.
+  * HypHypervisorConnectionUid (System.Guid?) The UUID of the hypervisor connection that the machine’s hosting server is accessed through
 
-    -- InMaintenanceMode (System.Boolean)
-       Denotes if the machine is in maintenance mode.
+  * IconUid (System.Int32?) The UID of the machine's icon that is displayed in StoreFront.
 
-    -- IPAddress (System.String)
-       The IP address of the machine.
+  * ImageOutOfDate (System.Boolean?) Denotes if the VM image for a hosted machine is out of date.
 
-    -- IsAssigned (System.Boolean)
-       Denotes whether a private desktop has been assigned to a user/users, or a client name/address. Users can be assigned explicitly or by assigning on first use of the machine.
+  * InMaintenanceMode (System.Boolean) Denotes if the machine is in maintenance mode.
 
-    -- IsPhysical (System.Boolean)
-       This value is true if the machine is physical (ie not power managed by the Citrix Broker service, and false otherwise.
+  * IPAddress (System.String) The IP address of the machine.
 
-    -- IsReserved (System.Boolean)
-       Indicates if machine is reserved for special use, for example for AppDisk preparation. A reserved machine cannot be a member of a desktop group.
+  * IsAssigned (System.Boolean) Denotes whether a private desktop has been assigned to a user/users, or a client name/address. Users can be assigned explicitly or by assigning on first use of the machine.
 
-    -- LastConnectionFailure (Citrix.Broker.Admin.SDK.ConnectionFailureReason)
-       The reason for the last failed connection between a client and the machine.
+  * IsPhysical (System.Boolean) This value is true if the machine is physical (ie not power managed by the Citrix Broker service, and false otherwise.
 
-    -- LastConnectionTime (System.DateTime?)
-       Time of the last detected connection attempt that either failed or succeeded.
+  * IsReserved (System.Boolean) Indicates if machine is reserved for special use, for example for AppDisk preparation. A reserved machine cannot be a member of a desktop group.
 
-    -- LastConnectionUser (System.String)
-       The SAM name (in the form DOMAIN\user) of the user that last attempted a connection with the machine. If the SAM name is not available, the SID is used.
+  * LastConnectionFailure (Citrix.Broker.Admin.SDK.ConnectionFailureReason) The reason for the last failed connection between a client and the machine.
 
-    -- LastDeregistrationReason (Citrix.Broker.Admin.SDK.DeregistrationReason?)
-       The reason for the last deregistration of the machine with the broker. Possible values are:
-       AgentShutdown, AgentSuspended, AgentRequested, IncompatibleVersion, AgentAddressResolutionFailed, AgentNotContactable, AgentWrongActiveDirectoryOU, EmptyRegistrationRequest, MissingRegistrationCapabilities, MissingAgentVersion, InconsistentRegistrationCapabilities, NotLicensedForFeature, UnsupportedCredentialSecurityVersion, InvalidRegistrationRequest, SingleMultiSessionMismatch, FunctionalLevelTooLowForCatalog, FunctionalLevelTooLowForDesktopGroup, PowerOff, DesktopRestart, DesktopRemoved, AgentRejectedSettingsUpdate, SendSettingsFailure, SessionAuditFailure, SessionPrepareFailure, ContactLost, SettingsCreationFailure, UnknownError and BrokerRegistrationLimitReached.
+  * LastConnectionTime (System.DateTime?) Time of the last detected connection attempt that either failed or succeeded.
 
-    -- LastDeregistrationTime (System.DateTime?)
-       Time of the last deregistration of the machine from the controller.
+  * LastConnectionUser (System.String) The SAM name (in the form DOMAIN\\user) of the user that last attempted a connection with the machine. If the SAM name is not available, the SID is used.
 
-    -- LastErrorReason (System.String)
-       The reason for the last error detected in the machine.
+  * LastDeregistrationReason (Citrix.Broker.Admin.SDK.DeregistrationReason?) The reason for the last deregistration of the machine with the broker. Possible values are: AgentShutdown, AgentSuspended, AgentRequested, IncompatibleVersion, AgentAddressResolutionFailed, AgentNotContactable, AgentWrongActiveDirectoryOU, EmptyRegistrationRequest, MissingRegistrationCapabilities, MissingAgentVersion, InconsistentRegistrationCapabilities, NotLicensedForFeature, UnsupportedCredentialSecurityVersion, InvalidRegistrationRequest, SingleMultiSessionMismatch, FunctionalLevelTooLowForCatalog, FunctionalLevelTooLowForDesktopGroup, PowerOff, DesktopRestart, DesktopRemoved, AgentRejectedSettingsUpdate, SendSettingsFailure, SessionAuditFailure, SessionPrepareFailure, ContactLost, SettingsCreationFailure, UnknownError and BrokerRegistrationLimitReached.
 
-    -- LastErrorTime (System.DateTime?)
-       The time of the last detected error.
+  * LastDeregistrationTime (System.DateTime?) Time of the last deregistration of the machine from the controller.
 
-    -- LastHostingUpdateTime (System.DateTime?)
-       Time of last update to any hosting data (such as power states) for this machine reported by the hypervisor connection.
+  * LastErrorReason (System.String) The reason for the last error detected in the machine.
 
-    -- LastPvdErrorReason (System.String)
-       The error text from the most recent failure of the Personal vDisk preparation process for this machine (if any).
+  * LastErrorTime (System.DateTime?) The time of the last detected error.
 
-    -- LastPvdErrorTime (System.DateTime?)
-       The time of the most recent failure of the Personal vDisk preparation process for this machine (if any).
+  * LastHostingUpdateTime (System.DateTime?) Time of last update to any hosting data (such as power states) for this machine reported by the hypervisor connection.
 
-    -- LoadIndex (System.Int32?)
-       Gives current effective load index for multi-session machines.
+  * LastPvdErrorReason (System.String) The error text from the most recent failure of the Personal vDisk preparation process for this machine (if any).
 
-    -- LoadIndexes (System.String[])
-       Gives the last reported individual load indexes that were used in the calculation of the LoadIndex value. Note that the LoadIndex value may have been subsequently adjusted due to session brokering operations. This value is only set for multi-session machines.
+  * LastPvdErrorTime (System.DateTime?) The time of the most recent failure of the Personal vDisk preparation process for this machine (if any).
 
-    -- MachineInternalState (Citrix.Broker.Admin.SDK.MachineInternalState)
-       The internal state of the machine; reported while the machine is registered to a controller, plus some private Citrix Broker Service states while the machine is not registered.
+  * LoadIndex (System.Int32?) Gives current effective load index for multi-session machines.
 
-    -- MachineName (System.String)
-       DNS host name of the machine.
+  * LoadIndexes (System.String\[\]) Gives the last reported individual load indexes that were used in the calculation of the LoadIndex value. Note that the LoadIndex value may have been subsequently adjusted due to session brokering operations. This value is only set for multi-session machines.
 
-    -- MetadataMap (System.Collections.Generic.Dictionary<string, string>)
-       Any metadata that is associated with the machine.
+  * MachineInternalState (Citrix.Broker.Admin.SDK.MachineInternalState) The internal state of the machine; reported while the machine is registered to a controller, plus some private Citrix Broker Service states while the machine is not registered.
 
-    -- OSType (System.String)
-       A string that can be used to identify the operating system that is running on the machine.
+  * MachineName (System.String) DNS host name of the machine.
 
-    -- OSVersion (System.String)
-       A string that can be used to identify the version of the operating system running on the machine, if known.
+  * MetadataMap (System.Collections.Generic.Dictionary&lt;string, string&gt;) Any metadata that is associated with the machine.
 
-    -- PersistUserChanges (Citrix.Broker.Admin.SDK.PersistUserChanges)
-       Describes if and how user changes are persisted. Possible values are:
-       o OnLocal - Persist the user changes on the local disk of the machine.
-       o Discard - Discard user changes.
-       o OnPvd - Persist user changes on the Citrix Personal vDisk.
-      
-    -- PowerActionPending (System.Boolean)
-       Indicates if there are any pending power actions for the machine.
+  * OSType (System.String) A string that can be used to identify the operating system that is running on the machine.
 
-    -- PowerState (Citrix.Broker.Admin.SDK.PowerState)
-       The current power state of the machine. Possible values are: Unmanaged, Unknown, Unavailable, Off, On, Suspended, TurningOn, TurningOff, Suspending, resuming.
+  * OSVersion (System.String) A string that can be used to identify the version of the operating system running on the machine, if known.
 
-    -- ProvisioningType (Citrix.Broker.Admin.SDK.ProvisioningType)
-       Describes how the machine was provisioned, possible values are:
-       o Manual: No automated provisioning.
-       o PVS: Machine provisioned by PVS (may be physical, blade, VM,...)
-       o MCS: Machine provisioned by MCS (machine must be VM)
-      
-    -- PublishedApplications (System.String[])
-       List of applications published by the machine (displayed as browser names).
+  * PersistUserChanges (Citrix.Broker.Admin.SDK.PersistUserChanges) Describes if and how user changes are persisted. Possible values are:
+    * OnLocal - Persist the user changes on the local disk of the machine.
+    * Discard - Discard user changes.
+    * OnPvd - Persist user changes on the Citrix Personal vDisk.
 
-    -- PublishedName (System.String)
-       The name of the machine that is displayed in StoreFront, if the machine has been published.
+  * PowerActionPending (System.Boolean) Indicates if there are any pending power actions for the machine.
 
-    -- PvdEstimatedCompletionTime (System.DateTime?)
-       If preparation of the Personal vDisk is currently in progress for this machine, this reports an estimation of the time at which the process will be complete.
+  * PowerState (Citrix.Broker.Admin.SDK.PowerState) The current power state of the machine. Possible values are: Unmanaged, Unknown, Unavailable, Off, On, Suspended, TurningOn, TurningOff, Suspending, resuming.
 
-    -- PvdPercentDone (System.Int32?)
-       If preparation of the Personal vDisk is currently in progress for this machine, this reports how far the process has got as a percentage. This value will be zero if preparation is not in progress.
+  * ProvisioningType (Citrix.Broker.Admin.SDK.ProvisioningType) Describes how the machine was provisioned, possible values are:
+    * Manual: No automated provisioning.
+    * PVS: Machine provisioned by PVS (may be physical, blade, VM,...)
+    * MCS: Machine provisioned by MCS (machine must be VM)
 
-    -- PvdStage (Citrix.Broker.Admin.SDK.PvdStage)
-       For a machine supporting Personal vDisk technology (PvD), indicates the stage of the PvD image preparation.
+  * PublishedApplications (System.String\[\]) List of applications published by the machine (displayed as browser names).
 
-    -- PvdUpdateStartTime (System.DateTime?)
-       If preparation of the Personal vDisk is currently in progress for this machine, this reports when the update process began.
+  * PublishedName (System.String) The name of the machine that is displayed in StoreFront, if the machine has been published.
 
-    -- RegistrationState (Citrix.Broker.Admin.SDK.RegistrationState)
-       Indicates the registration state of the machine. Possible values are: Unregistered, Initializing, Registered, AgentError.
+  * PvdEstimatedCompletionTime (System.DateTime?) If preparation of the Personal vDisk is currently in progress for this machine, this reports an estimation of the time at which the process will be complete.
 
-    -- ScheduledReboot (Citrix.Broker.Admin.SDK.ScheduledReboot)
-       Indicates the state of any scheduled reboot operation for a machine. Possible values:
-       o None: No reboot is scheduled.
-       o Pending: Machine is awaiting reboot but is available for use.
-       o Draining: Machine is awaiting reboot and is unavailable for new sessions; reconnections to existing connections are still allowed, however.
-       o InProgress: Machine is actively undergoing a scheduled reboot. o Natural: Natural reboot in progress. Machine is awaiting a restart.
+  * PvdPercentDone (System.Int32?) If preparation of the Personal vDisk is currently in progress for this machine, this reports how far the process has got as a percentage. This value will be zero if preparation is not in progress.
 
-    -- SecureIcaRequired (System.Boolean?)
-       Flag indicating whether SecureICA is required or not when starting a session on the machine.
+  * PvdStage (Citrix.Broker.Admin.SDK.PvdStage) For a machine supporting Personal vDisk technology (PvD), indicates the stage of the PvD image preparation.
 
-    -- SessionAutonomouslyBrokered (System.Boolean?)
-       Session property indicating if the current session is an HDX session established by direct connection without being brokered.
-       Session properties are always null for multi-session machines.
+  * PvdUpdateStartTime (System.DateTime?) If preparation of the Personal vDisk is currently in progress for this machine, this reports when the update process began.
 
-    -- SessionClientAddress (System.String)
-       Session property indicating the IP address of the client connected to the machine.
-       Session properties are always null for multi-session machines.
+  * RegistrationState (Citrix.Broker.Admin.SDK.RegistrationState) Indicates the registration state of the machine. Possible values are: Unregistered, Initializing, Registered, AgentError.
 
-    -- SessionClientName (System.String)
-       Session property indicating the host name of the client connected to the machine.
-       Session properties are always null for multi-session machines.
+  * ScheduledReboot (Citrix.Broker.Admin.SDK.ScheduledReboot) Indicates the state of any scheduled reboot operation for a machine. Possible values:
+    * None: No reboot is scheduled.
+    * Pending: Machine is awaiting reboot but is available for use.
+    * Draining: Machine is awaiting reboot and is unavailable for new sessions; reconnections to existing connections are still allowed, however.
+    * InProgress: Machine is actively undergoing a scheduled reboot. o Natural: Natural reboot in progress. Machine is awaiting a restart.
 
-    -- SessionClientVersion (System.String)
-       Session property indicating the version of the Citrix Receiver on the connected client.
-       Session properties are always null for multi-session machines.
+  * SecureIcaRequired (System.Boolean?) Flag indicating whether SecureICA is required or not when starting a session on the machine.
 
-    -- SessionConnectedViaHostName (System.String)
-       Session property indicating the host name of the connection gateway, router or client.
-       Session properties are always null for multi-session machines.
+  * SessionAutonomouslyBrokered (System.Boolean?) Session property indicating if the current session is an HDX session established by direct connection without being brokered. Session properties are always null for multi-session machines.
 
-    -- SessionConnectedViaIP (System.String)
-       Session property indicating the IP address of the connection gateway, router or client.
-       Session properties are always null for multi-session machines.
+  * SessionClientAddress (System.String) Session property indicating the IP address of the client connected to the machine. Session properties are always null for multi-session machines.
 
-    -- SessionCount (System.Int32)
-       Count of number of sessions on the machine.
+  * SessionClientName (System.String) Session property indicating the host name of the client connected to the machine. Session properties are always null for multi-session machines.
 
-    -- SessionDeviceId (System.String)
-       Session property indicating a unique identifier for the client device that has most recently been associated with the current session.
-       Session properties are always null for multi-session machines.
+  * SessionClientVersion (System.String) Session property indicating the version of the Citrix Receiver on the connected client. Session properties are always null for multi-session machines.
 
-    -- SessionHardwareId (System.String)
-       Session property indicating a unique identifier for the client hardware that has been most recently associated with the current session.
-       Session properties are always null for multi-session machines.
+  * SessionConnectedViaHostName (System.String) Session property indicating the host name of the connection gateway, router or client. Session properties are always null for multi-session machines.
 
-    -- SessionHidden (System.Boolean?)
-       Session property that indicates if a session is hidden.
-       Session properties are always null for multi-session machines.
+  * SessionConnectedViaIP (System.String) Session property indicating the IP address of the connection gateway, router or client. Session properties are always null for multi-session machines.
 
-    -- SessionKey (System.Guid?)
-       Session property indicating the key of the current session.
-       Session properties are always null for multi-session machines.
+  * SessionCount (System.Int32) Count of number of sessions on the machine.
 
-    -- SessionLaunchedViaHostName (System.String)
-       Session property that denotes the host name of the StoreFront server used to launch the current brokered session.
-       Session properties are always null for multi-session machines.
+  * SessionDeviceId (System.String) Session property indicating a unique identifier for the client device that has most recently been associated with the current session. Session properties are always null for multi-session machines.
 
-    -- SessionLaunchedViaIP (System.String)
-       Session property that denotes the IP address of the StoreFront server used to launch the current brokered session.
-       Session properties are always null for multi-session machines.
+  * SessionHardwareId (System.String) Session property indicating a unique identifier for the client hardware that has been most recently associated with the current session. Session properties are always null for multi-session machines.
 
-    -- SessionProtocol (System.String)
-       Session property that denotes the protocol that the current session is using, can be either HDX, RDP or Console. Console sessions on XenDesktop 5 VDAs appear with a blank protocol.
-       Session properties are always null for multi-session machines.
+  * SessionHidden (System.Boolean?) Session property that indicates if a session is hidden. Session properties are always null for multi-session machines.
 
-    -- SessionSecureIcaActive (System.Boolean?)
-       Session property that indicates whether SecureICA is active on the current session or not.
-       Session properties are always null for multi-session machines.
+  * SessionKey (System.Guid?) Session property indicating the key of the current session. Session properties are always null for multi-session machines.
 
-    -- SessionsEstablished (System.Int32)
-       Number of established sessions on this machine. For multi-session machines this excludes established sessions which have not yet completed their logon processing.
+  * SessionLaunchedViaHostName (System.String) Session property that denotes the host name of the StoreFront server used to launch the current brokered session. Session properties are always null for multi-session machines.
 
-    -- SessionSmartAccessTags (System.String[])
-       Session property that indicates the Smart Access tags for the current session.
-       Session properties are always null on multi-session machines.
+  * SessionLaunchedViaIP (System.String) Session property that denotes the IP address of the StoreFront server used to launch the current brokered session. Session properties are always null for multi-session machines.
 
-    -- SessionsPending (System.Int32)
-       Number of pending (brokered but not yet established) sessions on this machine. For multi-session machines this also includes established sessions which have not yet completed their logon processing.
+  * SessionProtocol (System.String) Session property that denotes the protocol that the current session is using, can be either HDX, RDP or Console. Console sessions on XenDesktop 5 VDAs appear with a blank protocol. Session properties are always null for multi-session machines.
 
-    -- SessionStartTime (System.DateTime?)
-       Session property that indicates the start time of the current session.
-       Session properties are always null on multi-session machines.
+  * SessionSecureIcaActive (System.Boolean?) Session property that indicates whether SecureICA is active on the current session or not. Session properties are always null for multi-session machines.
 
-    -- SessionState (Citrix.Broker.Admin.SDK.SessionState?)
-       Session property indicating the state of the current session, possible values are:
-       Other, PreparingSession, Connected, Active, Disconnected, Reconnecting, NonBrokeredSession and Unknown. Session properties are always null for multi-session machines.
+  * SessionsEstablished (System.Int32) Number of established sessions on this machine. For multi-session machines this excludes established sessions which have not yet completed their logon processing.
 
-    -- SessionStateChangeTime (System.DateTime?)
-       Session property indicating the time of the last state change of the current session.
-       Session properties are always null for multi-session machines.
+  * SessionSmartAccessTags (System.String\[\]) Session property that indicates the Smart Access tags for the current session. Session properties are always null on multi-session machines.
 
-    -- SessionSupport (Citrix.Broker.Admin.SDK.SessionSupport)
-       Indicates the session support of the machine.
-       Possible values:
-       o SingleSession: Single-session only machine.
-       o MultiSession: Multi-session capable machine.
+  * SessionsPending (System.Int32) Number of pending (brokered but not yet established) sessions on this machine. For multi-session machines this also includes established sessions which have not yet completed their logon processing.
 
-    -- SessionType (Citrix.Broker.Admin.SDK.SessionType?)
-       Session property indicating the type of the current session.
-       Session properties are always null for multi-session machines.
+  * SessionStartTime (System.DateTime?) Session property that indicates the start time of the current session. Session properties are always null on multi-session machines.
 
-    -- SessionUid (System.Int64?)
-       Session property indicating the UID of the current session.
-       Session properties are always null for multi-session machines.
+  * SessionState (Citrix.Broker.Admin.SDK.SessionState?) Session property indicating the state of the current session, possible values are: Other, PreparingSession, Connected, Active, Disconnected, Reconnecting, NonBrokeredSession and Unknown. Session properties are always null for multi-session machines.
 
-    -- SessionUserName (System.String)
-       Session property indicates the name of the current session's user (in the form DOMAIN\user).
-       Session properties are always null for multi-session machines.
+  * SessionStateChangeTime (System.DateTime?) Session property indicating the time of the last state change of the current session. Session properties are always null for multi-session machines.
 
-    -- SessionUserSID (System.String)
-       Session property indicates the SID of the current session's user.
-       Session properties are always null for multi-session machines.
+  * SessionSupport (Citrix.Broker.Admin.SDK.SessionSupport) Indicates the session support of the machine. Possible values:
+    * SingleSession: Single-session only machine.
+    * MultiSession: Multi-session capable machine.
 
-    -- SID (System.String)
-       The SID of the machine.
+  * SessionType (Citrix.Broker.Admin.SDK.SessionType?) Session property indicating the type of the current session. Session properties are always null for multi-session machines.
 
-    -- SummaryState (Citrix.Broker.Admin.SDK.DesktopSummaryState)
-       Indicates the overall state of the desktop associated with the machine. The overall state is a result of other more specific states such as session state, registration state and power state. Possible values: Off, Unregistered, Available, Disconnected, InUse, Preparing.
+  * SessionUid (System.Int64?) Session property indicating the UID of the current session. Session properties are always null for multi-session machines.
 
-    -- SupportedPowerActions (System.String[])
-       A list of power actions supported by this machine.
+  * SessionUserName (System.String) Session property indicates the name of the current session's user (in the form DOMAIN\\user). Session properties are always null for multi-session machines.
 
-    -- Tags (System.String[])
-       A list of tags associated with the machine.
+  * SessionUserSID (System.String) Session property indicates the SID of the current session's user. Session properties are always null for multi-session machines.
 
-    -- Uid (System.Int32)
-       UID of the machine object.
+  * SID (System.String) The SID of the machine.
 
-    -- UUID (System.Guid)
-       UUID of the machine object.
+  * SummaryState (Citrix.Broker.Admin.SDK.DesktopSummaryState) Indicates the overall state of the desktop associated with the machine. The overall state is a result of other more specific states such as session state, registration state and power state. Possible values: Off, Unregistered, Available, Disconnected, InUse, Preparing.
 
-    -- VMToolsState (Citrix.Broker.Admin.SDK.VMToolsState)
-       State of the hypervisor tools present on the VM (if any).
-       Possible values are:
-       NotPresent, Unknown, NotStarted, Running.
-      
-    -- WillShutdownAfterUse (System.Boolean)
-       Flag indicating if this machine is tainted and will be shut down after all sessions on the machine have ended. This flag is only ever true on power-managed, single-session machines.
-       Note: The machine will not shut down if it is in maintenance mode; it will shut down only after it is taken out of maintenance mode.
+  * SupportedPowerActions (System.String\[\]) A list of power actions supported by this machine.
 
-    -- WindowsConnectionSetting (Citrix.Broker.Admin.SDK.WindowsConnectionSetting?)
-       The logon mode reported by Windows itself (multi-session machines only). For single-session machines the value is always hardwired to LogonEnabled.
-       Possible values are:
-       LogonEnabled, Draining, DrainingUntilRestart and LogonDisabled.
-      
-    -- ZoneName (System.String)
-       The name of the zone in which the machine is located.
+  * Tags (System.String\[\]) A list of tags associated with the machine.
 
-    -- ZoneUid (System.Guid)
-       The UID of the zone in which the machine is located.
+  * Uid (System.Int32) UID of the machine object.
+
+  * UUID (System.Guid) UUID of the machine object.
+
+  * VMToolsState (Citrix.Broker.Admin.SDK.VMToolsState) State of the hypervisor tools present on the VM (if any). Possible values are: NotPresent, Unknown, NotStarted, Running.
+
+  * WillShutdownAfterUse (System.Boolean) Flag indicating if this machine is tainted and will be shut down after all sessions on the machine have ended. This flag is only ever true on power-managed, single-session machines. Note: The machine will not shut down if it is in maintenance mode; it will shut down only after it is taken out of maintenance mode.
+
+  * WindowsConnectionSetting (Citrix.Broker.Admin.SDK.WindowsConnectionSetting?) The logon mode reported by Windows itself (multi-session machines only). For single-session machines the value is always hardwired to LogonEnabled. Possible values are: LogonEnabled, Draining, DrainingUntilRestart and LogonDisabled.
+
+  * ZoneName (System.String) The name of the zone in which the machine is located.
+
+  * ZoneUid (System.Guid) The UID of the zone in which the machine is located.
+
 
 ## Related Commands
-  * [Group-BrokerMachine](Group-BrokerMachine/)
-## Parameters
 
+* [Group-BrokerMachine](./Group-BrokerMachine/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Uid | Gets a machine with a specific UID. | true | false |  |
-| MachineName | Gets machines with a specific machine name (in the form domain\machine). | false | false |  |
+| MachineName | Gets machines with a specific machine name (in the form domain\\machine). | false | false |  |
 | AgentVersion | Gets machines with a specific Citrix Virtual Delivery Agent version. | false | false |  |
 | AllocationType | Gets machines from catalogs with the specified allocation type. | false | false |  |
 | ApplicationInUse | Gets machines running a specified published application (identified by browser name).<br>String comparisons are case-insensitive. | false | false |  |
@@ -426,7 +281,7 @@ The machine object returned represents a physical or virtual machine, which has 
 | AssignedUserSID | Gets machines with the specific SID of the user to whom the desktop is assigned. | false | false |  |
 | AssociatedTenantId | Gets machines associated with the specified tenant. | false | false |  |
 | AssociatedUserFullName | Gets machines with an associated user identified by their full name (usually 'first-name last-name').<br>Associated users are all current users of a desktop, plus the assigned users for private desktops. | false | false |  |
-| AssociatedUserName | Gets machines with an associated user identified by their user name (in the form 'domain\user').<br>Associated users are all current users of a desktop, plus the assigned users for private desktops. | false | false |  |
+| AssociatedUserName | Gets machines with an associated user identified by their user name (in the form 'domain\\user').<br>Associated users are all current users of a desktop, plus the assigned users for private desktops. | false | false |  |
 | AssociatedUserSID | Gets machines with an associated user identified by their Windows SID.<br>Associated users are all current users of a desktop, plus the assigned users for private desktops. | false | false |  |
 | AssociatedUserUPN | Gets machines with an associated user identified by their User Principle Name (in the form 'user@domain').<br>Associated users are all current users of a desktop, plus the assigned users for private desktops. | false | false |  |
 | BrowserName | Gets assigned machines backing desktop resources that have browser names matching the specified name. | false | false |  |
@@ -446,7 +301,7 @@ The machine object returned represents a physical or virtual machine, which has 
 | DesktopUid | Gets the machine that corresponds to the desktop with the specific UID. | false | false |  |
 | DNSName | Gets machines with the specific DNS name. | false | false |  |
 | FaultState | Gets machines currently in the specified fault state. | false | false |  |
-| FunctionalLevel | Gets machines with a specific FunctionalLevel.<br>Valid values are L5, L7, L7_6 | false | false |  |
+| FunctionalLevel | Gets machines with a specific FunctionalLevel.<br>Valid values are L5, L7, L7\_6 | false | false |  |
 | HostedMachineId | Gets machines with the specific machine ID known to the hypervisor. | false | false |  |
 | HostedMachineName | Gets machines with the specific machine name known to the hypervisor. | false | false |  |
 | HostingServerName | Gets machines by the name of the hosting hypervisor server. | false | false |  |
@@ -462,8 +317,8 @@ The machine object returned represents a physical or virtual machine, which has 
 | IsReserved | Gets machines that are reserved for special use, for example, for AppDisk preparation. | false | false |  |
 | LastConnectionFailure | Gets machines with a specific reason for the last recorded connection failure. This value is None if the last connection was successful or if there has been no attempt to connect to the desktop yet.<br>Valid values are None, SessionPreparation, RegistrationTimeout, ConnectionTimeout, Licensing, Ticketing, and Other. | false | false |  |
 | LastConnectionTime | Gets machines on which a user session connection occurred at a specific time. This is the time at which the broker detected that the connection attempt either succeeded or failed. | false | false |  |
-| LastConnectionUser | Gets machines where a specific user name last attempted a connection (in the form 'domain\user'). | false | false |  |
-| LastDeregistrationReason | Gets machines whose broker last recorded a specific deregistration reason.<br>Valid values are $null, AgentShutdown, AgentSuspended, AgentRequested, IncompatibleVersion, AgentAddressResolutionFailed, AgentNotContactable, AgentWrongActiveDirectoryOU, EmptyRegistrationRequest, MissingRegistrationCapabilities, MissingAgentVersion, InconsistentRegistrationCapabilities, NotLicensedForFeature, UnsupportedCredentialSecurityVersion, InvalidRegistrationRequest, SingleMultiSessionMismatch, FunctionalLevelTooLowForCatalog, FunctionalLevelTooLowForDesktopGroup, PowerOff, DesktopRestart, DesktopRemoved, AgentRejectedSettingsUpdate, SendSettingsFailure, SessionAuditFailure, SessionPrepareFailure, ContactLost, SettingsCreationFailure, UnknownError and BrokerRegistrationLimitReached. | false | false |  |
+| LastConnectionUser | Gets machines where a specific user name last attempted a connection (in the form 'domain\\user'). | false | false |  |
+| LastDeregistrationReason | Gets machines whose broker last recorded a specific deregistration reason.<br>Valid values are \$null, AgentShutdown, AgentSuspended, AgentRequested, IncompatibleVersion, AgentAddressResolutionFailed, AgentNotContactable, AgentWrongActiveDirectoryOU, EmptyRegistrationRequest, MissingRegistrationCapabilities, MissingAgentVersion, InconsistentRegistrationCapabilities, NotLicensedForFeature, UnsupportedCredentialSecurityVersion, InvalidRegistrationRequest, SingleMultiSessionMismatch, FunctionalLevelTooLowForCatalog, FunctionalLevelTooLowForDesktopGroup, PowerOff, DesktopRestart, DesktopRemoved, AgentRejectedSettingsUpdate, SendSettingsFailure, SessionAuditFailure, SessionPrepareFailure, ContactLost, SettingsCreationFailure, UnknownError and BrokerRegistrationLimitReached. | false | false |  |
 | LastDeregistrationTime | Gets machines by the time that they were last deregistered. | false | false |  |
 | LastErrorReason | Gets machines with the specified last error reason. | false | false |  |
 | LastErrorTime | Gets machines with the specified last error time. | false | false |  |
@@ -472,22 +327,22 @@ The machine object returned represents a physical or virtual machine, which has 
 | LastPvdErrorTime | Gets machines with the specified last Personal vDisk preparation error time. | false | false |  |
 | LoadIndex | Gets machines by their current load index. | false | false |  |
 | MachineInternalState | Gets machines with the specified internal state. | false | false |  |
-| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
+| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x\*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
 | OSType | Gets machines by the type of operating system they are running. | false | false |  |
 | OSVersion | Gets machines by the version of the operating system they are running. | false | false |  |
 | PersistUserChanges | Gets machines by the location where the user changes are persisted.<br>o OnLocal - User changes are persisted locally.<br>o Discard - User changes are discarded.<br>o OnPvd - User changes are persisted on the Pvd. | false | false |  |
-| PowerActionPending | Gets machines depending on whether a power action is pending or not.<br>Valid values are $true or $false. | false | false |  |
+| PowerActionPending | Gets machines depending on whether a power action is pending or not.<br>Valid values are \$true or \$false. | false | false |  |
 | PowerState | Gets machines with a specific power state.<br>Valid values are Unmanaged, Unknown, Unavailable, Off, On, Suspended, TurningOn, TurningOff, Suspending, and Resuming. | false | false |  |
 | ProvisioningType | Gets machines that are in a catalog with a particular provisioning type. Values can be:<br>o Manual - No provisioning.<br>o PVS -  Machine provisioned by PVS (machine may be physical, blade, VM,...).<br>o MCS - Machine provisioned by MCS (machine must be VM). | false | false |  |
 | PublishedApplication | Gets machines with a specific application published to them (identified by its browser name). | false | false |  |
 | PublishedName | Gets desktops with a specific published name. | false | false |  |
 | PvdEstimatedCompletionTime | If preparation of the Personal vDisk is currently in progress for this machine, this reports an estimation of the time at which the process will be complete. | false | false |  |
-| PvdPercentDone | Gets machines a specific percentage through the Personal vDisk preparation process.<br>This property is typically used with advanced filtering; see about_Broker_Filtering. | false | false |  |
+| PvdPercentDone | Gets machines a specific percentage through the Personal vDisk preparation process.<br>This property is typically used with advanced filtering; see about\_Broker\_Filtering. | false | false |  |
 | PvdStage | Gets machines at a specific personal vDisk stage.<br>Valid values are None, Requested, Starting, Working and Failed. | false | false |  |
 | PvdUpdateStartTime | If preparation of the Personal vDisk is currently in progress for this machine, this reports when the update process began. | false | false |  |
 | RegistrationState | Gets machines in a specific registration state.<br>Valid values are Unregistered, Initializing, Registered, and AgentError. | false | false |  |
 | ScheduledReboot | Gets machines according to their current status with respect to any scheduled reboots (for either scheduled desktop group reboots or image rollout purposes). Valid values are:<br>o None - No reboot currently scheduled.<br>o Pending - Reboot scheduled but machine still available for use.<br>o Draining - Reboot scheduled. New logons are disabled, but reconnections to existing sessions are allowed.<br>o InProgress - Machine is actively being rebooted.<br>o Natural - Natural reboot in progress. Machine is awaiting a restart. | false | false |  |
-| SecureIcaRequired | Gets machines configured with a particular SecureIcaRequired setting. Note that the machine setting of $null indicates that the desktop group value is used. | false | false |  |
+| SecureIcaRequired | Gets machines configured with a particular SecureIcaRequired setting. Note that the machine setting of \$null indicates that the desktop group value is used. | false | false |  |
 | SessionAutonomouslyBrokered | Gets machines according to whether their current session is autonomously brokered or not. Autonomously brokered sessions are HDX sessions established by direct connection without being brokered.<br>Session properties are always null for multi-session machines. | false | false |  |
 | SessionClientAddress | Gets machines with a specific client IP address. | false | false |  |
 | SessionClientName | Gets machines with a specific client name. | false | false |  |
@@ -507,12 +362,12 @@ The machine object returned represents a physical or virtual machine, which has 
 | SessionSmartAccessTag | Gets machines where the session has the specific SmartAccess tag.<br>Session properties are always null for multi-session machines. | false | false |  |
 | SessionsPending | Get machines according to the number of pending user sessions for the machine. | false | false |  |
 | SessionStartTime | Gets machines with a specific session start time.<br>Session properties are always null for multi-session machines. | false | false |  |
-| SessionState | Gets machines with a specific session state.<br>Valid values are $null, Other, PreparingSession, Connected, Active, Disconnected, Reconnecting, NonBrokeredSession, and Unknown.<br>Session properties are always null for multi-session machines. | false | false |  |
+| SessionState | Gets machines with a specific session state.<br>Valid values are \$null, Other, PreparingSession, Connected, Active, Disconnected, Reconnecting, NonBrokeredSession, and Unknown.<br>Session properties are always null for multi-session machines. | false | false |  |
 | SessionStateChangeTime | Gets machines whose sessions last changed state at a specific time.<br>Session properties are always null for multi-session machines. | false | false |  |
 | SessionSupport | Gets machines that have the specified session capability. Values can be:<br>o SingleSession - Single-session only machine.<br>o MultiSession - Multi-session capable machine. | false | false |  |
 | SessionType | Gets machines with a specific session state.<br>Session properties are always null for multi-session machines. | false | false |  |
-| SessionUid | Gets machines with a specific session UID ($null for no session).<br>Session properties are always null for multi-session machines. | false | false |  |
-| SessionUserName | Gets machines with a specific user name for the current session (in the form 'domain\user').<br>Session properties are always null for multi-session machines. | false | false |  |
+| SessionUid | Gets machines with a specific session UID (\$null for no session).<br>Session properties are always null for multi-session machines. | false | false |  |
+| SessionUserName | Gets machines with a specific user name for the current session (in the form 'domain\\user').<br>Session properties are always null for multi-session machines. | false | false |  |
 | SessionUserSID | Gets machines with a specific SID of the current session user.<br>Session properties are always null for multi-session machines. | false | false |  |
 | SID | Gets machines with a specific machine SID.<br>Session properties are always null for multi-session machines. | false | false |  |
 | SummaryState | Gets machines with a specific summary state.<br>Valid values are Off, Unregistered, Available, Disconnected, and InUse. | false | false |  |
@@ -524,46 +379,56 @@ The machine object returned represents a physical or virtual machine, which has 
 | WindowsConnectionSetting | Gets machines according to their current Windows connection setting (logon mode). Valid values are:<br>o LogonEnabled - All logons are enabled.<br>o Draining - New logons are disabled, but reconnections to existing sessions are allowed.<br>o DrainingUntilRestart - Same as Draining, but setting reverts to LogonEnabled when machine next restarts.<br>o LogonDisabled - All logons and reconnections are disabled.<br>This is a Windows setting and is not controlled by XenDesktop. It applies only to multi-session machines; for single-session machines its value is always LogonEnabled. | false | false |  |
 | ZoneName | Gets machines located in the zone with the specified name. | false | false |  |
 | ZoneUid | Gets machines located in the zone with the specified UID. | false | false |  |
-| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about_Broker_Filtering for details. | false | false | False |
+| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about\_Broker\_Filtering for details. | false | false | False |
 | MaxRecordCount | Specifies the maximum number of records to return. | false | false | 250 |
 | Skip | Skips the specified number of records before returning results. Also reduces the count returned by -ReturnTotalRecordCount. | false | false | 0 |
 | SortBy | Sorts the results by the specified list of properties. The list is a set of property names separated by commas, semi-colons, or spaces. Optionally, prefix each name with a + or - to indicate ascending or descending order. Ascending order is assumed if no prefix is present. | false | false | The default sort order is by name or unique identifier. |
-| Filter | Gets records that match a PowerShell style filter expression. See about_Broker_Filtering for details. | false | false |  |
+| Filter | Gets records that match a PowerShell style filter expression. See about\_Broker\_Filtering for details. | false | false |  |
 | Property | Specifies the properties to be returned. This is similar to piping the output of the command through Select-Object, but the properties are filtered more efficiently at the server. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   You cannot pipe input into this cmdlet.
+You cannot pipe input into this cmdlet.
 ## Return Values
-### Citrix.Broker.Admin.SDK.Machine
-   Get-BrokerMachine returns an object for each matching desktop.## Notes
-   It is generally better to compare dates and times using -Filter and relative comparisons. See about_Broker_Filtering and the examples in this topic for more information.
+
+### Citrix.Broker.Admin.Sdk.Machine
+Get-BrokerMachine returns an object for each matching desktop.
+## Notes
+It is generally better to compare dates and times using -Filter and relative comparisons. See about\_Broker\_Filtering and the examples in this topic for more information.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> Get-BrokerMachine -PowerState Suspended
+
 C:\PS> Get-BrokerMachine -Filter { PowerState -eq 'Suspended' }
 ```
-   Description<br>-----------<br>These commands return all suspended machines. The second form uses advanced filtering (see about_Broker_Filtering).
-### EXAMPLE 2
+#### Description
+These commands return all suspended machines. The second form uses advanced filtering (see about\_Broker\_Filtering).
+### Example 2
 ```
-C:\PS> Get-BrokerMachine -DNSName '*.mydomain.mycompany.com'
+C:\PS> Get-BrokerMachine -DNSName '\*.mydomain.mycompany.com'
 ```
-   Description<br>-----------<br>This command returns all machines belonging to the DNS domain mydomain.mycompany.com.
-### EXAMPLE 3
+#### Description
+This command returns all machines belonging to the DNS domain mydomain.mycompany.com.
+### Example 3
 ```
 C:\PS> Get-BrokerMachine -Filter { RegistrationState -eq 'Registered' -and HypervisorConnectionUid -eq 5 }
 ```
-   Description<br>-----------<br>This command returns all registered machines running on the specified hypervisor connection.
-### EXAMPLE 4
+#### Description
+This command returns all registered machines running on the specified hypervisor connection.
+### Example 4
 ```
-C:\PS> Get-BrokerMachine -MachineName 'MyDomain\X*' | Remove-BrokerDesktopGroup 2
+C:\PS> Get-BrokerMachine -MachineName 'MyDomain\X\*' | Remove-BrokerDesktopGroup 2
 ```
-   Description<br>-----------<br>This command finds all of the machines in MyDomain with names beginning with X and removes them from the specified desktop group.
-### EXAMPLE 5
+#### Description
+This command finds all of the machines in MyDomain with names beginning with X and removes them from the specified desktop group.
+### Example 5
 ```
 C:\PS> Get-BrokerMachine -Filter { DesktopGroupUid -ne $null }
 ```
-   Description<br>-----------<br>This command gets all desktops in a site. Use this instead of the deprecated Get-BrokerDesktop command.
+#### Description
+This command gets all desktops in a site. Use this instead of the deprecated Get-BrokerDesktop command.

@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Update-HypHypervisorConnection [-LiteralPath] <String> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Update-HypHypervisorConnection [-LiteralPath] <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -17,6 +17,7 @@ Update-HypHypervisorConnection [-LiteralPath] <String> [-LoggingId <Guid>] [-Adm
 | --- | --- | --- | --- | --- |
 | LiteralPath | Specifies the path within a Host Service provider to the hypervisor connection item to be updated. The path specified must be in one of the following formats; <drive>:\Connections\<HypervisorConnectionName> or  <drive>:\Connections\{HypervisorConnection Uid>} | true | true (ByValue) |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in will connect to.  This can be provided as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value will become the default. |
 
 ## Input Type

@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-HypDBSchema [-DatabaseName <String>] [-ServiceGroupName <String>] [-ScriptType <ScriptTypes>] [-LocalDatabase] [-Sid <String>] [-AdminAddress <String>] [<CommonParameters>]
+Get-HypDBSchema [-DatabaseName <String>] [-ServiceGroupName <String>] [-ScriptType <ScriptTypes>] [-LocalDatabase] [-Sid <String>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -39,8 +39,8 @@ o Creation of database server logon only
 If the service uses two data stores they can exist in the same database. You do not need to configure a database before using this command.
 
 ## Related Commands
-  * [Set-HypDBConnection](Set-HypDBConnection/)
-  * [Test-HypDBConnection](Test-HypDBConnection/)
+  * [Set-HypDBConnection](Set-HypDBConnection.html)
+  * [Test-HypDBConnection](Test-HypDBConnection.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -50,6 +50,7 @@ If the service uses two data stores they can exist in the same database. You do 
 | ScriptType | Specifies the type of database script returned. Available script types are:<br>-- FullDatabase<br>Creates a database schema for the Citrix Host Service in a database instance that does not already contain one. This is used when creating a new site. DatabaseName and ServiceGroupName are required parameters for this script type.<br>-- Database<br>Performs the same function as "FullDatabase".<br>-- Instance<br>Adds a Host Service instance to a database and so to the associated site. Appropriate database server logons and users are created to allow the service instance access to the required service schemas.<br>-- Evict<br>Removes a Host Service instance from the database and so from the site. All reference to the service instance is removed from the database. DatabaseName and Sid are required parameters for this script type.<br>-- Login<br>Adds a logon for the Host Service instance to a database server. This is specifically for use when configuring SQL Server mirroring where the mirror server must have appropriate logons created for all service instances in the site. | false | false |  |
 | LocalDatabase | Specifies whether the database script is to be used in a database instance run on the same controller as other services in the service group. Including this parameter ensures the script creates only the required permissions for local services to access the database schema for Host services. If this parameter is specified inappropriately, the service instance will not be able to connect to the database. | false | false |  |
 | Sid | Specifies the SID of the controller on which the Host Service instance to remove from the database is running (only valid for a script type of Evict). | false | true (ByValue) | None |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

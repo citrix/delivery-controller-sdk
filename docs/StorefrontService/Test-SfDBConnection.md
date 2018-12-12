@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Test-SfDBConnection [-DBConnection] <String> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Test-SfDBConnection [-DBConnection] <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -17,15 +17,16 @@ Only use of Windows authentication within the connection string is supported; a 
 The current service instance is that on the local machine, or that explicitly specified by the last usage of the -AdminAddress parameter to a Storefront SDK cmdlet.
 
 ## Related Commands
-  * [Get-SfServiceStatus](Get-SfServiceStatus/)
-  * [Get-SfDBConnection](Get-SfDBConnection/)
-  * [Set-SfDBConnection](Set-SfDBConnection/)
+  * [Get-SfServiceStatus](Get-SfServiceStatus.html)
+  * [Get-SfDBConnection](Get-SfDBConnection.html)
+  * [Set-SfDBConnection](Set-SfDBConnection.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | DBConnection | Specifies the database connection string to be tested by the currently selected Citrix Storefront Service instance. | true | false |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

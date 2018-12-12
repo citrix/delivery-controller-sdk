@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-LogDBVersionChangeScript -DatabaseName <String> -TargetVersion <Version> [-DataStore <String>] [-AdminAddress <String>] [<CommonParameters>]
+Get-LogDBVersionChangeScript -DatabaseName <String> -TargetVersion <Version> [-DataStore <String>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -25,9 +25,9 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix ConfigurationLogging Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-LogServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-LogInstalledDBVersion](Get-LogInstalledDBVersion/)
-  * [Get-LogServiceStatus](Get-LogServiceStatus/)
-  * [Get-LogDBSchema](Get-LogDBSchema/)
+  * [Get-LogInstalledDBVersion](Get-LogInstalledDBVersion.html)
+  * [Get-LogServiceStatus](Get-LogServiceStatus.html)
+  * [Get-LogDBSchema](Get-LogDBSchema.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -35,6 +35,7 @@ Once an update has been applied to the service schema, any existing Citrix Confi
 | DatabaseName | The name of the database containing the Citrix ConfigurationLogging Service schema to be updated. | true | false |  |
 | TargetVersion | The required target service schema version of the update. This is the service schema version obtained after the update script is applied. | true | false |  |
 | DataStore | Specifies the logical name of the data store for the ConfigurationLogging Service. Can be either be 'Site' or the logical name of the secondary data store. | false | false | Site |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

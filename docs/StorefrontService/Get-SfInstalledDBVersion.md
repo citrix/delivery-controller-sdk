@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-SfInstalledDBVersion [-Upgrade] [-Downgrade] [-AdminAddress <String>] [<CommonParameters>]
+Get-SfInstalledDBVersion [-Upgrade] [-Downgrade] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -19,14 +19,15 @@ The SQL scripts to perform schema upgrades and downgrades can be obtained using 
 Only one of the -Upgrade or -Downgrade parameters may be supplied at once.
 
 ## Related Commands
-  * [Get-SfDBVersionChangeScript](Get-SfDBVersionChangeScript/)
-  * [Get-SfDBSchema](Get-SfDBSchema/)
+  * [Get-SfDBVersionChangeScript](Get-SfDBVersionChangeScript.html)
+  * [Get-SfDBSchema](Get-SfDBSchema.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Upgrade | Specifies that only schema versions to which the current database version can be updated should be returned. | false | false |  |
 | Downgrade | Specifies that only schema versions to which the current database version can be reverted should be returned. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

@@ -1,16 +1,14 @@
-﻿# Get-BrokerApplicationInstance
-
-   Gets the running applications on the desktops.
-
+﻿
+# Get-Brokerapplicationinstance
+Gets the running applications on the desktops.
 ## Syntax
 ```
-Get-BrokerApplicationInstance -Uid <Int64> [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerApplicationInstance -Uid <Int64> [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Get-BrokerApplicationInstance [-ApplicationName <String>] [-ApplicationUid <Int32>] [-ApplicationUUID <Guid>] [-Instances <Int32>] [-MachineName <String>] [-MachineUid <Int32>] [-Metadata <String>] [-SessionKey <Guid>] [-SessionUid <Int64>] [-UserName <String>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerApplicationInstance [-ApplicationName <String>] [-ApplicationUid <Int32>] [-ApplicationUUID <Guid>] [-Instances <Int32>] [-MachineName <String>] [-MachineUid <Int32>] [-Metadata <String>] [-SessionKey <Guid>] [-SessionUid <Int64>] [-UserName <String>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   The Get-BrokerApplicationInstance gets the published applications that are running on desktops.
+The Get-BrokerApplicationInstance gets the published applications that are running on desktops.
 
 Only published applications that are launched from a Citrix client are returned. If a user launches an application from within a session (by double-clicking on an attachment from an email, for example) this will not show up in the list of running applications.
 
@@ -23,48 +21,39 @@ See Get-BrokerApplication and Get-BrokerSession to get the details for the appli
 The Get-BrokerMachine cmdlet also returns a list of published applications that are running on a desktop. See the "ApplicationsInUse" attribute of the returned desktop objects.
 
 
--------------------------- BrokerApplicationInstance Object
+### Brokerapplicationinstance Object
 The BrokerApplicationInstance object represents an instance of a published application in the site. It contains the following properties:
 
-    -- ApplicationName (System.String)
-       The administrative name of the application.
 
-    -- ApplicationUid (System.Int32)
-       The UID of the application.
+  * ApplicationName (System.String) The administrative name of the application.
 
-    -- ApplicationUUID (System.Guid)
-       The UUID of the application.
+  * ApplicationUid (System.Int32) The UID of the application.
 
-    -- Instances (System.Int32)
-       The number of times this published application is running in the specified session.
+  * ApplicationUUID (System.Guid) The UUID of the application.
 
-    -- MachineName (System.String)
-       Machine's SAM name (of the form domain\machine). If SAM name is unavailable, contains the machines's SID.
+  * Instances (System.Int32) The number of times this published application is running in the specified session.
 
-    -- MachineUid (System.Int32)
-       UID of underlying machine.
+  * MachineName (System.String) Machine's SAM name (of the form domain\\machine). If SAM name is unavailable, contains the machines's SID.
 
-    -- MetadataMap (System.Collections.Generic.Dictionary<string, string>)
-       Metadata for this application instance.
+  * MachineUid (System.Int32) UID of underlying machine.
 
-    -- SessionKey (System.Guid)
-       The key of the session.
+  * MetadataMap (System.Collections.Generic.Dictionary&lt;string, string&gt;) Metadata for this application instance.
 
-    -- SessionUid (System.Int64)
-       The UID of the session.
+  * SessionKey (System.Guid) The key of the session.
 
-    -- Uid (System.Int64)
-       The unique identifier for this application instance object itself, distinct from the Uids of either application or session. objects.
+  * SessionUid (System.Int64) The UID of the session.
 
-    -- UserName (System.String)
-       User name (SAMName).
+  * Uid (System.Int64) The unique identifier for this application instance object itself, distinct from the Uids of either application or session. objects.
+
+  * UserName (System.String) User name (SAMName).
+
 
 ## Related Commands
-  * [Get-BrokerApplication](Get-BrokerApplication/)
-  * [Get-BrokerDesktop](Get-BrokerDesktop/)
-  * [Get-BrokerSession](Get-BrokerSession/)
-## Parameters
 
+* [Get-BrokerApplication](./Get-BrokerApplication/)
+* [Get-BrokerDesktop](./Get-BrokerDesktop/)
+* [Get-BrokerSession](./Get-BrokerSession/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Uid | Gets only the application instances specified by the unique identifier. This is the unique identifier for the application instance object itself, and is distinct from the Uids of either application or session objects. | true | false |  |
@@ -74,42 +63,52 @@ The BrokerApplicationInstance object represents an instance of a published appli
 | Instances | Gets only application instances that match the specified number of instances. | false | false |  |
 | MachineName | Gets only application instances running on the specified machines. | false | false |  |
 | MachineUid | Gets only application instances running on the machine with the specified UID. | false | false |  |
-| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
+| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x\*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
 | SessionKey | Gets only application instances for the published applications running in the specified session. | false | false |  |
 | SessionUid | Gets only application instances for the published applications running in the specified session. | false | false |  |
 | UserName | Gets only application instances being run by the specified users. | false | false |  |
-| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about_Broker_Filtering for details. | false | false | False |
+| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about\_Broker\_Filtering for details. | false | false | False |
 | MaxRecordCount | Specifies the maximum number of records to return. | false | false | 250 |
 | Skip | Skips the specified number of records before returning results. Also reduces the count returned by -ReturnTotalRecordCount. | false | false | 0 |
 | SortBy | Sorts the results by the specified list of properties. The list is a set of property names separated by commas, semi-colons, or spaces. Optionally, prefix each name with a + or - to indicate ascending or descending order. Ascending order is assumed if no prefix is present. | false | false | The default sort order is by name or unique identifier. |
-| Filter | Gets records that match a PowerShell style filter expression. See about_Broker_Filtering for details. | false | false |  |
+| Filter | Gets records that match a PowerShell style filter expression. See about\_Broker\_Filtering for details. | false | false |  |
 | Property | Specifies the properties to be returned. This is similar to piping the output of the command through Select-Object, but the properties are filtered more efficiently at the server. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   You cannot pipe input into this cmdlet.
+You cannot pipe input into this cmdlet.
 ## Return Values
-### Citrix.Broker.Admin.SDK.ApplicationInstance
-   Get-BrokerApplicationInstance returns an object for each application instance it gets.
+
+### Citrix.Broker.Admin.Sdk.Applicationinstance
+Get-BrokerApplicationInstance returns an object for each application instance it gets.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> Get-BrokerApplicationInstance -Uid 3
 ```
-   Description<br>-----------<br>Returns the application instance with a Uid of 3. Note that this is the unique identifier for application instances, which is distinct from the unique identifiers of either application or session objects.
-### EXAMPLE 2
+#### Description
+Returns the application instance with a Uid of 3. Note that this is the unique identifier for application instances, which is distinct from the unique identifiers of either application or session objects.
+### Example 2
 ```
 C:\PS> $app = Get-BrokerApplication Notepad
+
 C:\PS> Get-BrokerApplicationInstance -ApplicationUid $app.Uid
 ```
-   Description<br>-----------<br>Returns all the application instances for the Notepad application. Use this to see if there are any launched instances of Notepad running in your site and, if so, from which desktops.
-### EXAMPLE 3
+#### Description
+Returns all the application instances for the Notepad application. Use this to see if there are any launched instances of Notepad running in your site and, if so, from which desktops.
+### Example 3
 ```
 C:\PS> $sessions = Get-BrokerSession -MachineName "ACME\Worker1"
+
 C:\PS> for ($i=0; $i -lt $sessions.Length; $i++) {
+
             Get-BrokerApplicationInstance -SessionUid $sessions[$i].SessionUid
+
           }
 ```
-   Description<br>-----------<br>Returns all the applications that are running on the "Worker1" machine in the "ACME" domain. Use this to see which published applications are running on a specific machine.<br>Note that the SessionUid, not the SessionId, is specified as a parameter to this cmdlet. The SessionId is a unique identifier that Remote Desktop Services uses to track the session, and is unique only on that machine. The SessionUid, on the other hand, is unique across the entire site.<br>The "ApplicationsInUse" attribute of the returned session object also provides a list of running launched applications, and in many cases might be more convenient to use. It returns a list of application BrowserNames.
+#### Description
+Returns all the applications that are running on the "Worker1" machine in the "ACME" domain. Use this to see which published applications are running on a specific machine.&lt;br&gt;Note that the SessionUid, not the SessionId, is specified as a parameter to this cmdlet. The SessionId is a unique identifier that Remote Desktop Services uses to track the session, and is unique only on that machine. The SessionUid, on the other hand, is unique across the entire site.&lt;br&gt;The "ApplicationsInUse" attribute of the returned session object also provides a list of running launched applications, and in many cases might be more convenient to use. It returns a list of application BrowserNames.

@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Add-HypHypervisorConnectionAddress [-LiteralPath] <String> [-HypervisorAddress] <String> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Add-HypHypervisorConnectionAddress [-LiteralPath] <String> [-HypervisorAddress] <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -13,8 +13,8 @@ Add-HypHypervisorConnectionAddress [-LiteralPath] <String> [-HypervisorAddress] 
 The addresses required are; XenServer - The address of the XenServer machines (must all reference the same XenServer pool). VMWare vSphere/ESX - The address of a vCenter Server. Microsoft SCVMM/Hyper-V - the address of an SCVMM server.
 
 ## Related Commands
-  * [Remove-HypHypervisorConnectionAddress](Remove-HypHypervisorConnectionAddress/)
-  * [Get-HypXenServerAddress](Get-HypXenServerAddress/)
+  * [Remove-HypHypervisorConnectionAddress](Remove-HypHypervisorConnectionAddress.html)
+  * [Get-HypXenServerAddress](Get-HypXenServerAddress.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -22,6 +22,7 @@ The addresses required are; XenServer - The address of the XenServer machines (m
 | LiteralPath | Specifies the path within a Host Service provider to the hypervisor connection item to which to add the address. The path specified must be in one of the following formats; <drive>:\Connections\<HypervisorConnectionName> or  <drive>:\Connections\{HypervisorConnection Uid>} | true | false |  |
 | HypervisorAddress | Specifies the address to be used.  The address will be validated and the hypervisor must be contactable at the address supplied.<br>XenServer (ConnectionType = XenServer) The address being added must reference the same XenServer pool referenced by any existing addresses for the same connection. | true | true (ByValue) |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller to which the PowerShell snap-in connects.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

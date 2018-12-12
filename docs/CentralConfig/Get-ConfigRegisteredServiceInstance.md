@@ -4,16 +4,16 @@
 
 ## Syntax
 ```
-Get-ConfigRegisteredServiceInstance [-ServiceInstanceUid <Guid>] [-ServiceGroupUid <Guid>] [-ServiceGroupName <String>] [-ServiceType <String>] [-Address <String>] [-Binding <String>] [-Version <Int32>] [-ServiceAccountSid <String>] [-InterfaceType <String>] [-Metadata <String>] [-Property <String[]>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-AdminAddress <String>] [<CommonParameters>]
+Get-ConfigRegisteredServiceInstance [-ServiceInstanceUid <Guid>] [-ServiceGroupUid <Guid>] [-ServiceGroupName <String>] [-ServiceType <String>] [-Address <String>] [-Binding <String>] [-Version <Int32>] [-ServiceAccountSid <String>] [-InterfaceType <String>] [-Metadata <String>] [-Property <String[]>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this cmdlet to retrieve the service instances currently registered with the Configuration Service that match the parameters supplied.  If no parameters are supplied, all the service instances are returned.
 
 ## Related Commands
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
-  * [Set-ConfigRegisteredServiceInstance](Set-ConfigRegisteredServiceInstance/)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
+  * [Set-ConfigRegisteredServiceInstance](Set-ConfigRegisteredServiceInstance.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -34,6 +34,7 @@ Get-ConfigRegisteredServiceInstance [-ServiceInstanceUid <Guid>] [-ServiceGroupU
 | Skip | See about_Config_Filtering for details. | false | false | 0 |
 | SortBy | See about_Config_Filtering for details. | false | false |  |
 | Filter | See about_Config_Filtering for details. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

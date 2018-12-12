@@ -1,16 +1,14 @@
-﻿# Get-BrokerImportedFTA
-
-   Gets the imported file type associations.
-
+﻿
+# Get-Brokerimportedfta
+Gets the imported file type associations.
 ## Syntax
 ```
-Get-BrokerImportedFTA [-Uid] <Int32> [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerImportedFTA [-Uid] <Int32> [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Get-BrokerImportedFTA [[-ExtensionName] <String>] [-ContentType <String>] [-Description <String>] [-DesktopGroupUid <Int32>] [-Edit <String>] [-EditArguments <String>] [-EditExecutableName <String>] [-HandlerName <String>] [-Open <String>] [-OpenArguments <String>] [-OpenExecutableName <String>] [-PerceivedType <String>] [-Print <String>] [-PrintTo <String>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerImportedFTA [[-ExtensionName] <String>] [-ContentType <String>] [-Description <String>] [-DesktopGroupUid <Int32>] [-Edit <String>] [-EditArguments <String>] [-EditExecutableName <String>] [-HandlerName <String>] [-Open <String>] [-OpenArguments <String>] [-OpenExecutableName <String>] [-PerceivedType <String>] [-Print <String>] [-PrintTo <String>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   Returns the file type associations the system imports from worker machines.
+Returns the file type associations the system imports from worker machines.
 
 File type association associates a file extension (such as ".txt") with an application (such as Notepad). In a Citrix environment file type associations on a user device can be configured so that when an user clicks on a document it launches the appropriate published application. This is known as "content redirection".
 
@@ -25,60 +23,47 @@ The imported file type associations are grouped according to the desktop group t
 Note that the ImportedFTA object has several fields that are not currently used. Only those fields that are shared with the ConfiguredFTA object are actually used in some capacity.
 
 
--------------------------- BrokerImportedFTA Object
+### Brokerimportedfta Object
 The BrokerImportedFTA object represents a file type association imported from worker machines. It contains the following properties:
 
-    -- ContentType (System.String)
-       Content type of the file, such as "text/plain" or "application/vnd.ms-excel".
 
-    -- Description (System.String)
-       File type description, such as "Test Document", "Microsoft Word Text Document", etc.
+  * ContentType (System.String) Content type of the file, such as "text/plain" or "application/vnd.ms-excel".
 
-    -- DesktopGroupUid (System.Int32)
-       The desktop group this file type belongs to.
+  * Description (System.String) File type description, such as "Test Document", "Microsoft Word Text Document", etc.
 
-    -- Edit (System.String)
-       Edit command with full path to executable: "C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE" /n /dde
+  * DesktopGroupUid (System.Int32) The desktop group this file type belongs to.
 
-    -- EditArguments (System.String)
-       The arguments used for the ‘edit’ action on files of this type. These are extracted from the full edit command, and may be empty.
+  * Edit (System.String) Edit command with full path to executable: "C:\\Program Files (x86)\\Microsoft Office\\Office12\\WINWORD.EXE" /n /dde
 
-    -- EditExecutableName (System.String)
-       The executable name extracted from the Edit property, no path included. This is used for matching with published apps' executable when searching for the list of extensions an application is capable of handling.
+  * EditArguments (System.String) The arguments used for the ‘edit’ action on files of this type. These are extracted from the full edit command, and may be empty.
 
-    -- ExtensionName (System.String)
-       A single file extension, such as .txt. Unique within the scope of a desktop group.
+  * EditExecutableName (System.String) The executable name extracted from the Edit property, no path included. This is used for matching with published apps' executable when searching for the list of extensions an application is capable of handling.
 
-    -- HandlerName (System.String)
-       File type handler name, e.g. "Word.Document.8" or TXTFILE.
+  * ExtensionName (System.String) A single file extension, such as .txt. Unique within the scope of a desktop group.
 
-    -- Open (System.String)
-       Open command with full path to executable: "C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE" /n /dde
+  * HandlerName (System.String) File type handler name, e.g. "Word.Document.8" or TXTFILE.
 
-    -- OpenArguments (System.String)
-       The arguments used for the ‘open’ action on files of this type. These are extracted from the full open command, and may be empty.
+  * Open (System.String) Open command with full path to executable: "C:\\Program Files (x86)\\Microsoft Office\\Office12\\WINWORD.EXE" /n /dde
 
-    -- OpenExecutableName (System.String)
-       The executable name extracted from the Open property, no path included. This is used for matching with published apps' executable when searching for the list of extensions an application is capable of handling.
+  * OpenArguments (System.String) The arguments used for the ‘open’ action on files of this type. These are extracted from the full open command, and may be empty.
 
-    -- PerceivedType (System.String)
-       Perceived type, such as "text".
+  * OpenExecutableName (System.String) The executable name extracted from the Open property, no path included. This is used for matching with published apps' executable when searching for the list of extensions an application is capable of handling.
 
-    -- Print (System.String)
-       Print command: "C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE" /x /n /dde
+  * PerceivedType (System.String) Perceived type, such as "text".
 
-    -- PrintTo (System.String)
-       PrintTo command: "C:\Program Files (x86)\Microsoft Office\Office12\WINWORD.EXE" /n /dde
+  * Print (System.String) Print command: "C:\\Program Files (x86)\\Microsoft Office\\Office12\\WINWORD.EXE" /x /n /dde
 
-    -- Uid (System.Int32)
-       Unique internal identifier of imported file type association.
+  * PrintTo (System.String) PrintTo command: "C:\\Program Files (x86)\\Microsoft Office\\Office12\\WINWORD.EXE" /n /dde
+
+  * Uid (System.Int32) Unique internal identifier of imported file type association.
+
 
 ## Related Commands
-  * [New-BrokerConfiguredFTA](New-BrokerConfiguredFTA/)
-  * [Remove-BrokerImportedFTA](Remove-BrokerImportedFTA/)
-  * [Update-BrokerImportedFTA](Update-BrokerImportedFTA/)
-## Parameters
 
+* [New-BrokerConfiguredFTA](./New-BrokerConfiguredFTA/)
+* [Remove-BrokerImportedFTA](./Remove-BrokerImportedFTA/)
+* [Update-BrokerImportedFTA](./Update-BrokerImportedFTA/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Uid | Gets only the imported file type associations with the specified unique identifier. | true | false |  |
@@ -96,29 +81,34 @@ The BrokerImportedFTA object represents a file type association imported from wo
 | PerceivedType | Gets only the imported file type associations with the specified perceived type (as listed in the Registry). For example, "document". | false | false |  |
 | Print | Gets only the imported file type associations with the specified Print command. | false | false |  |
 | PrintTo | Gets only the imported file type associations with the specified PrintTo command. | false | false |  |
-| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about_Broker_Filtering for details. | false | false | False |
+| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about\_Broker\_Filtering for details. | false | false | False |
 | MaxRecordCount | Specifies the maximum number of records to return. | false | false | 250 |
 | Skip | Skips the specified number of records before returning results. Also reduces the count returned by -ReturnTotalRecordCount. | false | false | 0 |
 | SortBy | Sorts the results by the specified list of properties. The list is a set of property names separated by commas, semi-colons, or spaces. Optionally, prefix each name with a + or - to indicate ascending or descending order. Ascending order is assumed if no prefix is present. | false | false | The default sort order is by name or unique identifier. |
-| Filter | Gets records that match a PowerShell style filter expression. See about_Broker_Filtering for details. | false | false |  |
+| Filter | Gets records that match a PowerShell style filter expression. See about\_Broker\_Filtering for details. | false | false |  |
 | Property | Specifies the properties to be returned. This is similar to piping the output of the command through Select-Object, but the properties are filtered more efficiently at the server. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   This cmdlet does not accept any input from the pipeline.
+This cmdlet does not accept any input from the pipeline.
 ## Return Values
-### Citrix.Broker.Admin.SDK.ImportedFTA
-   One or more ImportedFTA objects are returned as output.
+
+### Citrix.Broker.Admin.Sdk.Importedfta
+One or more ImportedFTA objects are returned as output.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> Get-BrokerImportedFTA
 ```
-   Description<br>-----------<br>Invoking this cmdlet with no arguments simply returns all of the imported file type association objects. By default, only the first 250 objects are returned. See the -MaxRecordCount and -Skip parameters for information about modifying this.
-### EXAMPLE 2
+#### Description
+Invoking this cmdlet with no arguments simply returns all of the imported file type association objects. By default, only the first 250 objects are returned. See the -MaxRecordCount and -Skip parameters for information about modifying this.
+### Example 2
 ```
 C:\PS> Get-BrokerImportedFTA -ExtensionName ".txt"
 ```
-   Description<br>-----------<br>Retrieves all imported file type associations that have the extension ".txt". Note that because imported file type associations are per-desktop group, multiple instances may be returned.
+#### Description
+Retrieves all imported file type associations that have the extension ".txt". Note that because imported file type associations are per-desktop group, multiple instances may be returned.

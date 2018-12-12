@@ -4,11 +4,11 @@
 
 ## Syntax
 ```
-Rename-ConfigEdgeServer [-InputObject] <EdgeServer> [-NewName] <String> [-PassThru] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Rename-ConfigEdgeServer [-InputObject] <EdgeServer> [-NewName] <String> [-PassThru] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Rename-ConfigEdgeServer [-Uid] <Guid> [-NewName] <String> [-PassThru] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Rename-ConfigEdgeServer [-Uid] <Guid> [-NewName] <String> [-PassThru] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Rename-ConfigEdgeServer [-Name] <String> [-NewName] <String> [-PassThru] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Rename-ConfigEdgeServer [-Name] <String> [-NewName] <String> [-PassThru] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -17,10 +17,10 @@ Rename-ConfigEdgeServer [-Name] <String> [-NewName] <String> [-PassThru] [-Loggi
 The following special characters are not allowed in the name: \ / ; : # . * ? = < > | [ ] ( ) " ' `
 
 ## Related Commands
-  * [New-ConfigEdgeServer](New-ConfigEdgeServer/)
-  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer/)
-  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer/)
-  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer/)
+  * [New-ConfigEdgeServer](New-ConfigEdgeServer.html)
+  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer.html)
+  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer.html)
+  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -31,6 +31,7 @@ The following special characters are not allowed in the name: \ / ; : # . * ? = 
 | NewName | Specifies the new name of the edge server | true | false |  |
 | PassThru | Returns the affected record. By default, this cmdlet does not generate any output. | false | false | False |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

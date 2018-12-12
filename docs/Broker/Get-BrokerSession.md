@@ -1,267 +1,199 @@
-﻿# Get-BrokerSession
-
-   Gets a list of sessions.
-
+﻿
+# Get-Brokersession
+Gets a list of sessions.
 ## Syntax
 ```
-Get-BrokerSession [-Uid] <Int64> [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerSession [-Uid] <Int64> [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Get-BrokerSession [[-SessionKey] <Guid>] [-AgentVersion <String>] [-AnonymousUserId <String>] [-ApplicationInUse <String>] [-AppState <SessionAppState>] [-AppStateLastChangeTime <DateTime>] [-AutonomouslyBrokered <Boolean>] [-BrokeringDuration <Int32>] [-BrokeringTime <DateTime>] [-BrokeringUserName <String>] [-BrokeringUserSID <String>] [-CatalogName <String>] [-ClientAddress <String>] [-ClientName <String>] [-ClientPlatform <String>] [-ClientProductId <Int32>] [-ClientVersion <String>] [-ConnectedViaHostName <String>] [-ConnectedViaIP <String>] [-ConnectionMode <ConnectionMode>] [-ControllerDNSName <String>] [-DesktopGroupName <String>] [-DesktopGroupUid <Int32>] [-DesktopKind <DesktopKind>] [-DesktopSID <String>] [-DesktopUid <Int32>] [-DeviceId <String>] [-DNSName <String>] [-EstablishmentDuration <Int32>] [-EstablishmentTime <DateTime>] [-HardwareId <String>] [-Hidden <Boolean>] [-HostedMachineName <String>] [-HostingServerName <String>] [-HypervisorConnectionName <String>] [-ImageOutOfDate <Boolean>] [-InMaintenanceMode <Boolean>] [-IPAddress <String>] [-IsAnonymousUser <Boolean>] [-IsPhysical <Boolean>] [-LaunchedViaHostName <String>] [-LaunchedViaIP <String>] [-LogoffInProgress <Boolean>] [-LogonInProgress <Boolean>] [-MachineName <String>] [-MachineSummaryState <DesktopSummaryState>] [-MachineUid <Int32>] [-Metadata <String>] [-OSType <String>] [-PersistUserChanges <PersistUserChanges>] [-PowerState <PowerState>] [-PreferredZoneName <String>] [-PreferredZoneUid <Guid>] [-Protocol <String>] [-ProvisioningType <ProvisioningType>] [-ReceiverIPAddress <String>] [-ReceiverName <String>] [-SecureIcaActive <Boolean>] [-SessionId <Int32>] [-SessionReconnection <SessionReconnection>] [-SessionState <SessionState>] [-SessionStateChangeTime <DateTime>] [-SessionSupport <SessionSupport>] [-SessionType <SessionType>] [-StartTime <DateTime>] [-TenantId <Guid>] [-UntrustedUserName <String>] [-UserFullName <String>] [-UserName <String>] [-UserSID <String>] [-UserUPN <String>] [-ZoneName <String>] [-ZoneUid <Guid>] [-ApplicationUid <Int32>] [-SharedDesktopUid <Int32>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerSession [[-SessionKey] <Guid>] [-AgentVersion <String>] [-AnonymousUserId <String>] [-ApplicationInUse <String>] [-AppState <SessionAppState>] [-AppStateLastChangeTime <DateTime>] [-AutonomouslyBrokered <Boolean>] [-BrokeringDuration <Int32>] [-BrokeringTime <DateTime>] [-BrokeringUserName <String>] [-BrokeringUserSID <String>] [-CatalogName <String>] [-ClientAddress <String>] [-ClientName <String>] [-ClientPlatform <String>] [-ClientProductId <Int32>] [-ClientVersion <String>] [-ConnectedViaHostName <String>] [-ConnectedViaIP <String>] [-ConnectionMode <ConnectionMode>] [-ControllerDNSName <String>] [-DesktopGroupName <String>] [-DesktopGroupUid <Int32>] [-DesktopKind <DesktopKind>] [-DesktopSID <String>] [-DesktopUid <Int32>] [-DeviceId <String>] [-DNSName <String>] [-EntitlementPolicyRuleUid <Int32>] [-EstablishmentDuration <Int32>] [-EstablishmentTime <DateTime>] [-HardwareId <String>] [-Hidden <Boolean>] [-HostedMachineName <String>] [-HostingServerName <String>] [-HypervisorConnectionName <String>] [-IdleDuration <TimeSpan>] [-IdleSince <DateTime>] [-ImageOutOfDate <Boolean>] [-InMaintenanceMode <Boolean>] [-IPAddress <String>] [-IsAnonymousUser <Boolean>] [-IsPhysical <Boolean>] [-LaunchedViaHostName <String>] [-LaunchedViaIP <String>] [-LaunchedViaPublishedName <String>] [-LogoffInProgress <Boolean>] [-LogonInProgress <Boolean>] [-MachineName <String>] [-MachineSummaryState <DesktopSummaryState>] [-MachineUid <Int32>] [-Metadata <String>] [-OSType <String>] [-PersistUserChanges <PersistUserChanges>] [-PowerState <PowerState>] [-PreferredZoneName <String>] [-PreferredZoneUid <Guid>] [-Protocol <String>] [-ProvisioningType <ProvisioningType>] [-ReceiverIPAddress <String>] [-ReceiverName <String>] [-SecureIcaActive <Boolean>] [-SessionId <Int32>] [-SessionReconnection <SessionReconnection>] [-SessionState <SessionState>] [-SessionStateChangeTime <DateTime>] [-SessionSupport <SessionSupport>] [-SessionType <SessionType>] [-StartTime <DateTime>] [-TenantId <Guid>] [-UntrustedUserName <String>] [-UserFullName <String>] [-UserName <String>] [-UserSID <String>] [-UserUPN <String>] [-ZoneName <String>] [-ZoneUid <Guid>] [-ApplicationUid <Int32>] [-SharedDesktopUid <Int32>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   Retrieves sessions matching all the specified criteria. If no parameters are specified this cmdlet enumerates all sessions.
+Retrieves sessions matching all the specified criteria. If no parameters are specified this cmdlet enumerates all sessions.
 
 
--------------------------- BrokerSession Object
+### Brokersession Object
 The session object returned represents a session on a machine in the site. The session could be for a desktop or application
 
-    -- AgentVersion (System.String)
-       Version of the Citrix Virtual Delivery Agent (VDA) installed on the machine.
 
-    -- AnonymousUserId (System.String)
-       User ID associated with an anonymous session. This is a non-Windows identity and does not relate to the user account under which the session is running. Not all anonymous sessions have associated user IDs.
+  * AgentVersion (System.String) Version of the Citrix Virtual Delivery Agent (VDA) installed on the machine.
 
-    -- ApplicationsInUse (System.String[])
-       List of applications in use in the session. Applications are identified by their administrative name.
+  * AnonymousUserId (System.String) User ID associated with an anonymous session. This is a non-Windows identity and does not relate to the user account under which the session is running. Not all anonymous sessions have associated user IDs.
 
-    -- AppState (Citrix.Broker.Admin.SDK.SessionAppState)
-       The app state of the session. Valid values are PreLogon, PreLaunched, Active, Desktop, Lingering and NoApps.
+  * ApplicationsInUse (System.String\[\]) List of applications in use in the session. Applications are identified by their administrative name.
 
-    -- AppStateLastChangeTime (System.DateTime?)
-       The time when the session entered the current app state.
+  * AppState (Citrix.Broker.Admin.SDK.SessionAppState) The app state of the session. Valid values are PreLogon, PreLaunched, Active, Desktop, Lingering and NoApps.
 
-    -- AutonomouslyBrokered (System.Boolean)
-       Indicates whether this is an HDX session established by direct connection without being brokered.
+  * AppStateLastChangeTime (System.DateTime?) The time when the session entered the current app state.
 
-    -- BrokeringDuration (System.Int32?)
-       Time taken to broker the session (in milliseconds).
+  * AutonomouslyBrokered (System.Boolean) Indicates whether this is an HDX session established by direct connection without being brokered.
 
-    -- BrokeringTime (System.DateTime?)
-       Time at which the session was brokered.
+  * BrokeringDuration (System.Int32?) Time taken to broker the session (in milliseconds).
 
-    -- BrokeringUserName (System.String)
-       The user name of the brokering user.
+  * BrokeringTime (System.DateTime?) Time at which the session was brokered.
 
-    -- BrokeringUserSID (System.String)
-       The SID of the brokering user.
+  * BrokeringUserName (System.String) The user name of the brokering user.
 
-    -- CatalogName (System.String)
-       The name of the catalog that the machine hosting the session is assigned to.
+  * BrokeringUserSID (System.String) The SID of the brokering user.
 
-    -- ClientAddress (System.String)
-       The IP address of the client connected to the session.
+  * CatalogName (System.String) The name of the catalog that the machine hosting the session is assigned to.
 
-    -- ClientName (System.String)
-       The host name of the client connected to the session.
+  * ClientAddress (System.String) The IP address of the client connected to the session.
 
-    -- ClientPlatform (System.String)
-       The name of client platform, as indicated by client product ID.
+  * ClientName (System.String) The host name of the client connected to the session.
 
-    -- ClientProductId (System.Int32?)
-       The product ID of the client connected to the session.
+  * ClientPlatform (System.String) The name of client platform, as indicated by client product ID.
 
-    -- ClientVersion (System.String)
-       The version of the Citrix Receiver running on the client connected to the session.
+  * ClientProductId (System.Int32?) The product ID of the client connected to the session.
 
-    -- ConnectedViaHostName (System.String)
-       The host name of the incoming connection. This is usually a gateway, router or client.
+  * ClientVersion (System.String) The version of the Citrix Receiver running on the client connected to the session.
 
-    -- ConnectedViaIP (System.String)
-       The IP address of the incoming connection This is usually a gateway, router or client.
+  * ConnectedViaHostName (System.String) The host name of the incoming connection. This is usually a gateway, router or client.
 
-    -- ConnectionMode (Citrix.Broker.Admin.SDK.ConnectionMode?)
-       The way in which the most recent connection to the session was established. Valid modes are:
-       o Brokered: established through the XenDesktop Broker (for example, using StoreFront).
-       o Unbrokered: direct connection (for example, using the console or direct RDP/HDX).
-       o LeasedConnection: established through the XenDesktop Broker using a connection lease.
-       o VdaHighAvailabilityMode: direct connection while VDA in high-availability mode.
-       o ThirdPartyBroker: established through a third-party Broker.
-       o ThirdPartyBrokerWithLicensing: established and licensed through a third-party Broker.
+  * ConnectedViaIP (System.String) The IP address of the incoming connection This is usually a gateway, router or client.
 
-    -- ControllerDNSName (System.String)
-       The DNS host name of the controller that the session's hosting machine is registered with.
+  * ConnectionMode (Citrix.Broker.Admin.SDK.ConnectionMode?) The way in which the most recent connection to the session was established. Valid modes are:
+    * Brokered: established through the XenDesktop Broker (for example, using StoreFront).
+    * Unbrokered: direct connection (for example, using the console or direct RDP/HDX).
+    * LeasedConnection: established through the XenDesktop Broker using a connection lease.
+    * VdaHighAvailabilityMode: direct connection while VDA in high-availability mode.
+    * ThirdPartyBroker: established through a third-party Broker.
+    * ThirdPartyBrokerWithLicensing: established and licensed through a third-party Broker.
 
-    -- DesktopGroupName (System.String)
-       Name of the desktop group of the machine the session is on.
+  * ControllerDNSName (System.String) The DNS host name of the controller that the session's hosting machine is registered with.
 
-    -- DesktopGroupUid (System.Int32)
-       UID of the desktop group of the machine the session is on.
+  * DesktopGroupName (System.String) Name of the desktop group of the machine the session is on.
 
-    -- DesktopKind (Citrix.Broker.Admin.SDK.DesktopKind)
-       Indicates if the session is shared or private.
+  * DesktopGroupUid (System.Int32) UID of the desktop group of the machine the session is on.
 
-    -- DesktopSID (System.String)
-       The Windows SID of the machine the session is on.
+  * DesktopKind (Citrix.Broker.Admin.SDK.DesktopKind) Indicates if the session is shared or private.
 
-    -- DesktopUid (System.Int32)
-       For a desktop session, the unique identifier of the desktop.
+  * DesktopSID (System.String) The Windows SID of the machine the session is on.
 
-    -- DeviceId (System.String)
-       Unique identifier for the client device that has most recently been associated with the session.
+  * DesktopUid (System.Int32) For a desktop session, the unique identifier of the desktop.
 
-    -- DNSName (System.String)
-       The DNS host name of the machine hosting the session.
+  * DeviceId (System.String) Unique identifier for the client device that has most recently been associated with the session.
 
-    -- EstablishmentDuration (System.Int32?)
-       Duration that it took to establish the session.
+  * DNSName (System.String) The DNS host name of the machine hosting the session.
 
-    -- EstablishmentTime (System.DateTime?)
-       Time at which the session was established.
+  * EntitlementPolicyRuleUid (System.Int32?) The entitlement policy rule that granted the user the entitlement to launch the session. Only present for shared resources.
 
-    -- HardwareId (System.String)
-       Unique identifier for the client hardware that has been most recently associated with the session.
+  * EstablishmentDuration (System.Int32?) Duration that it took to establish the session.
 
-    -- Hidden (System.Boolean)
-       Flag to indicate if the session is currently hidden from the user and not to be reconnected to.
+  * EstablishmentTime (System.DateTime?) Time at which the session was established.
 
-    -- HostedMachineName (System.String)
-       The friendly name of a hosted machine running the session, as used by its hypervisor. This does not necessarily match either the DNS or AD name of the machine.
+  * HardwareId (System.String) Unique identifier for the client hardware that has been most recently associated with the session.
 
-    -- HostingServerName (System.String)
-       DNS name of the hypervisor that is hosting the machine hosting the session.
+  * Hidden (System.Boolean) Flag to indicate if the session is currently hidden from the user and not to be reconnected to.
 
-    -- HypervisorConnectionName (System.String)
-       The name of the hypervisor connection that the machine hosting the session has been assigned to.
+  * HostedMachineName (System.String) The friendly name of a hosted machine running the session, as used by its hypervisor. This does not necessarily match either the DNS or AD name of the machine.
 
-    -- ImageOutOfDate (System.Boolean?)
-       Denotes whether the VM image for a hosted machine is out of date and due to be updated to a new master image when the machine next reboots.
+  * HostingServerName (System.String) DNS name of the hypervisor that is hosting the machine hosting the session.
 
-    -- InMaintenanceMode (System.Boolean)
-       Denotes whether the machine hosting the session is in maintentance mode.
+  * HypervisorConnectionName (System.String) The name of the hypervisor connection that the machine hosting the session has been assigned to.
 
-    -- IPAddress (System.String)
-       The IP address of the machine hosting the session.
+  * IdleDuration (System.TimeSpan?) Period for which session has been idle, or null if it is not considered idle.
 
-    -- IsAnonymousUser (System.Boolean)
-       Indicates whether the session was established anonymously (without user credentials), in this case a temporary local user account on the machine is used.
+  * IdleSince (System.DateTime?) Time at which session went idle
 
-    -- IsPhysical (System.Boolean)
-       This value is false if the machine hosting the session can be power managed, and true otherwise
+  * ImageOutOfDate (System.Boolean?) Denotes whether the VM image for a hosted machine is out of date and due to be updated to a new master image when the machine next reboots.
 
-    -- LaunchedViaHostName (System.String)
-       The host name of the StoreFront server used to launch the session.
+  * InMaintenanceMode (System.Boolean) Denotes whether the machine hosting the session is in maintentance mode.
 
-    -- LaunchedViaIP (System.String)
-       The IP address of the StoreFront server used to launch the session.
+  * IPAddress (System.String) The IP address of the machine hosting the session.
 
-    -- LogoffInProgress (System.Boolean)
-       Indicates whether the session is in the process of being logged off.
+  * IsAnonymousUser (System.Boolean) Indicates whether the session was established anonymously (without user credentials), in this case a temporary local user account on the machine is used.
 
-    -- LogonInProgress (System.Boolean)
-       Indicates whether the session is still executing user logon processing or not.
+  * IsPhysical (System.Boolean) This value is false if the machine hosting the session can be power managed, and true otherwise
 
-    -- MachineName (System.String)
-       DNS host name of the machine hosting the session.
+  * LaunchedViaHostName (System.String) The host name of the StoreFront server used to launch the session.
 
-    -- MachineSummaryState (Citrix.Broker.Admin.SDK.DesktopSummaryState)
-       The summary state of the machine (will be Unregistered, Disconnected, or InUse)
+  * LaunchedViaIP (System.String) The IP address of the StoreFront server used to launch the session.
 
-    -- MachineUid (System.Int32)
-       UID of the machine hosting the session.
+  * LaunchedViaPublishedName (System.String) The published name of the resource originally used to launch the session. This is the name selected by the user in Receiver. For application sessions this is the name of the first application launched into the session even if that application has since terminated. The name here does not change if the resource is later renamed or removed.
+    Only present for shared resources.
 
-    -- MetadataMap (System.Collections.Generic.Dictionary<string, string>)
-       Map of metadata for this session.
+  * LogoffInProgress (System.Boolean) Indicates whether the session is in the process of being logged off.
 
-    -- OSType (System.String)
-       A string that can be used to identify the operating system that is running on the machine hosting the session.
+  * LogonInProgress (System.Boolean) Indicates whether the session is still executing user logon processing or not.
 
-    -- PersistUserChanges (Citrix.Broker.Admin.SDK.PersistUserChanges)
-       Describes whether/how the user changes are persisted. Possible values are:
-       o OnLocal - Persist the user changes locally.
-       o Discard - Discard user changes.
-       o OnPvd - Persist user changes on the Citrix Personal vDisk.
+  * MachineName (System.String) DNS host name of the machine hosting the session.
 
-    -- PowerState (Citrix.Broker.Admin.SDK.PowerState)
-       The current power state of the machine hosting the session. Possible values are: Unmanaged, Unknown, Unavailable, On, Suspended, TurningOn, TurningOff, Suspending and Resuming.
+  * MachineSummaryState (Citrix.Broker.Admin.SDK.DesktopSummaryState) The summary state of the machine (will be Unregistered, Disconnected, or InUse)
 
-    -- PreferredZoneName (System.String)
-       The name of preferred zone used for the original session launch. This may differ from the actual ZoneName if no resources were available in the preferred zone at launch time.
+  * MachineUid (System.Int32) UID of the machine hosting the session.
 
-    -- PreferredZoneUid (System.Guid?)
-       The UID of preferred zone used for the original session launch. This may differ from the actual ZoneUid if no resources were available in the preferred zone at launch time.
+  * MetadataMap (System.Collections.Generic.Dictionary&lt;string, string&gt;) Map of metadata for this session.
 
-    -- Protocol (System.String)
-       The protocol that the session is using, can be HDX, RDP, or Console. Console sessions on XenDesktop 5 VDAs appear with a blank protocol.
+  * OSType (System.String) A string that can be used to identify the operating system that is running on the machine hosting the session.
 
-    -- ProvisioningType (Citrix.Broker.Admin.SDK.ProvisioningType)
-       Describes how the machine hosting the session was provisioned, possible values are:
-       o Manual: No provisioning.
-       o PVS: Machine provisioned by PVS (may be physical, blade, VM,...)
-       o MCS: Machine provisioned by MCS (machine must be VM)
+  * PersistUserChanges (Citrix.Broker.Admin.SDK.PersistUserChanges) Describes whether/how the user changes are persisted. Possible values are:
+    * OnLocal - Persist the user changes locally.
+    * Discard - Discard user changes.
+    * OnPvd - Persist user changes on the Citrix Personal vDisk.
 
-    -- ReceiverIPAddress (System.String)
-       The IP address of the client as supplied by Receiver (for example, StoreFront) when the session was launched, or reconnected.
+  * PowerState (Citrix.Broker.Admin.SDK.PowerState) The current power state of the machine hosting the session. Possible values are: Unmanaged, Unknown, Unavailable, On, Suspended, TurningOn, TurningOff, Suspending and Resuming.
 
-    -- ReceiverName (System.String)
-       The name of the client as supplied by Receiver (for example, StoreFront) when the session was launched, or reconnected.
+  * PreferredZoneName (System.String) The name of preferred zone used for the original session launch. This may differ from the actual ZoneName if no resources were available in the preferred zone at launch time.
 
-    -- SecureIcaActive (System.Boolean?)
-       Indicates whether SecureICA is active on the session.
+  * PreferredZoneUid (System.Guid?) The UID of preferred zone used for the original session launch. This may differ from the actual ZoneUid if no resources were available in the preferred zone at launch time.
 
-    -- SessionId (System.Int32)
-       Deprecated. A unique identifier that Remote Desktop Services uses to track the session but it is only unique on that machine.
+  * Protocol (System.String) The protocol that the session is using, can be HDX, RDP, or Console. Console sessions on XenDesktop 5 VDAs appear with a blank protocol.
 
-    -- SessionKey (System.Guid)
-       GUID that provides a unique identifier for this session.
+  * ProvisioningType (Citrix.Broker.Admin.SDK.ProvisioningType) Describes how the machine hosting the session was provisioned, possible values are:
+    * Manual: No provisioning.
+    * PVS: Machine provisioned by PVS (may be physical, blade, VM,...)
+    * MCS: Machine provisioned by MCS (machine must be VM)
 
-    -- SessionReconnection (Citrix.Broker.Admin.SDK.SessionReconnection?)
-       Describes the session reconnection (roaming) behavior for this session. Possible values are:
-       Always, DisconnectedOnly, and SameEndpointOnly.
+  * ReceiverIPAddress (System.String) The IP address of the client as supplied by Receiver (for example, StoreFront) when the session was launched, or reconnected.
 
-    -- SessionState (Citrix.Broker.Admin.SDK.SessionState)
-       The state of the session. Valid values are Connected, Active or Disconnected.
+  * ReceiverName (System.String) The name of the client as supplied by Receiver (for example, StoreFront) when the session was launched, or reconnected.
 
-       For a session on a machine with functional level below L7, the additional states PreparingSession, Reconnecting, NonBrokeredSession, Other, and Unknown can also occur.
+  * SecureIcaActive (System.Boolean?) Indicates whether SecureICA is active on the session.
 
-    -- SessionStateChangeTime (System.DateTime)
-       The time of the most recent state change for the session.
+  * SessionId (System.Int32) Deprecated. A unique identifier that Remote Desktop Services uses to track the session but it is only unique on that machine.
 
-    -- SessionSupport (Citrix.Broker.Admin.SDK.SessionSupport)
-       Indicates if the machine hosting the session supports multiple or single sessions.
+  * SessionKey (System.Guid) GUID that provides a unique identifier for this session.
 
-    -- SessionType (Citrix.Broker.Admin.SDK.SessionType)
-       Indicates if this is an Application or Desktop session.
+  * SessionReconnection (Citrix.Broker.Admin.SDK.SessionReconnection?) Describes the session reconnection (roaming) behavior for this session. Possible values are: Always, DisconnectedOnly, and SameEndpointOnly.
 
-    -- SmartAccessTags (System.String[])
-       The Smart Access tags for this session.
+  * SessionState (Citrix.Broker.Admin.SDK.SessionState) The state of the session. Valid values are Connected, Active or Disconnected.
+    For a session on a machine with functional level below L7, the additional states PreparingSession, Reconnecting, NonBrokeredSession, Other, and Unknown can also occur.
 
-    -- StartTime (System.DateTime?)
-       Indicates when the session was started.
+  * SessionStateChangeTime (System.DateTime) The time of the most recent state change for the session.
 
-    -- TenantId (System.Guid?)
-       The tenant associated with the session.
+  * SessionSupport (Citrix.Broker.Admin.SDK.SessionSupport) Indicates if the machine hosting the session supports multiple or single sessions.
 
-    -- Uid (System.Int64)
-       Unique identifier of this session.
+  * SessionType (Citrix.Broker.Admin.SDK.SessionType) Indicates if this is an Application or Desktop session.
 
-    -- UntrustedUserName (System.String)
-       The name of the logged-on user reported directly from the machine (in the form DOMAIN\user). This may be useful where the user is logged in to a non-domain account, however the name cannot be verified and must therefore be considered untrusted.
+  * SmartAccessTags (System.String\[\]) The Smart Access tags for this session.
 
-    -- UserFullName (System.String)
-       The full name of the user.
+  * StartTime (System.DateTime?) Indicates when the session was started.
 
-    -- UserName (System.String)
-       The name of the user.
+  * TenantId (System.Guid?) The tenant associated with the session.
 
-    -- UserSID (System.String)
-       The user's Windows SID.
+  * Uid (System.Int64) Unique identifier of this session.
 
-    -- UserUPN (System.String)
-       The user's User Principal Name
+  * UntrustedUserName (System.String) The name of the logged-on user reported directly from the machine (in the form DOMAIN\\user). This may be useful where the user is logged in to a non-domain account, however the name cannot be verified and must therefore be considered untrusted.
 
-    -- ZoneName (System.String)
-       The name of zone in which the machine hosting the session is located.
+  * UserFullName (System.String) The full name of the user.
 
-    -- ZoneUid (System.Guid)
-       The UID of the zone in which the machine hosting the session is located.
+  * UserName (System.String) The name of the user.
+
+  * UserSID (System.String) The user's Windows SID.
+
+  * UserUPN (System.String) The user's User Principal Name
+
+  * ZoneName (System.String) The name of zone in which the machine hosting the session is located.
+
+  * ZoneUid (System.Guid) The UID of the zone in which the machine hosting the session is located.
+
 
 ## Related Commands
-  * [Disconnect-BrokerSession](Disconnect-BrokerSession/)
-  * [Stop-BrokerSession](Stop-BrokerSession/)
-  * [Get-BrokerDesktop](Get-BrokerDesktop/)
-## Parameters
 
+* [Disconnect-BrokerSession](./Disconnect-BrokerSession/)
+* [Stop-BrokerSession](./Stop-BrokerSession/)
+* [Get-BrokerDesktop](./Get-BrokerDesktop/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Uid | Get session by its Uid. | true | false |  |
@@ -293,6 +225,7 @@ The session object returned represents a session on a machine in the site. The s
 | DesktopUid | Get sessions by desktop Uid. | false | false |  |
 | DeviceId | Get sessions by client device id. | false | false |  |
 | DNSName | Gets sessions by their machine's DNS name. | false | false |  |
+| EntitlementPolicyRuleUid | Gets sessions where the user was granted the entitlement to launch the session from the specified entitlement policy rule. | false | false |  |
 | EstablishmentDuration | Gets sessions which took a specific time to establish. In general, Citrix recommends using -Filter and relative comparisons. | false | false |  |
 | EstablishmentTime | Gets sessions which became established at a particular time. In general, Citrix recommends using -Filter and relative comparisons. | false | false |  |
 | HardwareId | Get sessions by client hardware id. | false | false |  |
@@ -300,19 +233,22 @@ The session object returned represents a session on a machine in the site. The s
 | HostedMachineName | Gets sessions by their machine's name as known to its hypervisor. | false | false |  |
 | HostingServerName | Gets sessions hosted by a machine with a specific name of the hosting hypervisor server. | false | false |  |
 | HypervisorConnectionName | Gets sessions hosted by a machine with a specific name of the hosting hypervisor connection. | false | false |  |
+| IdleDuration | Gets sessions that have been idle for the specified period | false | false |  |
+| IdleSince | Time at which session went idle | false | false |  |
 | ImageOutOfDate | Gets sessions hosted by a machine with a specific ImageOutOfDate setting. | false | false |  |
 | InMaintenanceMode | Gets sessions hosted by a machine with a specific InMaintenanceMode setting. | false | false |  |
 | IPAddress | Gets sessions hosted by a machine with a specific IP address. | false | false |  |
-| IsAnonymousUser | Gets sessions depending on whether they were established anonymously ($true) or not ($false). An anonymous session is established without user credentials and a temporary local user account is used. | false | false |  |
-| IsPhysical | Gets sessions hosted on machines where the flag indicating if the machine can be power managed by the Citrix Broker Service matches the requested value. Where the power state of the machine cannot be controlled, specify $true, otherwise $false. | false | false |  |
-| LaunchedViaHostName | Get sessions by the host name of the Web Interface server from which a user launches a session. | false | false |  |
-| LaunchedViaIP | Get sessions by the IP address of the Web Interface server from which a user launches a session. | false | false |  |
+| IsAnonymousUser | Gets sessions depending on whether they were established anonymously (\$true) or not (\$false). An anonymous session is established without user credentials and a temporary local user account is used. | false | false |  |
+| IsPhysical | Gets sessions hosted on machines where the flag indicating if the machine can be power managed by the Citrix Broker Service matches the requested value. Where the power state of the machine cannot be controlled, specify \$true, otherwise \$false. | false | false |  |
+| LaunchedViaHostName | Get sessions by the host name of the StoreFront server from which a user launches a session. | false | false |  |
+| LaunchedViaIP | Get sessions by the IP address of the StoreFront server from which a user launches a session. | false | false |  |
+| LaunchedViaPublishedName | Gets sessions originally launched using a resource having a name matching the specified published name. | false | false |  |
 | LogoffInProgress | Gets sessions by whether they are in the process of being logged off or not. | false | false |  |
 | LogonInProgress | Gets sessions by whether they are still executing user logon processing or not. | false | false |  |
-| MachineName | Gets sessions by their machine name (in the form DOMAIN\machine). | false | false |  |
+| MachineName | Gets sessions by their machine name (in the form DOMAIN\\machine). | false | false |  |
 | MachineSummaryState | Gets sessions on a machine with a specific summary state.<br>Valid values are Off, Unregistered, Available, Disconnected, Preparing, and InUse. | false | false |  |
 | MachineUid | Gets sessions on a machine with the specified UID. | false | false |  |
-| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
+| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x\*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
 | OSType | Gets sessions with a specific type of operating system. | false | false |  |
 | PersistUserChanges | Gets sessions where the user changes are persisted in a particular manner. Values can be:<br>o OnLocal - User changes are persisted locally.<br>o Discard - User changes are discarded.<br>o OnPvd - User changes are persisted on the Pvd. | false | false |  |
 | PowerState | Gets sessions on machines in the specified power state.<br>Valid values are Unmanaged, Unknown, Unavailable, On, Suspended, TurningOn, TurningOff, Suspending, and Resuming. | false | false |  |
@@ -331,38 +267,43 @@ The session object returned represents a session on a machine in the site. The s
 | SessionType | Get sessions by their type.<br>Valid values are Application and Desktop. | false | false |  |
 | StartTime | Get sessions by their start time. In general, Citrix recommends using -Filter and relative comparisons. | false | false |  |
 | TenantId | Gets sessions associated with the specified tenant. | false | false |  |
-| UntrustedUserName | Gets sessions by the untrusted user name reported directly from the machine (in the form DOMAIN\user). | false | false |  |
+| UntrustedUserName | Gets sessions by the untrusted user name reported directly from the machine (in the form DOMAIN\\user). | false | false |  |
 | UserFullName | Gets sessions by user's full name (usually 'first-name last-name'). | false | false |  |
-| UserName | Get sessions by user name (in the form DOMAIN\user). | false | false |  |
+| UserName | Get sessions by user name (in the form DOMAIN\\user). | false | false |  |
 | UserSID | Get sessions by user's Windows SID. | false | false |  |
 | UserUPN | Gets sessions by user's User Principal Name (in the form user@domain). | false | false |  |
 | ZoneName | Gets sessions hosted on machines located in the zone with the specified name. | false | false |  |
 | ZoneUid | Gets sessions hosted on machines located in the zone with the specified UID. | false | false |  |
 | ApplicationUid | Get sessions running the application with the specified Uid. | false | false |  |
 | SharedDesktopUid | Get sessions by SharedDesktop Uid. | false | false |  |
-| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about_Broker_Filtering for details. | false | false | False |
+| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about\_Broker\_Filtering for details. | false | false | False |
 | MaxRecordCount | Specifies the maximum number of records to return. | false | false | 250 |
 | Skip | Skips the specified number of records before returning results. Also reduces the count returned by -ReturnTotalRecordCount. | false | false | 0 |
 | SortBy | Sorts the results by the specified list of properties. The list is a set of property names separated by commas, semi-colons, or spaces. Optionally, prefix each name with a + or - to indicate ascending or descending order. Ascending order is assumed if no prefix is present. | false | false | The default sort order is by name or unique identifier. |
-| Filter | Gets records that match a PowerShell style filter expression. See about_Broker_Filtering for details. | false | false |  |
+| Filter | Gets records that match a PowerShell style filter expression. See about\_Broker\_Filtering for details. | false | false |  |
 | Property | Specifies the properties to be returned. This is similar to piping the output of the command through Select-Object, but the properties are filtered more efficiently at the server. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   You cannot pipe input into this cmdlet.
+You cannot pipe input into this cmdlet.
 ## Return Values
-### Citrix.Broker.Admin.SDK.Session
-   Returns sessions matching the specified criteria.
+
+### Citrix.Broker.Admin.Sdk.Session
+Returns sessions matching the specified criteria.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> Get-BrokerSession
 ```
-   Description<br>-----------<br>Enumerate all sessions.
-### EXAMPLE 2
+#### Description
+Enumerate all sessions.
+### Example 2
 ```
 C:\PS> Get-BrokerSession -UserName MyDomain\MyAccount -SessionState Disconnected
 ```
-   Description<br>-----------<br>Get all disconnected sessions for a specific user.
+#### Description
+Get all disconnected sessions for a specific user.

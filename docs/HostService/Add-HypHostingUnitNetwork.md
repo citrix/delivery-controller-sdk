@@ -4,16 +4,16 @@
 
 ## Syntax
 ```
-Add-HypHostingUnitNetwork [-LiteralPath] <String> [-NetworkPath] <String> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Add-HypHostingUnitNetwork [-LiteralPath] <String> [-NetworkPath] <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this command to extend the set of hypervisor networks that are made available through the HostingUnit to the Citrix Machine Creation Service. When new machines are created, their virtual NICs can be associated only with networks that are in this set. This command cannot be used if the connection for the hosting unit is in maintenance mode.
 
 ## Related Commands
-  * [New-Item](New-Item/)
-  * [Add-HypMetadata](Add-HypMetadata/)
-  * [remove-HypHostingUnitNetwork](remove-HypHostingUnitNetwork/)
+  * [New-Item](New-Item.html)
+  * [Add-HypMetadata](Add-HypMetadata.html)
+  * [remove-HypHostingUnitNetwork](remove-HypHostingUnitNetwork.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -21,6 +21,7 @@ Add-HypHostingUnitNetwork [-LiteralPath] <String> [-NetworkPath] <String> [-Logg
 | LiteralPath | Specifies the path to the hosting unit to which the network will be added. The path must be in one of the following formats: <drive>:\HostingUnits\<HostingUnitName> or  <drive>:\HostingUnits\{<HostingUnit Uid>} | true | false |  |
 | NetworkPath | Specifies the path to the network that will be added. The path must be in one of the following formats: <drive>:\Connections\<ConnectionName>\MyNetwork.network or  <drive>:\Connections\{<Connection Uid>}\MyNetwork.network or  <drive>:\HostingUnits\<HostingUnitName>\MyNetwork.network or  <drive>:\HostingUnits\{<hostingUnit Uid>}\MyNetwork.network | true | true (ByValue) |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller to which the PowerShell snap-in connects. This can be a host name or an IP address. | false | false | LocalHost. When a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

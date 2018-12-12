@@ -4,11 +4,11 @@
 
 ## Syntax
 ```
-Register-ConfigServiceInstance -ServiceGroupUid <Guid> -ServiceGroupName <String> -ServiceType <String> -Address <String> -Binding <String> -Version <Int32> -ServiceAccount <String> -InterfaceType <String> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Register-ConfigServiceInstance -ServiceGroupUid <Guid> -ServiceGroupName <String> -ServiceType <String> -Address <String> -Binding <String> -Version <Int32> -ServiceAccount <String> -InterfaceType <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Register-ConfigServiceInstance -ServiceGroupUid <Guid> -ServiceGroupName <String> -ServiceType <String> -Address <String> -Binding <String> -Version <Int32> -ServiceAccountSid <String> -InterfaceType <String> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Register-ConfigServiceInstance -ServiceGroupUid <Guid> -ServiceGroupName <String> -ServiceType <String> -Address <String> -Binding <String> -Version <Int32> -ServiceAccountSid <String> -InterfaceType <String> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Register-ConfigServiceInstance -ServiceInstance <ServiceInstance[]> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Register-ConfigServiceInstance -ServiceInstance <ServiceInstance[]> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -17,13 +17,13 @@ Register-ConfigServiceInstance -ServiceInstance <ServiceInstance[]> [-LoggingId 
 If the service group specified by the service instance already exists, the service is added to the service group, otherwise a new service group is created to hold the service instance.
 
 ## Related Commands
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
-  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata/)
-  * [Set-ConfigRegisteredServiceInstanceMetadata](Set-ConfigRegisteredServiceInstanceMetadata/)
-  * [Remove-ConfigRegisteredServiceInstanceMetadata](Remove-ConfigRegisteredServiceInstanceMetadata/)
-  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata/)
-  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata/)
-  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata/)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
+  * [Add-ConfigRegisteredServiceInstanceMetadata](Add-ConfigRegisteredServiceInstanceMetadata.html)
+  * [Set-ConfigRegisteredServiceInstanceMetadata](Set-ConfigRegisteredServiceInstanceMetadata.html)
+  * [Remove-ConfigRegisteredServiceInstanceMetadata](Remove-ConfigRegisteredServiceInstanceMetadata.html)
+  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata.html)
+  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata.html)
+  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -39,6 +39,7 @@ If the service group specified by the service instance already exists, the servi
 | ServiceAccountSid | The AD computer account Sid for the computer on which the service instance is hosted. | true | true (ByPropertyName) |  |
 | ServiceInstance | The service instances to register. | true | true (ByValue) |  |
 | LoggingId | Specifies the logging id of the high-level operation that this cmdlet is part of. | false | true (ByPropertyName) |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can be provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

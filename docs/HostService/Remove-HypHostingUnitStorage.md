@@ -4,17 +4,17 @@
 
 ## Syntax
 ```
-Remove-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath <String>] [-StorageType <StorageType>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath <String>] [-StorageType <StorageType>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this command to remove storage locations from a hosting unit. This does not remove the storage from the hypervisor, only the reference to the storage for the Host Service. After removal, the storage is no longer used to store hard disks (when creating new virtual machines with the Machine Creation Service). The hard disks located already on the storage remain in place and virtual machines that have been created already continue to use the storage until they are removed from the deployment. Do not use this command if the connection for the hosting unit is in maintenance mode. If the storage location to be removed no longer exists on the hypervisor for the hosting unit, you must supply a fully qualified path to the storage location.
 
 ## Related Commands
-  * [Add-HypHostingUnitStorage](Add-HypHostingUnitStorage/)
-  * [Set-HypHostingUnitStorage](Set-HypHostingUnitStorage/)
-  * [New-Item](New-Item/)
-  * [Add-HypMetadata](Add-HypMetadata/)
+  * [Add-HypHostingUnitStorage](Add-HypHostingUnitStorage.html)
+  * [Set-HypHostingUnitStorage](Set-HypHostingUnitStorage.html)
+  * [New-Item](New-Item.html)
+  * [Add-HypMetadata](Add-HypMetadata.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -23,6 +23,7 @@ Remove-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath <String>] [-S
 | StoragePath | Specifies the path in the hosting unit provider of the storage to remove. If StoragePath is not specified, all storage is removed from the hosting unit. The path must be in one of the following formats: <drive>:\Connections\<ConnectionName>\MyStorage.storage or  <drive>:\Connections\{<Connection Uid>}\MyStorage.storage or  <drive>:\HostingUnits\<HostingUnitName>\MyStorage.storage or  <drive>:\HostingUnits\{<hostingUnit Uid>}\MyStorage.storage | false | true (ByValue) |  |
 | StorageType | Specifies the type of storage in StoragePath. Supported storage types are: OSStorage PersonalvDiskStorage TemporaryStorage | false | false | OSStorage |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to. This can be a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

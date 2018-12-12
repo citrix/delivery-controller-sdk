@@ -4,16 +4,16 @@
 
 ## Syntax
 ```
-Get-LogHighLevelOperation [-Id <Guid>] [-Text <String>] [-StartTime <DateTime>] [-Source <String>] [-EndTime <DateTime>] [-IsSuccessful <Boolean>] [-User <String>] [-AdminMachineIP <String>] [-OperationType <OperationType>] [-TargetType <String>] [-Property <String[]>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-AdminAddress <String>] [<CommonParameters>]
+Get-LogHighLevelOperation [-Id <Guid>] [-Text <String>] [-StartTime <DateTime>] [-Source <String>] [-EndTime <DateTime>] [-IsSuccessful <Boolean>] [-User <String>] [-AdminMachineIP <String>] [-OperationType <OperationType>] [-TargetType <String>] [-Property <String[]>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Retrieves high level operations matching the specified criteria. If no parameters are specified this cmdlet returns all high level operations.
 
 ## Related Commands
-  * [Start-LogHighLevelOperation](Start-LogHighLevelOperation/)
-  * [Stop-LogHighLevelOperation](Stop-LogHighLevelOperation/)
-  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation/)
+  * [Start-LogHighLevelOperation](Start-LogHighLevelOperation.html)
+  * [Stop-LogHighLevelOperation](Stop-LogHighLevelOperation.html)
+  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -34,6 +34,7 @@ Get-LogHighLevelOperation [-Id <Guid>] [-Text <String>] [-StartTime <DateTime>] 
 | Skip | Skips the specified number of records before returning results. Also reduces the count returned by -ReturnTotalRecordCount. | false | false | 0 |
 | SortBy | Sorts the results by the specified list of properties. The list is a set of property names separated by commas, semi-colons, or spaces. Optionally, prefix each name with a + or - to indicate ascending or descending order. Ascending order is assumed if no prefix is present. | false | false | The default sort order is by name or unique identifier. |
 | Filter | Gets records that match a PowerShell-style filter expression. See about_Log_Filtering for details. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

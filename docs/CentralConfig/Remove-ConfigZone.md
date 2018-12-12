@@ -4,11 +4,11 @@
 
 ## Syntax
 ```
-Remove-ConfigZone [-InputObject] <Zone[]> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-ConfigZone [-InputObject] <Zone[]> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Remove-ConfigZone [-Uid] <Guid[]> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-ConfigZone [-Uid] <Guid[]> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Remove-ConfigZone [-Name] <String[]> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-ConfigZone [-Name] <String[]> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -17,12 +17,12 @@ Remove-ConfigZone [-Name] <String[]> [-LoggingId <Guid>] [-AdminAddress <String>
 You cannot remove a zone that is marked as primary or has associated controllers.
 
 ## Related Commands
-  * [Get-ConfigZone](Get-ConfigZone/)
-  * [New-ConfigZone](New-ConfigZone/)
-  * [Set-ConfigZone](Set-ConfigZone/)
-  * [Rename-ConfigZone](Rename-ConfigZone/)
-  * [Set-ConfigSite](Set-ConfigSite/)
-  * [Set-ConfigService](Set-ConfigService/)
+  * [Get-ConfigZone](Get-ConfigZone.html)
+  * [New-ConfigZone](New-ConfigZone.html)
+  * [Set-ConfigZone](Set-ConfigZone.html)
+  * [Rename-ConfigZone](Rename-ConfigZone.html)
+  * [Set-ConfigSite](Set-ConfigSite.html)
+  * [Set-ConfigService](Set-ConfigService.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -31,6 +31,7 @@ You cannot remove a zone that is marked as primary or has associated controllers
 | Uid | Specifies the zone to remove (by Uid). | true | true (ByPropertyName) |  |
 | Name | Specifies the zone to remove (by Name). | true | true (ByPropertyName) |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

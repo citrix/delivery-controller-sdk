@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-New-HypStorage [-JobGroup] <Guid> -StorageType <StorageType> -StoragePath <String[]> [-AdminAddress <String>] [<CommonParameters>]
+New-HypStorage [-JobGroup] <Guid> -StorageType <StorageType> -StoragePath <String[]> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -18,6 +18,7 @@ New-HypStorage [-JobGroup] <Guid> -StorageType <StorageType> -StoragePath <Strin
 | JobGroup | Specifies the JobGroup uid that is used to associate data from calls to this cmdlet with the subsequent New-Item operation. | true | false |  |
 | StorageType | The type of the new storage tier. Currently the only storage type is TemporaryStorage. | true | false |  |
 | StoragePath | Specifies the path to the storage that will be added. The path must be in one of the following formats: <drive>:\Connections\<ConnectionName>\MyStorage.storage or  <drive>:\Connections\{<Connection Uid>}\MyStorage.storage | true | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

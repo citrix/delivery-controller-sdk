@@ -1,25 +1,24 @@
-﻿# New-BrokerRebootScheduleV2
-
-   Creates a new reboot schedule for a desktop group.
-
+﻿
+# New-Brokerrebootschedulev2
+Creates a new reboot schedule for a desktop group.
 ## Syntax
 ```
-New-BrokerRebootScheduleV2 [-Name] <String> -DesktopGroupName <String> -RebootDuration <Int32> [-Day <RebootScheduleDays>] [-Description <String>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RestrictToTag <String>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+New-BrokerRebootScheduleV2 [-Name] <String> -DesktopGroupName <String> -RebootDuration <Int32> [-Day <RebootScheduleDays>] [-Description <String>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RestrictToTag <String>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-New-BrokerRebootScheduleV2 [-Name] <String> -DesktopGroupUid <Int32> -RebootDuration <Int32> [-Day <RebootScheduleDays>] [-Description <String>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RestrictToTag <String>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+New-BrokerRebootScheduleV2 [-Name] <String> -DesktopGroupUid <Int32> -RebootDuration <Int32> [-Day <RebootScheduleDays>] [-Description <String>] [-Enabled <Boolean>] [-Frequency <RebootScheduleFrequency>] [-RestrictToTag <String>] [-StartTime <TimeSpan>] [-WarningDuration <Int32>] [-WarningMessage <String>] [-WarningRepeatInterval <Int32>] [-WarningTitle <String>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   The New-BrokerRebootScheduleV2 cmdlet is used to define a reboot schedule for a desktop group.
+The New-BrokerRebootScheduleV2 cmdlet is used to define a reboot schedule for a desktop group.
+
 
 ## Related Commands
-  * [Get-BrokerRebootScheduleV2](Get-BrokerRebootScheduleV2/)
-  * [Set-BrokerRebootScheduleV2](Set-BrokerRebootScheduleV2/)
-  * [Remove-BrokerRebootScheduleV2](Remove-BrokerRebootScheduleV2/)
-  * [Rename-BrokerRebootScheduleV2](Rename-BrokerRebootScheduleV2/)
-  * [Start-BrokerRebootCycle](Start-BrokerRebootCycle/)
-## Parameters
 
+* [Get-BrokerRebootScheduleV2](./Get-BrokerRebootScheduleV2/)
+* [Set-BrokerRebootScheduleV2](./Set-BrokerRebootScheduleV2/)
+* [Remove-BrokerRebootScheduleV2](./Remove-BrokerRebootScheduleV2/)
+* [Rename-BrokerRebootScheduleV2](./Rename-BrokerRebootScheduleV2/)
+* [Start-BrokerRebootCycle](./Start-BrokerRebootCycle/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Name | The name of the new reboot schedule. | true | true (ByPropertyName) |  |
@@ -38,32 +37,39 @@ New-BrokerRebootScheduleV2 [-Name] <String> -DesktopGroupUid <Int32> -RebootDura
 | WarningTitle | The window title used when showing the warning message in user sessions on a machine scheduled for reboot. | false | true (ByPropertyName) |  |
 | LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   Input cannot be piped to this cmdlet.
+Input cannot be piped to this cmdlet.
 ## Return Values
-### Citrix.Broker.Admin.SDK.RebootScheduleV2
-   
+
+### Citrix.Broker.Admin.Sdk.Rebootschedulev2
+
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> New-BrokerRebootScheduleV2 -Name BankTellers-DailyReboot -DesktopGroupName BankTellers -Frequency Daily -StartTime "02:00" -Enabled $true -RebootDuration 120
 ```
-   Description<br>-----------<br>Schedules the machines in the desktop group named 'BankTellers' to be rebooted every night between 2 AM and 4 AM.
-### EXAMPLE 2
+#### Description
+Schedules the machines in the desktop group named 'BankTellers' to be rebooted every night between 2 AM and 4 AM.
+### Example 2
 ```
 C:\PS> New-BrokerRebootScheduleV2 -Name 'Saturday reboots' -DesktopGroupUid 17 -Frequency Weekly -Day Saturday -StartTime "01:00" -Enabled $true -RebootDuration 240 -WarningTitle "WARNING: Reboot pending" -WarningMessage "Save your work" -WarningDuration 10
 ```
-   Description<br>-----------<br>Schedules the machines in the desktop group having Uid 17 to be rebooted every Saturday night between 1 AM and 5 AM. Ten minutes prior to rebooting, each machine will display a message box with the title "WARNING: Reboot pending" and message "Save your work" in every user session.
-### EXAMPLE 3
+#### Description
+Schedules the machines in the desktop group having Uid 17 to be rebooted every Saturday night between 1 AM and 5 AM. Ten minutes prior to rebooting, each machine will display a message box with the title "WARNING: Reboot pending" and message "Save your work" in every user session.
+### Example 3
 ```
 C:\PS> New-BrokerRebootScheduleV2 -Name BankTellers-DailyReboot -DesktopGroupName BankTellers -Frequency Daily -StartTime "03:00" -Enabled $true -RebootDuration 120 -WarningMessage "Rebooting in %m% minutes." -WarningDuration 15 -WarningRepeatInterval 5
 ```
-   Description<br>-----------<br>Schedules the machines in the desktop group named 'BankTellers' to be rebooted every night between 3 AM and 5 AM. Fifteen, ten and five minutes prior to rebooting each machine, the message "Rebooting in %m% minutes." will be displayed in each user session with the pattern '%m%' replaced with the number of minutes until the reboot.
-### EXAMPLE 4
+#### Description
+Schedules the machines in the desktop group named 'BankTellers' to be rebooted every night between 3 AM and 5 AM. Fifteen, ten and five minutes prior to rebooting each machine, the message "Rebooting in %m% minutes." will be displayed in each user session with the pattern '%m%' replaced with the number of minutes until the reboot.
+### Example 4
 ```
 C:\PS> New-BrokerRebootScheduleV2 -Name BankTellers-DailyReboot -DesktopGroupName BankTellers -Frequency Daily -StartTime "03:00" -Enabled $true -RebootDuration 120 -WarningMessage "Rebooting in %m% minutes." -WarningDuration 15 -WarningRepeatInterval 5 -RestrictToTag 'Daily Reboot'
 ```
-   Description<br>-----------<br>Schedules only machines with the tag 'Daily Reboot' in the desktop group named 'BankTellers' to be rebooted every night between 3 AM and 5 AM. Fifteen, ten and five minutes prior to rebooting each machine, the message "Rebooting in %m% minutes." will be displayed in each user session with the pattern '%m%' replaced with the number of minutes until the reboot.
+#### Description
+Schedules only machines with the tag 'Daily Reboot' in the desktop group named 'BankTellers' to be rebooted every night between 3 AM and 5 AM. Fifteen, ten and five minutes prior to rebooting each machine, the message "Rebooting in %m% minutes." will be displayed in each user session with the pattern '%m%' replaced with the number of minutes until the reboot.

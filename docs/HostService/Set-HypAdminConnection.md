@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Set-HypAdminConnection [-AdminAddress <String>] [<CommonParameters>]
+Set-HypAdminConnection [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -16,6 +16,7 @@ Set-HypAdminConnection [-AdminAddress <String>] [<CommonParameters>]
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | AdminAddress | Specifies the address of a XenDesktop controller to which the PowerShell snap-in connects.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
 ### 

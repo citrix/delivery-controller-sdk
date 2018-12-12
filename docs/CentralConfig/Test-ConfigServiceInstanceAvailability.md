@@ -4,16 +4,16 @@
 
 ## Syntax
 ```
-Test-ConfigServiceInstanceAvailability [-ServiceInstance] <ServiceInstance[]> [-MaxDelaySeconds <Int32>] [-ForceWaitForOneOfEachType] [-AdminAddress <String>] [<CommonParameters>]
+Test-ConfigServiceInstanceAvailability [-ServiceInstance] <ServiceInstance[]> [-MaxDelaySeconds <Int32>] [-ForceWaitForOneOfEachType] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    
 
 ## Related Commands
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
-  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance/)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
+  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -21,6 +21,7 @@ Test-ConfigServiceInstanceAvailability [-ServiceInstance] <ServiceInstance[]> [-
 | ServiceInstance | The service instances to test. | true | true (ByValue) |  |
 | MaxDelaySeconds | The timeout period to wait before concluding that services are unresponsive. | false | false | Infinite |
 | ForceWaitForOneOfEachType | If at least one of each type of service responds, finish immediately. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the host name or IP address of the controller to which the PowerShell snap-in connects. | false | false | 'LocalHost'.  Once a value is specified by any command, this value becomes the new default. |
 
 ## Input Type

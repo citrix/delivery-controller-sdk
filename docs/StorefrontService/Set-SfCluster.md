@@ -4,17 +4,17 @@
 
 ## Syntax
 ```
-Set-SfCluster -ClusterId <Guid> [-StorefrontUrl <Uri>] [-FarmName <String>] [-XmlServices <Uri[]>] [-RunAsynchronously <Boolean>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-SfCluster -ClusterId <Guid> [-StorefrontUrl <Uri>] [-FarmName <String>] [-XmlServices <Uri[]>] [-RunAsynchronously <Boolean>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Sets the parameters on the given cluster and propagate the changes to all servers within a given cluster.
 
 ## Related Commands
-  * [Get-SfCluster](Get-SfCluster/)
-  * [New-SfCluster](New-SfCluster/)
-  * [Add-SfServerToCluster](Add-SfServerToCluster/)
-  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster/)
+  * [Get-SfCluster](Get-SfCluster.html)
+  * [New-SfCluster](New-SfCluster.html)
+  * [Add-SfServerToCluster](Add-SfServerToCluster.html)
+  * [Remove-SfServerFromCluster](Remove-SfServerFromCluster.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -25,6 +25,7 @@ Set-SfCluster -ClusterId <Guid> [-StorefrontUrl <Uri>] [-FarmName <String>] [-Xm
 | XmlServices | Collection of the url of xml services that will be used inside a farm. The urls neeed to be http or https, be absolute and share the same schema and port.  Either both FarmName and XmlServices need to be specified or none of them. | false | false |  |
 | RunAsynchronously | If set, the command will run asynchronously. | false | false | false |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

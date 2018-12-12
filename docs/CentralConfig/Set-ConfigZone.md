@@ -4,11 +4,11 @@
 
 ## Syntax
 ```
-Set-ConfigZone [-InputObject] <Zone[]> [-NewUid <Guid>] [-Description <String>] [-ExternalUid <Guid>] [-PassThru] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-ConfigZone [-InputObject] <Zone[]> [-NewUid <Guid>] [-Description <String>] [-ExternalUid <Guid>] [-TenantId <Guid>] [-PassThru] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Set-ConfigZone [-Uid] <Guid[]> [-NewUid <Guid>] [-Description <String>] [-ExternalUid <Guid>] [-PassThru] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-ConfigZone [-Uid] <Guid[]> [-NewUid <Guid>] [-Description <String>] [-ExternalUid <Guid>] [-TenantId <Guid>] [-PassThru] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Set-ConfigZone [-Name] <String[]> [-NewUid <Guid>] [-Description <String>] [-ExternalUid <Guid>] [-PassThru] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-ConfigZone [-Name] <String[]> [-NewUid <Guid>] [-Description <String>] [-ExternalUid <Guid>] [-TenantId <Guid>] [-PassThru] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -21,12 +21,12 @@ To update the metadata associated with a zone, use the Set-ConfigZoneMetadata an
 To change the name of a zone use Rename-ConfigZone cmdlet.
 
 ## Related Commands
-  * [New-ConfigZone](New-ConfigZone/)
-  * [Get-ConfigZone](Get-ConfigZone/)
-  * [Rename-ConfigZone](Rename-ConfigZone/)
-  * [Remove-ConfigZone](Remove-ConfigZone/)
-  * [Set-ConfigSite](Set-ConfigSite/)
-  * [Set-ConfigService](Set-ConfigService/)
+  * [New-ConfigZone](New-ConfigZone.html)
+  * [Get-ConfigZone](Get-ConfigZone.html)
+  * [Rename-ConfigZone](Rename-ConfigZone.html)
+  * [Remove-ConfigZone](Remove-ConfigZone.html)
+  * [Set-ConfigSite](Set-ConfigSite.html)
+  * [Set-ConfigService](Set-ConfigService.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -37,8 +37,10 @@ To change the name of a zone use Rename-ConfigZone cmdlet.
 | NewUid | Specifies the new uid of the Zone object. | false | false |  |
 | Description | Supplies the new description. | false | false |  |
 | ExternalUid | Supplies the external Uid of the zone | false | false |  |
+| TenantId | Supplies the Tenant ID of the zone | false | false |  |
 | PassThru | Returns the affected record. By default, this cmdlet does not generate any output. | false | false | False |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

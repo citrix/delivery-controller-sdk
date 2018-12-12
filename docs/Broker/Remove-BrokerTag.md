@@ -1,31 +1,30 @@
-﻿# Remove-BrokerTag
-
-   Removes tag to object associations or deletes tags from the site altogether.
-
+﻿
+# Remove-Brokertag
+Removes tag to object associations or deletes tags from the site altogether.
 ## Syntax
 ```
-Remove-BrokerTag [-Tags] <Tag[]> [-AllApplications] [-AllApplicationGroups] [-AllDesktops] [-AllDesktopGroups] [-AllMachines] [-AllObjects] [-Application <Application>] [-ApplicationGroup <ApplicationGroup>] [-Desktop <Desktop>] [-DesktopGroup <DesktopGroup>] [-Machine <Machine>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-BrokerTag [-Tags] <Tag[]> [-AllApplications] [-AllApplicationGroups] [-AllDesktops] [-AllDesktopGroups] [-AllMachines] [-AllObjects] [-Application <Application>] [-ApplicationGroup <ApplicationGroup>] [-Desktop <Desktop>] [-DesktopGroup <DesktopGroup>] [-Machine <Machine>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Remove-BrokerTag [-InputObject] <Tag[]> [-Application <Application>] [-ApplicationGroup <ApplicationGroup>] [-Desktop <Desktop>] [-DesktopGroup <DesktopGroup>] [-Machine <Machine>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-BrokerTag [-InputObject] <Tag[]> [-Application <Application>] [-ApplicationGroup <ApplicationGroup>] [-Desktop <Desktop>] [-DesktopGroup <DesktopGroup>] [-Machine <Machine>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Remove-BrokerTag [-Name] <String> [-Application <Application>] [-ApplicationGroup <ApplicationGroup>] [-Desktop <Desktop>] [-DesktopGroup <DesktopGroup>] [-Machine <Machine>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-BrokerTag [-Name] <String> [-Application <Application>] [-ApplicationGroup <ApplicationGroup>] [-Desktop <Desktop>] [-DesktopGroup <DesktopGroup>] [-Machine <Machine>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   Removes the association between tags and objects within the site, or deletes tags from the site altogether.
+Removes the association between tags and objects within the site, or deletes tags from the site altogether.
 
 To remove an association, supply one of the Application, Machine, Desktop or DesktopGroup parameters.
 
 To delete a tag entirely, together with any associations between the tag and other objects in the site, specify the tag without any associated object parameter.
 
-## Related Commands
-  * [Add-BrokerTag](Add-BrokerTag/)
-  * [Get-BrokerTag](Get-BrokerTag/)
-  * [New-BrokerTag](New-BrokerTag/)
-  * [Rename-BrokerTag](Rename-BrokerTag/)
-  * [Set-BrokerTag](Set-BrokerTag/)
-## Parameters
 
+## Related Commands
+
+* [Add-BrokerTag](./Add-BrokerTag/)
+* [Get-BrokerTag](./Get-BrokerTag/)
+* [New-BrokerTag](./New-BrokerTag/)
+* [Rename-BrokerTag](./Rename-BrokerTag/)
+* [Set-BrokerTag](./Set-BrokerTag/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Tags | Specifies one or more tag objects. | true | true (ByValue) |  |
@@ -44,22 +43,27 @@ To delete a tag entirely, together with any associations between the tag and oth
 | Machine | Removes the association between the given tag and machine. | false | true (ByValue) |  |
 | LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
-### Citrix.Broker.Admin.SDK.Tag
-   Tags may be specified through pipeline input.
+
+### Citrix.Broker.Admin.Sdk.Tag
+Tags may be specified through pipeline input.
 ## Return Values
+
 ### None
-   
+
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> Remove-BrokerTag $tag -Machine $machine
 ```
-   Description<br>-----------<br>Removes the association between a tag and a desktop. The tag itself continues to exist in the site.
-### EXAMPLE 2
+#### Description
+Removes the association between a tag and a desktop. The tag itself continues to exist in the site.
+### Example 2
 ```
 C:\PS> Remove-BrokerTag $tag
 ```
-   Description<br>-----------<br>Deletes the tag from the site also removing any associations that may exist between the tag and other objects.
+#### Description
+Deletes the tag from the site also removing any associations that may exist between the tag and other objects.

@@ -14,11 +14,11 @@ Add-SfStorefrontAddress [-ByteArray] <Byte[]> -Name <String> -Url <String> -Enab
 This command does not, by itself, have any persistent effects within XenDesktop. To make the change persistent, the new configuration byte array must first be transformed into a machine configuration within the Citrix Broker Service. To do this, use the New-BrokerMachineConfiguration command. You can then use the Add-BrokerMachineConfiguration and Set-BrokerMachineConfiguration commands to fully associate the new configuration with a delivery group.
 
 ## Related Commands
-  * [New-SfStorefrontAddress](New-SfStorefrontAddress/)
-  * [Get-SfStorefrontAddress](Get-SfStorefrontAddress/)
-  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration/)
-  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration/)
-  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration/)
+  * [New-SfStorefrontAddress](New-SfStorefrontAddress.html)
+  * [Get-SfStorefrontAddress](Get-SfStorefrontAddress.html)
+  * [New-BrokerMachineConfiguration](New-BrokerMachineConfiguration.html)
+  * [Add-BrokerMachineConfiguration](Add-BrokerMachineConfiguration.html)
+  * [Set-BrokerMachineConfiguration](Set-BrokerMachineConfiguration.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |

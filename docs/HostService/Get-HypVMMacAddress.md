@@ -4,19 +4,20 @@
 
 ## Syntax
 ```
-Get-HypVMMacAddress [-LiteralPath] <String> [-AdminAddress <String>] [<CommonParameters>]
+Get-HypVMMacAddress [-LiteralPath] <String> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this command to obtain a list of MAC addresses of all the virtual machines in the specified connection.
 
 ## Related Commands
-  * [Get-Item](Get-Item/)
+  * [Get-Item](Get-Item.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | LiteralPath | The path to a connection item in the hosting provider.  Paths to anything other than a connection item will result in an error being returned. The path can be provided as either <drive>:\connections\<Connection Name> or <drive:>\connections\{<Connection Uid>} | true | true (ByValue) |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

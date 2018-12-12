@@ -4,21 +4,22 @@
 
 ## Syntax
 ```
-Get-ConfigServiceStatus [-AdminAddress <String>] [<CommonParameters>]
+Get-ConfigServiceStatus [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Enables the status of the Configuration Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-ConfigDBConnection](Set-ConfigDBConnection/)
-  * [Test-ConfigDBConnection](Test-ConfigDBConnection/)
-  * [Get-ConfigDBConnection](Get-ConfigDBConnection/)
-  * [Get-ConfigDBSchema](Get-ConfigDBSchema/)
+  * [Set-ConfigDBConnection](Set-ConfigDBConnection.html)
+  * [Test-ConfigDBConnection](Test-ConfigDBConnection.html)
+  * [Get-ConfigDBConnection](Get-ConfigDBConnection.html)
+  * [Get-ConfigDBSchema](Get-ConfigDBSchema.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

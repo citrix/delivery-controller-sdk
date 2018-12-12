@@ -4,21 +4,22 @@
 
 ## Syntax
 ```
-Get-SfServiceStatus [-AdminAddress <String>] [<CommonParameters>]
+Get-SfServiceStatus [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Enables the status of the Storefront Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-SfDBConnection](Set-SfDBConnection/)
-  * [Test-SfDBConnection](Test-SfDBConnection/)
-  * [Get-SfDBConnection](Get-SfDBConnection/)
-  * [Get-SfDBSchema](Get-SfDBSchema/)
+  * [Set-SfDBConnection](Set-SfDBConnection.html)
+  * [Test-SfDBConnection](Test-SfDBConnection.html)
+  * [Get-SfDBConnection](Get-SfDBConnection.html)
+  * [Get-SfDBSchema](Get-SfDBSchema.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

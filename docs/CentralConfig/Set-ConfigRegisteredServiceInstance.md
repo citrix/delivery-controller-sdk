@@ -4,16 +4,16 @@
 
 ## Syntax
 ```
-Set-ConfigRegisteredServiceInstance -ServiceInstanceUid <Guid> -Address <String> [-PassThru] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-ConfigRegisteredServiceInstance -ServiceInstanceUid <Guid> -Address <String> [-PassThru] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this cmdlet to change the address property of an existing service instance that is registered in the Configuration Service.
 
 ## Related Commands
-  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance/)
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
-  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance/)
+  * [Get-ConfigRegisteredServiceInstance](Get-ConfigRegisteredServiceInstance.html)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
+  * [Unregister-ConfigRegisteredServiceInstance](Unregister-ConfigRegisteredServiceInstance.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -22,6 +22,7 @@ Set-ConfigRegisteredServiceInstance -ServiceInstanceUid <Guid> -Address <String>
 | Address | The new address for the service instance. | true | false |  |
 | PassThru | Defines whether or not the command returns a result showing the new state of the updated service instance. | false | false | true |
 | LoggingId | Specifies the logging id of the high-level operation this cmdlet invocation is part of. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

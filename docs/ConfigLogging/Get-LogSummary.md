@@ -4,15 +4,15 @@
 
 ## Syntax
 ```
-Get-LogSummary [-StartDateRange <DateTime>] [-EndDateRange <DateTime>] [-IntervalSeconds <Int64>] [-GetLowLevelOperations] [-IncludeIncomplete] [-OperationType <OperationType>] [-AdminAddress <String>] [<CommonParameters>]
+Get-LogSummary [-StartDateRange <DateTime>] [-EndDateRange <DateTime>] [-IntervalSeconds <Int64>] [-GetLowLevelOperations] [-IncludeIncomplete] [-OperationType <OperationType>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    The Get-LogSummary cmdlet retrieves summary counts of operations logged within time intervals inside a date range. The returned data indicates the rate at which configuration changes and activities were performed out within a time period.
 
 ## Related Commands
-  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation/)
-  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation/)
+  * [Get-LogHighLevelOperation](Get-LogHighLevelOperation.html)
+  * [Get-LogLowLevelOperation](Get-LogLowLevelOperation.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -23,6 +23,7 @@ Get-LogSummary [-StartDateRange <DateTime>] [-EndDateRange <DateTime>] [-Interva
 | GetLowLevelOperations | Specifies if the cmdlet should return low level operation summary counts. | false | false | $false - high level operations counts are returned. |
 | IncludeIncomplete | Specifies if incomplete operations should be included in the returned summary counts. | false | false | $false - incomplete operations are excluded. |
 | OperationType | Specifies the type of logged operations to include. Values can be 'AdminActivity' or 'ConfigurationChange' | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

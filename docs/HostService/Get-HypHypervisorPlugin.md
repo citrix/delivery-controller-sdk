@@ -4,18 +4,19 @@
 
 ## Syntax
 ```
-Get-HypHypervisorPlugin [-AdminAddress <String>] [<CommonParameters>]
+Get-HypHypervisorPlugin [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this command to retrieve a list of all the available hypervisor types, and their localized names.
 
 ## Related Commands
-  * [New-Item](New-Item/)
+  * [New-Item](New-Item.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller to which the PowerShell snap-in connects.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

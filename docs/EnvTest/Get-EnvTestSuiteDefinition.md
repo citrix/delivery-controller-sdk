@@ -1,53 +1,59 @@
-﻿# Get-EnvTestSuiteDefinition
-
-   Gets one or more test suite definitions.
-
+﻿
+# Get-Envtestsuitedefinition
+Gets one or more test suite definitions.
 ## Syntax
 ```
-Get-EnvTestSuiteDefinition [-TestSuiteId <String[]>] [-CultureName <String>] [-AdminAddress <String>] [<CommonParameters>]
+Get-EnvTestSuiteDefinition [-TestSuiteId <String[]>] [-CultureName <String>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   Returns a list of test suite definitions that are available from currently running components.
+Returns a list of test suite definitions that are available from currently running components.
+
 
 ## Related Commands
-  * [Get-EnvTestDefinition](Get-EnvTestDefinition/)
-  * [Get-EnvTestTask](Get-EnvTestTask/)
-  * [Start-EnvTestTask](Start-EnvTestTask/)
-  * [Switch-EnvTestTask](Switch-EnvTestTask/)
-  * [Stop-EnvTestTask](Stop-EnvTestTask/)
-  * [Remove-EnvTestTask](Remove-EnvTestTask/)
-  * [Add-EnvTestTaskMetadata](Add-EnvTestTaskMetadata/)
-  * [Remove-EnvTestTaskMetadata](Remove-EnvTestTaskMetadata/)
-## Parameters
 
+* [Get-EnvTestDefinition](./Get-EnvTestDefinition/)
+* [Get-EnvTestTask](./Get-EnvTestTask/)
+* [Start-EnvTestTask](./Start-EnvTestTask/)
+* [Switch-EnvTestTask](./Switch-EnvTestTask/)
+* [Stop-EnvTestTask](./Stop-EnvTestTask/)
+* [Remove-EnvTestTask](./Remove-EnvTestTask/)
+* [Add-EnvTestTaskMetadata](./Add-EnvTestTaskMetadata/)
+* [Remove-EnvTestTaskMetadata](./Remove-EnvTestTaskMetadata/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | TestSuiteId | The id of one or more test suites. | false | true (ByValue) |  |
 | CultureName | The culture name in which to produce results. The culture name is in standard language/region-code format; for example "en-US". | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type
+
 ### System.String
-   A test suite id.### System.String[]
-   An array of test suite ids.
+A test suite id.
+### System.String\[\]
+An array of test suite ids.
 ## Return Values
-### Citrix.EnvTest.Sdk.EnvTestSuiteDefinition
-   The definition of a test suite
+
+### Citrix.Envtest.Sdk.Envtestsuitedefinition
+The definition of a test suite
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 $allTestSuiteDefinitions = Get-EnvTestSuiteDefinition
 ```
-   Description<br>-----------<br>Retrieve all test suites.
-### EXAMPLE 2
+#### Description
+Retrieve all test suites.
+### Example 2
 ```
 $allTestSuiteDefinitionsTranslatedIntoSpanish = Get-EnvTestSuiteDefinition -CultureName es-ES
 ```
-   Description<br>-----------<br>Retrieve all test suites with localized properties returned in Spanish.
-### EXAMPLE 3
+#### Description
+Retrieve all test suites with localized properties returned in Spanish.
+### Example 3
 ```
 $infrastructureSuiteDefinition = Get-EnvTestSuiteDefinition -TestSuiteId Infrastructure
 ```
-   Description<br>-----------<br>Retrieve the definition of the 'Infrastructure' test suite.
+#### Description
+Retrieve the definition of the 'Infrastructure' test suite.

@@ -1,63 +1,45 @@
-﻿# about_Broker_PostInstallPreConfiguration
-## TOPIC
-    Citrix Broker SDK - Post-Installation Configuration 
+﻿
+# about\_Broker\_PostInstallPreConfiguration
 
-## SHORT DESCRIPTION
-    Describes how to configure the Citrix Broker Service port numbers, URL 
-    reservations, and Windows Firewall exclusions. 
+## Topic
+Citrix Broker SDK - Post-Installation Configuration
 
-## LONG DESCRIPTION
-    The XenDesktop installer configures the Citrix Broker Service with 
-    information specified during the installation. To change that configuration, 
-    use the BrokerService.exe command-line tool on each controller you want to 
-    change. 
 
-    The default installation location of BrokerService.exe is: 
+## Short Description
+Describes how to configure the Citrix Broker Service port numbers, URL reservations, and Windows Firewall exclusions.
 
-      %ProgramFiles%\Citrix\Broker\Service\BrokerService.exe 
 
-    BrokerService.exe supports the following optional command-line parameters: 
+## Long Description
+The XenDesktop installer configures the Citrix Broker Service with information specified during the installation. To change that configuration, use the BrokerService.exe command-line tool on each controller you want to change.
 
-    -SdkPort <port>  (default 80) 
-        Configures the port on which the broker listens for requests from SDK 
-        cmdlets. If you change this default value, specify the new value in the 
-        AdminAddress parameter on broker cmdlets. For example, if you changed 
-        the port to 8080, specify it as follows: 
+The default installation location of BrokerService.exe is:
 
-          Get-BrokerSite -AdminAddress localhost:8080 
+%ProgramFiles%\\Citrix\\Broker\\Service\\BrokerService.exe
 
-    -VdaPort <port>  (default 80) 
-        Configures the port on which the broker listens for registration 
-        requests from broker machines. 
+BrokerService.exe supports the following optional command-line parameters:
 
-    -WiPort <port>  (default 80) 
-        Configures the port on which the broker listens for XML requests from 
-        StoreFront/Web Interface. 
+-SdkPort &lt;port&gt;  (default 80) Configures the port on which the broker listens for requests from SDK cmdlets. If you change this default value, specify the new value in the AdminAddress parameter on broker cmdlets. For example, if you changed the port to 8080, specify it as follows:
 
-    -WiSslPort <port>  (default 443) 
-        Configures the port on which the broker listens for SSL (Secure Socket 
-        Layer) XML requests from StoreFront/Web Interface. 
+Get-BrokerSite -AdminAddress localhost:8080
 
-    -ConfigureFirewall 
-        Configures Windows Firewall exclusions for the specified ports. 
+-VdaPort &lt;port&gt;  (default 80) Configures the port on which the broker listens for registration requests from broker machines.
 
-    -Show 
-        Shows the current configuration settings. 
+-WiPort &lt;port&gt;  (default 80) Configures the port on which the broker listens for XML requests from StoreFront/Web Interface.
 
-    -Uninstall 
-        Removes configuration settings, including Windows Firewall exclusions 
-        and URL reservations. 
+-WiSslPort &lt;port&gt;  (default 443) Configures the port on which the broker listens for SSL (Secure Socket Layer) XML requests from StoreFront/Web Interface.
 
-    -LogFile <fileName> 
-        Configures the file location for logging to a text file. The directory 
-        containing the log file must grant write access to the NetworkService 
-        account. 
+-ConfigureFirewall Configures Windows Firewall exclusions for the specified ports.
 
-    -Upgrade 
-        Performs configurations required after an upgrade. 
+-Show Shows the current configuration settings.
 
-    -Quiet 
-        Suppresses console output for status messages. 
+-Uninstall Removes configuration settings, including Windows Firewall exclusions and URL reservations.
 
-    -? or -Help 
-        Shows usage information for the command. 
+-LogFile &lt;fileName&gt; Configures the file location for logging to a text file. The directory containing the log file must grant write access to the NetworkService account.
+
+-Upgrade Performs configurations required after an upgrade.
+
+-Quiet Suppresses console output for status messages.
+
+-? or -Help Shows usage information for the command.
+
+

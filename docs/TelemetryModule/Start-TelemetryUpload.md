@@ -1,0 +1,101 @@
+﻿
+# Start-Telemetryupload
+Requests the Citrix Telemetry Service to upload the collected data to the Citrix Insight Services (CIS) or to copy the data to a folder (for manual upload to CIS).
+## Syntax
+```
+Start-TelemetryUpload [-Credential] <PSCredential> [[-Description] <String>] [[-IncidentTime] <String>] [[-SRNumber] <String>] [[-UploadHeader] <String>] [[-AppendHeaders] <String>] [[-Collect] <String>] [<CommonParameters>]
+
+Start-TelemetryUpload [-UploadGrantToken] <String> [[-Description] <String>] [[-IncidentTime] <String>] [[-SRNumber] <String>] [[-UploadHeader] <String>] [[-AppendHeaders] <String>] [[-Collect] <String>] [<CommonParameters>]
+
+Start-TelemetryUpload [-UploadToken] <String> [[-Description] <String>] [[-IncidentTime] <String>] [[-SRNumber] <String>] [[-UploadHeader] <String>] [[-AppendHeaders] <String>] [[-Collect] <String>] [<CommonParameters>]
+
+Start-TelemetryUpload [-OutputPath] <String> [[-Description] <String>] [[-IncidentTime] <String>] [[-SRNumber] <String>] [[-UploadHeader] <String>] [[-AppendHeaders] <String>] [[-Collect] <String>] [<CommonParameters>]
+```
+## Detailed Description
+The Start-TelemetryUpload cmdlet request an upload of the collected diagnostic data.
+
+If the Credential parameter is specified, the upload is directed to the Citrix Insight Services (CIS). A valid CIS logon credential must be provided.
+
+If the OutputPath parameter is specified, the upload is directed to the specified file. The data may then be uploaded manually using the CIS web site.
+
+The Description and Incident Time provide some basic information about this upload request. Set the SRNumber to the Citrix Technical Support incident number.
+
+The diagnostic data uploaded is determined by the service.
+
+The optional UploadHeader parameter accepts a json-formatted string, which specify the upload headers passed to CIS.
+
+The optional AppendHeaders parameter accepts a json-formatted string, which specify the appended headers uploaded to CIS.
+
+The optional Collect parameter accepts a json-formatted string, which specify the parameters passed to collectors. Current collectors consist of 'sfb', 'wmi', 'process', 'registry', 'crashreport', 'trace', 'file', localdata' and 'sitedata'. Each of the collectors accepts at least a parameter 'enabled', used to disable the collector. By default, all collectors are enabled except for the 'sfb' collector, because 'sfb' collector is used for users to diagnose the skype failure and designed to be on-demand.
+
+'sfb' collector supports three parameters 'account', 'accounts' and 'enabled', first two of which specify the target user(s) 'sfb' collector will collect skype logs for, and can not coexist. If 'sfb' parameter is not null in -Collect json string, the 'sfb' collector will be enabled unless the 'enabled' is false.
+
+'file' collector supports two parameters 'input' and 'enabled', 'input' is an array of string, which means the file paths that are going to be injected into the upload bundle, it has the same effect of '-InputPath'. the 'file' collector will be enabled unless the 'enabled' is false.
+
+The upload may take a long time to finish. If the cmdlet times out, the system event log can be used to check the status of the upload. The upload request may be rejected if the service is already performing an upload.
+
+
+## Related Commands
+
+* [Get-Credential](./Get-Credential/)
+* [Disable-CitrixCallHome](./Disable-CitrixCallHome/)
+* [Enable-CitrixCallHome](./Enable-CitrixCallHome/)
+* [Get-CitrixCallHome](./Get-CitrixCallHome/)
+* [Get-CitrixCallHomeSchedule](./Get-CitrixCallHomeSchedule/)
+* [Start-CitrixCallHomeUpload](./Start-CitrixCallHomeUpload/)
+## Parameters
+| Name   | Description | Required? | Pipeline Input | Default Value |
+| --- | --- | --- | --- | --- |
+| Credential | The user credential to use to authenticate to CIS. This credential is typically a MyCitrix account. | true | True (ByValue and ByPropertyName) |  |
+| UploadGrantToken | The user upload grant token to use to authenticate to CIS. | true | True (ByValue and ByPropertyName) | false |
+| UploadToken | The user upload token to use to authenticate to CIS. | true | True (ByValue and ByPropertyName) | false |
+| OutputPath | A file name for the service write the diagnostic data to. The file should be specified with a .zip extension as the package is a ZIP file. | true | True (ByValue and ByPropertyName) | false |
+| Description | A brief description of the reason for the upload. You should provide any general information such information that could help Citrix Technical Support to analyze the data. | false | True (ByPropertyName) |  |
+| IncidentTime | The approximate time at which the incident of concern occurred. This helps Citrix Technical Support focus thee analysis the data. If this is not specified, it is set the current local time. | false | True (ByPropertyName) |  |
+| SRNumber | Specifies Citrix Technical Support incident number | false | true (ByPropertyName) |  |
+| UploadHeader | Specify the upload headers passed to CIS. Json-formatted. | false | true (ByPropertyName) |  |
+| AppendHeaders | Specify the appended headers uploaded to CIS. Json-formatted. | false | true (ByPropertyName) |  |
+| Collect | Specify the parameters passed to collectors. Json-formatted. | false | true (ByPropertyName) |  |
+
+## Input Type
+
+### System.String
+This cmdlet accepts a string as input that populates the Description parameter.
+### System.String
+This cmdlet accepts a string as input that populates the IncidentTime parameter.
+### System.Management.Automation.Pscredential
+This cmdlet accepts a PSCredential object as input that populates the Credential parameter.
+### System.String
+This cmdlet accepts a string as input that populates the UploadGrantToken parameter.
+### System.String
+This cmdlet accepts a string as input that populates the UploadToken parameter.
+### System.String
+This cmdlet accepts a string as input that populates the UploadHeader parameter.
+### System.String
+This cmdlet accepts a string as input that populates the AppendHeaders parameter.
+### System.String
+This cmdlet accepts a string as input that populates the OutputPath parameter.
+### System.String
+This cmdlet accepts a string as input that populates the Collect parameter.
+## Return Values
+
+### 
+
+## Notes
+Check system event log to find out more status about the upload request.
+## Examples
+
+### Example 1: Upload Diagnostic Data To Citrix Insight Services
+```
+C:\PS>Start-TelemetryUpload -Credential (Get-Credential) -Description "Registration failures in the Finance delivery group" -IncidentTime "14:30" -SRNumber 123456 -Collect "{'wmi':{'enabled':false}}" -UploadHeader "{'key1':'value1'}" -AppendHeaders "{'key2':'value2'}"
+```This command requests a upload of the diagnostic data (exclude the data from wmi collector) to the Citrix CIS site using credentials entered by the interactive user. The estimated incident time is 2:30 PM for the Citrix Technical Support case 123456.
+### Example 2: Export The Diagnostic Data To A File
+```
+C:\PS>Start-TelemetryUpload -OutputPath \\mynetwork\myshare\mydata.zip -Description "Diagnostics for incident number 223344" -IncidentTime "8:15" -SRNumber 223344
+```This command requests that the diagnostic data for incident 223344 that occurred near 8:15 AM to be written to mydata.zip
+### Example 3: Upload Skype For Business Logs To Citrix Insight Services
+```
+C:\PS>Start-TelemetryUpload -Credential (Get-Credential) -Description "Skype login failure" -Collect "{'sfb':{'account':'domain\\user1'}}"
+
+C:\PS>Start-TelemetryUpload -Credential (Get-Credential) -Description "Skype login failures" -Collect "{'sfb':{'accounts':['domain\\user1', 'domain\\user2']}}"
+```The first command requests upload of the diagnostic data (including the skype logs for domain user user1) to the Citrix CIS site using credentials entered by the interactive user. The 'sfb' parameter enable the collection and upload of skype logs. The second one is same as the first one except for it will collect skype logs for two domain users: user1 and user2.

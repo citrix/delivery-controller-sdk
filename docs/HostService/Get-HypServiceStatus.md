@@ -4,21 +4,22 @@
 
 ## Syntax
 ```
-Get-HypServiceStatus [-AdminAddress <String>] [<CommonParameters>]
+Get-HypServiceStatus [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Enables the status of the Host Service on the controller to be determined. The database connection to the service does not need to be configured before using this command.
 
 ## Related Commands
-  * [Set-HypDBConnection](Set-HypDBConnection/)
-  * [Test-HypDBConnection](Test-HypDBConnection/)
-  * [Get-HypDBConnection](Get-HypDBConnection/)
-  * [Get-HypDBSchema](Get-HypDBSchema/)
+  * [Set-HypDBConnection](Set-HypDBConnection.html)
+  * [Test-HypDBConnection](Test-HypDBConnection.html)
+  * [Get-HypDBConnection](Get-HypDBConnection.html)
+  * [Get-HypDBSchema](Get-HypDBSchema.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

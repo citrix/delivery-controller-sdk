@@ -4,22 +4,23 @@
 
 ## Syntax
 ```
-Get-ConfigProductFeature [-ProductCode] <String> [-AdminAddress <String>] [<CommonParameters>]
+Get-ConfigProductFeature [-ProductCode] <String> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Lists the supported features. Use the Get-ConfigEnabledFeature command to determine which features are currently enabled.
 
 ## Related Commands
-  * [Get-ConfigProduct](Get-ConfigProduct/)
-  * [Get-ConfigSite](Get-ConfigSite/)
-  * [Set-ConfigSite](Set-ConfigSite/)
-  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable/)
+  * [Get-ConfigProduct](Get-ConfigProduct.html)
+  * [Get-ConfigSite](Get-ConfigSite.html)
+  * [Set-ConfigSite](Set-ConfigSite.html)
+  * [Import-ConfigFeatureTable](Import-ConfigFeatureTable.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | ProductCode | The product code | true | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type
@@ -33,6 +34,6 @@ Get-ConfigProductFeature [-ProductCode] <String> [-AdminAddress <String>] [<Comm
 
 ### EXAMPLE 1
 ```
-C:\PS> Get-ConfigProductFeature -ProductCode "XDS"
+C:\PS> Get-ConfigProductFeature -ProductCode "XDT"
 ```
    Description<br>-----------<br>Retrieves the list of supported features for XenDesktop.

@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-HypConnectionRegion [-LiteralPath] <String> [-AdminAddress <String>] [<CommonParameters>]
+Get-HypConnectionRegion [-LiteralPath] <String> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -15,12 +15,13 @@ Once a region has been chosen, use the standard Set-Item provider cmdlet to sele
 This cmdlet may return no output, in which case the cloud connection can be considered "regionless" (or, implicitly, all within a single region). In such cases, there is no need to select a region, and the hypervisor connection can be used as is.
 
 ## Related Commands
-  * [Set-Item](Set-Item/)
+  * [Set-Item](Set-Item.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | LiteralPath | Specifies the path to the hypervisor connection whose regions are being examined. This cmdlet is valid only for hypervisor connections that have the UsesCloudInfrastructure flag set to true. The path must be in one of the following formats: <drive>:\Connections\<ConnectionName> or  <drive>:\Connections\{<Connection Uid>} | true | true (ByValue) |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller to which the PowerShell snap-in connects. You can provide a host name or an IP address. | false | false | LocalHost. When a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

@@ -4,20 +4,20 @@
 
 ## Syntax
 ```
-Grant-HypSecurityGroupEgress [-LiteralPath] <String> -GroupId <String[]> -Protocol <String> [-FromPort <Decimal>] [-ToPort <Decimal>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Grant-HypSecurityGroupEgress [-LiteralPath] <String> -GroupId <String[]> -Protocol <String> [-FromPort <Decimal>] [-ToPort <Decimal>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 
-Grant-HypSecurityGroupEgress [-LiteralPath] <String> -IPRange <String[]> -Protocol <String> [-FromPort <Decimal>] [-ToPort <Decimal>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Grant-HypSecurityGroupEgress [-LiteralPath] <String> -IPRange <String[]> -Protocol <String> [-FromPort <Decimal>] [-ToPort <Decimal>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Adding an egress rule permits network traffic from instances within the security group to pass to one or more destination CIDR IP address ranges or security groups.
 
 ## Related Commands
-  * [Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html](Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html/)
-  * [IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml](IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml/)
-  * [Grant-HypSecurityGroupIngress](Grant-HypSecurityGroupIngress/)
-  * [Revoke-HypSecurityGroupIngress](Revoke-HypSecurityGroupIngress/)
-  * [Revoke-HypSecurityGroupEgress](Revoke-HypSecurityGroupEgress/)
+  * [Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html](Amazon AuthorizeSecurityGroupEgress: http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html.html)
+  * [IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml](IANA protocol numbers: http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml.html)
+  * [Grant-HypSecurityGroupIngress](Grant-HypSecurityGroupIngress.html)
+  * [Revoke-HypSecurityGroupIngress](Revoke-HypSecurityGroupIngress.html)
+  * [Revoke-HypSecurityGroupEgress](Revoke-HypSecurityGroupEgress.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -29,6 +29,7 @@ Grant-HypSecurityGroupEgress [-LiteralPath] <String> -IPRange <String[]> -Protoc
 | FromPort | The start of the port range for port based protocols. For ICMP this specifies the type number.<br>Use -1 to specify all ICMP types. | false | false | 0 |
 | ToPort | The end of the port range for port based protocols. For ICMP this specifies the type number, where -1 can be used to specify all ICMP types. | false | false | 0 |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

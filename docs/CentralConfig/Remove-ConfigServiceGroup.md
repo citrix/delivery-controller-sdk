@@ -4,23 +4,24 @@
 
 ## Syntax
 ```
-Remove-ConfigServiceGroup [-ServiceGroupUid] <Guid> [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Remove-ConfigServiceGroup [-ServiceGroupUid] <Guid> [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this cmdlet to remove a service group and all the service instances that it contains.
 
 ## Related Commands
-  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance/)
-  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata/)
-  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata/)
-  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata/)
+  * [Register-ConfigServiceInstance](Register-ConfigServiceInstance.html)
+  * [Add-ConfigServiceGroupMetadata](Add-ConfigServiceGroupMetadata.html)
+  * [Set-ConfigServiceGroupMetadata](Set-ConfigServiceGroupMetadata.html)
+  * [Remove-ConfigServiceGroupMetadata](Remove-ConfigServiceGroupMetadata.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | ServiceGroupUid | The unique identifier for the service group. | true | true (ByPropertyName) |  |
 | LoggingId | Specifies the logging id of the high-level operation this cmdlet invocation is part of. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects to.  You can provide this as a host name or an IP address. | false | false | LocalHost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-New-ConfigEdgeServer [-Name] <String> -MachineAddress <String> -Sid <String> -Uuid <Guid> [-Description <String>] [-ZoneUid <Guid>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+New-ConfigEdgeServer [-Name] <String> -MachineAddress <String> -Sid <String> -Uuid <Guid> [-Description <String>] [-ZoneUid <Guid>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -13,10 +13,10 @@ New-ConfigEdgeServer [-Name] <String> -MachineAddress <String> -Sid <String> -Uu
 An edge server is a machine which is running an agent service that performs a number of duties; these agent services are largely stateless and communicate back to the Citrix Workspace Cloud components in the cloud.
 
 ## Related Commands
-  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer/)
-  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer/)
-  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer/)
-  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer/)
+  * [Get-ConfigEdgeServer](Get-ConfigEdgeServer.html)
+  * [Set-ConfigEdgeServer](Set-ConfigEdgeServer.html)
+  * [Rename-ConfigEdgeServer](Rename-ConfigEdgeServer.html)
+  * [Remove-ConfigEdgeServer](Remove-ConfigEdgeServer.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -28,6 +28,7 @@ An edge server is a machine which is running an agent service that performs a nu
 | Description | Optional value to specify a description for the edge server | false | true (ByPropertyName) |  |
 | ZoneUid | Specifies the Zone affinity for the edge server | false | true (ByPropertyName) | If no value is provided the edge server is placed in the Primary zone |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

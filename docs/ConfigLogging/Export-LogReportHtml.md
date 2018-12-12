@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Export-LogReportHtml -OutputDirectory <String> [-StartDateRange <DateTime>] [-EndDateRange <DateTime>] [-AdminAddress <String>] [<CommonParameters>]
+Export-LogReportHtml -OutputDirectory <String> [-StartDateRange <DateTime>] [-EndDateRange <DateTime>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -14,7 +14,7 @@ o Details.Html - this shows additional logging data from the low level operation
 Hyperlinks in summary.html allow drill-down into the associated low level logging data contained within details.html.
 
 ## Related Commands
-  * [Export-LogReportCsv](Export-LogReportCsv/)
+  * [Export-LogReportCsv](Export-LogReportCsv.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -22,6 +22,7 @@ Hyperlinks in summary.html allow drill-down into the associated low level loggin
 | OutputDirectory | Specifies the path to a directory where the HTML report files will will be saved. | true | false |  |
 | StartDateRange | Specifies the start time of the earliest operation to include. | false | false | DateTime.Min |
 | EndDateRange | Specifies the end time of the latest operation to include. | false | false | DateTime.UtcNow |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

@@ -4,16 +4,16 @@
 
 ## Syntax
 ```
-Set-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-StorageType <StorageType>] [-Superseded <Boolean>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+Set-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-StorageType <StorageType>] [-Superseded <Boolean>] [-LoggingId <Guid>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
    Use this command to set options for storage locations that are defined for a hosting unit. Do not use this command if the connection for the hosting unit is in maintenance mode.
 
 ## Related Commands
-  * [New-Item](New-Item/)
-  * [Add-HypMetadata](Add-HypMetadata/)
-  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage/)
+  * [New-Item](New-Item.html)
+  * [Add-HypMetadata](Add-HypMetadata.html)
+  * [Remove-HypHostingUnitStorage](Remove-HypHostingUnitStorage.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
@@ -23,6 +23,7 @@ Set-HypHostingUnitStorage [-LiteralPath] <String> [-StoragePath] <String> [-Stor
 | StorageType | Specifies the type of storage in StoragePath. Supported storage types are: OSStorage PersonalvDiskStorage TemporaryStorage | false | false | OSStorage |
 | Superseded | Specifies that this storage has been superseded and must not be used for future provisioning operations. Existing virtual machines using this storage will continue to function. | false | false |  |
 | LoggingId | Specifies the identifier of the high-level operation this cmdlet call forms a part of. Citrix Studio and Director typically create high-level operations. PowerShell scripts can also wrap a series of cmdlet calls in a high-level operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snap-in connects. This can be a host name or an IP address. | false | false | LocalHost. When a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

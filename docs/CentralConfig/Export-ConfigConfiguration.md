@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Export-ConfigConfiguration [-ExistingConfigLastChangeTime <String>] [-AdminAddress <String>] [<CommonParameters>]
+Export-ConfigConfiguration [-ExistingConfigLastChangeTime <String>] [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -16,6 +16,7 @@ Export-ConfigConfiguration [-ExistingConfigLastChangeTime <String>] [-AdminAddre
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | ExistingConfigLastChangeTime | The value of ConfigLastChangeTime in the site object of any configuration already held by the caller. If nothing has changed, an empty configuration will be returned with the "Updated" attribute set to false. | false | false | $null |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

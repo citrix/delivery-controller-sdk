@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-HypServiceInstance [-AdminAddress <String>] [<CommonParameters>]
+Get-HypServiceInstance [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -13,12 +13,13 @@ Get-HypServiceInstance [-AdminAddress <String>] [<CommonParameters>]
 You do not need to configure a database connection to use this command.
 
 ## Related Commands
-  * [Get-HypServiceStatus](Get-HypServiceStatus/)
-  * [Reset-HypServiceGroupMembership](Reset-HypServiceGroupMembership/)
+  * [Get-HypServiceStatus](Get-HypServiceStatus.html)
+  * [Reset-HypServiceGroupMembership](Reset-HypServiceGroupMembership.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

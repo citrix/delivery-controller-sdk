@@ -1,212 +1,156 @@
-﻿# Get-BrokerDesktopGroup
-
-   Gets broker desktop groups configured for this site.
-
+﻿
+# Get-Brokerdesktopgroup
+Gets broker desktop groups configured for this site.
 ## Syntax
 ```
-Get-BrokerDesktopGroup [-Uid] <Int32> [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerDesktopGroup [-Uid] <Int32> [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 
-Get-BrokerDesktopGroup [[-Name] <String>] [-AppDisk <Guid>] [-AppDnaAnalysisState <AppDnaAnalysisState>] [-AppDnaCompatibility <AppDnaCompatibility>] [-AutomaticPowerOnForAssigned <Boolean>] [-AutomaticPowerOnForAssignedDuringPeak <Boolean>] [-ColorDepth <ColorDepth>] [-DeliveryType <DeliveryType>] [-Description <String>] [-DesktopKind <DesktopKind>] [-Enabled <Boolean>] [-InMaintenanceMode <Boolean>] [-IsRemotePC <Boolean>] [-Metadata <String>] [-MinimumFunctionalLevel <FunctionalLevel>] [-OffPeakBufferSizePercent <Int32>] [-OffPeakDisconnectAction <SessionChangeHostingAction>] [-OffPeakDisconnectTimeout <Int32>] [-OffPeakExtendedDisconnectAction <SessionChangeHostingAction>] [-OffPeakExtendedDisconnectTimeout <Int32>] [-OffPeakLogOffAction <SessionChangeHostingAction>] [-OffPeakLogOffTimeout <Int32>] [-PeakBufferSizePercent <Int32>] [-PeakDisconnectAction <SessionChangeHostingAction>] [-PeakDisconnectTimeout <Int32>] [-PeakExtendedDisconnectAction <SessionChangeHostingAction>] [-PeakExtendedDisconnectTimeout <Int32>] [-PeakLogOffAction <SessionChangeHostingAction>] [-PeakLogOffTimeout <Int32>] [-PublishedName <String>] [-ScopeId <Guid>] [-ScopeName <String>] [-SecureIcaRequired <Boolean>] [-SessionSupport <SessionSupport>] [-SettlementPeriodBeforeAutoShutdown <TimeSpan>] [-SettlementPeriodBeforeUse <TimeSpan>] [-ShutdownDesktopsAfterUse <Boolean>] [-Tag <String>] [-TenantId <Guid>] [-TimeZone <String>] [-TotalApplicationGroups <Int32>] [-TotalApplications <Int32>] [-TurnOnAddedMachine <Boolean>] [-UUID <Guid>] [-ZonePreference <ZonePreference>] [-ApplicationGroupUid <Int32>] [-ApplicationUid <Int32>] [-TagUid <Int32>] [-PowerTimeSchemeUid <Int32>] [-MachineConfigurationUid <Int32>] [-RemotePCCatalogUid <Int32>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [<CommonParameters>]
+Get-BrokerDesktopGroup [[-Name] <String>] [-AppDisk <Guid>] [-AppDnaAnalysisState <AppDnaAnalysisState>] [-AppDnaCompatibility <AppDnaCompatibility>] [-AutomaticPowerOnForAssigned <Boolean>] [-AutomaticPowerOnForAssignedDuringPeak <Boolean>] [-ColorDepth <ColorDepth>] [-DeliveryType <DeliveryType>] [-Description <String>] [-DesktopKind <DesktopKind>] [-Enabled <Boolean>] [-InMaintenanceMode <Boolean>] [-IsRemotePC <Boolean>] [-LicenseModel <LicenseModel>] [-Metadata <String>] [-MinimumFunctionalLevel <FunctionalLevel>] [-OffPeakBufferSizePercent <Int32>] [-OffPeakDisconnectAction <SessionChangeHostingAction>] [-OffPeakDisconnectTimeout <Int32>] [-OffPeakExtendedDisconnectAction <SessionChangeHostingAction>] [-OffPeakExtendedDisconnectTimeout <Int32>] [-OffPeakLogOffAction <SessionChangeHostingAction>] [-OffPeakLogOffTimeout <Int32>] [-PeakBufferSizePercent <Int32>] [-PeakDisconnectAction <SessionChangeHostingAction>] [-PeakDisconnectTimeout <Int32>] [-PeakExtendedDisconnectAction <SessionChangeHostingAction>] [-PeakExtendedDisconnectTimeout <Int32>] [-PeakLogOffAction <SessionChangeHostingAction>] [-PeakLogOffTimeout <Int32>] [-ProductCode <String>] [-PublishedName <String>] [-ReuseMachinesWithoutShutdownInOutage <Boolean>] [-ScopeId <Guid>] [-ScopeName <String>] [-SecureIcaRequired <Boolean>] [-SessionSupport <SessionSupport>] [-SettlementPeriodBeforeAutoShutdown <TimeSpan>] [-SettlementPeriodBeforeUse <TimeSpan>] [-ShutdownDesktopsAfterUse <Boolean>] [-Tag <String>] [-TenantId <Guid>] [-TimeZone <String>] [-TotalApplicationGroups <Int32>] [-TotalApplications <Int32>] [-TurnOnAddedMachine <Boolean>] [-UUID <Guid>] [-ZonePreference <ZonePreference>] [-ApplicationGroupUid <Int32>] [-ApplicationUid <Int32>] [-TagUid <Int32>] [-PowerTimeSchemeUid <Int32>] [-MachineConfigurationUid <Int32>] [-RemotePCCatalogUid <Int32>] [-ReturnTotalRecordCount] [-MaxRecordCount <Int32>] [-Skip <Int32>] [-SortBy <String>] [-Filter <String>] [-Property <String[]>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   Retrieve desktop groups matching the specified criteria. If no parameters are specified this cmdlet enumerates all desktop groups.
+Retrieve desktop groups matching the specified criteria. If no parameters are specified this cmdlet enumerates all desktop groups.
 
 Desktop groups represent groups of desktops that are managed together for brokering purposes.
 
 
--------------------------- BrokerDesktopGroup Object
+### Brokerdesktopgroup Object
 A desktop group object represents a collection of machines that are fully configured in a site that is able to run either a Microsoft Windows desktop environment, individual applications, or both.
 
-    -- AppDisks (System.Guid[])
-       The Application Disks used by machines in the desktop group.
 
-    -- AppDnaAnalysisState (Citrix.Broker.Admin.SDK.AppDnaAnalysisState?)
-       Specifies the current state of AppDNA Analysis on the desktop group
+  * AppDisks (System.Guid\[\]) The Application Disks used by machines in the desktop group.
 
-    -- AppDnaCompatibility (Citrix.Broker.Admin.SDK.AppDnaCompatibility?)
-       The compatibility with the application disks attached to the desktop group
+  * AppDnaAnalysisState (Citrix.Broker.Admin.SDK.AppDnaAnalysisState?) Specifies the current state of AppDNA Analysis on the desktop group
 
-    -- AutomaticPowerOnForAssigned (System.Boolean)
-       Specifies whether assigned desktops in the desktop group are automatically started at the start of peak time periods. Only relevant for groups whose DesktopKind is Private.
+  * AppDnaCompatibility (Citrix.Broker.Admin.SDK.AppDnaCompatibility?) The compatibility with the application disks attached to the desktop group
 
-    -- AutomaticPowerOnForAssignedDuringPeak (System.Boolean)
-       Specifies whether assigned desktops in the desktop are automatically started throughout peak time periods. Only relevant for groups whose DesktopKind is Private and which have AutomaticPowerOnForAssigned set to true.
+  * AutomaticPowerOnForAssigned (System.Boolean) Specifies whether assigned desktops in the desktop group are automatically started at the start of peak time periods. Only relevant for groups whose DesktopKind is Private.
 
-    -- ColorDepth (Citrix.Broker.Admin.SDK.ColorDepth)
-       Default color depth of sessions started with machines in the desktop group. Possible values are:
-       FourBit, EightBit, SixteenBit, TwentyFourBit.
+  * AutomaticPowerOnForAssignedDuringPeak (System.Boolean) Specifies whether assigned desktops in the desktop are automatically started throughout peak time periods. Only relevant for groups whose DesktopKind is Private and which have AutomaticPowerOnForAssigned set to true.
 
-    -- ConfigurationSlotUids (System.Int32[])
-       Uids of any configuration slots which hold machine configurations associated with the desktop group. The order of slot UIDs in this list correspond with the order of items in the associated MachineConfigurationNames and MachineConfigurationUids list properties, and so the same slot UID can appear more than once.
+  * ColorDepth (Citrix.Broker.Admin.SDK.ColorDepth) Default color depth of sessions started with machines in the desktop group. Possible values are: FourBit, EightBit, SixteenBit, TwentyFourBit.
 
-    -- DeliveryType (Citrix.Broker.Admin.SDK.DeliveryType)
-       The type of resources being published. Possible values are:
-       DesktopsOnly, AppsOnly, DesktopsAndApps.
+  * ConfigurationSlotUids (System.Int32\[\]) Uids of any configuration slots which hold machine configurations associated with the desktop group. The order of slot UIDs in this list correspond with the order of items in the associated MachineConfigurationNames and MachineConfigurationUids list properties, and so the same slot UID can appear more than once.
 
-    -- Description (System.String)
-       Description of the desktop group.
+  * DeliveryType (Citrix.Broker.Admin.SDK.DeliveryType) The type of resources being published. Possible values are: DesktopsOnly, AppsOnly, DesktopsAndApps.
 
-    -- DesktopKind (Citrix.Broker.Admin.SDK.DesktopKind)
-       The kind of the desktops being published, possible values are:
-       Private and Shared.
+  * Description (System.String) Description of the desktop group.
 
-    -- DesktopsAvailable (System.Int32)
-       The number of machines in the desktop group in state Available; this is the number of machines with no sessions present.
+  * DesktopKind (Citrix.Broker.Admin.SDK.DesktopKind) The kind of the desktops being published, possible values are: Private and Shared.
 
-    -- DesktopsDisconnected (System.Int32)
-       The number of disconnected sessions present on machines in the desktop group.
+  * DesktopsAvailable (System.Int32) The number of machines in the desktop group in state Available; this is the number of machines with no sessions present.
 
-    -- DesktopsFaulted (System.Int32)
-       The number of machines in the desktop group whose FaultState is not None.
+  * DesktopsDisconnected (System.Int32) The number of disconnected sessions present on machines in the desktop group.
 
-    -- DesktopsInUse (System.Int32)
-       The number of machines in the desktop group in state InUse; this is the number of machines with at least one session present.
+  * DesktopsFaulted (System.Int32) The number of machines in the desktop group whose FaultState is not None.
 
-    -- DesktopsNeverRegistered (System.Int32)
-       The number of machines in the desktop group that have never registered with the current site.
+  * DesktopsInUse (System.Int32) The number of machines in the desktop group in state InUse; this is the number of machines with at least one session present.
 
-    -- DesktopsPreparing (System.Int32)
-       The number of machines in the desktop group whose PvD disk image is being prepared.
+  * DesktopsNeverRegistered (System.Int32) The number of machines in the desktop group that have never registered with the current site.
 
-    -- DesktopsUnregistered (System.Int32)
-       The number of machines in the desktop group that are currently unregistered.
+  * DesktopsPreparing (System.Int32) The number of machines in the desktop group whose PvD disk image is being prepared.
 
-    -- Enabled (System.Boolean)
-       Specifies whether the desktop group is enabled or not; disabled desktop groups do not appear to users.
+  * DesktopsUnregistered (System.Int32) The number of machines in the desktop group that are currently unregistered.
 
-    -- IconUid (System.Int32)
-       The Uid of the icon to be used as a default for desktops in the desktop group. Individual desktop objects can override this default by setting the IconUid parameter on the desktop object.
+  * Enabled (System.Boolean) Specifies whether the desktop group is enabled or not; disabled desktop groups do not appear to users.
 
-    -- InMaintenanceMode (System.Boolean)
-       Specifies whether the machines in the desktop group are in maintenance mode or not.
+  * IconUid (System.Int32) The Uid of the icon to be used as a default for desktops in the desktop group. Individual desktop objects can override this default by setting the IconUid parameter on the desktop object.
 
-    -- IsRemotePC (System.Boolean)
-       Specifies whether the desktop group is a Remote PC desktop group.
+  * InMaintenanceMode (System.Boolean) Specifies whether the machines in the desktop group are in maintenance mode or not.
 
-    -- MachineConfigurationNames (System.String[])
-       The MachineConfiguration names associated with the desktop group.
+  * IsRemotePC (System.Boolean) Specifies whether the desktop group is a Remote PC desktop group.
 
-    -- MachineConfigurationUids (System.Int32[])
-       The MachineConfiguration uids associated with the desktop group.
+  * LicenseModel (Citrix.Broker.Admin.SDK.LicenseModel?) Specifies the license model for this desktop group. If none is specified, then the site-wide license model is used.
 
-    -- MetadataMap (System.Collections.Generic.Dictionary<string, string>)
-       Metadata associated with the desktop group.
+  * MachineConfigurationNames (System.String\[\]) The MachineConfiguration names associated with the desktop group.
 
-    -- MinimumFunctionalLevel (Citrix.Broker.Admin.SDK.FunctionalLevel)
-       The minimum FunctionalLevel required for the machines in the desktop group to be able to register with the Citrix Broker Service.
+  * MachineConfigurationUids (System.Int32\[\]) The MachineConfiguration uids associated with the desktop group.
 
-    -- Name (System.String)
-       Name of the desktop group.
+  * MetadataMap (System.Collections.Generic.Dictionary&lt;string, string&gt;) Metadata associated with the desktop group.
 
-    -- OffPeakBufferSizePercent (System.Int32)
-       The percentage of machines that are kept available in an idle state outside peak hours.
+  * MinimumFunctionalLevel (Citrix.Broker.Admin.SDK.FunctionalLevel) The minimum FunctionalLevel required for the machines in the desktop group to be able to register with the Citrix Broker Service.
 
-    -- OffPeakDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction)
-       The action that is performed after a configurable period of a user session disconnecting outside peak hours. Possible values are Nothing, Suspend or Shutdown.
+  * Name (System.String) Name of the desktop group.
 
-    -- OffPeakDisconnectTimeout (System.Int32)
-       The number of minutes before the configured action is performed after a user session disconnects outside peak hours.
+  * OffPeakBufferSizePercent (System.Int32) The percentage of machines that are kept available in an idle state outside peak hours.
 
-    -- OffPeakExtendedDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction)
-       The action performed after a second configurable period of a user session disconnecting outside peak hours. Possible values are Nothing, Suspend, or Shutdown.
+  * OffPeakDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction) The action that is performed after a configurable period of a user session disconnecting outside peak hours. Possible values are Nothing, Suspend or Shutdown.
 
-    -- OffPeakExtendedDisconnectTimeout (System.Int32)
-       The number of minutes before the second configured action is performed after a user session disconnects outside peak hours.
+  * OffPeakDisconnectTimeout (System.Int32) The number of minutes before the configured action is performed after a user session disconnects outside peak hours.
 
-    -- OffPeakLogOffAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction)
-       The action performed after a configurable period of a user session ending outside peak hours. Possible values are Nothing, Suspend, or Shutdown.
+  * OffPeakExtendedDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction) The action performed after a second configurable period of a user session disconnecting outside peak hours. Possible values are Nothing, Suspend, or Shutdown.
 
-    -- OffPeakLogOffTimeout (System.Int32)
-       The number of minutes before the configured action is performed after a user session ends outside peak hours.
+  * OffPeakExtendedDisconnectTimeout (System.Int32) The number of minutes before the second configured action is performed after a user session disconnects outside peak hours.
 
-    -- PeakBufferSizePercent (System.Int32)
-       The percentage of machines in the desktop group that are kept available in an idle state in peak hours.
+  * OffPeakLogOffAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction) The action performed after a configurable period of a user session ending outside peak hours. Possible values are Nothing, Suspend, or Shutdown.
 
-    -- PeakDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction)
-       The action performed after a configurable period of a user session disconnecting in peak hours. Possible values are Nothing, Suspend, or Shutdown.
+  * OffPeakLogOffTimeout (System.Int32) The number of minutes before the configured action is performed after a user session ends outside peak hours.
 
-    -- PeakDisconnectTimeout (System.Int32)
-       The number of minutes before the configured action is performed after a user session disconnects in peak hours.
+  * PeakBufferSizePercent (System.Int32) The percentage of machines in the desktop group that are kept available in an idle state in peak hours.
 
-    -- PeakExtendedDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction)
-       The action performed after a second configurable period of a user session disconnecting in peak hours. Possible values are Nothing, Suspend, or Shutdown.
+  * PeakDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction) The action performed after a configurable period of a user session disconnecting in peak hours. Possible values are Nothing, Suspend, or Shutdown.
 
-    -- PeakExtendedDisconnectTimeout (System.Int32)
-       The number of minutes before the second configured action is performed after a user session disconnects in peak hours.
+  * PeakDisconnectTimeout (System.Int32) The number of minutes before the configured action is performed after a user session disconnects in peak hours.
 
-    -- PeakLogOffAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction)
-       The action performed after a configurable period of a user session ending in peak hours. Possible values are Nothing, Suspend, or Shutdown.
+  * PeakExtendedDisconnectAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction) The action performed after a second configurable period of a user session disconnecting in peak hours. Possible values are Nothing, Suspend, or Shutdown.
 
-    -- PeakLogOffTimeout (System.Int32)
-       The number of minutes before the configured action is performed after a user session ends in peak hours.
+  * PeakExtendedDisconnectTimeout (System.Int32) The number of minutes before the second configured action is performed after a user session disconnects in peak hours.
 
-    -- ProtocolPriority (System.String[])
-       A list of protocol names in the order in which they are attempted for use during connection.
+  * PeakLogOffAction (Citrix.Broker.Admin.SDK.SessionChangeHostingAction) The action performed after a configurable period of a user session ending in peak hours. Possible values are Nothing, Suspend, or Shutdown.
 
-    -- PublishedName (System.String)
-       The name of the desktop group as it is to appear to the user in StoreFront.
+  * PeakLogOffTimeout (System.Int32) The number of minutes before the configured action is performed after a user session ends in peak hours.
 
-    -- Scopes (Citrix.Broker.Admin.SDK.ScopeReference[])
-       The list of the delegated admin scopes to which the desktop group belongs.
+  * ProductCode (System.String) Specifies the licensing product code for this desktop group. If none is specified, then the site-wide product code is used.
 
-    -- SecureIcaRequired (System.Boolean)
-       Flag that specifies if the SecureICA encryption of the HDX protocol is required for sessions of desktops in the desktop group.
+  * ProtocolPriority (System.String\[\]) A list of protocol names in the order in which they are attempted for use during connection.
 
-    -- Sessions (System.Int32)
-       The total number of user sessions currently running on all of the machines in the desktop group.
+  * PublishedName (System.String) The name of the desktop group as it is to appear to the user in StoreFront.
 
-    -- SessionSupport (Citrix.Broker.Admin.SDK.SessionSupport)
-       Specifies the session support (single/multi) of the machines in the desktop group. Machines with the incorrect session support for the desktop group will be unable to register with the Citrix Broker Service.
+  * ReuseMachinesWithoutShutdownInOutage (System.Boolean) Specifies whether desktops should not be shut down after being used during outage mode.
 
-    -- SettlementPeriodBeforeAutoShutdown (System.TimeSpan)
-       Time after a session ends during which automatic shutdown requests (for example, shutdown after use, idle pool management) are deferred. Any outstanding shutdown request takes effect after the settlement period expires. This is typically used to configure time to allow logoff scripts to complete.
+  * Scopes (Citrix.Broker.Admin.SDK.ScopeReference\[\]) The list of the delegated admin scopes to which the desktop group belongs.
 
-    -- SettlementPeriodBeforeUse (System.TimeSpan)
-       Idle period before a machine can be selected to host a new session after registration or the end of a previous session. This is typically used to allow a machine to become idle following processing associated with start-up or logoff actions. A machine may still be selected during the idle period if no other machine is available for immediate use.
+  * SecureIcaRequired (System.Boolean) Flag that specifies if the SecureICA encryption of the HDX protocol is required for sessions of desktops in the desktop group.
 
-    -- ShutdownDesktopsAfterUse (System.Boolean)
-       Specifies if the desktops will shut down after they have been used and there are no sessions running on the machine. The machines will not shut down if they are placed into maintenance mode, even if this flag is set to $true. The machines, however, will shutdown after the machine is taken out of maintenance mode if the flag is still set.
+  * Sessions (System.Int32) The total number of user sessions currently running on all of the machines in the desktop group.
 
-    -- Tags (System.String[])
-       Tags associated with the desktop group.
+  * SessionSupport (Citrix.Broker.Admin.SDK.SessionSupport) Specifies the session support (single/multi) of the machines in the desktop group. Machines with the incorrect session support for the desktop group will be unable to register with the Citrix Broker Service.
 
-    -- TenantId (System.Guid?)
-       Identity of tenant associated with desktop group. Not applicable (always blank) in non-multitenant sites.
+  * SettlementPeriodBeforeAutoShutdown (System.TimeSpan) Time after a session ends during which automatic shutdown requests (for example, shutdown after use, idle pool management) are deferred. Any outstanding shutdown request takes effect after the settlement period expires. This is typically used to configure time to allow logoff scripts to complete.
 
-    -- TimeZone (System.String)
-       The timezone that desktops in the desktop group are in (for power policy purposes).
+  * SettlementPeriodBeforeUse (System.TimeSpan) Idle period before a machine can be selected to host a new session after registration or the end of a previous session. This is typically used to allow a machine to become idle following processing associated with start-up or logoff actions. A machine may still be selected during the idle period if no other machine is available for immediate use.
 
-    -- TotalApplicationGroups (System.Int32)
-       Total number of application groups associated with the desktop group.
+  * ShutdownDesktopsAfterUse (System.Boolean) Specifies if the desktops will shut down after they have been used and there are no sessions running on the machine. The machines will not shut down if they are placed into maintenance mode, even if this flag is set to \$true. The machines, however, will shutdown after the machine is taken out of maintenance mode if the flag is still set.
 
-    -- TotalApplications (System.Int32)
-       Total number of applications associated with the desktop group.
+  * Tags (System.String\[\]) Tags associated with the desktop group.
 
-    -- TotalDesktops (System.Int32)
-       Total number of machines in the desktop group.
+  * TenantId (System.Guid?) Identity of tenant associated with desktop group. Not applicable (always blank) in non-multitenant sites.
 
-    -- TurnOnAddedMachine (System.Boolean)
-       Specifies whether the broker should attempt to turn on power-managed machines when they are added to the desktop group.
+  * TimeZone (System.String) The timezone that desktops in the desktop group are in (for power policy purposes).
 
-    -- Uid (System.Int32)
-       Uid of the desktop group.
+  * TotalApplicationGroups (System.Int32) Total number of application groups associated with the desktop group.
 
-    -- UUID (System.Guid)
-       UUID of the desktop group.
+  * TotalApplications (System.Int32) Total number of applications associated with the desktop group.
 
-    -- ZonePreferences (Citrix.Broker.Admin.SDK.ZonePreference[])
-       Ordered list of zone preferences taken into account when launching resources from this desktop group. Possible values for each preference are UserLocation, UserHome, UserHomeOnly and ApplilcationHome.
+  * TotalDesktops (System.Int32) Total number of machines in the desktop group.
+
+  * TurnOnAddedMachine (System.Boolean) Specifies whether the broker should attempt to turn on power-managed machines when they are added to the desktop group.
+
+  * Uid (System.Int32) Uid of the desktop group.
+
+  * UUID (System.Guid) UUID of the desktop group.
+
+  * ZonePreferences (Citrix.Broker.Admin.SDK.ZonePreference\[\]) Ordered list of zone preferences taken into account when launching resources from this desktop group. Possible values for each preference are UserLocation, UserHome, UserHomeOnly and ApplilcationHome.
+
 
 ## Related Commands
-  * [New-BrokerDesktopGroup](New-BrokerDesktopGroup/)
-  * [Set-BrokerDesktopGroup](Set-BrokerDesktopGroup/)
-  * [Rename-BrokerDesktopGroup](Rename-BrokerDesktopGroup/)
-  * [Remove-BrokerDesktopGroup](Remove-BrokerDesktopGroup/)
-  * [Add-BrokerUser](Add-BrokerUser/)
-  * [Add-BrokerTag](Add-BrokerTag/)
-## Parameters
 
+* [New-BrokerDesktopGroup](./New-BrokerDesktopGroup/)
+* [Set-BrokerDesktopGroup](./Set-BrokerDesktopGroup/)
+* [Rename-BrokerDesktopGroup](./Rename-BrokerDesktopGroup/)
+* [Remove-BrokerDesktopGroup](./Remove-BrokerDesktopGroup/)
+* [Add-BrokerUser](./Add-BrokerUser/)
+* [Add-BrokerTag](./Add-BrokerTag/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Uid | Gets desktop groups with the specified value of Uid. | true | false |  |
@@ -223,8 +167,9 @@ A desktop group object represents a collection of machines that are fully config
 | Enabled | Gets desktop groups with the specified value of Enabled. | false | false |  |
 | InMaintenanceMode | Gets desktop groups with the specified value of InMaintenanceMode. | false | false |  |
 | IsRemotePC | Gets desktop groups with the specified IsRemotePC value. | false | false |  |
-| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
-| MinimumFunctionalLevel | Gets desktop groups with a specific MinimumFunctionalLevel.<br>Valid values are L5, L7, L7_6 | false | false |  |
+| LicenseModel | Gets desktop groups with the specified license model. | false | false |  |
+| Metadata | Gets records with matching metadata entries.<br>The value being compared with is a concatenation of the key name, a colon, and the value. For example: -Metadata "abc:x\*" matches records with a metadata entry having a key name of "abc" and a value starting with the letter "x". | false | false |  |
+| MinimumFunctionalLevel | Gets desktop groups with a specific MinimumFunctionalLevel.<br>Valid values are L5, L7, L7\_6 | false | false |  |
 | OffPeakBufferSizePercent | Gets desktop groups with the specified value of OffPeakBufferSizePercent. | false | false |  |
 | OffPeakDisconnectAction | Gets desktop groups with the specified value of OffPeakDisconnectAction. | false | false |  |
 | OffPeakDisconnectTimeout | Gets desktop groups with the specified value of OffPeakDisconnectTimeout. | false | false |  |
@@ -239,7 +184,9 @@ A desktop group object represents a collection of machines that are fully config
 | PeakExtendedDisconnectTimeout | Gets desktop groups with the specified value of PeakExtendedDisconnectTimeout. | false | false |  |
 | PeakLogOffAction | Gets desktop groups with the specified value of PeakLogOffAction. | false | false |  |
 | PeakLogOffTimeout | Gets desktop groups with the specified value of PeakLogOffTimeout. | false | false |  |
+| ProductCode | Gets desktop groups with the specified licensing product code. | false | false |  |
 | PublishedName | Gets desktop groups whose published name matches the supplied pattern. | false | false |  |
+| ReuseMachinesWithoutShutdownInOutage | Gets only desktop groups that won't shut down machines after they been used during outage. | false | false |  |
 | ScopeId | Gets desktop groups that are associated with the given scope identifier. | false | false |  |
 | ScopeName | Gets desktop groups that are associated with the given scope name. | false | false |  |
 | SecureIcaRequired | Gets desktop groups with the specified value of SecureIcaRequired. | false | false |  |
@@ -261,30 +208,36 @@ A desktop group object represents a collection of machines that are fully config
 | PowerTimeSchemeUid | Gets desktop groups associated with the specified power time scheme (identified by its Uid). | false | false |  |
 | MachineConfigurationUid | Gets desktop groups with the specified value of MachineConfiguration. | false | false |  |
 | RemotePCCatalogUid | Gets Remote PC desktop groups associated with the specified catalog. | false | false |  |
-| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about_Broker_Filtering for details. | false | false | False |
+| ReturnTotalRecordCount | When specified, this causes the cmdlet to output an error record containing the number of records available. This error record is additional information and does not affect the objects written to the output pipeline. See about\_Broker\_Filtering for details. | false | false | False |
 | MaxRecordCount | Specifies the maximum number of records to return. | false | false | 250 |
 | Skip | Skips the specified number of records before returning results. Also reduces the count returned by -ReturnTotalRecordCount. | false | false | 0 |
 | SortBy | Sorts the results by the specified list of properties. The list is a set of property names separated by commas, semi-colons, or spaces. Optionally, prefix each name with a + or - to indicate ascending or descending order. Ascending order is assumed if no prefix is present. | false | false | The default sort order is by name or unique identifier. |
-| Filter | Gets records that match a PowerShell style filter expression. See about_Broker_Filtering for details. | false | false |  |
+| Filter | Gets records that match a PowerShell style filter expression. See about\_Broker\_Filtering for details. | false | false |  |
 | Property | Specifies the properties to be returned. This is similar to piping the output of the command through Select-Object, but the properties are filtered more efficiently at the server. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   You cannot pipe input into this cmdlet.
+You cannot pipe input into this cmdlet.
 ## Return Values
-### Citrix.Broker.Admin.SDK.DesktopGroup
-   Get-BrokerDesktopGroup returns an object for each matching desktop group.## Notes
-   To perform greater-than or less-than comparisons, use -Filter. For more information, see about_Broker_Filtering and the examples.
+
+### Citrix.Broker.Admin.Sdk.Desktopgroup
+Get-BrokerDesktopGroup returns an object for each matching desktop group.
+## Notes
+To perform greater-than or less-than comparisons, use -Filter. For more information, see about\_Broker\_Filtering and the examples.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
-C:\PS> Get-BrokerDesktopGroup -PublishedName EMEA*
+C:\PS> Get-BrokerDesktopGroup -PublishedName EMEA\*
 ```
-   Description<br>-----------<br>Finds all desktop groups with published names starting with "EMEA".
-### EXAMPLE 2
+#### Description
+Finds all desktop groups with published names starting with "EMEA".
+### Example 2
 ```
 C:\PS> Get-BrokerDesktopGroup -InMaintenanceMode $true
 ```
-   Description<br>-----------<br>Finds all desktop groups in maintenance mode.
+#### Description
+Finds all desktop groups in maintenance mode.

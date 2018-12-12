@@ -1,25 +1,27 @@
-﻿# Remove-BrokerLocalDb
-
-   This cmdlet is for internal use only
-
+﻿
+# Remove-Brokerlocaldb
+This cmdlet is for internal use only
 ## Syntax
 ```
-Remove-BrokerLocalDb [-AdminAddress <String>] [<CommonParameters>]
+Remove-BrokerLocalDb [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   This cmdlet is for internal use only
+This cmdlet is for internal use only
+
 
 ## Related Commands
-## Parameters
 
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
-### This cmdlet accepts no input
-   
+
+### This Cmdlet Accepts No Input
+
 ## Return Values
+
 ### None
-   
+

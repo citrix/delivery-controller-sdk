@@ -4,7 +4,7 @@
 
 ## Syntax
 ```
-Get-HypDBVersionChangeScript -DatabaseName <String> -TargetVersion <Version> [-AdminAddress <String>] [<CommonParameters>]
+Get-HypDBVersionChangeScript -DatabaseName <String> -TargetVersion <Version> [-BearerToken <String>] [-AdminAddress <String>] [<CommonParameters>]
 ```
 
 ## Detailed Description
@@ -25,15 +25,16 @@ Take care when using the update scripts. Citrix recommends that where possible s
 Once an update has been applied to the service schema, any existing Citrix Host Services that are incompatible with the updated schema will cease to operate. The service state, as reported by Get-HypServiceStatus, provides information about the service compatibility (e.g. DBNewerVersionThanService).
 
 ## Related Commands
-  * [Get-HypInstalledDBVersion](Get-HypInstalledDBVersion/)
-  * [Get-HypServiceStatus](Get-HypServiceStatus/)
-  * [Get-HypDBSchema](Get-HypDBSchema/)
+  * [Get-HypInstalledDBVersion](Get-HypInstalledDBVersion.html)
+  * [Get-HypServiceStatus](Get-HypServiceStatus.html)
+  * [Get-HypDBSchema](Get-HypDBSchema.html)
 ## Parameters
 
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | DatabaseName | The name of the database containing the Citrix Host Service schema to be updated. | true | false |  |
 | TargetVersion | The required target service schema version of the update. This is the service schema version obtained after the update script is applied. | true | false |  |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller the PowerShell snap-in will connect to. You can provide this as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value becomes the default. |
 
 ## Input Type

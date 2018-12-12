@@ -1,22 +1,21 @@
-﻿# New-BrokerAssignmentPolicyRule
-
-   Creates a new desktop rule in the site's assignment policy.
-
+﻿
+# New-Brokerassignmentpolicyrule
+Creates a new desktop rule in the site's assignment policy.
 ## Syntax
 ```
-New-BrokerAssignmentPolicyRule [-Name] <String> -DesktopGroupUid <Int32> [-ColorDepth <ColorDepth>] [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IconUid <Int32>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-MaxDesktops <Int32>] [-PublishedName <String>] [-SecureIcaRequired <Boolean>] [-UUID <Guid>] [-LoggingId <Guid>] [-AdminAddress <String>] [<CommonParameters>]
+New-BrokerAssignmentPolicyRule [-Name] <String> -DesktopGroupUid <Int32> [-ColorDepth <ColorDepth>] [-Description <String>] [-Enabled <Boolean>] [-ExcludedUserFilterEnabled <Boolean>] [-ExcludedUsers <User[]>] [-IconUid <Int32>] [-IncludedUserFilterEnabled <Boolean>] [-IncludedUsers <User[]>] [-MaxDesktops <Int32>] [-PublishedName <String>] [-SecureIcaRequired <Boolean>] [-UUID <Guid>] [-LoggingId <Guid>] [-AdminAddress <String>] [-BearerToken <String>] [<CommonParameters>]
 ```
-
 ## Detailed Description
-   The New-BrokerAssignmentPolicyRule cmdlet adds a new desktop rule to the site's assignment policy.
+The New-BrokerAssignmentPolicyRule cmdlet adds a new desktop rule to the site's assignment policy.
 
 A desktop rule in the assignment policy defines the users who are entitled to self-service persistent machine assignments from the rule's desktop group. A rule defines how many machines a user is allowed from the group for delivery of full desktop sessions.
 
 The following constraints apply when creating a desktop assignment rule for a desktop group:
 
-o   The group's desktop kind must be Private
-o   The group's delivery type must be DesktopsOnly
-o   Only one desktop assignment rule can be created for RemotePC groups.
+
+* The group's desktop kind must be Private
+* The group's delivery type must be DesktopsOnly
+* Only one desktop assignment rule can be created for RemotePC groups.
 
 When a user selects a machine assignment entitlement from a private group, a currently unassigned machine is selected from the group and permanently assigned to the user to create an assigned desktop. A desktop session is then launched to the machine. Subsequent launches are routed directly to the now assigned machine.
 
@@ -24,18 +23,19 @@ Once a machine has been assigned in this way, the original assignment rule plays
 
 Multiple desktop rules in the assignment policy can apply to the same desktop group. Where a user is granted entitlements by more than one rule for the same group, they can have as many machine assignments from the group as the total of their entitlements.
 
-## Related Commands
-  * [Get-BrokerAssignmentPolicyRule](Get-BrokerAssignmentPolicyRule/)
-  * [Set-BrokerAssignmentPolicyRule](Set-BrokerAssignmentPolicyRule/)
-  * [Rename-BrokerAssignmentPolicyRule](Rename-BrokerAssignmentPolicyRule/)
-  * [Remove-BrokerAssignmentPolicyRule](Remove-BrokerAssignmentPolicyRule/)
-## Parameters
 
+## Related Commands
+
+* [Get-BrokerAssignmentPolicyRule](./Get-BrokerAssignmentPolicyRule/)
+* [Set-BrokerAssignmentPolicyRule](./Set-BrokerAssignmentPolicyRule/)
+* [Rename-BrokerAssignmentPolicyRule](./Rename-BrokerAssignmentPolicyRule/)
+* [Remove-BrokerAssignmentPolicyRule](./Remove-BrokerAssignmentPolicyRule/)
+## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
 | Name | Specifies the administrative name of the new desktop rule. Each rule in the site's assignment policy must have a unique name (irrespective of whether they are desktop or application rules). | true | true (ByPropertyName) |  |
 | DesktopGroupUid | Specifies the unique ID of the desktop group to which the new desktop rule applies. | true | true (ByPropertyName) |  |
-| ColorDepth | Specifies the color depth of any desktop sessions to machines assigned by the new rule.<br>Valid values are $null, FourBit, EightBit, SixteenBit, and TwentyFourBit.<br>The default null value indicates that the equivalent setting from the rule's desktop group is used. | false | true (ByPropertyName) | null (dynamically inherited from the desktop group) |
+| ColorDepth | Specifies the color depth of any desktop sessions to machines assigned by the new rule.<br>Valid values are \$null, FourBit, EightBit, SixteenBit, and TwentyFourBit.<br>The default null value indicates that the equivalent setting from the rule's desktop group is used. | false | true (ByPropertyName) | null (dynamically inherited from the desktop group) |
 | Description | Specifies an optional description of the new desktop rule. The text may be visible to the end user, for example, as a tooltip associated with the desktop entitlement.<br>The default null value indicates that the equivalent setting from the rule's desktop group is used. | false | true (ByPropertyName) | null (dynamically inherited from the desktop group) |
 | Enabled | Specifies whether the new desktop rule is initially enabled. A disabled rule is ignored when evaluating the site's assignment policy. | false | true (ByPropertyName) | true |
 | ExcludedUserFilterEnabled | Specifies whether the excluded users filter is initially enabled. If the filter is disabled then any user entries in the filter are ignored when assignment policy rules are evaluated. | false | true (ByPropertyName) | false |
@@ -49,18 +49,23 @@ Multiple desktop rules in the assignment policy can apply to the same desktop gr
 | UUID | An optional GUID for this rule. | false | true (ByPropertyName) | A new GUID is generated if none is supplied. |
 | LoggingId | Specifies the identifier of the high level operation that this cmdlet call forms a part of. Desktop Studio and Desktop Director typically create High Level Operations. PowerShell scripts can also wrap a series of cmdlet calls in a High Level Operation by way of the Start-LogHighLevelOperation and Stop-LogHighLevelOperation cmdlets. | false | false |  |
 | AdminAddress | Specifies the address of a XenDesktop controller that the PowerShell snapin will connect to. This can be provided as a host name or an IP address. | false | false | Localhost. Once a value is provided by any cmdlet, this value will become the default. |
+| BearerToken | Specifies the bearer token assigned to the calling user | false | false |  |
 
 ## Input Type
+
 ### None
-   You cannot pipe input into this cmdlet.
+You cannot pipe input into this cmdlet.
 ## Return Values
-### Citrix.Broker.Admin.SDK.AssignmentPolicyRule
-   New-BrokerAssignmentPolicyRule returns the newly created desktop rule in the assignment policy rule.
+
+### Citrix.Broker.Admin.Sdk.Assignmentpolicyrule
+New-BrokerAssignmentPolicyRule returns the newly created desktop rule in the assignment policy rule.
 ## Examples
 
-### EXAMPLE 1
+### Example 1
 ```
 C:\PS> $dg = Get-BrokerDesktopGroup 'Sales Support'
+
 C:\PS> New-BrokerAssignmentPolicyRule 'UK Office' -DesktopGroupUid $dg.Uid -IncludedUsers sales\uk-staff -PublishedName 'Sales Desktop'
 ```
-   Description<br>-----------<br>Creates a desktop rule in the assignment policy that grants all members of the SALES\uk-staff group an entitlement to a single machine from the Sales Support desktop group. The entitlement name seen by users is Sales Desktop.
+#### Description
+Creates a desktop rule in the assignment policy that grants all members of the SALES\\uk-staff group an entitlement to a single machine from the Sales Support desktop group. The entitlement name seen by users is Sales Desktop.
