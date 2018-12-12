@@ -1,4 +1,4 @@
-# XenApp and XenDesktop 7.17 SDK
+# XenApp and XenDesktop 7.18 SDK
 
 > **Note:**
 > 

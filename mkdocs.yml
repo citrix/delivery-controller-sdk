@@ -1,5 +1,5 @@
-site_name: Citrix XenApp and XenDesktop 7.17 SDK Documentation
-site_description: Documentation and Reference Guide for the Citrix XenApp and XenDesktop 7.17 SDK
+site_name: Citrix XenApp and XenDesktop 7.18 SDK Documentation
+site_description: Documentation and Reference Guide for the Citrix XenApp and XenDesktop 7.18 SDK
 theme_dir: citrix-sdk
 use_directory_urls: True
 markdown_extensions:
