@@ -1,4 +1,8 @@
-# XenApp and XenDesktop 7.15 LTSR SDK
+# XenApp and XenDesktop 7.16 SDK
+
+> **Note:**
+> 
+> The SDK delivered with this release does not contain any changes since XenApp and XenDesktop version 7.15 LTSR
 
 XenApp and XenDesktop provide an SDK based on a number of Microsoft
 Windows PowerShell version 3.0 snap-ins that allows you to perform the
