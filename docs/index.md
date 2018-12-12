@@ -1,16 +1,9 @@
-# XenApp and XenDesktop SDK
+# XenApp and XenDesktop 7.15 LTSR SDK
 
 XenApp and XenDesktop provide an SDK based on a number of Microsoft
 Windows PowerShell version 3.0 snap-ins that allows you to perform the
 same tasks as you would with the Citrix Studio console, together with
 tasks you cannot do with Studio alone.
-
-As from version 7.5,XenApp and XenDesktop share a unified architecture and management: the
-FlexCast Management Architecture. This means that XenApp provides many
-features previously only available in XenDesktop; elements of the SDK
-that relate to common features therefore apply equally to both XenApp
-and XenDesktop, even though the commands themselves refer only to
-XenDesktop.
 
 ## Differences in policy rules
 
