@@ -1,4 +1,4 @@
-## XenApp and XenDesktop 7.5 SDK
+## XenApp and XenDesktop 7.15 SDK
 
 XenApp and XenDesktop provide an SDK based on a number of Microsoft
 Windows PowerShell version 3.0 snap-ins that allows you to perform the
