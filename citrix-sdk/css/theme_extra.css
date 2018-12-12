@@ -205,27 +205,23 @@ img {padding: 20px 0}
 .wy-side-nav-search input[type="text"] {width: 100%}
 .header-top {position: absolute}
 }
-.codehilite code, .codehilite pre{color:#3F3F3F;background-color:#F7F7F7;
+.codehilite code, .codehilite pre{color:#000000;background-color:#f0f0f0;
 overflow: auto;
 box-sizing: border-box;
 
-    padding: 0.01em 16px;
-    padding-top: 0.01em;
-    padding-right-value: 16px;
-    padding-bottom: 0.01em;
-    padding-left-value: 16px;
-    padding-left-ltr-source: physical;
-    padding-left-rtl-source: physical;
-    padding-right-ltr-source: physical;
-    padding-right-rtl-source: physical;
+    padding: 1.05em 1.2em;
+    padding-top: 1.05em;
+    padding-right: 1.2em;
+    padding-bottom: 1.05em;
+    padding-left: 1.2em;
 
-border-radius: 16px !important;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;
+border-radius: 2px !important;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 
-border: 1px solid #CCC !important;
+border: 2px solid #CCC !important;
     border-top-width: 1px;
     border-right-width-value: 1px;
     border-right-width-ltr-source: physical;
