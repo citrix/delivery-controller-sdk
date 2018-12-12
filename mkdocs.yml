@@ -1,5 +1,5 @@
-site_name: Citrix PowerShell SDK Documentation
-site_description: Documentation and Reference Guide for the Citrix PowerShell SDK
+site_name: Citrix XenApp and XenDesktop 7.15 LTSR SDK Documentation
+site_description: Documentation and Reference Guide for the Citrix XenApp and XenDesktop 7.15 LTSR SDK
 theme_dir: citrix-sdk
 use_directory_urls: True
 markdown_extensions:
@@ -82,6 +82,7 @@ pages:
   - Add-AppLibTaskMetadata: AppLibrary/Add-AppLibTaskMetadata.md
   - Disable-AppLibAppDNAConnection: AppLibrary/Disable-AppLibAppDNAConnection.md
   - Enable-AppLibAppDNAConnection: AppLibrary/Enable-AppLibAppDNAConnection.md
+  - Get-AppLibAppDNAConnection: AppLibrary/Get-AppLibAppDNAConnection.md
   - Get-AppLibAppDisk: AppLibrary/Get-AppLibAppDisk.md
   - Get-AppLibAppDiskAppDNARecommendedOrder: AppLibrary/Get-AppLibAppDiskAppDNARecommendedOrder.md
   - Get-AppLibAppDiskAppDNAReport: AppLibrary/Get-AppLibAppDiskAppDNAReport.md
@@ -90,7 +91,6 @@ pages:
   - Get-AppLibAppDiskPreparationMachineStatus: AppLibrary/Get-AppLibAppDiskPreparationMachineStatus.md
   - Get-AppLibAppDiskStartMenuIcon: AppLibrary/Get-AppLibAppDiskStartMenuIcon.md
   - Get-AppLibAppDiskStartMenuShortcut: AppLibrary/Get-AppLibAppDiskStartMenuShortcut.md
-  - Get-AppLibAppDNAConnection: AppLibrary/Get-AppLibAppDNAConnection.md
   - Get-AppLibAppVApplication: AppLibrary/Get-AppLibAppVApplication.md
   - Get-AppLibAppVApplicationInfo: AppLibrary/Get-AppLibAppVApplicationInfo.md
   - Get-AppLibAppVPackage: AppLibrary/Get-AppLibAppVPackage.md
@@ -116,10 +116,10 @@ pages:
   - New-AppLibAppVPackage: AppLibrary/New-AppLibAppVPackage.md
   - New-AppLibAppVPackageRepositoryEvent: AppLibrary/New-AppLibAppVPackageRepositoryEvent.md
   - New-AppLibIsolationGroup: AppLibrary/New-AppLibIsolationGroup.md
+  - Remove-AppLibAppDNAConnection: AppLibrary/Remove-AppLibAppDNAConnection.md
   - Remove-AppLibAppDisk: AppLibrary/Remove-AppLibAppDisk.md
   - Remove-AppLibAppDiskMetadata: AppLibrary/Remove-AppLibAppDiskMetadata.md
   - Remove-AppLibAppDiskScope: AppLibrary/Remove-AppLibAppDiskScope.md
-  - Remove-AppLibAppDNAConnection: AppLibrary/Remove-AppLibAppDNAConnection.md
   - Remove-AppLibAppVApplicationMetadata: AppLibrary/Remove-AppLibAppVApplicationMetadata.md
   - Remove-AppLibAppVPackage: AppLibrary/Remove-AppLibAppVPackage.md
   - Remove-AppLibAppVPackageMetadata: AppLibrary/Remove-AppLibAppVPackageMetadata.md
@@ -134,9 +134,9 @@ pages:
   - Rename-AppLibAppDisk: AppLibrary/Rename-AppLibAppDisk.md
   - Reset-AppLibEnabledFeatureList: AppLibrary/Reset-AppLibEnabledFeatureList.md
   - Reset-AppLibServiceGroupMembership: AppLibrary/Reset-AppLibServiceGroupMembership.md
+  - Set-AppLibAppDNAConnection: AppLibrary/Set-AppLibAppDNAConnection.md
   - Set-AppLibAppDisk: AppLibrary/Set-AppLibAppDisk.md
   - Set-AppLibAppDiskMetadata: AppLibrary/Set-AppLibAppDiskMetadata.md
-  - Set-AppLibAppDNAConnection: AppLibrary/Set-AppLibAppDNAConnection.md
   - Set-AppLibAppVApplicationMetadata: AppLibrary/Set-AppLibAppVApplicationMetadata.md
   - Set-AppLibAppVPackageMetadata: AppLibrary/Set-AppLibAppVPackageMetadata.md
   - Set-AppLibDBConnection: AppLibrary/Set-AppLibDBConnection.md
@@ -150,9 +150,9 @@ pages:
   - Start-AppLibAppDiskAnalysis: AppLibrary/Start-AppLibAppDiskAnalysis.md
   - Start-AppLibAppDiskSeal: AppLibrary/Start-AppLibAppDiskSeal.md
   - Stop-AppLibTask: AppLibrary/Stop-AppLibTask.md
-  - Test-AppLibAppDiskNameAvailable: AppLibrary/Test-AppLibAppDiskNameAvailable.md
   - Test-AppLibAppDNAConnection: AppLibrary/Test-AppLibAppDNAConnection.md
   - Test-AppLibAppDNAExistingConnection: AppLibrary/Test-AppLibAppDNAExistingConnection.md
+  - Test-AppLibAppDiskNameAvailable: AppLibrary/Test-AppLibAppDiskNameAvailable.md
   - Test-AppLibDBConnection: AppLibrary/Test-AppLibDBConnection.md
   - Unlock-AppLibAppDisk: AppLibrary/Unlock-AppLibAppDisk.md
 - Broker:
@@ -165,13 +165,13 @@ pages:
   - about_Broker_Desktops: Broker/about_Broker_Desktops.md
   - about_Broker_EntitlementPolicy: Broker/about_Broker_EntitlementPolicy.md
   - about_Broker_ErrorHandling: Broker/about_Broker_ErrorHandling.md
-  - about_broker_Filtering: Broker/about_broker_Filtering.md
   - about_Broker_Licensing: Broker/about_Broker_Licensing.md
   - about_Broker_Machines: Broker/about_Broker_Machines.md
   - about_Broker_Policies: Broker/about_Broker_Policies.md
   - about_Broker_PostInstallPreConfiguration: Broker/about_Broker_PostInstallPreConfiguration.md
   - about_Broker_PowerManagement: Broker/about_Broker_PowerManagement.md
   - about_Broker_RemotePC: Broker/about_Broker_RemotePC.md
+  - about_broker_Filtering: Broker/about_broker_Filtering.md
   - Add-BrokerApplication: Broker/Add-BrokerApplication.md
   - Add-BrokerApplicationGroup: Broker/Add-BrokerApplicationGroup.md
   - Add-BrokerDesktopGroup: Broker/Add-BrokerDesktopGroup.md
@@ -205,7 +205,8 @@ pages:
   - Get-BrokerDesktopGroup: Broker/Get-BrokerDesktopGroup.md
   - Get-BrokerDesktopGroupAnalysisReport: Broker/Get-BrokerDesktopGroupAnalysisReport.md
   - Get-BrokerDesktopGroupAppDisk: Broker/Get-BrokerDesktopGroupAppDisk.md
-  - Get-BrokerDesktopUsage: Broker/Get-BrokerDesktopGroupAppDisk.md
+  - Get-BrokerDesktopGroupWebhook: Broker/Get-BrokerDesktopGroupWebhook.md
+  - Get-BrokerDesktopUsage: Broker/Get-BrokerDesktopUsage.md
   - Get-BrokerEntitlementPolicyRule: Broker/Get-BrokerEntitlementPolicyRule.md
   - Get-BrokerHostingPowerAction: Broker/Get-BrokerHostingPowerAction.md
   - Get-BrokerHypervisorAlert: Broker/Get-BrokerHypervisorAlert.md
@@ -218,14 +219,14 @@ pages:
   - Get-BrokerMachineCommand: Broker/Get-BrokerMachineCommand.md
   - Get-BrokerMachineConfiguration: Broker/Get-BrokerMachineConfiguration.md
   - Get-BrokerMachineStartMenuShortcutIcon: Broker/Get-BrokerMachineStartMenuShortcutIcon.md
-  - Get-BrokerMachineStartMenuShortcuts: Broker/Get-BrokerMachineStartMenuShortcutIcon.md
+  - Get-BrokerMachineStartMenuShortcuts: Broker/Get-BrokerMachineStartMenuShortcuts.md
   - Get-BrokerPowerTimeScheme: Broker/Get-BrokerPowerTimeScheme.md
   - Get-BrokerPrivateDesktop: Broker/Get-BrokerPrivateDesktop.md
-  - Get-BrokerRebootCycle: Broker/Get-BrokerPrivateDesktop.md
+  - Get-BrokerRebootCycle: Broker/Get-BrokerRebootCycle.md
   - Get-BrokerRebootSchedule: Broker/Get-BrokerRebootSchedule.md
   - Get-BrokerRebootScheduleV2: Broker/Get-BrokerRebootScheduleV2.md
   - Get-BrokerRemotePCAccount: Broker/Get-BrokerRemotePCAccount.md
-  - Get-BrokerResource: Broker/Get-BrokerRemotePCAccount.md
+  - Get-BrokerResource: Broker/Get-BrokerResource.md
   - Get-BrokerScopedObject: Broker/Get-BrokerScopedObject.md
   - Get-BrokerServiceAddedCapability: Broker/Get-BrokerServiceAddedCapability.md
   - Get-BrokerServiceInstance: Broker/Get-BrokerServiceInstance.md
@@ -241,11 +242,11 @@ pages:
   - Get-BrokerUser: Broker/Get-BrokerUser.md
   - Get-BrokerUserZonePreference: Broker/Get-BrokerUserZonePreference.md
   - Group-BrokerDesktop: Broker/Group-BrokerDesktop.md
-  - Group-BrokerMachine: Broker/Group-BrokerDesktop.md
+  - Group-BrokerMachine: Broker/Group-BrokerMachine.md
   - Group-BrokerSession: Broker/Group-BrokerSession.md
   - Import-BrokerDesktopPolicy: Broker/Import-BrokerDesktopPolicy.md
   - Move-BrokerAdminFolder: Broker/Move-BrokerAdminFolder.md
-  - Move-BrokerApplication: Broker/Move-BrokerAdminFolder.md
+  - Move-BrokerApplication: Broker/Move-BrokerApplication.md
   - New-BrokerAccessPolicyRule: Broker/New-BrokerAccessPolicyRule.md
   - New-BrokerAdminFolder: Broker/New-BrokerAdminFolder.md
   - New-BrokerAppAssignmentPolicyRule: Broker/New-BrokerAppAssignmentPolicyRule.md
@@ -258,6 +259,7 @@ pages:
   - New-BrokerConfiguredFTA: Broker/New-BrokerConfiguredFTA.md
   - New-BrokerDelayedHostingPowerAction: Broker/New-BrokerDelayedHostingPowerAction.md
   - New-BrokerDesktopGroup: Broker/New-BrokerDesktopGroup.md
+  - New-BrokerDesktopGroupWebhook: Broker/New-BrokerDesktopGroupWebhook.md
   - New-BrokerEntitlementPolicyRule: Broker/New-BrokerEntitlementPolicyRule.md
   - New-BrokerHostingPowerAction: Broker/New-BrokerHostingPowerAction.md
   - New-BrokerHypervisorConnection: Broker/New-BrokerHypervisorConnection.md
@@ -268,8 +270,8 @@ pages:
   - New-BrokerMachineCommand: Broker/New-BrokerMachineCommand.md
   - New-BrokerMachineConfiguration: Broker/New-BrokerMachineConfiguration.md
   - New-BrokerPowerTimeScheme: Broker/New-BrokerPowerTimeScheme.md
-  - New-BrokerRebootSchedule: Broker/New-BrokerPowerTimeScheme.md
-  - New-BrokerRebootScheduleV2: Broker/New-BrokerPowerTimeScheme.md
+  - New-BrokerRebootSchedule: Broker/New-BrokerRebootSchedule.md
+  - New-BrokerRebootScheduleV2: Broker/New-BrokerRebootScheduleV2.md
   - New-BrokerRemotePCAccount: Broker/New-BrokerRemotePCAccount.md
   - New-BrokerSessionLinger: Broker/New-BrokerSessionLinger.md
   - New-BrokerSessionPreLaunch: Broker/New-BrokerSessionPreLaunch.md
@@ -288,7 +290,7 @@ pages:
   - Remove-BrokerApplicationInstanceMetadata: Broker/Remove-BrokerApplicationInstanceMetadata.md
   - Remove-BrokerApplicationMetadata: Broker/Remove-BrokerApplicationMetadata.md
   - Remove-BrokerAssignmentPolicyRule: Broker/Remove-BrokerAssignmentPolicyRule.md
-  - Remove-BrokerAssignmentPolicyRuleMetadata: Broker/Remove-BrokerAssignmentPolicyRule.md
+  - Remove-BrokerAssignmentPolicyRuleMetadata: Broker/Remove-BrokerAssignmentPolicyRuleMetadata.md
   - Remove-BrokerCatalog: Broker/Remove-BrokerCatalog.md
   - Remove-BrokerCatalogMetadata: Broker/Remove-BrokerCatalogMetadata.md
   - Remove-BrokerConfigurationSlot: Broker/Remove-BrokerConfigurationSlot.md
@@ -298,6 +300,7 @@ pages:
   - Remove-BrokerDelayedHostingPowerAction: Broker/Remove-BrokerDelayedHostingPowerAction.md
   - Remove-BrokerDesktopGroup: Broker/Remove-BrokerDesktopGroup.md
   - Remove-BrokerDesktopGroupMetadata: Broker/Remove-BrokerDesktopGroupMetadata.md
+  - Remove-BrokerDesktopGroupWebhook: Broker/Remove-BrokerDesktopGroupWebhook.md
   - Remove-BrokerEntitlementPolicyRule: Broker/Remove-BrokerEntitlementPolicyRule.md
   - Remove-BrokerEntitlementPolicyRuleMetadata: Broker/Remove-BrokerEntitlementPolicyRuleMetadata.md
   - Remove-BrokerHostingPowerAction: Broker/Remove-BrokerHostingPowerAction.md
@@ -333,7 +336,7 @@ pages:
   - Remove-BrokerTag: Broker/Remove-BrokerTag.md
   - Remove-BrokerTagMetadata: Broker/Remove-BrokerTagMetadata.md
   - Remove-BrokerUser: Broker/Remove-BrokerUser.md
-  - Remove-BrokerUserZonePreference: Broker/Remove-BrokerUser.md
+  - Remove-BrokerUserZonePreference: Broker/Remove-BrokerUserZonePreference.md
   - Rename-BrokerAccessPolicyRule: Broker/Rename-BrokerAccessPolicyRule.md
   - Rename-BrokerAdminFolder: Broker/Rename-BrokerAdminFolder.md
   - Rename-BrokerAppAssignmentPolicyRule: Broker/Rename-BrokerAppAssignmentPolicyRule.md
@@ -368,11 +371,12 @@ pages:
   - Set-BrokerCatalog: Broker/Set-BrokerCatalog.md
   - Set-BrokerCatalogMetadata: Broker/Set-BrokerCatalogMetadata.md
   - Set-BrokerConfiguration: Broker/Set-BrokerConfiguration.md
-  - Set-BrokerConfigurationSlotMetadata: Broker/Set-BrokerConfiguration.md
+  - Set-BrokerConfigurationSlotMetadata: Broker/Set-BrokerConfigurationSlotMetadata.md
   - Set-BrokerControllerMetadata: Broker/Set-BrokerControllerMetadata.md
   - Set-BrokerDBConnection: Broker/Set-BrokerDBConnection.md
   - Set-BrokerDesktopGroup: Broker/Set-BrokerDesktopGroup.md
   - Set-BrokerDesktopGroupMetadata: Broker/Set-BrokerDesktopGroupMetadata.md
+  - Set-BrokerDesktopGroupWebhook: Broker/Set-BrokerDesktopGroupWebhook.md
   - Set-BrokerEntitlementPolicyRule: Broker/Set-BrokerEntitlementPolicyRule.md
   - Set-BrokerEntitlementPolicyRuleMetadata: Broker/Set-BrokerEntitlementPolicyRuleMetadata.md
   - Set-BrokerHostingPowerAction: Broker/Set-BrokerHostingPowerAction.md
@@ -399,11 +403,11 @@ pages:
   - Set-BrokerRemotePCAccount: Broker/Set-BrokerRemotePCAccount.md
   - Set-BrokerSession: Broker/Set-BrokerSession.md
   - Set-BrokerSessionLinger: Broker/Set-BrokerSessionLinger.md
-  - Set-BrokerSessionMetadata: Broker/Set-BrokerSessionLinger.md
+  - Set-BrokerSessionMetadata: Broker/Set-BrokerSessionMetadata.md
   - Set-BrokerSessionPreLaunch: Broker/Set-BrokerSessionPreLaunch.md
   - Set-BrokerSharedDesktop: Broker/Set-BrokerSharedDesktop.md
   - Set-BrokerSite: Broker/Set-BrokerSite.md
-  - Set-BrokerSiteMetadata: Broker/Set-BrokerSite.md
+  - Set-BrokerSiteMetadata: Broker/Set-BrokerSiteMetadata.md
   - Set-BrokerTag: Broker/Set-BrokerTag.md
   - Set-BrokerTagMetadata: Broker/Set-BrokerTagMetadata.md
   - Set-BrokerUserZonePreference: Broker/Set-BrokerUserZonePreference.md
@@ -413,7 +417,7 @@ pages:
   - Start-BrokerMachinePvdImagePrepare: Broker/Start-BrokerMachinePvdImagePrepare.md
   - Start-BrokerNaturalDesktopGroupRebootCycle: Broker/Start-BrokerNaturalDesktopGroupRebootCycle.md
   - Start-BrokerNaturalRebootCycle: Broker/Start-BrokerNaturalRebootCycle.md
-  - Start-BrokerRebootCycle: Broker/Start-BrokerNaturalRebootCycle.md
+  - Start-BrokerRebootCycle: Broker/Start-BrokerRebootCycle.md
   - Stop-BrokerRebootCycle: Broker/Stop-BrokerRebootCycle.md
   - Stop-BrokerSession: Broker/Stop-BrokerSession.md
   - Test-BrokerAccessPolicyRuleNameAvailable: Broker/Test-BrokerAccessPolicyRuleNameAvailable.md
@@ -421,7 +425,7 @@ pages:
   - Test-BrokerAppEntitlementPolicyRuleNameAvailable: Broker/Test-BrokerAppEntitlementPolicyRuleNameAvailable.md
   - Test-BrokerApplicationGroupNameAvailable: Broker/Test-BrokerApplicationGroupNameAvailable.md
   - Test-BrokerApplicationNameAvailable: Broker/Test-BrokerApplicationNameAvailable.md
-  - Test-BrokerAssignmentPolicyRuleNameAvailable: Broker/Test-BrokerApplicationNameAvailable.md
+  - Test-BrokerAssignmentPolicyRuleNameAvailable: Broker/Test-BrokerAssignmentPolicyRuleNameAvailable.md
   - Test-BrokerCatalogNameAvailable: Broker/Test-BrokerCatalogNameAvailable.md
   - Test-BrokerDBConnection: Broker/Test-BrokerDBConnection.md
   - Test-BrokerDesktopGroupNameAvailable: Broker/Test-BrokerDesktopGroupNameAvailable.md
@@ -429,7 +433,7 @@ pages:
   - Test-BrokerLicenseServer: Broker/Test-BrokerLicenseServer.md
   - Test-BrokerMachineNameAvailable: Broker/Test-BrokerMachineNameAvailable.md
   - Test-BrokerPowerTimeSchemeNameAvailable: Broker/Test-BrokerPowerTimeSchemeNameAvailable.md
-  - Test-BrokerRemotePCAccountNameAvailable: Broker/Test-BrokerPowerTimeSchemeNameAvailable.md
+  - Test-BrokerRemotePCAccountNameAvailable: Broker/Test-BrokerRemotePCAccountNameAvailable.md
   - Update-BrokerImportedFTA: Broker/Update-BrokerImportedFTA.md
   - Update-BrokerLocalLeaseCache: Broker/Update-BrokerLocalLeaseCache.md
   - Update-BrokerNameCache: Broker/Update-BrokerNameCache.md
@@ -440,7 +444,7 @@ pages:
   - Add-ConfigServiceGroupMetadata: CentralConfig/Add-ConfigServiceGroupMetadata.md
   - Export-ConfigConfiguration: CentralConfig/Export-ConfigConfiguration.md
   - Export-ConfigFeatureTable: CentralConfig/Export-ConfigFeatureTable.md
-  - Get-ConfigDBConnection: CentralConfig/Export-ConfigFeatureTable.md
+  - Get-ConfigDBConnection: CentralConfig/Get-ConfigDBConnection.md
   - Get-ConfigDBSchema: CentralConfig/Get-ConfigDBSchema.md
   - Get-ConfigDBVersionChangeScript: CentralConfig/Get-ConfigDBVersionChangeScript.md
   - Get-ConfigEdgeServer: CentralConfig/Get-ConfigEdgeServer.md
@@ -471,7 +475,7 @@ pages:
   - Remove-ConfigServiceGroupMetadata: CentralConfig/Remove-ConfigServiceGroupMetadata.md
   - Remove-ConfigServiceMetadata: CentralConfig/Remove-ConfigServiceMetadata.md
   - Remove-ConfigSiteMetadata: CentralConfig/Remove-ConfigSiteMetadata.md
-  - Remove-ConfigZone: CentralConfig/Remove-ConfigSiteMetadata.md
+  - Remove-ConfigZone: CentralConfig/Remove-ConfigZone.md
   - Remove-ConfigZoneMetadata: CentralConfig/Remove-ConfigZoneMetadata.md
   - Rename-ConfigEdgeServer: CentralConfig/Rename-ConfigEdgeServer.md
   - Rename-ConfigZone: CentralConfig/Rename-ConfigZone.md
@@ -498,10 +502,10 @@ pages:
   - about_LogConfigurationLoggingSnapIn: ConfigLogging/about_LogConfigurationLoggingSnapIn.md
   - Export-LogReportCsv: ConfigLogging/Export-LogReportCsv.md
   - Export-LogReportHtml: ConfigLogging/Export-LogReportHtml.md
-  - Get-LogDataStore: ConfigLogging/Get-LogDataStore.md
   - Get-LogDBConnection: ConfigLogging/Get-LogDBConnection.md
   - Get-LogDBSchema: ConfigLogging/Get-LogDBSchema.md
   - Get-LogDBVersionChangeScript: ConfigLogging/Get-LogDBVersionChangeScript.md
+  - Get-LogDataStore: ConfigLogging/Get-LogDataStore.md
   - Get-LogHighLevelOperation: ConfigLogging/Get-LogHighLevelOperation.md
   - Get-LogInstalledDBVersion: ConfigLogging/Get-LogInstalledDBVersion.md
   - Get-LogLowLevelOperation: ConfigLogging/Get-LogLowLevelOperation.md
@@ -603,9 +607,9 @@ pages:
   - Switch-EnvTestTask: EnvTest/Switch-EnvTestTask.md
   - Test-EnvTestDBConnection: EnvTest/Test-EnvTestDBConnection.md
 - HostService:
-  - about_Hyp_Filtering: HostService/about_Hyp_Filtering.md
   - about_HypHostSnapIn: HostService/about_HypHostSnapIn.md
   - about_HypStorage: HostService/about_HypStorage.md
+  - about_Hyp_Filtering: HostService/about_Hyp_Filtering.md
   - Add-HypHostingUnitMetadata: HostService/Add-HypHostingUnitMetadata.md
   - Add-HypHostingUnitNetwork: HostService/Add-HypHostingUnitNetwork.md
   - Add-HypHostingUnitStorage: HostService/Add-HypHostingUnitStorage.md
@@ -660,8 +664,8 @@ pages:
   - Test-HypHypervisorConnectionNameAvailable: HostService/Test-HypHypervisorConnectionNameAvailable.md
   - Update-HypHypervisorConnection: HostService/Update-HypHypervisorConnection.md
 - MachineCreation:
-  - about_Prov_Filtering: MachineCreation/about_Prov_Filtering.md
   - about_ProvMachineCreationSnapIn: MachineCreation/about_ProvMachineCreationSnapIn.md
+  - about_Prov_Filtering: MachineCreation/about_Prov_Filtering.md
   - Add-ProvSchemeControllerAddress: MachineCreation/Add-ProvSchemeControllerAddress.md
   - Add-ProvSchemeMetadata: MachineCreation/Add-ProvSchemeMetadata.md
   - Add-ProvSchemeScope: MachineCreation/Add-ProvSchemeScope.md
@@ -680,9 +684,9 @@ pages:
   - Get-ProvServiceInstance: MachineCreation/Get-ProvServiceInstance.md
   - Get-ProvServiceStatus: MachineCreation/Get-ProvServiceStatus.md
   - Get-ProvTask: MachineCreation/Get-ProvTask.md
+  - Get-ProvVM: MachineCreation/Get-ProvVM.md
   - Get-ProvVirtualDisk: MachineCreation/Get-ProvVirtualDisk.md
   - Get-ProvVirtualDiskPendingOperation: MachineCreation/Get-ProvVirtualDiskPendingOperation.md
-  - Get-ProvVM: MachineCreation/Get-ProvVM.md
   - Lock-ProvVM: MachineCreation/Lock-ProvVM.md
   - New-ProvScheme: MachineCreation/New-ProvScheme.md
   - New-ProvVM: MachineCreation/New-ProvVM.md
@@ -703,7 +707,7 @@ pages:
   - Set-ProvDBConnection: MachineCreation/Set-ProvDBConnection.md
   - Set-ProvScheme: MachineCreation/Set-ProvScheme.md
   - Set-ProvSchemeMetadata: MachineCreation/Set-ProvSchemeMetadata.md
-  - Set-ProvServiceConfigurationData: MachineCreation/Set-ProvSchemeMetadata.md
+  - Set-ProvServiceConfigurationData: MachineCreation/Set-ProvServiceConfigurationData.md
   - Set-ProvServiceMetadata: MachineCreation/Set-ProvServiceMetadata.md
   - Set-ProvTaskMetadata: MachineCreation/Set-ProvTaskMetadata.md
   - Stop-ProvTask: MachineCreation/Stop-ProvTask.md
@@ -713,16 +717,16 @@ pages:
   - Unlock-ProvScheme: MachineCreation/Unlock-ProvScheme.md
   - Unlock-ProvVM: MachineCreation/Unlock-ProvVM.md
 - Monitor:
-  - about_Monitor_Filtering: Monitor/about_Monitor_Filtering.md
   - about_MonitorMonitorSnapIn: Monitor/about_MonitorMonitorSnapIn.md
+  - about_Monitor_Filtering: Monitor/about_Monitor_Filtering.md
   - Add-MonitorNotificationPolicyCondition: Monitor/Add-MonitorNotificationPolicyCondition.md
   - Add-MonitorNotificationPolicyEmailAddresses: Monitor/Add-MonitorNotificationPolicyEmailAddresses.md
   - Add-MonitorNotificationPolicyTargets: Monitor/Add-MonitorNotificationPolicyTargets.md
   - Get-MonitorConfiguration: Monitor/Get-MonitorConfiguration.md
-  - Get-MonitorDataStore: Monitor/Get-MonitorDataStore.md
   - Get-MonitorDBConnection: Monitor/Get-MonitorDBConnection.md
   - Get-MonitorDBSchema: Monitor/Get-MonitorDBSchema.md
   - Get-MonitorDBVersionChangeScript: Monitor/Get-MonitorDBVersionChangeScript.md
+  - Get-MonitorDataStore: Monitor/Get-MonitorDataStore.md
   - Get-MonitorInstalledDBVersion: Monitor/Get-MonitorInstalledDBVersion.md
   - Get-MonitorNotificationEmailServerConfiguration: Monitor/Get-MonitorNotificationEmailServerConfiguration.md
   - Get-MonitorNotificationPolicy: Monitor/Get-MonitorNotificationPolicy.md
@@ -749,8 +753,8 @@ pages:
   - Test-MonitorDBConnection: Monitor/Test-MonitorDBConnection.md
   - Test-MonitorNotificationEmailServerConfiguration: Monitor/Test-MonitorNotificationEmailServerConfiguration.md
 - Orchestration:
-  - about_Orch_Filtering: Orchestration/about_Orch_Filtering.md
   - about_OrchOrchestrationSnapIn: Orchestration/about_OrchOrchestrationSnapIn.md
+  - about_Orch_Filtering: Orchestration/about_Orch_Filtering.md
   - Get-OrchDBConnection: Orchestration/Get-OrchDBConnection.md
   - Get-OrchDBSchema: Orchestration/Get-OrchDBSchema.md
   - Get-OrchDBVersionChangeScript: Orchestration/Get-OrchDBVersionChangeScript.md
@@ -768,8 +772,8 @@ pages:
   - Stop-OrchRestApi: Orchestration/Stop-OrchRestApi.md
   - Test-OrchDBConnection: Orchestration/Test-OrchDBConnection.md
 - StorefrontService:
-  - about_Sf_Filtering: StorefrontService/about_Sf_Filtering.md
   - about_SfStorefrontSnapIn: StorefrontService/about_SfStorefrontSnapIn.md
+  - about_Sf_Filtering: StorefrontService/about_Sf_Filtering.md
   - Add-SfServerToCluster: StorefrontService/Add-SfServerToCluster.md
   - Add-SfStorefrontAddress: StorefrontService/Add-SfStorefrontAddress.md
   - Get-SfCluster: StorefrontService/Get-SfCluster.md
@@ -800,3 +804,30 @@ pages:
   - Set-SfServiceMetadata: StorefrontService/Set-SfServiceMetadata.md
   - Set-SfTaskMetadata: StorefrontService/Set-SfTaskMetadata.md
   - Test-SfDBConnection: StorefrontService/Test-SfDBConnection.md
+- Trust:
+  - about_TrustTrustSnapIn: Trust/about_TrustTrustSnapIn.md
+  - about_Trust_Filtering: Trust/about_Trust_Filtering.md
+  - Get-TrustDBConnection: Trust/Get-TrustDBConnection.md
+  - Get-TrustDBSchema: Trust/Get-TrustDBSchema.md
+  - Get-TrustDBVersionChangeScript: Trust/Get-TrustDBVersionChangeScript.md
+  - Get-TrustInstalledDBVersion: Trust/Get-TrustInstalledDBVersion.md
+  - Get-TrustService: Trust/Get-TrustService.md
+  - Get-TrustServiceAddedCapability: Trust/Get-TrustServiceAddedCapability.md
+  - Get-TrustServiceInstance: Trust/Get-TrustServiceInstance.md
+  - Get-TrustServiceKey: Trust/Get-TrustServiceKey.md
+  - Get-TrustServiceStatus: Trust/Get-TrustServiceStatus.md
+  - New-TrustBearerToken: Trust/New-TrustBearerToken.md
+  - Register-TrustServiceKey: Trust/Register-TrustServiceKey.md
+  - Remove-TrustServiceKeyMetadata: Trust/Remove-TrustServiceKeyMetadata.md
+  - Remove-TrustServiceMetadata: Trust/Remove-TrustServiceMetadata.md
+  - Reset-TrustEnabledFeatureList: Trust/Reset-TrustEnabledFeatureList.md
+  - Reset-TrustServiceGroupMembership: Trust/Reset-TrustServiceGroupMembership.md
+  - Revoke-TrustBearerToken: Trust/Revoke-TrustBearerToken.md
+  - Revoke-TrustPreviousServiceKey: Trust/Revoke-TrustPreviousServiceKey.md
+  - Set-TrustDBConnection: Trust/Set-TrustDBConnection.md
+  - Set-TrustServiceKeyMetadata: Trust/Set-TrustServiceKeyMetadata.md
+  - Set-TrustServiceKeyRotation: Trust/Set-TrustServiceKeyRotation.md
+  - Set-TrustServiceMetadata: Trust/Set-TrustServiceMetadata.md
+  - Test-TrustDBConnection: Trust/Test-TrustDBConnection.md
+  - Unregister-TrustServiceKey: Trust/Unregister-TrustServiceKey.md
+  - Update-TrustBearerToken: Trust/Update-TrustBearerToken.md
