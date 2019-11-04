@@ -56,11 +56,11 @@ A database connection need not be configured for this command to be used.
 
 ## Input Type
 
-### 
+###
 
 ## Return Values
 
-### 
+###
 
 ## Examples
 
@@ -69,4 +69,5 @@ A database connection need not be configured for this command to be used.
 C:\PS>Set-MonitorConfiguration -GroomSessionsRetentionDays 5 -GroomFailuresRetentionDays 4 ...
 ```
 #### Description
+
 Updates the settings in the site database with the newly specified values.
