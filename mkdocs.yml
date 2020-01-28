@@ -2,7 +2,7 @@ site_name: Citrix XenApp and XenDesktop 7.18 SDK Documentation
 site_description: Documentation and Reference Guide for the Citrix XenApp and XenDesktop 7.18 SDK
 site_title: Developer Docs
 site_author:
-site_url: 
+site_url: https://developer-docs.citrix.com
 
 # Repository
 repo_name: 
@@ -884,3 +884,4 @@ nav:
   - Test-TrustDBConnection: Trust/Test-TrustDBConnection.md
   - Unregister-TrustServiceKey: Trust/Unregister-TrustServiceKey.md
   - Update-TrustBearerToken: Trust/Update-TrustBearerToken.md
+- Questions?: https://discussions.citrix.com/forum/1385-citrix-developer-exchange/
