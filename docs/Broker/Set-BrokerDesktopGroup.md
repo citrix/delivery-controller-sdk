@@ -1,5 +1,5 @@
-﻿
-# Set-Brokerdesktopgroup
+
+# Set-BrokerdesktopGroup
 Adjusts the settings of a broker desktop group.
 ## Syntax
 ```
@@ -86,3 +86,21 @@ C:\PS> Get-BrokerDesktopGroup -InMaintenanceMode $true | Set-BrokerDesktopGroup 
 ```
 #### Description
 Disable all desktop groups that are in maintenance mode.
+
+### Example 3
+
+Suppose you want to enable Autoscale for the Delivery Group whose name is “MyDesktop.” Use the Set-BrokerDesktopGroup PowerShell command. For example:
+
+```powershell
+PS C:\> Set-BrokerDesktopGroup "MyDesktop" -AutoscalingEnabled $true
+```
+
+Configure the capacity buffer separately for peak and off-peak times
+
+### Example 4
+
+Use the Get-BrokerDesktopGroup PowerShell command to add a tag restriction to the Delivery Group that contains the machines (in other words, “restrict launches to machines with tag X”).
+
+```powershell
+Get-BrokerDesktopGroup -Uid 1 | Set-BrokerDesktopGroup -RestrictAutoscaleTagUid $managed.Uid. In this case, the UID of the Delivery Group is 1.
+```
