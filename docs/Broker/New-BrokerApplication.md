@@ -1,4 +1,3 @@
-﻿
 # New-Brokerapplication
 Creates a new published application.
 ## Syntax
@@ -30,6 +29,7 @@ See about\_Broker\_Applications for more information.
 * [Rename-BrokerApplication](./Rename-BrokerApplication/)
 * [Move-BrokerApplication](./Move-BrokerApplication/)
 * [Set-BrokerApplication](./Set-BrokerApplication/)
+
 ## Parameters
 | Name   | Description | Required? | Pipeline Input | Default Value |
 | --- | --- | --- | --- | --- |
@@ -40,7 +40,7 @@ See about\_Broker\_Applications for more information.
 | AdminFolder | The folder in which the new application should reside (if any). | false | true (ByPropertyName) |  |
 | ApplicationType | Specifies the type of the application: HostedOnDesktop, InstalledOnClient or PublishedContent. | false | true (ByPropertyName) | (required) |
 | BrowserName | Specifies the internal name for this application. It must be unique in the site. | false | true (ByPropertyName) | (same as Name) |
-| ClientFolder | Specifies the folder that the application belongs to as the user sees it. This is the application folder that is seen in the Citrix Online Plug-in, in Web Services, and also in the end-user's Start menu. Subdirectories can be specified with '\\' character. The following special characters are not allowed: / \* ? &lt; &gt; | " :. Note that this property cannot be set for applications of type InstalledOnClient. | false | true (ByPropertyName) | null |
+| ClientFolder | Specifies the folder that the application belongs to as the user sees it. This is the application folder that is seen in the Citrix Online Plug-in, in Web Services, and also in the end-user's Start menu. Subdirectories can be specified with '\\' character. The following special characters are not allowed: / \* ? &lt; &gt; \| " :. Note that this property cannot be set for applications of type InstalledOnClient. | false | true (ByPropertyName) | null |
 | CommandLineArguments | Specifies the command-line arguments to use when launching the executable. Environment variables can be used. This setting is ignored for applications of type PublishedContent. | false | true (ByPropertyName) | null |
 | CpuPriorityLevel | Specifies the CPU priority for the launched process. Valid values are: Low, BelowNormal, Normal, AboveNormal, and High. Note that this property cannot be set for applications of type InstalledOnClient. | false | true (ByPropertyName) | Normal |
 | Description | Specifies the description of the application. This is only seen by Citrix administrators and is not visible to users. | false | true (ByPropertyName) | null |
@@ -56,7 +56,7 @@ See about\_Broker\_Applications for more information.
 | SecureCmdLineArgumentsEnabled | Specifies whether the command-line arguments are secured or not. This is reserved for possible future use, and all applications of type HostedOnDesktop can only have this value set to true. | false | true (ByPropertyName) | true |
 | ShortcutAddedToDesktop | Specifies whether or not a shortcut to the application should be placed on the user device. This is valid only for the Citrix Online Plug-in. | false | true (ByPropertyName) | false |
 | ShortcutAddedToStartMenu | Specifies whether a shortcut to the application should be placed in the user's start menu on their user device. | false | true (ByPropertyName) | false |
-| StartMenuFolder | Specifies the name of the start menu folder that holds the application shortcut (if any). This is valid only for the Citrix Online Plug-in. Subdirectories can be specified with '\\' character. The following special characters are not allowed: / \* ? &lt; &gt; | " :. | false | true (ByPropertyName) | null |
+| StartMenuFolder | Specifies the name of the start menu folder that holds the application shortcut (if any). This is valid only for the Citrix Online Plug-in. Subdirectories can be specified with '\\' character. The following special characters are not allowed: / \* ? &lt; &gt; \| " :. | false | true (ByPropertyName) | null |
 | UserFilterEnabled | Specifies whether the application's user filter is enabled or disabled. Where the user filter is enabled, the application is visible only to users who appear in the filter (either explicitly or by virtue of group membership). | false | true (ByPropertyName) | false |
 | UUID | An optional GUID for this application. | false | true (ByPropertyName) | A new GUID is generated if none is supplied. |
 | Visible | Specifies whether or not this application is visible to users. Note that it's possible for an application to be disabled and still visible. | false | true (ByPropertyName) | true |
@@ -106,4 +106,8 @@ C:\PS> $fta = Get-BrokerImportedFTA -ExtensionName ".txt"
 C:\PS> New-BrokerConfiguredFTA -ImportedFTA $fta -ApplicationUid $app.Uid
 ```
 #### Description
-This is a much more complete example. It creates an application object to publish Notepad and associates it first with the "SharedDG1" desktop group.&lt;br&gt;Next it adds an additional desktop group (one that can host applications), and publishes the application to that desktop group. It then gets the ImportedFTA object for the .txt file-type extension (this assumes file-type associations have already been imported), and then configures it so that ".txt" is associated with the published application.&lt;br&gt;Note: The appropriate access policy and app assignment/entitlement rules must also be configured to allow access to the application.
+This is a much more complete example. It creates an application object to publish Notepad and associates it first with the "SharedDG1" desktop group.
+
+Next it adds an additional desktop group (one that can host applications), and publishes the application to that desktop group. It then gets the ImportedFTA object for the .txt file-type extension (this assumes file-type associations have already been imported), and then configures it so that ".txt" is associated with the published application.
+
+Note: The appropriate access policy and app assignment/entitlement rules must also be configured to allow access to the application.
