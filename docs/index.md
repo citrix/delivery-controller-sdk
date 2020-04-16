@@ -58,9 +58,6 @@ To access and run the cmdlets:
 For an example of a typical use case, see [Get started with the
 SDK](./getting-started.md).
 
-!!! tip "Note"
-    For a complete listing of all help text for the cmdlets, see [PowerShell cmdlet help](http://docs.citrix.com/en-us/xenapp-and-xendesktop/7-6/cds-sdk-wrapper-rho/xad-commands/).
-
 ## Group Policy SDK usage
 
 The Citrix Group Policy SDK allows you to display and configure Group
