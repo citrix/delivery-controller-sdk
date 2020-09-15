@@ -28,7 +28,6 @@ A database connection need not be configured for this command to be used.
 | GroomHourlyRetentionDays | Determines how many days to keep hourly data. | false | false | 7 for non-platinum, 32 for platinum. |
 | DataCollectionEnabled | Starts / stops data collection.  Stopping data collection turns off polling, and does not persist operational event data to the database. | false | false | True |
 | FullPollStartHour | Hour of day when Full Poll should begin. | false | false |  |
-| GroomStartHour | Determines the time of the day that grooming should start running. The value is added to 12.00 AM Delivery Controller time. For cloud service, the Delivery Controller is set in the UTC time zone. So, if you are a cloud service customer in the EST time zone and want to set the grooming start time to 2.00 AM EST, enter a value of 6 (because EST trails UTC by four hours). | false | false | 0 |
 | ResolutionPollTimeHours | Start time for the Resolution Poll worker. | false | false |  |
 | SyncPollTimeHours | Start time for Sync Poll worker. | false | false |  |
 | DetailedSqlOutputEnabled | Determines if the SqlLog should be enabled to send SQL statements to the CDF Trace | false | false | False |
